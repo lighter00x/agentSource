@@ -1,0 +1,75 @@
+{
+  "基本信息": {
+    "论文题目": "BET-HDAC Dual Inhibitors for Combinational Treatment of Breast Cancer and Concurrent Candidiasis",
+    "论文作者": "Yahui Huang, Na Liu, Zhizhi Pan, Zhuang Li and Chunquan Sheng",
+    "论文研究内容以及主要贡献": "本研究针对乳腺癌患者易并发念珠菌感染且感染会促进肿瘤进展的临床挑战，设计并合成了一系列新型的BET-HDAC双靶点抑制剂。研究以BET抑制剂CF53为模板，引入组蛋白去乙酰化酶（HDAC）的药效团。筛选出的先导化合物13c和17b在BRD4和HDAC1上表现出强效且平衡的抑制活性。在MDA-MB-231乳腺癌异种移植模型中，双靶点抑制剂显示出优于单靶点抑制剂的体内抗肿瘤效果；同时，它们能与氟康唑（FLC）产生协同作用，显著降低耐药念珠菌感染小鼠的肾脏真菌负荷，为乳腺癌及其并发念珠菌病的联合治疗提供了新策略。"
+  },
+  "起始分子信息": {
+    "SMILES": "COc1cc2c(cc1-c1c(C)noc1C)[nH]c1ncnc(N)c12",
+    "存在问题": "HDAC抑制剂在实体瘤治疗中疗效有限；BET抑制剂易产生耐药性；乳腺癌患者易并发念珠菌感染，且念珠菌病会增强肿瘤的进展和转移，临床治疗挑战大。"
+  },
+  "steps": {
+    "1": {
+      "start": "COc1cc2c(cc1-c1c(C)noc1C)[nH]c1ncnc(Cl)c12",
+      "change": "在NMP溶剂中，140℃条件下与各种氨基酸酯发生亲核取代反应，引入疏水连接链（Linker）",
+      "end": "COC(=O)CCCCCCCnc1ncnc2c1c1cc(OC)c(-c3c(C)noc3C)cc1[nH]2",
+      "flag": "Scheme 1"
+    },
+    "2": {
+      "start": "COC(=O)CCCCCCCnc1ncnc2c1c1cc(OC)c(-c3c(C)noc3C)cc1[nH]2",
+      "change": "在甲醇溶液中与新制的羟胺（NH2OH）反应，将末端甲酯转化为羟肟酸锌离子结合基团（ZBG）",
+      "end": "CC1=C(C2=CC3=C(C=C2OC)NC4=NC=NC(NCCCCCCC(=O)NO)=C34)C(C)=NO1",
+      "flag": "Scheme 1"
+    },
+    "3": {
+      "start": "CC1=C(C2=CC3=C(C=C2OC)NC4=NC=NC(NCCCCCCC(=O)NO)=C34)C(C)=NO1",
+      "change": "在三环骨架的嘧啶环2位引入甲基取代基，以期提高代谢稳定性",
+      "end": "CC1=C(C2=CC3=C(C=C2OC)NC4=NC(C)=NC(NCCCCCCC(=O)NO)=C34)C(C)=NO1",
+      "flag": "Scheme 1"
+    }
+  },
+  "研究目标标签": "双靶点抑制剂开发、抗肿瘤活性优化、抗真菌协同效应增强、代谢稳定性改善",
+  "关键数据摘要": "优化后的双靶点抑制剂13c对HDAC1的IC50达到10 nM，对BRD4的IC50为35 nM；在MDA-MB-231细胞中，13c的IC50为0.5 μM，优于单靶点抑制剂1（2.5 μM）和6（3.8 μM）；体内实验中，13c和17b的TGI分别达到64.9%和67.9%，且与氟康唑联用显著降低了真菌负荷。",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "HDAC1 IC50 = 10 nM (13c); BRD4 IC50 = 35 nM (13c); MDA-MB-231 IC50 = 0.5 μM (13c)",
+      "EC50": "null"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "103 mL/min/kg (13c)",
+      "t1/2 half-life": "53.3 min (13c)"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  }
+}

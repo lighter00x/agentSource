@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "enum": [
+        "completed",
+        "failed",
+        "skipped"
+      ]
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "error_code": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "message": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rows": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "status",
+    "products"
+  ]
+}

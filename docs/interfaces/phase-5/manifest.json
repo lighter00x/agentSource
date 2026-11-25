@@ -1,0 +1,18 @@
+{
+  "version": "0.5.0",
+  "files": {
+    "Assay.schema.json": "752a054039169a29847ef2ffe8dc47945f8bc244bcf2d1658a87bb476095a4e2",
+    "ChartDataset.schema.json": "c19c015bfce2a1d1eefb183cf98dc73c7e97c0bc80f15fab9a184276af082648",
+    "CompactTable.transport.schema.json": "3307c0267f137a985a3653c7e26ae6fd1a685e793d9bb8effc2332299d15ea07",
+    "FigureReport.schema.json": "47b6a4701f8f41a9890073c1a7d862391a624519845411d9e35563b60326bcdb",
+    "Measurement.schema.json": "ff580fd0af1344e3af831f23ffaebf50f207b12fbd089ac674b8f0a7ea8bbf65",
+    "ReviewResult.producer.schema.json": "335c46b3d4dd6d843166680e8bf79f1c8468dffcdf97b5ec4ca3863978b6f402",
+    "ReviewResult.schema.json": "9c36b0be843fddce47ed8db12529b61b53ad3292817afef5dbb02a982d0c78c4",
+    "TableGrid.schema.json": "ccb1cfdbf3ecdd3498b319f1478d622202264b46249d85b3f020c18c45ca0eb9",
+    "check-codes.json": "8a467a40765252fb358fbf95dd77d6ac8648cd56d2f15cb55949788f27a4c9fe",
+    "metric_dictionary.yaml": "2fa98ede91b61736382ffa96051586a3140eb78aa0f0a8369f96c53c54d2354f",
+    "routing.yaml": "35894ad07b31a0a2da0e21a7220bff7f677d34d514379975ef38b514f67c54cb",
+    "VisualExtraction.schema.json": "f90398a62827ffcebebabadb243a03065aaa3c9dda8548eb972f4594ecf38c24",
+    "CompoundInstance.schema.json": "fe9c86f659e42d94cf7edd674141712eb1097972971468bfa2c1ecd578a32a46"
+  }
+}

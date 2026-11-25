@@ -1,0 +1,299 @@
+{
+  "$defs": {
+    "Axis": {
+      "properties": {
+        "title": {
+          "default": "",
+          "title": "Title",
+          "type": "string"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "scale": {
+          "default": "linear",
+          "enum": [
+            "linear",
+            "log10",
+            "category"
+          ],
+          "title": "Scale",
+          "type": "string"
+        },
+        "ticks": {
+          "items": {
+            "$ref": "#/$defs/Tick"
+          },
+          "title": "Ticks",
+          "type": "array"
+        },
+        "categories": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Categories",
+          "type": "array"
+        }
+      },
+      "title": "Axis",
+      "type": "object"
+    },
+    "BBox": {
+      "properties": {
+        "x0": {
+          "title": "X0",
+          "type": "number"
+        },
+        "y0": {
+          "title": "Y0",
+          "type": "number"
+        },
+        "x1": {
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "title": "Y1",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x0",
+        "y0",
+        "x1",
+        "y1"
+      ],
+      "title": "BBox",
+      "type": "object"
+    },
+    "Series": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "color": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "integer"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Color"
+        },
+        "points_px": {
+          "items": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          },
+          "title": "Points Px",
+          "type": "array"
+        },
+        "points": {
+          "items": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          },
+          "title": "Points",
+          "type": "array"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "error_bars": {
+          "items": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object"
+          },
+          "title": "Error Bars",
+          "type": "array"
+        }
+      },
+      "required": [
+        "label"
+      ],
+      "title": "Series",
+      "type": "object"
+    },
+    "Tick": {
+      "properties": {
+        "pixel": {
+          "title": "Pixel",
+          "type": "number"
+        },
+        "value": {
+          "title": "Value",
+          "type": "number"
+        }
+      },
+      "required": [
+        "pixel",
+        "value"
+      ],
+      "title": "Tick",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "chart_type": {
+      "enum": [
+        "bar",
+        "line",
+        "scatter"
+      ],
+      "title": "Chart Type",
+      "type": "string"
+    },
+    "x_axis": {
+      "$ref": "#/$defs/Axis"
+    },
+    "y_axis": {
+      "$ref": "#/$defs/Axis"
+    },
+    "plot_area": {
+      "$ref": "#/$defs/BBox"
+    },
+    "series": {
+      "items": {
+        "$ref": "#/$defs/Series"
+      },
+      "title": "Series",
+      "type": "array"
+    },
+    "status": {
+      "default": "ok",
+      "enum": [
+        "ok",
+        "unclear"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "calibration": {
+      "additionalProperties": true,
+      "title": "Calibration",
+      "type": "object"
+    },
+    "overlap_iou": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Overlap Iou"
+    },
+    "molecule_inventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "mol_id",
+          "disposition",
+          "evidence_text"
+        ],
+        "properties": {
+          "mol_id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "disposition": {
+            "enum": [
+              "referenced",
+              "excluded",
+              "unclear"
+            ]
+          },
+          "evidence_text": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "molecules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "mol_id": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence_text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "mol_id",
+          "reference",
+          "evidence_text"
+        ]
+      }
+    }
+  },
+  "required": [
+    "chart_type",
+    "x_axis",
+    "y_axis",
+    "plot_area",
+    "series"
+  ],
+  "title": "ChartDataset",
+  "type": "object"
+}

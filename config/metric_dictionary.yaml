@@ -1,0 +1,553 @@
+schema_version: 1
+metrics:
+- id: ec50
+  display: ec50
+  category: pharmacology
+  export_key: ec50
+  synonyms:
+  - EC50
+  - EC 50
+  default_units:
+  - nM
+  - μM
+  unit_class: concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - 1.0e-12
+  - 0.01
+- id: ic50
+  display: ic50
+  category: pharmacology
+  export_key: ic50
+  synonyms:
+  - IC50
+  - IC 50
+  default_units:
+  - nM
+  - μM
+  unit_class: concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - 1.0e-12
+  - 0.01
+- id: kd
+  display: kd
+  category: pharmacology
+  export_key: kd
+  synonyms:
+  - Kd
+  default_units:
+  - M
+  unit_class: concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - 1.0e-12
+  - 0.01
+- id: ki
+  display: ki
+  category: pharmacology
+  export_key: ki
+  synonyms:
+  - Ki
+  default_units:
+  - nM
+  unit_class: concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - 1.0e-12
+  - 0.01
+- id: pct_max_increase
+  display: pct_max_increase
+  category: pharmacology
+  export_key: pct_max_increase
+  synonyms:
+  - '% maximum increase'
+  - maximum increase
+  - Emax
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - -100
+  - null
+  soft_range:
+  - 0
+  - 200
+- id: da_emax_potentiation
+  display: potentiation of DA Emax
+  category: pharmacology
+  export_key: da_emax_potentiation
+  synonyms:
+  - potentiation of DA Emax
+  - potentiation of dopamine Emax
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - -100
+  - null
+  soft_range:
+  - 0
+  - 200
+- id: inhibition_pct
+  display: inhibition_pct
+  category: pharmacology
+  export_key: inhibition_pct
+  synonyms:
+  - '% inhibition'
+  - inhibition
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: pampa_pe
+  display: pampa_pe
+  category: pharmacology
+  export_key: pampa_pe
+  synonyms:
+  - PAMPA
+  - Pe
+  - P (cm/s)|footnote~PAMPA
+  default_units:
+  - cm/s
+  unit_class: permeability
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: ppb
+  display: ppb
+  category: pharmacology
+  export_key: ppb
+  synonyms:
+  - PPB
+  - plasma protein binding
+  - HSA binding
+  - fu
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: solubility
+  display: solubility
+  category: pharmacology
+  export_key: solubility
+  synonyms:
+  - solubility
+  - sol.
+  default_units:
+  - μM
+  unit_class: concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - 1.0e-12
+  - 0.01
+- id: herg
+  display: herg
+  category: pharmacology
+  export_key: herg
+  synonyms:
+  - hERG inhibition
+  - hERG
+  - hERG Blocker
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: hlm_t_half
+  display: hlm_t_half
+  category: pharmacology
+  export_key: hlm_t_half
+  synonyms:
+  - HLM t1/2
+  - human liver microsome t1/2
+  - HLM T1/2
+  default_units:
+  - min
+  unit_class: time
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: serum_stability
+  display: serum_stability
+  category: pharmacology
+  export_key: serum_stability
+  synonyms:
+  - mouse serum stability
+  - serum stability
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: liver_homogenate_stability
+  display: liver_homogenate_stability
+  category: pharmacology
+  export_key: liver_homogenate_stability
+  synonyms:
+  - liver homogenate stability
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: cmax
+  display: cmax
+  category: pharmacology
+  export_key: cmax
+  synonyms:
+  - Cmax
+  default_units:
+  - ng/mL
+  unit_class: mass_concentration
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: tmax
+  display: tmax
+  category: pharmacology
+  export_key: tmax
+  synonyms:
+  - Tmax
+  default_units:
+  - h
+  unit_class: time
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: auc
+  display: auc
+  category: pharmacology
+  export_key: auc
+  synonyms:
+  - AUC
+  default_units:
+  - ng·h/mL
+  unit_class: auc
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: bioavailability
+  display: bioavailability
+  category: pharmacology
+  export_key: bioavailability
+  synonyms:
+  - F%
+  - bioavailability
+  - F
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: clint
+  display: clint
+  category: pharmacology
+  export_key: clint
+  synonyms:
+  - CLint
+  - intrinsic clearance
+  default_units:
+  - mL/min/kg
+  unit_class: clearance
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: clearance
+  display: clearance
+  category: pharmacology
+  export_key: clearance
+  synonyms:
+  - CL
+  - clearance
+  default_units:
+  - mL/min/kg
+  unit_class: clearance
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: vss
+  display: vss
+  category: pharmacology
+  export_key: vss
+  synonyms:
+  - Vss
+  - volume of distribution
+  default_units:
+  - L/kg
+  unit_class: volume_per_mass
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: logp
+  display: logp
+  category: pharmacology
+  export_key: logp
+  synonyms:
+  - LogP
+  - cLogP
+  default_units: []
+  unit_class: dimensionless
+  hard_range:
+  - null
+  - null
+  soft_range:
+  - null
+  - null
+- id: logd
+  display: logd
+  category: pharmacology
+  export_key: logd
+  synonyms:
+  - LogD
+  default_units: []
+  unit_class: dimensionless
+  hard_range:
+  - null
+  - null
+  soft_range:
+  - null
+  - null
+- id: pka
+  display: pka
+  category: pharmacology
+  export_key: pka
+  synonyms:
+  - pKa
+  default_units: []
+  unit_class: dimensionless
+  hard_range:
+  - null
+  - null
+  soft_range:
+  - null
+  - null
+- id: molecular_weight
+  display: molecular_weight
+  category: pharmacology
+  export_key: molecular_weight
+  synonyms:
+  - MW
+  - molecular weight
+  default_units:
+  - g/mol
+  unit_class: unknown
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: t_half
+  display: t_half
+  category: pharmacology
+  export_key: t_half
+  synonyms:
+  - t1/2
+  - half-life
+  default_units:
+  - h
+  unit_class: time
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: ld50
+  display: ld50
+  category: pharmacology
+  export_key: ld50
+  synonyms:
+  - LD50
+  default_units:
+  - mg/kg
+  unit_class: unknown
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: caco2
+  display: caco2
+  category: pharmacology
+  export_key: caco2
+  synonyms:
+  - Caco-2
+  - Caco2
+  default_units:
+  - cm/s
+  unit_class: permeability
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: mdr1
+  display: mdr1
+  category: pharmacology
+  export_key: mdr1
+  synonyms:
+  - MDR1
+  - efflux ratio
+  default_units: []
+  unit_class: dimensionless
+  hard_range:
+  - null
+  - null
+  soft_range:
+  - null
+  - null
+- id: psa
+  display: psa
+  category: pharmacology
+  export_key: psa
+  synonyms:
+  - TPSA
+  - PSA
+  default_units: []
+  unit_class: unknown
+  hard_range:
+  - 0
+  - null
+  soft_range:
+  - null
+  - null
+- id: cyp2d6_inhibition
+  display: cyp2d6_inhibition
+  category: pharmacology
+  export_key: cyp2d6_inhibition
+  synonyms:
+  - CYP2D6
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: cyp3a4_inhibition
+  display: cyp3a4_inhibition
+  category: pharmacology
+  export_key: cyp3a4_inhibition
+  synonyms:
+  - CYP3A4
+  - CYP34A:typo
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: cyp1a2_inhibition
+  display: cyp1a2_inhibition
+  category: pharmacology
+  export_key: cyp1a2_inhibition
+  synonyms:
+  - CYP1A2
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: cyp2c9_inhibition
+  display: cyp2c9_inhibition
+  category: pharmacology
+  export_key: cyp2c9_inhibition
+  synonyms:
+  - CYP2C9
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null
+- id: cyp2c19_inhibition
+  display: cyp2c19_inhibition
+  category: pharmacology
+  export_key: cyp2c19_inhibition
+  synonyms:
+  - CYP2C19
+  default_units:
+  - '%'
+  unit_class: percent
+  hard_range:
+  - 0
+  - 100
+  soft_range:
+  - null
+  - null

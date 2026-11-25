@@ -1,0 +1,1 @@
+{"name": "three_words", "inputs": {"text": "a b c"}, "expect": {"payload": {"words": 3}}}

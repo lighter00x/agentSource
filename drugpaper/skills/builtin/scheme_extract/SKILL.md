@@ -1,0 +1,62 @@
+---
+name: scheme_extract
+description: 用于反应流程图与合成系列，区分具体反应、优化关系与编号系列，保留未知成员结构。
+---
+# scheme_extract
+
+## 何时使用
+反应流程图与合成系列，含分支和汇聚；先完成检测、识别和编号图。规则与示例见prompts/task.md。
+
+## 何时不用
+其他图类或无证据的化学推导；含糊交复核。
+
+## 输入
+本图检测ID、原图及图注；不读SMILES或识别连接标签。相关图文可补取代与位置，单独保存出处。详见references/molecular-workflow.md。
+
+## 输出
+ID-only字段及证据；mol_backfill只用本图母核/片段拼接。compound_series保存编号集合；产物variants存具体赋值，不要求参考图画出完整分子。反应物只留通式；产物markush展开当前图选项，具体编号另存variants。information_gaps逐字段报告取证需求；未解保留。
+
+## 报告后的固定精简步骤
+本Skill负责完整ID-only提取，不能自行缩减字段、删除成员或生成最终SMILES。
+宿主完成独立审查、回填、拼接、检查和详细报告后，自动执行deliver阶段，调用
+drugpaper/facts/flowchart_delivery.py的summarize_result固定函数；不通过LLM重写JSON。
+最终短版保持pathways/steps/reactants/products/variants原层级，不生成m1/m2引用。
+产物保留全部实际成员、论文编号、取代赋值、必要化学位号和已经计算验证的SMILES；
+未知成员不删，smiles=null并标注状态。反应物通式不新增展开。candidates理论组合、
+PDF坐标、检测编号、证据和调试记录仅保留在中间文件。精简不修改原报告或提高质量状态。
+该交付约定适用于所有本Skill支持的反应、合成及优化流程图，不绑定具体论文或骨架。
+
+## 代价与限制
+按manifest预算/白名单执行。字段不明先读 references/molecular-workflow.md#拼接接口与边界；有效编号不等于化学正确。
+
+## 全文补充与部分成员保留
+未知缩写和缺少成员对应首先报告missing_evidence，列出可追踪的正文图表引用、成员编号与同义词；不能仅因开放变量无法拼接就报告工具不支持。已有正文明确的部分赋值必须保留并交FigureAgent核对关联图表，不能等整组完整才记录。FigureAgent使用get_investigation_plan及全文工具逐问题追踪，确认后逐批record_reference_assignments局部补齐variants；母核仍用本图ID。结构审查通过仅表示本图表达通过，不免除后续取证。仍有未知时说明实际查阅、已确认部分、未读线索和剩余问题，不宣称全文不存在。
+
+## 点位策略与附件核对
+`position_definitions`可选，只记录有来源的位置。端点填写`position_policy`：requirement为required/optional/not_applicable/unknown/exhausted，scope为per_member/endpoint，source为printed_column/printed_prefix/cross_reference/none，并写basis/evidence_text。实例填写`position_status`：provided/not_printed/unreadable/missing/not_applicable。只有required配missing/unreadable阻塞；not_printed/not_applicable/exhausted放行；unknown先按information_gaps取证。声明not_applicable但图中/图例/表格出现位置前缀会被拒绝；不要伪造not_applicable或exhausted。创建或修改variants后调用inspect_attachment_sites核对当前图母核连接点标签；no_attachment_sites的母核不能作为拼接模板，应换用Markush母核或记录unsupported_representation。
+
+## 前置独立审查与局部修正
+
+每个模板具体成员必须包含attachments数组，选择substituents中哪些完整局部赋值键参与后续拼接；直接引用完整mol_id的成员不需要。内部变量与整体基团可以同时保留在substituents，只选择对应的整体基团键。多个独立局部赋值则列出多个键，不能把位置列变成额外连接项。当前阶段只核对本次图像提取字段的自洽性；识别连接标签匹配和原子映射由后续验证。回填保留来源清单和值，不另建复制基团的assembly_input对象。
+首次提取后暂停回填，由独立structure_audit对照当前图检查路线、占位符及产物通式完整性。审查的是当前图全部声明可能情况，不凭编号范围臆造未知成员。FigureAgent按问题调用文献/图像工具获得依据，使用patch_structure只修改相应字段或追加遗漏项，普通局部缺陷禁止整份重生成；补丁只做原Schema、来源和版本检查，不自动复审。累积修改后、准备回填前一次性调用review_structure复审。补充的成员资料另存variants，不改写原图选项。审查通过后执行固定回填/拼接函数，只有实际失败才由Agent介入修正。
+
+## 泛化边界
+前期解释、局部合并与归一化由Agent/视觉LLM按文献处理，保留表达式、内部变量和来源。宿主只辅助拦截可证明的局部矛盾，不要求固定函数覆盖全部文献写法；实际分子拼接仍由后续固定函数执行。详见prompts/task.md及共用member_assignment_fields。
+不预设论文、图号、编号范围、变量名、基团清单或骨架。示例用于说明字段语义，不是默认取值。先按图识别反应、优化与筛选，再按实际证据补充成员；普通连接按识别标签，特殊位移按能力匹配。工具不支持某种表示时保留结构事实和原因，不将案例适配器当成普遍化学规则。
+
+## 局部结果编辑工具
+首次完整提取后，先用get_structure读取审核field_path指向的片段和当前extraction_version；大对象按children路径继续读取或offset/limit分页，不能把value_omitted视为内容为空。仅为错误字段或遗漏成员构造RFC 6902补丁：add增加缺失字段/向数组的/-追加，replace修改已有标量，remove删除错误项，test核对当前值。禁止替换整份结果、已有对象或整个数组。键中的斜杠与波浪号按JSON Pointer写为~1与~0。
+复杂修改先调用preview_structure_patch，在副本上校验模板、证据和占位符并查看差异；预检不会保存、更新版本或执行独立审查。预检通过后，调用patch_structure提交相同补丁及expected_version、真实evidence_ids、issue_ids和修改原因。版本冲突或test失败时重新读取，不能盲目重试或整份重新生成。实际提交成功后不自动复审；准备回填时调用review_structure一次性复审，通过后再validate_result重算回填与拼接。工具只允许编辑当前图结构化结果，不提供任意文件写入。
+
+## 整体错误的受控重建
+已有结果默认局部修正。只有独立审核对当前版本确认整体路线拓扑错误、严重步骤遗漏、多处占位符错误或整体模板不匹配，且局部修改不足时，才调用regenerate_structure。提交expected_version、damage_kind、真实issue_ids/evidence_ids及充分理由。普通成员遗漏、缺证据、模型服务报错或拼接能力不足不能作为整体重建理由。
+该工具复用当前检测识别、已有高清/文字证据及已确认成员来源，仅重新执行结构化Skill。保留旧结构与审核，新结果作为新版本独立复审；审核通过后才能回填/拼接。失败保留原结构，默认最多尝试1次，失败也计次数；不能通过重复extract_figure或重启同一恢复流程绕过限制。若拓扑变化，已确认成员只能按唯一相同母核占位符与原文指代重新关联，无法唯一匹配时保留旧结果而非猜测迁移。
+
+## 探索、应用与收尾
+宿主workflow区分已查看来源、已确认但未提交的编辑、已写入成员和验证结果。读取来源、写缺口备注、预检通过均不代表variants已更新。按pending_edits的具体字段反馈修正原提案；复杂成员批次用preview_reference_assignments预检，再record_reference_assignments提交已确认部分。所选attachments键必须也在substituents中给出完整局部基团值，不能仅给内部变量值。取代位置按实际来源填写，未知处不推测。
+同系列已确认成员可批量登记，不必等待全组齐全。重试相同无效输入、重复检索同一内容或反复finish不能推进任务。已有gap更新只传gap_id与变化字段，不改原问题身份。临近预算优先应用和校验已有证据，保留未完编辑交复核；不能靠增加轮次掩盖缺少实际输出。
+恢复任务按记录查看哪些参考图已重新附带，未加载的图像通过select_context重载。恢复图像不算新查阅或新事实，不能仅凭旧图像标签补成员。以上规则适用于任意编号系列和连接点命名，不预设页面或图表。
+
+未提交的错误提案若需撤销，或纠错后仍缺证据/能力不足，可用defer_edit记录原提案、实际原因和证据。撤销不修改现有结果，延期不表示应用成功，保留给后续复核。不得用延期绕过可修正的字段错误；明确仍未知的部分后可继续针对性取证。
+
+跨图成员提交前，宿主独立查看所引来源图，对照成员每个结构身份字段复核；预检只检查格式与局部应用，真正提交仍需来源复核通过。失败时按具体成员字段修正或细读来源，不重新生成路线。系列structure_status的resolved表示成员赋值完整，不等于分子拼接成功；完整登记后宿主同步此状态，化学拼接仍单独验证。

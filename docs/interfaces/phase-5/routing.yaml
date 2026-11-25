@@ -1,0 +1,86 @@
+schema_version: 1
+planned: []
+routes:
+- match:
+    subtype:
+    - synthetic_scheme_single
+    - synthetic_scheme_multi
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - scheme_extract
+  - mol_backfill
+- match:
+    subtype: sar_table
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - table_extract
+  - measurement_map
+  - sar_record
+  - mol_backfill
+- match:
+    subtype: data_table
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - table_extract
+  - measurement_map
+  - mol_backfill
+- match:
+    subtype: reported_structures
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - label_bind
+  - structures_extract
+  - mol_backfill
+- match:
+    subtype:
+    - molecular_docking
+    - protac_architecture
+    - metabolic_pathway
+    - pharmacophore_model
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - '{subtype}_extract'
+  - mol_backfill
+- match:
+    subtype: property_plot
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - chart_digitize
+  - mol_backfill
+- match:
+    subtype: data_chart
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - chart_digitize
+  - mol_backfill
+- match:
+    subtype: multi_panel
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - panel_split
+  - common_extract
+  - mol_backfill
+- match:
+    subtype: other
+  run:
+  - molecule_detect
+  - molecule_recognize
+  - som_render
+  - common_extract
+  - mol_backfill

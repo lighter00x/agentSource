@@ -1,0 +1,36 @@
+name: fix_unit
+version: 0.5.0
+kind: python
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+accepts:
+  node_types:
+  - figure
+  - table
+  - scheme
+  - figure_part
+  - chart_panel
+produces:
+  artifact_type: remediation_action
+  fact_types: []
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 300
+disclosure:
+  audiences:
+  - figure_agent
+  toolkit: remediation
+  invocation: action_enum
+  triggers:
+    check_codes:
+    - C_UNIT_CLASS
+    - C_RANGE_HARD
+    - C_RANGE_SOFT
+    - C_MAGNITUDE
+vision_structuring: false
+entry: scripts/main.py:run
+model_tasks: {}
+prompts:
+  main: prompts/task.md
+cache:
+  enabled: false

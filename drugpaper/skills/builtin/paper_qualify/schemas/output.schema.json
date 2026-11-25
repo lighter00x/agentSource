@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "qualified": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "optimization_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reason": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "needs_review": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "qualified",
+    "category",
+    "optimization_metrics",
+    "reason",
+    "confidence",
+    "needs_review"
+  ],
+  "additionalProperties": false
+}

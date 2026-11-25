@@ -1,0 +1,25 @@
+name: demo_prompt
+version: 0.1.0
+kind: prompt
+mode: [pipeline, agent]
+accepts:
+  node_types: [figure, table, scheme]
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: demo_label
+model_tasks:
+  main: default
+prompts:
+  main: prompts/task.md
+  includes: [common/data_boundary]
+budgets:
+  max_model_calls: 2
+  max_wall_time_s: 30
+disclosure:
+  audiences: [chat]
+  toolkit: demo
+  triggers:
+    image_types: [data_table]
+    intents: [演示, 标签]
+  invocation: tool_call

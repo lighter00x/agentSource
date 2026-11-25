@@ -1,0 +1,619 @@
+{
+  "$defs": {
+    "CompoundInstance": {
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "mol_id": {
+              "type": "integer"
+            },
+            "scaffold_mol_id": {
+              "type": "null"
+            },
+            "substituents": {
+              "maxProperties": 0
+            }
+          },
+          "required": [
+            "mol_id"
+          ]
+        },
+        {
+          "properties": {
+            "mol_id": {
+              "type": "null"
+            },
+            "scaffold_mol_id": {
+              "type": "integer"
+            },
+            "substituents": {
+              "minProperties": 1
+            }
+          },
+          "required": [
+            "scaffold_mol_id",
+            "substituents"
+          ]
+        }
+      ],
+      "properties": {
+        "reference": {
+          "minLength": 1,
+          "title": "Reference",
+          "type": "string"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "scaffold_mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scaffold Mol Id"
+        },
+        "substituents": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "title": "Substituents",
+          "type": "object"
+        },
+        "attachments": {
+          "anyOf": [
+            {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "maxItems": 64,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Keys in substituents that participate in assembly, using real scaffold site labels. Other keys are explanatory. None is for legacy records only; new scaffold instances must supply this list.",
+          "title": "Attachments",
+          "uniqueItems": true
+        },
+        "position_definitions": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Position Definitions",
+          "type": "object"
+        },
+        "row_index": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Index"
+        },
+        "evidence_text": {
+          "minLength": 1,
+          "title": "Evidence Text",
+          "type": "string"
+        },
+        "position_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "provided",
+                "not_printed",
+                "unreadable",
+                "missing",
+                "not_applicable"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Provide when the endpoint declares a position policy: provided/not_printed/unreadable/missing/not_applicable. None is legacy only.",
+          "title": "Position Status"
+        }
+      },
+      "required": [
+        "reference",
+        "evidence_text"
+      ],
+      "title": "CompoundInstance",
+      "type": "object"
+    },
+    "MoleculeReference": {
+      "properties": {
+        "scaffold_mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scaffold Mol Id"
+        },
+        "variants": {
+          "items": {
+            "$ref": "#/$defs/CompoundInstance"
+          },
+          "title": "Variants",
+          "type": "array"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "common_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Common Name"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "substituents": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "title": "Substituents",
+          "type": "object"
+        },
+        "evidence_text": {
+          "default": "",
+          "title": "Evidence Text",
+          "type": "string"
+        },
+        "status": {
+          "default": "explicit",
+          "title": "Status",
+          "type": "string"
+        },
+        "position_policy": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PositionPolicy"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Whether this endpoint/series needs per-member locants and where they come from.",
+          "title": "Position Policy"
+        }
+      },
+      "title": "MoleculeReference",
+      "type": "object"
+    },
+    "ReactionPathway": {
+      "additionalProperties": true,
+      "properties": {
+        "base_info": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MoleculeReference"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "steps": {
+          "items": {
+            "$ref": "#/$defs/ReactionTransformation"
+          },
+          "title": "Steps",
+          "type": "array"
+        },
+        "optimization_steps": {
+          "items": {
+            "$ref": "#/$defs/ReactionStep"
+          },
+          "title": "Optimization Steps",
+          "type": "array"
+        }
+      },
+      "title": "ReactionPathway",
+      "type": "object"
+    },
+    "ReactionStep": {
+      "additionalProperties": true,
+      "properties": {
+        "scaffold_mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scaffold Mol Id"
+        },
+        "variants": {
+          "items": {
+            "$ref": "#/$defs/CompoundInstance"
+          },
+          "title": "Variants",
+          "type": "array"
+        },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
+        "common_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Common Name"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "substituents": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "title": "Substituents",
+          "type": "object"
+        },
+        "evidence_text": {
+          "default": "",
+          "title": "Evidence Text",
+          "type": "string"
+        },
+        "status": {
+          "default": "explicit",
+          "title": "Status",
+          "type": "string"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Condition"
+        },
+        "extra": {
+          "items": {
+            "$ref": "#/$defs/MoleculeReference"
+          },
+          "title": "Extra",
+          "type": "array"
+        },
+        "position_policy": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PositionPolicy"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Whether this endpoint/series needs per-member locants and where they come from.",
+          "title": "Position Policy"
+        }
+      },
+      "title": "ReactionStep",
+      "type": "object"
+    },
+    "ReactionTransformation": {
+      "additionalProperties": true,
+      "properties": {
+        "reactants": {
+          "items": {
+            "$ref": "#/$defs/MoleculeReference"
+          },
+          "title": "Reactants",
+          "type": "array"
+        },
+        "products": {
+          "items": {
+            "$ref": "#/$defs/MoleculeReference"
+          },
+          "title": "Products",
+          "type": "array"
+        },
+        "conditions": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Conditions"
+        },
+        "variant_links": {
+          "items": {
+            "$ref": "#/$defs/VariantLink"
+          },
+          "title": "Variant Links",
+          "type": "array"
+        }
+      },
+      "title": "ReactionTransformation",
+      "type": "object"
+    },
+    "VariantLink": {
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "minLength": 1,
+          "title": "Source",
+          "type": "string"
+        },
+        "target": {
+          "minLength": 1,
+          "title": "Target",
+          "type": "string"
+        },
+        "evidence_text": {
+          "minLength": 1,
+          "title": "Evidence Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "target",
+        "evidence_text"
+      ],
+      "title": "VariantLink",
+      "type": "object"
+    },
+    "PositionPolicy": {
+      "additionalProperties": false,
+      "properties": {
+        "requirement": {
+          "default": "unknown",
+          "enum": [
+            "required",
+            "optional",
+            "not_applicable",
+            "unknown",
+            "exhausted"
+          ],
+          "title": "Requirement",
+          "type": "string"
+        },
+        "scope": {
+          "default": "per_member",
+          "enum": [
+            "per_member",
+            "endpoint"
+          ],
+          "title": "Scope",
+          "type": "string"
+        },
+        "source": {
+          "default": "none",
+          "enum": [
+            "printed_column",
+            "printed_prefix",
+            "cross_reference",
+            "none"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "source_ref": {
+          "default": "",
+          "title": "Source Ref",
+          "type": "string"
+        },
+        "basis": {
+          "default": "",
+          "title": "Basis",
+          "type": "string"
+        },
+        "evidence_text": {
+          "default": "",
+          "title": "Evidence Text",
+          "type": "string"
+        }
+      },
+      "title": "PositionPolicy",
+      "type": "object"
+    }
+  },
+  "additionalProperties": true,
+  "properties": {
+    "compound_instances": {
+      "items": {
+        "$ref": "#/$defs/CompoundInstance"
+      },
+      "title": "Compound Instances",
+      "type": "array"
+    },
+    "molecule_inventory": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Molecule Inventory",
+      "type": "array"
+    },
+    "status": {
+      "default": "ok",
+      "enum": [
+        "ok",
+        "unclear"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "evidence_text": {
+      "default": "",
+      "title": "Evidence Text",
+      "type": "string"
+    },
+    "molecules": {
+      "items": {
+        "$ref": "#/$defs/MoleculeReference"
+      },
+      "title": "Molecules",
+      "type": "array"
+    },
+    "base_info": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/MoleculeReference"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "optimization_steps": {
+      "items": {
+        "$ref": "#/$defs/ReactionStep"
+      },
+      "title": "Optimization Steps",
+      "type": "array"
+    },
+    "pathways": {
+      "items": {
+        "$ref": "#/$defs/ReactionPathway"
+      },
+      "title": "Pathways",
+      "type": "array"
+    },
+    "key_findings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Key Findings",
+      "type": "array"
+    },
+    "description": {
+      "default": "",
+      "title": "Description",
+      "type": "string"
+    }
+  },
+  "title": "VisualExtraction",
+  "type": "object"
+}

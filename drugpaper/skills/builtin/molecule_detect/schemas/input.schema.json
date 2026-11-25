@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "preset": {
+      "enum": [
+        "default",
+        "high_recall"
+      ]
+    },
+    "min_ratio": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 0.1
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "caption": {
+      "type": "string"
+    },
+    "definitions": {
+      "type": "object"
+    },
+    "max_outputs": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 1024
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "values": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "label",
+          "values"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "variable_defs": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "caption"
+  ],
+  "additionalProperties": false
+}

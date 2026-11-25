@@ -1,0 +1,15 @@
+{
+  "inputs": {},
+  "target": {
+    "ref": "doc_case/r1/p000.b000",
+    "type": "paragraph",
+    "text_raw": "General procedures.",
+    "section_role": "experimental"
+  },
+  "expect": {
+    "payload": {
+      "status": "skipped",
+      "structures": []
+    }
+  }
+}

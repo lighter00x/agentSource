@@ -1,0 +1,23 @@
+name: text_extract
+version: 0.6.0
+kind: python
+entry: scripts/main.py:run
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+accepts:
+  node_types: [paragraph, list]
+produces:
+  artifact_type: text_extraction
+model_tasks:
+  main: text_extract
+prompts:
+  main: prompts/task.md
+budgets:
+  max_model_calls: 12
+  max_wall_time_s: 900
+disclosure:
+  audiences: [reader_agent, lookup, chat]
+  toolkit: text_analysis
+  invocation: tool_call
+  triggers:
+    intents: [text_extract, 正文事实抽取]

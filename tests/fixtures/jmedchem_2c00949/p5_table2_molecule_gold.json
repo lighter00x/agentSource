@@ -1,0 +1,149 @@
+{
+  "scope": "Manual Table2 template/row transcription: para R, aromatic Y=CH/N, OCH2F at prime2, explicit X positions; connectivity only, sulfur stereochemistry unspecified. Reference SMILES independently written from original table, not from assembler output.",
+  "molecules": [
+    {
+      "label": "3",
+      "values": {
+        "R": "CHO",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "O=Cc1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "16",
+      "values": {
+        "R": "COMe",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CC(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "17",
+      "values": {
+        "R": "COOMe",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "COC(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "18",
+      "values": {
+        "R": "SO2NH2",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "NS(=O)(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "19",
+      "values": {
+        "R": "SO2NHMe",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CNS(=O)(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "20",
+      "values": {
+        "R": "SO2Me",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CS(=O)(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "21",
+      "values": {
+        "R": "COOH",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "O=C(O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "22",
+      "values": {
+        "R": "CONH2",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "NC(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "23",
+      "values": {
+        "R": "SOMe",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CS(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "24",
+      "values": {
+        "R": "SOEt",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CCS(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "25",
+      "values": {
+        "R": "SO(NH)Et",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CCS(=O)(=N)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "26",
+      "values": {
+        "R": "SO(NH)Me",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CS(=O)(=N)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "27",
+      "values": {
+        "R": "SO(NMe)Me",
+        "X": "H",
+        "Y": "CH"
+      },
+      "smiles": "CN=S(C)(=O)c1ccc(-c2ccccc2OCF)cc1"
+    },
+    {
+      "label": "45",
+      "values": {
+        "R": "SO(NH)Me",
+        "X": "H",
+        "Y": "N"
+      },
+      "smiles": "CS(=O)(=N)c1ccc(-c2ncccc2OCF)cc1"
+    },
+    {
+      "label": "46",
+      "values": {
+        "R": "SO(NH)Me",
+        "X": "3′-Cl",
+        "Y": "CH"
+      },
+      "smiles": "CS(=O)(=N)c1ccc(-c2cccc(Cl)c2OCF)cc1"
+    },
+    {
+      "label": "47",
+      "values": {
+        "R": "SO(NH)Me",
+        "X": "2-Cl",
+        "Y": "CH"
+      },
+      "smiles": "CS(=O)(=N)c1ccc(-c2ccccc2OCF)c(Cl)c1"
+    }
+  ]
+}

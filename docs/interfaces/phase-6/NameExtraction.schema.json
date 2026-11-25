@@ -1,0 +1,203 @@
+{
+  "$defs": {
+    "StructureCandidate": {
+      "properties": {
+        "structure_id": {
+          "title": "Structure Id",
+          "type": "string"
+        },
+        "compound_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Compound Id"
+        },
+        "node_ref": {
+          "title": "Node Ref",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "ocsr",
+            "opsin",
+            "markush_assembly",
+            "manual",
+            "llm"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "e_smiles_raw": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "E Smiles Raw"
+        },
+        "smiles_core": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Smiles Core"
+        },
+        "canonical_smiles": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Smiles"
+        },
+        "inchikey": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inchikey"
+        },
+        "formula": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Formula"
+        },
+        "is_markush": {
+          "default": false,
+          "title": "Is Markush",
+          "type": "boolean"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "validation": {
+          "additionalProperties": true,
+          "title": "Validation",
+          "type": "object"
+        },
+        "evidence": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "structure_id",
+        "node_ref",
+        "source",
+        "evidence"
+      ],
+      "title": "StructureCandidate",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "default": "skipped",
+      "title": "Status",
+      "type": "string"
+    },
+    "name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Name"
+    },
+    "label": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Label"
+    },
+    "structures": {
+      "items": {
+        "$ref": "#/$defs/StructureCandidate"
+      },
+      "title": "Structures",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "source_text_sha256": {
+      "title": "Source Text Sha256",
+      "type": "string"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "source_text_sha256"
+  ],
+  "title": "NameExtraction",
+  "type": "object"
+}

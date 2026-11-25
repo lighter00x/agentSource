@@ -1,0 +1,1 @@
+{"inputs": {"dataset": {"chart_type": "line", "x_axis": {}, "y_axis": {}, "plot_area": {"x0": 0, "y0": 0, "x1": 1, "y1": 1}, "series": []}}, "target": {"ref": "doc_case/r1/figure", "type": "figure"}}

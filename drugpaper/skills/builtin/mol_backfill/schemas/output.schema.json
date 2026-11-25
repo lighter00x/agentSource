@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "structure_source_scope": {"enum": ["document", "current_figure"]},
+    "original": {
+      "type": "object"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "errors": {
+      "type": "array"
+    },
+    "roles": {
+      "type": "object"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "bindings": {
+      "type": "array"
+    },
+    "image_products": {
+      "type": "array"
+    },
+    "molecule_objects": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "original",
+    "payload",
+    "errors",
+    "roles"
+  ],
+  "additionalProperties": false
+}

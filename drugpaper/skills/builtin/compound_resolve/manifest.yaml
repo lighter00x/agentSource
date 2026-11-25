@@ -1,0 +1,35 @@
+name: compound_resolve
+version: 0.6.0
+kind: python
+mode:
+- pipeline
+- agent
+entry: scripts/main.py:run
+accepts:
+  document: true
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: compound_resolve
+  node_types: []
+  fact_types:
+  - compound
+  - chemistry_conflict
+  - structure_binding
+tools: []
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 180
+cache:
+  enabled: false
+disclosure:
+  audiences:
+  - reader_agent
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - compound_resolve
+  invocation: tool_call

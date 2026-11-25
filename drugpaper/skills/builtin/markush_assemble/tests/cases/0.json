@@ -1,0 +1,1 @@
+{"inputs": {"caption": "C1CCCCC1*<sep><a>6:R</a>", "definitions": {"R": "Me"}}, "expect": {"payload": {"status": "completed", "products": ["CC1CCCCC1"]}}}

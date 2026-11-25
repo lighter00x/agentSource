@@ -1,0 +1,72 @@
+[
+  {
+    "paper": "10_1021_acs_jmedchem_2c00352",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00352.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00352/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00352.json",
+    "sha256": "1358ccd0b88ba7e2fe26e45911fa28b11b64a1c348155d19a2135deb6775600a",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c00739",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00739.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00739/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00739.json",
+    "sha256": "e360b77c8d5873c322c3f3381b8c0b9905adc4f5f051eeacede1cf69b4b9ffdf",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c00775",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00775.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00775/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00775.json",
+    "sha256": "39e32be07dd2abf666137f2782eee70ee716793c3f259bd7e1a8b057237485ac",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c00857",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00857.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00857/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00857.json",
+    "sha256": "a1951f778bfdf3341a4d450d39459844cf5f5945a7ee84239259df292c33c4f2",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c00954",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00954.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00954/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00954.json",
+    "sha256": "e20c47ac2787a8da8509abe1617390d6ba0dfcbe57939cf5a0a2563e4bf06286",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c00962",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c00962.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c00962/auto/gemini_json_backup_10_1021_acs_jmedchem_2c00962.json",
+    "sha256": "60ccf0f21c7514096b6f8590611cd6e91aaaccf421f28c773db51138d9d43050",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c01115",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c01115.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c01115/auto/gemini_json_backup_10_1021_acs_jmedchem_2c01115.json",
+    "sha256": "272139af92eb609e2b7f738b5f1f71ae45b47ce3ad64b872eb45807d40a515f9",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c01140",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c01140.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c01140/auto/gemini_json_backup_10_1021_acs_jmedchem_2c01140.json",
+    "sha256": "4987b639d5dce4996687b23586064058b52e6a29f7afd39c8f226639bdffc49c",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c01189",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c01189.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c01189/auto/gemini_json_backup_10_1021_acs_jmedchem_2c01189.json",
+    "sha256": "c0b77421a986085ead54d50363ca43cc9fa3d4333929fec86dcc227704e06ce3",
+    "kind": "unreviewed_legacy_gemini_silver"
+  },
+  {
+    "paper": "10_1021_acs_jmedchem_2c01191",
+    "reference": "gemini_json_backup_10_1021_acs_jmedchem_2c01191.json",
+    "source": "/home/xq/projects/dataset/paper_detail/acs/10_1021_acs_jmedchem_2c01191/auto/gemini_json_backup_10_1021_acs_jmedchem_2c01191.json",
+    "sha256": "11241b66d025809d8d4211bf7d2c2026c09a2ef6e7fa864da0eb599a470c857b",
+    "kind": "unreviewed_legacy_gemini_silver"
+  }
+]

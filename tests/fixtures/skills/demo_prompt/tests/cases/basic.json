@@ -1,0 +1,7 @@
+{
+  "name": "basic",
+  "inputs": {"node_ref": "doc_x/r1/p003.g000"},
+  "target": {"ref": "doc_x/r1/p003.g000", "type": "table", "caption": "Table 1. Demo"},
+  "response_file": "basic.response.json",
+  "expect": {"status": "completed", "payload": {"label": "table"}}
+}

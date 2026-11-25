@@ -1,0 +1,236 @@
+{
+  "$defs": {
+    "CompoundNote": {
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "role_hint": {
+          "default": "unknown",
+          "enum": [
+            "hit",
+            "lead",
+            "final",
+            "analog",
+            "reference",
+            "unknown"
+          ],
+          "title": "Role Hint",
+          "type": "string"
+        },
+        "first_page": {
+          "title": "First Page",
+          "type": "integer"
+        },
+        "key_points": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Points",
+          "type": "array"
+        },
+        "evidence_nodes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Nodes",
+          "type": "array"
+        },
+        "unconfirmed": {
+          "default": false,
+          "title": "Unconfirmed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label",
+        "first_page"
+      ],
+      "title": "CompoundNote",
+      "type": "object"
+    },
+    "LookupQuestion": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "maxLength": 500,
+          "minLength": 1,
+          "title": "Question",
+          "type": "string"
+        },
+        "kind": {
+          "default": "text",
+          "enum": [
+            "text",
+            "vision"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "target_page": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target Page"
+        },
+        "blocking": {
+          "default": false,
+          "title": "Blocking",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "title": "LookupQuestion",
+      "type": "object"
+    },
+    "NarrativeEvent": {
+      "additionalProperties": false,
+      "properties": {
+        "from_label": {
+          "title": "From Label",
+          "type": "string"
+        },
+        "to_label": {
+          "title": "To Label",
+          "type": "string"
+        },
+        "change": {
+          "title": "Change",
+          "type": "string"
+        },
+        "motivation": {
+          "default": "",
+          "title": "Motivation",
+          "type": "string"
+        },
+        "outcome": {
+          "default": "",
+          "title": "Outcome",
+          "type": "string"
+        },
+        "page": {
+          "title": "Page",
+          "type": "integer"
+        },
+        "evidence_nodes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Nodes",
+          "type": "array"
+        },
+        "unconfirmed": {
+          "default": false,
+          "title": "Unconfirmed",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "from_label",
+        "to_label",
+        "change",
+        "page"
+      ],
+      "title": "NarrativeEvent",
+      "type": "object"
+    },
+    "Observation": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "page": {
+          "title": "Page",
+          "type": "integer"
+        },
+        "evidence_nodes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Nodes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "text",
+        "page"
+      ],
+      "title": "Observation",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "page": {
+      "title": "Page",
+      "type": "integer"
+    },
+    "thesis_updates": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Thesis Updates",
+      "type": "array"
+    },
+    "compound_updates": {
+      "items": {
+        "$ref": "#/$defs/CompoundNote"
+      },
+      "title": "Compound Updates",
+      "type": "array"
+    },
+    "narrative_events": {
+      "items": {
+        "$ref": "#/$defs/NarrativeEvent"
+      },
+      "title": "Narrative Events",
+      "type": "array"
+    },
+    "sar_observations": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Sar Observations",
+      "type": "array"
+    },
+    "problems_of_lead": {
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Problems Of Lead",
+      "type": "array"
+    },
+    "open_questions": {
+      "items": {
+        "$ref": "#/$defs/LookupQuestion"
+      },
+      "title": "Open Questions",
+      "type": "array"
+    },
+    "resolved_questions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Resolved Questions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "page"
+  ],
+  "title": "NoteDelta",
+  "type": "object"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "required": [
+    "extraction",
+    "extraction_rules",
+    "structure_inventory",
+    "scope"
+  ],
+  "properties": {
+    "extraction": {
+      "type": "object"
+    },
+    "extraction_rules": {
+      "type": "string"
+    },
+    "structure_inventory": {
+      "type": "object"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "reference_source_summary": {
+      "type": "object"
+    },
+    "host_field_checks": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

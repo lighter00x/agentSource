@@ -1,0 +1,18 @@
+[Unit]
+Description=Drugpaper workbench frontend
+Wants=drugpaper-workbench.service
+After=network-online.target drugpaper-workbench.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/home/xq/source/agent_source/web
+Environment=DRUGPAPER_API_TARGET=http://127.0.0.1:18001
+ExecStart=/usr/local/bin/node /home/xq/source/agent_source/web/node_modules/vite/bin/vite.js --host 0.0.0.0 --port 5173 --strictPort
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=default.target

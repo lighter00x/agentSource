@@ -1,0 +1,32 @@
+name: markush_assemble
+version: 0.4.0
+kind: python
+mode:
+- pipeline
+- agent
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: markush_assemble
+  fact_types:
+  - structure_candidate
+  - label_claim
+  - markush_scaffold
+  - rgroup_assignment
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - markush_assemble
+    - "\u5206\u5B50\u62FC\u63A5"
+  invocation: tool_call
+entry: scripts/main.py:run
+tools:
+- markush.substitute
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 30

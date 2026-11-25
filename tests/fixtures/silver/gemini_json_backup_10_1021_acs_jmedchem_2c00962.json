@@ -1,0 +1,75 @@
+{
+  "基本信息": {
+    "论文题目": "Discovery of 10H-Benzo[b]pyrido[2,3-e][1,4]oxazine AXL Inhibitors via Structure-Based Drug Design Targeting c-Met Kinase",
+    "论文作者": "Zhengsheng Zhan, Yinchun Ji, Haixia Su, et al.",
+    "论文研究内容以及主要贡献": "本研究通过对c-Met抑制剂苯胺基嘧啶类化合物10e进行构象限制，设计并合成了一系列新型10H-苯并[b]吡啶并[2,3-e][1,4]恶嗪类AXL抑制剂。通过系统的结构活性关系（SAR）研究，发现了高效且具有口服生物利用度的AXL抑制剂16j。16j作为II型抑制剂，对AXL表现出高活性（IC50 = 7.0 nM）和良好的选择性（较c-Met高15倍），能显著抑制AXL信号通路及肿瘤细胞的迁移和侵袭，并在AXL驱动的异种移植模型中显示出显著的抗肿瘤功效。"
+  },
+  "起始分子信息": {
+    "SMILES": "compound 10e",
+    "存在问题": "化合物10e对AXL的酶抑制活性较弱（IC50 = 1100 nM），且其苯胺基嘧啶部分在结合时呈现非共平面构象，不利于提高对c-Met/AXL的抑制效力。"
+  },
+  "steps": {
+    "1": {
+      "start": "compound 10e",
+      "change": "采用构象限制策略，引入氧桥将苯胺基嘧啶结构转化为三环的10H-苯并[b]吡啶并[2,3-e][1,4]恶嗪支架。",
+      "end": "O=C(Nc1ccc(F)cc1)C1(C(=O)Nc2ccc(Oc3ccnc4c3Oc3ccccc3N4)c(F)c2)CC1",
+      "flag": "Figure 2 / Table 2"
+    },
+    "2": {
+      "start": "O=C(Nc1ccc(F)cc1)C1(C(=O)Nc2ccc(Oc3ccnc4c3Oc3ccccc3N4)c(F)c2)CC1",
+      "change": "对1,3-二酮部分进行改造，将其替换为4-吡啶酮环结构。",
+      "end": "compound 16b",
+      "flag": "Table 4"
+    },
+    "3": {
+      "start": "compound 16b",
+      "change": "在4-吡啶酮环的1位引入异丙基取代基，以进一步优化活性和选择性。",
+      "end": "CC(C)N1C=C(C(=O)Nc2ccc(Oc3ccnc4c3Oc3ccccc3N4)c(F)c2)C(=O)C=C1c1ccc(F)cc1",
+      "flag": "Table 5"
+    }
+  },
+  "研究目标标签": "AXL抑制剂活性优化、构象限制策略应用、激酶选择性提升、抗肿瘤药效增强",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "7.0 ± 0.1 nM (AXL enzymatic)",
+      "EC50": "0.8 ± 0.1 nM (BaF3/TEL-AXL cell)"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "Potent (indicated by in vivo efficacy via oral administration)",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "26.3 μL/(min mg) (Mouse liver microsome)",
+      "t1/2 half-life": "null"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "Well-tolerant at 10 mg/kg (mouse)"
+    }
+  },
+  "关键数据摘要": "通过构象限制策略将10e改造为11a，AXL IC50从1100 nM显著提升至10.3 nM；最终优化产物16j的AXL酶抑制IC50达到7.0 nM，BaF3/TEL-AXL细胞增殖抑制IC50为0.8 nM，且对AXL的选择性比c-Met高15倍，在10 mg/kg剂量下可引起异种移植瘤模型的消退。"
+}

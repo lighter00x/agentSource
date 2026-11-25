@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "compounds": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "bindings": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "compounds",
+    "conflicts",
+    "bindings"
+  ],
+  "additionalProperties": false
+}

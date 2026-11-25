@@ -1,0 +1,38 @@
+name: molecule_detect
+version: 0.4.0
+kind: python
+mode:
+- pipeline
+- agent
+entry: scripts/main.py:run
+accepts:
+  node_types:
+  - figure
+  - scheme
+  - table
+  - chart_panel
+  - figure_part
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: molecule_boxes
+  node_types:
+  - molecule
+  fact_types: []
+tools:
+- molecule.detect
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 180
+cache:
+  enabled: true
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - molecule_detect
+  invocation: tool_call

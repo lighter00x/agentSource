@@ -1,0 +1,8 @@
+{
+  "inputs": {},
+  "target": {
+    "ref": "doc_case",
+    "type": "document",
+    "regions": []
+  }
+}

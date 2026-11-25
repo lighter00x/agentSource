@@ -1,0 +1,291 @@
+{
+  "$defs": {
+    "CallAccounting": {
+      "properties": {
+        "fixed_calls": {
+          "default": 0,
+          "title": "Fixed Calls",
+          "type": "integer"
+        },
+        "exception_calls": {
+          "default": 0,
+          "title": "Exception Calls",
+          "type": "integer"
+        },
+        "remediation_calls": {
+          "default": 0,
+          "title": "Remediation Calls",
+          "type": "integer"
+        },
+        "timings_ms": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Timings Ms",
+          "type": "object"
+        },
+        "by_task": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "By Task",
+          "type": "object"
+        },
+        "cached_steps": {
+          "default": 0,
+          "title": "Cached Steps",
+          "type": "integer"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "title": "CallAccounting",
+      "type": "object"
+    },
+    "CheckResult": {
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "dimension": {
+          "title": "Dimension",
+          "type": "string"
+        },
+        "severity": {
+          "default": "warning",
+          "title": "Severity",
+          "type": "string"
+        },
+        "field_path": {
+          "default": "",
+          "title": "Field Path",
+          "type": "string"
+        },
+        "message": {
+          "default": "",
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "dimension"
+      ],
+      "title": "CheckResult",
+      "type": "object"
+    },
+    "ReviewItem": {
+      "properties": {
+        "dimension": {
+          "enum": [
+            "structure",
+            "numeric",
+            "chart",
+            "content"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "field_path": {
+          "title": "Field Path",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "correct",
+            "incorrect",
+            "unsure"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "suggested_value": {
+          "default": null,
+          "title": "Suggested Value"
+        },
+        "reason": {
+          "default": "",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dimension",
+        "field_path",
+        "verdict"
+      ],
+      "title": "ReviewItem",
+      "type": "object"
+    },
+    "ReviewResult": {
+      "properties": {
+        "items": {
+          "items": {
+            "$ref": "#/$defs/ReviewItem"
+          },
+          "title": "Items",
+          "type": "array"
+        }
+      },
+      "title": "ReviewResult",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "report_id": {
+      "title": "Report Id",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "node_ref": {
+      "title": "Node Ref",
+      "type": "string"
+    },
+    "mode": {
+      "default": "full",
+      "enum": [
+        "full",
+        "query",
+        "review"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "image_type": {
+      "default": "other",
+      "title": "Image Type",
+      "type": "string"
+    },
+    "status": {
+      "default": "needs_review",
+      "enum": [
+        "ok",
+        "remediated",
+        "needs_review",
+        "failed"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "artifact_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Artifact Ids",
+      "type": "array"
+    },
+    "extraction": {
+      "additionalProperties": true,
+      "title": "Extraction",
+      "type": "object"
+    },
+    "pre_backfill_extraction": {
+      "additionalProperties": true,
+      "title": "Pre Backfill Extraction",
+      "type": "object"
+    },
+    "backfilled_extraction": {
+      "additionalProperties": true,
+      "title": "Backfilled Extraction",
+      "type": "object"
+    },
+    "molecular_coverage": {
+      "additionalProperties": true,
+      "title": "Molecular Coverage",
+      "type": "object"
+    },
+    "image_products": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Image Products",
+      "type": "array"
+    },
+    "checks": {
+      "items": {
+        "$ref": "#/$defs/CheckResult"
+      },
+      "title": "Checks",
+      "type": "array"
+    },
+    "review": {
+      "$ref": "#/$defs/ReviewResult"
+    },
+    "unchecked": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Unchecked",
+      "type": "array"
+    },
+    "open_questions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Open Questions",
+      "type": "array"
+    },
+    "accounting": {
+      "$ref": "#/$defs/CallAccounting"
+    },
+    "trace": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Trace",
+      "type": "array"
+    },
+    "child_reports": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Child Reports",
+      "type": "array"
+    },
+    "query_answers": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Query Answers",
+      "type": "array"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "report_id",
+    "document_id",
+    "node_ref",
+    "run_id"
+  ],
+  "title": "FigureReport",
+  "type": "object"
+}

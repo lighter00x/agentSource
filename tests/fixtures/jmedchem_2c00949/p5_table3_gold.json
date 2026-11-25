@@ -1,0 +1,24 @@
+{
+  "source": "Manual visual reference of original Table 3, 2026-10-03. Not supplied to model.",
+  "footnote_markers": {
+    "a": "Maximum solubility measured by nephelometry.",
+    "b": "Binding to human serum albumin (HSA) determined at a concentration of 5 μM.",
+    "c": "Permeability in the parallel artificial membrane permeability assay (PAMPA).",
+    "d": "Blockade of the K+ channel current at a concentration of 10 μM.",
+    "e": "Remaining compound quantified after 4 and 24 h, respectively.",
+    "f": "Percentage of inhibition of CYP450 activity measured at a concentration of 10 μM by fluorescence assays."
+  },
+  "row_markers": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "e",
+    "f",
+    "f",
+    "f",
+    "f",
+    "f"
+  ]
+}

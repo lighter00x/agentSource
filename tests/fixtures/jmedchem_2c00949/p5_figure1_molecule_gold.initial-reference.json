@@ -1,0 +1,26 @@
+{
+  "source": "Manually inspected original Figure 1 (p001.b003), 2026-10-03; connectivity only, LY3154207 stereochemistry is not independently certified.",
+  "expected_count": 2,
+  "molecules": [
+    {
+      "reference": "LY3154207",
+      "region": {
+        "x0": 0,
+        "y0": 0,
+        "x1": 0.48,
+        "y1": 0.8
+      },
+      "connectivity_smiles": "O=C(c1c(Cl)cccc1Cl)N1C(C)c2ccc(CCC(C)(C)O)cc2CC1CO"
+    },
+    {
+      "reference": "ASP4345",
+      "region": {
+        "x0": 0.49,
+        "y0": 0,
+        "x1": 1,
+        "y1": 0.8
+      },
+      "connectivity_smiles": "CN(CC(=O)N1C(=O)OC(c2ccc(Cl)cc2)=C1)Cc1nc2cc(C(F)(F)F)ccc2[nH]1"
+    }
+  ]
+}

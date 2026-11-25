@@ -1,0 +1,135 @@
+# 模型注册表（设计文档 18.2.2 格式的子集）
+# P1：1 个文本模型；P3：加入视觉模型与任务名路由（task → stage → pool → model → provider）。
+# 文本池支持重试耗尽主备回退；完整熔断与用户模型管理由P7扩充。
+#
+# 变量：${VAR} 必填；${VAR:-$OTHER} 未设置时回落到另一个变量（例如视觉端点未单独配置时复用文本端点）。
+schema_version: 1
+
+providers:
+  default_llm:
+    type: openai_compatible
+    base_url: ${LLM_BASE_URL}
+    auth: {type: bearer, secret_ref: env://LLM_API_KEY}
+    timeout_s: 120
+    extra_headers: {}
+    trust_env: false
+    max_attempts: 3
+  structure_llm:
+    # 复用现有文本API地址和密钥，用于图表结构化、独立审查与FigureAgent调度。
+    type: openai_compatible
+    base_url: ${LLM_BASE_URL}
+    auth: {type: bearer, secret_ref: env://LLM_API_KEY}
+    timeout_s: 240
+    trust_env: false
+    max_attempts: 3
+    retry_base_delay_s: 5
+    retry_max_delay_s: 60
+    retry_jitter_s: 1
+  default_vlm:
+    type: openai_compatible
+    base_url: ${VLM_BASE_URL:-$LLM_BASE_URL}
+    auth: {type: bearer, secret_ref: "${VLM_API_KEY:-$LLM_API_KEY}"}
+    timeout_s: 120
+    max_attempts: 3
+    retry_base_delay_s: 5
+    retry_max_delay_s: 60
+    retry_jitter_s: 1
+
+models:
+  text_llm:
+    provider: default_llm
+    model_name: ${LLM_MODEL}
+    family: openai
+    api: responses
+    modalities: [text]
+    capabilities:
+      structured_output: json_schema        # json_schema | json_object | prompt_only
+      tool_calling: true
+      thinking: {toggle: none}
+    limits: {max_context_tokens: 32768, max_output_tokens: 8192}
+    concurrency: 8
+    extra_body: {reasoning: {effort: medium}}
+  text_llm_fallback:
+    provider: default_llm
+    model_name: ${LLM_FALLBACK_MODEL:-gpt-5.6-terra}
+    family: openai
+    api: responses
+    modalities: [text]
+    capabilities:
+      structured_output: json_schema        # json_schema | json_object | prompt_only
+      tool_calling: true
+      thinking: {toggle: none}
+    limits: {max_context_tokens: 32768, max_output_tokens: 8192}
+    concurrency: 8
+    extra_body: {reasoning: {effort: medium}}
+  structure_gpt:
+    provider: structure_llm
+    model_name: gpt-6-luna
+    family: openai
+    api: responses
+    modalities: [text, image]
+    capabilities:
+      structured_output: json_schema
+      tool_calling: true
+      thinking: {toggle: none}
+    limits: {max_context_tokens: 32768, max_output_tokens: 8192, max_image_pixels: 2500000}
+    concurrency: 8
+    extra_body: {reasoning: {effort: medium}}
+  vlm_large:
+    provider: default_vlm
+    model_name: ${VLM_MODEL:-$LLM_MODEL}
+    family: qwen
+    modalities: [text, image]
+    capabilities:
+      structured_output: json_schema
+      tool_calling: true
+      thinking: {toggle: chat_template_kwargs}
+    limits: {max_context_tokens: 32768, max_output_tokens: 8192, max_image_pixels: 2500000}
+    concurrency: 8
+  vlm_small:
+    # 没有单独的轻量视觉模型时指向同一个端点与模型
+    provider: default_vlm
+    model_name: ${VLM_LIGHT_MODEL:-$VLM_MODEL:-$LLM_MODEL}
+    family: qwen
+    modalities: [text, image]
+    capabilities:
+      structured_output: json_schema
+      thinking: {toggle: chat_template_kwargs}
+    limits: {max_context_tokens: 32768, max_output_tokens: 2048, max_image_pixels: 1000000}
+    concurrency: 16
+
+pools:
+  llm: [text_llm, text_llm_fallback]
+  vlm_light: [vlm_small, vlm_large]
+  vlm_strong: [vlm_large]
+
+stages:
+  default: {pool: llm, fallback_on_retry_exhausted: true, requires: [tool_calling, structured_output]}
+  classify: {pool: vlm_light, requires: [image, structured_output]}
+  describe: {pool: vlm_strong, requires: [image, structured_output]}
+  structure: {model: structure_gpt, requires: [image, structured_output]}
+  chat: {pool: llm, fallback_on_retry_exhausted: true, requires: [tool_calling]}
+
+tasks:
+  default: {stage: default, temperature: 0, max_tokens: 2048, timeout_s: 60, thinking: true}
+  visual_classify: {stage: classify, temperature: 0, max_tokens: 512, image_max_side: 768, timeout_s: 30}
+  paper_qualify: {stage: classify, temperature: 0, max_tokens: 512, image_max_side: 1024, timeout_s: 30}
+  figure_describe: {stage: describe, temperature: 0.1, max_tokens: 2048, image_max_side: 1600, timeout_s: 60}
+  chat: {stage: chat, temperature: 0.3, max_tokens: 2048, timeout_s: 60, thinking: true}
+  # 结构化请求依次等待 240、480、600 秒；重试间隔为 5、10 秒加随机抖动。
+  figure_structure: {stage: structure, thinking: true, temperature: 0, max_tokens: 8192, image_max_side: 1600, timeout_s: 240, retry_timeout_multiplier: 2, retry_timeout_max_s: 600}
+  figure_structure_review: {stage: structure, thinking: true, temperature: 0, max_tokens: 4096, image_max_side: 1600, timeout_s: 180, retry_timeout_multiplier: 1.5, retry_timeout_max_s: 360}
+  figure_reference_review: {stage: structure, thinking: true, temperature: 0, max_tokens: 4096, image_max_side: 2400, timeout_s: 180, retry_timeout_multiplier: 1.5, retry_timeout_max_s: 360}
+  figure_explore: {stage: structure, thinking: true, temperature: 0, max_tokens: 4096, image_max_side: 2400, timeout_s: 120}
+  figure_self_check: {stage: describe, temperature: 0, max_tokens: 4096, image_max_side: 1600, timeout_s: 180}
+  figure_remediate_vision: {stage: describe, temperature: 0, max_tokens: 4096, image_max_side: 2000, timeout_s: 90}
+  remediate_decide: {stage: default, temperature: 0, max_tokens: 1024, timeout_s: 40}
+  metric_map_fallback: {stage: default, temperature: 0, max_tokens: 1024, timeout_s: 40}
+  figure_query: {stage: describe, temperature: 0, max_tokens: 2048, image_max_side: 1600, timeout_s: 90}
+  visual_reclassify: {stage: describe, temperature: 0, max_tokens: 1024, image_max_side: 1600, timeout_s: 60}
+  text_extract: {stage: default, temperature: 0, max_tokens: 4096, timeout_s: 120}
+  lookup_plan: {stage: default, temperature: 0, max_tokens: 1800, timeout_s: 60}
+  lookup_answer: {stage: default, temperature: 0, max_tokens: 2400, timeout_s: 60}
+  vision_lookup: {stage: describe, temperature: 0, max_tokens: 2048, image_max_side: 1600, timeout_s: 60}
+  reader_page: {stage: default, temperature: 0, max_tokens: 4096, timeout_s: 120}
+  reader_synthesize: {stage: default, temperature: 0, max_tokens: 6000, timeout_s: 180, thinking: true}

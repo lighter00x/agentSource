@@ -1,0 +1,1 @@
+根据首页判断是否为有明确小分子结构的 SAR、先导优化、ADMET优化、结构药物设计或抑制剂/激动剂研究。排除综述、纯合成方法学、纯生物机制、抗体和长多肽。出现 ADMET 关键词不等于符合。输出 JSON；confidence<0.6 时 qualified=true、needs_review=true，不跳过。材料：{{ target | tojson }}

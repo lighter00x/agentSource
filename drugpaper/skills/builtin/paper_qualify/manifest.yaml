@@ -1,0 +1,37 @@
+name: paper_qualify
+version: 0.1.0
+kind: prompt
+mode:
+- pipeline
+- agent
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: paper_qualify
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: vision
+  triggers:
+    intents:
+    - paper_qualify
+    - 论文准入
+  invocation: tool_call
+model_tasks:
+  main: paper_qualify
+prompts:
+  main: prompts/task.md
+  images:
+  - source: first_page
+    max_side: 768
+  includes:
+  - common/data_boundary
+  - common/no_hallucination
+accepts:
+  document: true
+budgets:
+  max_model_calls: 2
+  max_wall_time_s: 120
+postprocess: scripts/post.py:postprocess

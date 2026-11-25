@@ -1,0 +1,75 @@
+{
+  "基本信息": {
+    "论文题目": "Identification of N- and C-3-Modified Laudanosoline Derivatives as Novel Influenza PA_N Endonuclease Inhibitors",
+    "论文作者": "Yixian Liao, Yilu Ye, Mingjian Liu, Zhihao Liu, Jinshen Wang, Baixi Li, Lijian Huo, Yilian Zhuang, Liye Chen, Jianxin Chen, Yongfeng Gao, Xiaoyun Ning, Sumei Li, Shuwen Liu, and Gaopeng Song",
+    "论文研究内容以及主要贡献": "本研究旨在开发新型流感病毒PA_N核酸内切酶抑制剂。研究团队以天然产物laudanosoline（化合物5）为起点，利用片段生长和合并策略，对其四氢异喹啉（THIQ）骨架的N-位和C-3位进行了系统改造。通过结构导向设计，成功合成了系列1,3-顺式-N-取代-1,2,3,4-四氢异喹啉衍生物。其中，先导化合物35表现出强效且广谱的抗流感病毒活性（EC50范围0.43-1.12 μM），并能显著抑制PA_N内切酶活性（IC50 = 0.20 μM）。体内实验证明，化合物35在小鼠模型中具有良好的抗病毒保护效果。该研究确立了基于1,2,3,4-四氢异喹啉-6,7-二醇骨架开发新型抗流感药物的潜力。"
+  },
+  "起始分子信息": {
+    "SMILES": "CN1[C@H](Cc2ccc(O)c(O)c2)c2cc(O)c(O)cc2CC1",
+    "存在问题": "起始命中化合物laudanosoline（5）虽然具有一定的PA_N内切酶抑制活性，但在细胞水平上的抗流感病毒活性较弱（EC50 = 46.82 μM），且其结构对PA_N内切酶的亚口袋（Pocket 3和4）利用不足，需要通过结构优化提升药效和成药性。"
+  },
+  "steps": {
+    "1": {
+      "start": "CN1[C@H](Cc2ccc(O)c(O)c2)c2cc(O)c(O)cc2CC1",
+      "change": "将N-甲基替换为N-苯甲酰基，并在C-3位引入甲基羧酸酯基团，以探索Pocket 4和Pocket 3。",
+      "end": "COC(=O)[C@@H]1Cc2cc(O)c(O)cc2[C@H](Cc2ccc(O)c(O)c2)N1C(=O)c1ccccc1",
+      "flag": "Scheme 1 / Table 1"
+    },
+    "2": {
+      "start": "COC(=O)[C@@H]1Cc2cc(O)c(O)cc2[C@H](Cc2ccc(O)c(O)c2)N1C(=O)c1ccccc1",
+      "change": "在N-苯甲酰基的邻位引入氯原子（ortho-Cl），以增强与Pocket 4中Ala37和Ile38残基的疏水相互作用。",
+      "end": "COC(=O)[C@@H]1Cc2cc(O)c(O)cc2[C@H](Cc2ccc(O)c(O)c2)N1C(=O)c1ccccc1Cl",
+      "flag": "Table 2"
+    },
+    "3": {
+      "start": "COC(=O)[C@@H]1Cc2cc(O)c(O)cc2[C@H](Cc2ccc(O)c(O)c2)N1C(=O)c1ccccc1Cl",
+      "change": "将C-3位的甲基酯替换为正丙基酯，以更充分地占据Pocket 3并增加疏水接触。",
+      "end": "CCCOC(=O)[C@@H]1Cc2cc(O)c(O)cc2[C@H](Cc2ccc(O)c(O)c2)N1C(=O)c1ccccc1Cl",
+      "flag": "Table 3 / Scheme 2"
+    }
+  },
+  "研究目标标签": "抗流感病毒活性优化、PA_N核酸内切酶抑制活性提升、药代动力学性质改善",
+  "关键数据摘要": "经过优化，先导化合物35对H1N1病毒的细胞抗病毒活性EC50从起始化合物5的46.82 μM提升至0.88 μM（提升约53倍）；对PA_N内切酶的抑制活性IC50从2.36 μM提升至0.20 μM。化合物35在小鼠体内表现出29.5%的腹腔注射生物利用度，并在30 mg/kg/d剂量下提供100%的生存保护。",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "0.20 ± 0.01 μM (PA_N endonuclease)",
+      "EC50": "0.88 ± 0.06 μM (H1N1/A/WSN/33)"
+    },
+    "理化性质": {
+      "logP": "ClogP = 3.76",
+      "logS": "Intrinsic solubility = 1.62 μM",
+      "logD7.4": "3.25"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "6.13% (in rats)",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "Pe = 98.26 × 10^-4 cm/s",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "53.76 mL/min/kg (IV in rats)",
+      "t1/2 half-life": "0.82 h (PO in rats)"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  }
+}

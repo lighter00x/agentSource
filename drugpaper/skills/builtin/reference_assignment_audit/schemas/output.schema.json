@@ -1,0 +1,79 @@
+{
+  "$defs": {
+    "ReferenceIssue": {
+      "additionalProperties": false,
+      "properties": {
+        "assignment_index": {
+          "minimum": 0,
+          "title": "Assignment Index",
+          "type": "integer"
+        },
+        "field": {
+          "enum": [
+            "reference",
+            "substituents",
+            "position_definitions",
+            "evidence_text"
+          ],
+          "title": "Field",
+          "type": "string"
+        },
+        "description": {
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "source_evidence": {
+          "minLength": 1,
+          "title": "Source Evidence",
+          "type": "string"
+        },
+        "suggested_action": {
+          "minLength": 1,
+          "title": "Suggested Action",
+          "type": "string"
+        }
+      },
+      "required": [
+        "assignment_index",
+        "field",
+        "description",
+        "source_evidence",
+        "suggested_action"
+      ],
+      "title": "ReferenceIssue",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "enum": [
+        "passed",
+        "needs_revision",
+        "uncertain"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "issues": {
+      "items": {
+        "$ref": "#/$defs/ReferenceIssue"
+      },
+      "maxItems": 32,
+      "title": "Issues",
+      "type": "array"
+    },
+    "summary": {
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "summary"
+  ],
+  "title": "ReferenceReview",
+  "type": "object"
+}

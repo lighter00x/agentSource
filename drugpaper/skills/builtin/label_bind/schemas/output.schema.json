@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "candidates": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "candidates"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,15 @@
+{
+  "inputs": {},
+  "target": {
+    "ref": "doc_case/r1/p000.b000",
+    "type": "list",
+    "text_raw": "compound 26 is active.",
+    "section_role": "results"
+  },
+  "expect": {
+    "payload": {
+      "status": "skipped",
+      "structures": []
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "$defs": {
+    "CoverageItem": {
+      "additionalProperties": false,
+      "properties": {
+        "dimension": {
+          "enum": [
+            "topology",
+            "molecule_placeholders",
+            "markush_completeness",
+            "source_scope"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "pass",
+            "fail",
+            "uncertain"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "evidence": {
+          "maxLength": 1600,
+          "minLength": 1,
+          "title": "Evidence",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dimension",
+        "verdict",
+        "evidence"
+      ],
+      "title": "CoverageItem",
+      "type": "object"
+    },
+    "StructureIssue": {
+      "additionalProperties": false,
+      "properties": {
+        "issue_id": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Issue Id",
+          "type": "string"
+        },
+        "field_path": {
+          "maxLength": 240,
+          "minLength": 1,
+          "title": "Field Path",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "missing_step",
+            "incorrect_topology",
+            "incorrect_placeholder",
+            "missing_markush_case",
+            "incorrect_markush_case",
+            "unsupported_assignment",
+            "other"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "error",
+            "warning"
+          ],
+          "title": "Severity",
+          "type": "string"
+        },
+        "description": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "visible_evidence": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Visible Evidence",
+          "type": "string"
+        },
+        "suggested_action": {
+          "maxLength": 1600,
+          "minLength": 1,
+          "title": "Suggested Action",
+          "type": "string"
+        }
+      },
+      "required": [
+        "issue_id",
+        "field_path",
+        "category",
+        "severity",
+        "description",
+        "visible_evidence",
+        "suggested_action"
+      ],
+      "title": "StructureIssue",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "coverage": {
+      "items": {
+        "$ref": "#/$defs/CoverageItem"
+      },
+      "maxItems": 4,
+      "minItems": 4,
+      "title": "Coverage",
+      "type": "array"
+    },
+    "issues": {
+      "items": {
+        "$ref": "#/$defs/StructureIssue"
+      },
+      "maxItems": 32,
+      "title": "Issues",
+      "type": "array"
+    }
+  },
+  "required": [
+    "coverage"
+  ],
+  "title": "StructureAudit",
+  "type": "object"
+}

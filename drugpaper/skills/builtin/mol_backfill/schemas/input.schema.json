@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "structure_source_scope": {
+      "enum": [
+        "document",
+        "current_figure"
+      ],
+      "default": "document",
+      "description": "FigureAgent uses current_figure: structure only comes from current target boxes/recognition; related figures provide interpretation, never whole-structure fallback."
+    },
+    "extraction_payload": {
+      "type": "object"
+    },
+    "image_type": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "contract": {
+      "enum": [
+        "legacy",
+        "universal"
+      ]
+    },
+    "blocked_instance_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 1000
+    }
+  },
+  "required": [
+    "extraction_payload"
+  ],
+  "additionalProperties": false
+}

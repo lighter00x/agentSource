@@ -1,0 +1,19 @@
+[Unit]
+Description=Drugpaper detector
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/xq/source/agent_source
+EnvironmentFile=/home/xq/source/agent_source/deploy/runtime.env
+Environment=YOLO_BACKEND=local
+Environment=CUDA_VISIBLE_DEVICES=0
+ExecStart=/home/xq/source/agent_source/.venv-yolo/bin/python -m uvicorn drugpaper.detection.api:create_app --factory --host 127.0.0.1 --port 8010 --workers 1
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=150
+KillSignal=SIGTERM
+UMask=0077
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,131 @@
+{
+  "source": "Manual visual transcription of original Table 1 crop, 2026-10-02; not model output.",
+  "header": [
+    "compd",
+    "CHO position",
+    "XCHYZ position",
+    "X",
+    "Y, Z",
+    "potentiation of DA Emax (%)",
+    "% maximum increase",
+    "EC50 (μM)"
+  ],
+  "rows": [
+    [
+      "1",
+      "4",
+      "4′",
+      "O",
+      "H, F",
+      "29 ± 6",
+      "nd",
+      "nd"
+    ],
+    [
+      "2",
+      "4",
+      "3′",
+      "O",
+      "H, F",
+      "25 ± 9",
+      "nd",
+      "nd"
+    ],
+    [
+      "3",
+      "4",
+      "2′",
+      "O",
+      "H, F",
+      "82 ± 8",
+      "91 ± 6",
+      "12.7 ± 2.4"
+    ],
+    [
+      "4",
+      "3",
+      "2′",
+      "O",
+      "H, F",
+      "23 ± 5",
+      "nd",
+      "nd"
+    ],
+    [
+      "5",
+      "4",
+      "4′",
+      "O",
+      "F, F",
+      "35 ± 8",
+      "37 ± 5",
+      "2.3 ± 0.4"
+    ],
+    [
+      "6",
+      "4",
+      "3′",
+      "O",
+      "F, F",
+      "37 ± 6",
+      "35 ± 7",
+      "10.8 ± 1.6"
+    ],
+    [
+      "7",
+      "4",
+      "2′",
+      "O",
+      "F, F",
+      "45 ± 5",
+      "62 ± 10",
+      "18.5 ± 2.7"
+    ],
+    [
+      "8",
+      "3",
+      "2′",
+      "O",
+      "F, F",
+      "12 ± 2",
+      "nd",
+      "nd"
+    ],
+    [
+      "9",
+      "4",
+      "2′",
+      "S",
+      "H, F",
+      "14 ± 3",
+      "nd",
+      "nd"
+    ],
+    [
+      "10",
+      "4",
+      "2′",
+      "S",
+      "F, F",
+      "44 ± 5",
+      "101 ± 10",
+      "21.8 ± 3.6"
+    ]
+  ],
+  "footnote_markers": {
+    "a": "Effect over the DA concentration–response curve at a fixed concentration of compound = 10 μM.",
+    "b": "Efficacy (measured as % of maximum increase over DA EC70) in the concentration–response curves of the compounds over DA EC70.",
+    "c": "Potency (measured as EC50) of the compounds at the DA EC70 concentration; values are the mean ± SEM of three independent experiments with duplicate determinations; nd = not determined."
+  },
+  "header_markers": {
+    "5": [
+      "a"
+    ],
+    "6": [
+      "b"
+    ],
+    "7": [
+      "c"
+    ]
+  }
+}

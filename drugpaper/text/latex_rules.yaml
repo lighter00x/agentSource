@@ -1,0 +1,90 @@
+# text_norm 的 LaTeX 转写规则（设计文档 7.4 节）。修改后请同步提升 normalize.NORM_VERSION。
+
+# \name → 字符（命令后不是字母时才替换）
+symbols:
+  mu: "μ"
+  pm: "±"
+  mp: "∓"
+  times: "×"
+  cdot: "·"
+  bullet: "•"
+  circ: "°"
+  prime: "′"
+  alpha: "α"
+  beta: "β"
+  gamma: "γ"
+  delta: "δ"
+  Delta: "Δ"
+  epsilon: "ε"
+  varepsilon: "ε"
+  kappa: "κ"
+  lambda: "λ"
+  pi: "π"
+  sigma: "σ"
+  tau: "τ"
+  omega: "ω"
+  Omega: "Ω"
+  theta: "θ"
+  eta: "η"
+  rho: "ρ"
+  phi: "φ"
+  chi: "χ"
+  Gamma: "Γ"
+  leq: "≤"
+  le: "≤"
+  geq: "≥"
+  ge: "≥"
+  approx: "≈"
+  sim: "~"
+  neq: "≠"
+  infty: "∞"
+  rightarrow: "→"
+  to: "→"
+  leftarrow: "←"
+  colon: ":"
+  degree: "°"
+  AA: "Å"
+  angstrom: "Å"
+
+# 只起格式作用的命令：去掉命令本身，保留其后的 { ... } 内容
+format_commands:
+  - mathrm
+  - mathbf
+  - mathit
+  - mathsf
+  - mathtt
+  - mathcal
+  - mathbb
+  - boldsymbol
+  - bm
+  - bf
+  - it
+  - rm
+  - sf
+  - textbf
+  - textit
+  - textrm
+  - text
+  - operatorname
+  - mathring
+  - tilde
+  - hat
+  - bar
+  - overline
+  - underline
+  - scriptstyle
+  - displaystyle
+  - left
+  - right
+
+# 转义字符
+escapes:
+  "%": "%"
+  "&": "&"
+  "#": "#"
+  "_": "_"
+  "$": "$"
+  ",": " "
+  ";": " "
+  "!": ""
+  " ": " "

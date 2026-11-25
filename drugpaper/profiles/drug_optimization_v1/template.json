@@ -1,0 +1,71 @@
+{
+  "基本信息": {
+    "论文题目": "null",
+    "论文作者": "null",
+    "论文研究内容以及主要贡献": "null"
+  },
+  "成药性优化方向标签": [],
+  "先导化合物分子信息": {
+    "SMILES": "null",
+    "存在问题": "null"
+  },
+  "steps": {},
+  "优化策略": [],
+  "关键构效关系": [],
+  "优化前后关键指标对比": {
+    "original_molecule": "null",
+    "original_molecule_name": "null",
+    "original_molecule_properties": {},
+    "optimized_molecule": "null",
+    "optimized_molecule_name": "null",
+    "optimized_molecule_properties": {}
+  },
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "null",
+      "EC50": "null",
+      "flag": "null"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null",
+      "flag": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null",
+      "flag": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null",
+      "HLM T1/2": "null",
+      "flag": "null"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "null",
+      "flag": "null"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+schema_version: 1
+rings:
+  - {names: [苯, 苯基, benzene, phenyl], size: 6, heteroatoms: {}}
+  - {names: [吡啶, pyridine, pyridin, pyridyl], size: 6, heteroatoms: {N: 1}}
+  - {names: [嘧啶, pyrimidine, pyrimidin, pyrimidyl], size: 6, heteroatoms: {N: 2}}
+  - {names: [吡嗪, pyrazine, pyrazin, pyrazyl], size: 6, heteroatoms: {N: 2}}
+  - {names: [哒嗪, pyridazine, pyridazin], size: 6, heteroatoms: {N: 2}}
+  - {names: [三嗪, triazine, triazin], size: 6, heteroatoms: {N: 3}}
+  - {names: [噻吩, thiophene, thienyl], size: 5, heteroatoms: {S: 1}}
+  - {names: [呋喃, furan, furyl], size: 5, heteroatoms: {O: 1}}
+  - {names: [吡咯, pyrrole, pyrrolyl], size: 5, heteroatoms: {N: 1}}
+  - {names: [咪唑, imidazole, imidazol], size: 5, heteroatoms: {N: 2}}
+  - {names: [吡唑, pyrazole, pyrazol], size: 5, heteroatoms: {N: 2}}
+  - {names: [噻唑, thiazole, thiazol], size: 5, heteroatoms: {N: 1, S: 1}}
+  - {names: [噁唑, oxazole, oxazol], size: 5, heteroatoms: {N: 1, O: 1}}
+  - {names: [哌啶, piperidine, piperidin], size: 6, heteroatoms: {N: 1}}
+  - {names: [哌嗪, piperazine, piperazin], size: 6, heteroatoms: {N: 2}}
+  - {names: [吗啉, morpholine, morpholin], size: 6, heteroatoms: {N: 1, O: 1}}

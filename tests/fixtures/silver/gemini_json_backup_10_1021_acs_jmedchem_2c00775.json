@@ -1,0 +1,81 @@
+{
+  "基本信息": {
+    "论文题目": "Collaborative Virtual Screening Identifies a 2-Aryl-4-aminoquinazoline Series with Efficacy in an In Vivo Model of Trypanosoma cruzi Infection",
+    "论文作者": "Taisuke Tawaraishi, Benjamin Perry, et al.",
+    "论文研究内容以及主要贡献": "本研究通过跨药企的协作虚拟筛选（NTD Drug Discovery Booster），针对克鲁氏锥虫（Trypanosoma cruzi）开展了表型筛选与先导化合物优化。研究从 2-芳基嘧啶类命中化合物出发，通过骨架跃迁至 2-芳基喹唑啉系列，并对其 4-位取代基进行了系统的构效关系（SAR）探索。最终鉴定出化合物 85，该分子在小鼠急性感染模型中表现出明显的寄生虫负荷降低作用，为治疗查加斯病提供了新的化学起点。"
+  },
+  "起始分子信息": {
+    "SMILES": "Cc1nc(-c2ccccn2)nc(NCc2ccccc2)c1Cl",
+    "存在问题": "该起始命中化合物（Compound 1）虽然具有亚微摩尔级的抗寄生虫活性，但其 2-(吡啶-2-基)嘧啶核心存在潜在的金属螯合风险，且需要进一步优化以提升药效、选择性指数（SI）以及体内成药性。"
+  },
+  "steps": {
+    "1": {
+      "start": "Cc1nc(-c2ccccn2)nc(NCc2ccccc2)c1Cl",
+      "change": "骨架跃迁：将 2-芳基嘧啶核心替换为 2-芳基喹唑啉核心，以探索更优的药效骨架。",
+      "end": "Nc1nc(-c2ccccn2)nc2ccccc12",
+      "flag": "Figure 2 / Table 1"
+    },
+    "2": {
+      "start": "Nc1nc(-c2ccccn2)nc2ccccc12",
+      "change": "4-位取代基优化：引入苯胺类或带有亚甲基连接的杂芳基，发现亲脂性基团有助于维持活性，但需平衡选择性。",
+      "end": "Cc1ccc(Nc2nc(-c2ccccn2)nc3ccccc23)cc1",
+      "flag": "Table 2"
+    },
+    "3": {
+      "start": "Cc1ccc(Nc2nc(-c2ccccn2)nc3ccccc23)cc1",
+      "change": "环胺修饰：将 4-位取代基替换为饱和环胺（如吡咯烷），并在环上引入吡啶基团，以改善理化性质和代谢稳定性。",
+      "end": "c1ccc(nc1)C2=NC3=CC=CC=C3C(N4CC(C5=CC=CC=N5)C4)=N2",
+      "flag": "Table 3 / Scheme 1"
+    },
+    "4": {
+      "start": "c1ccc(nc1)C2=NC3=CC=CC=C3C(N4CC(C5=CC=CC=N5)C4)=N2",
+      "change": "进一步骨架优化：尝试将喹唑啉核心替换为吡咯并嘧啶或吡唑并嘧啶，旨在降低 LogD 并提升溶解度。",
+      "end": "CCn1ccc2nc(-c3ccccn3)nc(N4CC(C4)c5ccccn5)c21",
+      "flag": "Table 4 / Scheme 2"
+    }
+  },
+  "研究目标标签": "抗寄生虫活性优化、骨架跃迁、代谢稳定性改善、体内药效验证",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "0.79 μM (T. cruzi)",
+      "EC50": "null"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "83 μg/mL (pH 6.8)",
+      "logD7.4": "3.4"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "1.3 × 10^-6 cm/s",
+      "Plasma Protein Binding": "99.9% (mouse)",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "Moderate-to-high (mouse)",
+      "t1/2 half-life": "null"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "NOAEL = 100 mg/kg BID (mouse)"
+    }
+  },
+  "关键数据摘要": "通过对 2-芳基喹唑啉系列的优化，最终化合物 85 在 T. cruzi 细胞实验中 IC50 达到 0.79 μM。在小鼠体内药效研究中，以 50 mg/kg 剂量每日两次口服给药，5 天后使感染小鼠的寄生虫负荷显著降低了 89.9%，且表现出良好的耐受性。"
+}

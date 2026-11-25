@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

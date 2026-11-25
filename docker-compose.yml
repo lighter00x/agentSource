@@ -1,0 +1,61 @@
+# P1 只启动、不使用；P2 起接入
+services:
+  opsin:
+    profiles: [chemistry]
+    build:
+      context: .
+      dockerfile: services/opsin/Dockerfile
+    ports:
+      - "127.0.0.1:8088:8080"
+    restart: unless-stopped
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: drugpaper
+      POSTGRES_PASSWORD: drugpaper
+      POSTGRES_DB: drugpaper
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U drugpaper -d drugpaper"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  worker:
+    profiles: [agents]
+    build:
+      context: .
+      dockerfile: services/agent/Dockerfile
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://drugpaper:drugpaper@postgres:5432/drugpaper
+      REDIS_URL: redis://redis:6379/10
+      YOLO_BACKEND: remote
+    volumes:
+      - ./data:/app/data
+      - ./skills:/app/skills
+      - ./runs:/app/runs
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    stop_grace_period: 240s
+
+volumes:
+  pgdata:

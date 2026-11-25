@@ -1,0 +1,265 @@
+{
+  "C_METRIC_UNMAPPED": {
+    "dimension": "content",
+    "actions": [
+      "apply_review_fix",
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "测定指标未规范化；核对表头与脚注，不得将数值转写正确视为指标映射正确。"
+  },
+  "C_CLASS_PRIOR": {
+    "dimension": "structure",
+    "actions": [
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "分类与图注或节点类型先验冲突，应核对真实图像类型。"
+  },
+  "C_NO_BOX": {
+    "dimension": "structure",
+    "actions": [
+      "redetect",
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "分类表明有化学结构，但未检测到任何分子框。"
+  },
+  "C_OCSR_FAIL": {
+    "dimension": "structure",
+    "actions": [
+      "recognize_region",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "超过30%的结构候选无法通过化学结构校验。"
+  },
+  "C_UNREF_BOX": {
+    "dimension": "structure",
+    "actions": [
+      "rebind_labels",
+      "redetect",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "超过30%的检测框未被抽取引用，应区分漏标和误检。"
+  },
+  "C_BACKFILL_ERR": {
+    "dimension": "structure",
+    "actions": [
+      "rebind_labels",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "结构编号回填失败，需核对引用的分子框。"
+  },
+  "C_LABEL_UNKNOWN": {
+    "dimension": "structure",
+    "actions": [
+      "action_grep",
+      "action_search",
+      "rebind_labels",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "超过50%的抽取编号不在正文黑板编号清单中。"
+  },
+  "C_TEXT_LAYER_MISS": {
+    "dimension": "numeric",
+    "actions": [
+      "apply_text_layer",
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "超过10%的转写数值无法在当前裁剪的PDF文本层中核对。"
+  },
+  "C_VALUE_PARSE": {
+    "dimension": "numeric",
+    "actions": [
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "该单元格的数值无法解析，需逐字核对图像。"
+  },
+  "C_UNIT_CLASS": {
+    "dimension": "numeric",
+    "actions": [
+      "fix_unit",
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "单位维度与测定指标词典不一致。"
+  },
+  "C_RANGE_HARD": {
+    "dimension": "numeric",
+    "actions": [
+      "fix_unit",
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "error",
+    "description": "数值超出指标硬范围，需核对单位和小数点。"
+  },
+  "C_RANGE_SOFT": {
+    "dimension": "numeric",
+    "actions": [
+      "fix_unit",
+      "retranscribe_cells",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "数值超出常用范围，可能真实但需确认。"
+  },
+  "C_MAGNITUDE": {
+    "dimension": "numeric",
+    "actions": [
+      "retranscribe_cells",
+      "fix_unit",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "同指标列内数值相对中位数的数量级异常。"
+  },
+  "C_ROW_COUNT": {
+    "dimension": "numeric",
+    "actions": [
+      "reslice_table",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "转写行数与有证据的预期行数不一致。"
+  },
+  "C_AXIS_RESIDUAL": {
+    "dimension": "chart",
+    "actions": [
+      "recalibrate_axes",
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "坐标轴标定残差超过轴长2%，或缺少两个有效刻度。"
+  },
+  "C_AXIS_SCALE": {
+    "dimension": "chart",
+    "actions": [
+      "recalibrate_axes",
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "对数轴刻度含非正数，需核对坐标类型。"
+  },
+  "C_LEGEND_MISMATCH": {
+    "dimension": "chart",
+    "actions": [
+      "recalibrate_axes",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "图例数量与抽取系列数量不一致。"
+  },
+  "C_OVERLAY_IOU_LOW": {
+    "dimension": "chart",
+    "actions": [
+      "recalibrate_axes",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "图表回绘与原图的重合度低于0.6。"
+  },
+  "C_PANEL_COUNT": {
+    "dimension": "chart",
+    "actions": [
+      "split_panels",
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "Panel数量与分类中有证据的子图数量不一致。"
+  },
+  "C_HEADER_SPAN": {
+    "dimension": "chart",
+    "actions": [
+      "reslice_table",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "展开合并表头后列数与数据行不一致。"
+  },
+  "C_ROUTE_TOPOLOGY": {
+    "dimension": "chart",
+    "actions": [
+      "rebind_labels",
+      "action_grep",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "路线边引用了不存在的结构节点编号。"
+  },
+  "C_ENTITY_UNTRACEABLE": {
+    "dimension": "content",
+    "actions": [
+      "action_grep",
+      "action_search",
+      "apply_review_fix",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "内容描述中出现了无法从图注或原文追溯的实体。"
+  },
+  "C_CAPTION_MISMATCH": {
+    "dimension": "content",
+    "actions": [
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "抽取结构与图注描述的主题不一致。"
+  },
+  "C_STATUS_UNCLEAR": {
+    "dimension": "content",
+    "actions": [
+      "reclassify",
+      "split_panels",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "结构化步骤已明确返回unclear，需要保留不确定性。"
+  },
+  "C_REQUIRED_EMPTY": {
+    "dimension": "content",
+    "actions": [
+      "reclassify",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "当前图像类型要求的关键字段为空。"
+  },
+  "C_REVIEW_INCORRECT": {
+    "dimension": "content",
+    "actions": [
+      "apply_review_fix",
+      "retranscribe_cells",
+      "rebind_labels",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "封闭核对中存在incorrect项，只能更正有证据的字段。"
+  },
+  "C_REVIEW_UNSURE": {
+    "dimension": "content",
+    "actions": [
+      "retranscribe_cells",
+      "rebind_labels",
+      "give_up"
+    ],
+    "severity": "warning",
+    "description": "封闭核对遗漏或unsure超过10%，不可直接判为通过。"
+  }
+}

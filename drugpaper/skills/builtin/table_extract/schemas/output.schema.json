@@ -1,0 +1,393 @@
+{
+  "$defs": {
+    "BBox": {
+      "properties": {
+        "x0": {
+          "title": "X0",
+          "type": "number"
+        },
+        "y0": {
+          "title": "Y0",
+          "type": "number"
+        },
+        "x1": {
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "title": "Y1",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x0",
+        "y0",
+        "x1",
+        "y1"
+      ],
+      "title": "BBox",
+      "type": "object"
+    },
+    "Cell": {
+      "properties": {
+        "text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Text"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "markers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Markers",
+          "type": "array"
+        },
+        "row_span": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Row Span",
+          "type": "integer"
+        },
+        "col_span": {
+          "default": 1,
+          "minimum": 1,
+          "title": "Col Span",
+          "type": "integer"
+        },
+        "bbox": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/BBox"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "status": {
+          "default": "explicit",
+          "enum": [
+            "explicit",
+            "unclear",
+            "missing"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "source": {
+          "default": "vlm",
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "title": "Cell",
+      "type": "object"
+    },
+    "CompoundInstance": {
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "mol_id": {
+              "type": "integer"
+            },
+            "scaffold_mol_id": {
+              "type": "null"
+            },
+            "substituents": {
+              "maxProperties": 0
+            }
+          },
+          "required": [
+            "mol_id"
+          ]
+        },
+        {
+          "properties": {
+            "mol_id": {
+              "type": "null"
+            },
+            "scaffold_mol_id": {
+              "type": "integer"
+            },
+            "substituents": {
+              "minProperties": 1
+            }
+          },
+          "required": [
+            "scaffold_mol_id",
+            "substituents"
+          ]
+        }
+      ],
+      "properties": {
+        "reference": {
+          "minLength": 1,
+          "title": "Reference",
+          "type": "string"
+        },
+        "mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Mol Id"
+        },
+        "scaffold_mol_id": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scaffold Mol Id"
+        },
+        "substituents": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "title": "Substituents",
+          "type": "object"
+        },
+        "attachments": {
+          "anyOf": [
+            {
+              "items": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "maxItems": 64,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Keys in substituents that participate in assembly, using real scaffold site labels. Other keys are explanatory. None is for legacy records only; new scaffold instances must supply this list.",
+          "title": "Attachments",
+          "uniqueItems": true
+        },
+        "position_definitions": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Position Definitions",
+          "type": "object"
+        },
+        "row_index": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Row Index"
+        },
+        "evidence_text": {
+          "minLength": 1,
+          "title": "Evidence Text",
+          "type": "string"
+        },
+        "position_status": {
+          "anyOf": [
+            {
+              "enum": [
+                "provided",
+                "not_printed",
+                "unreadable",
+                "missing",
+                "not_applicable"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Provide when the endpoint declares a position policy: provided/not_printed/unreadable/missing/not_applicable. None is legacy only.",
+          "title": "Position Status"
+        }
+      },
+      "required": [
+        "reference",
+        "evidence_text"
+      ],
+      "title": "CompoundInstance",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "compound_instances": {
+      "items": {
+        "$ref": "#/$defs/CompoundInstance"
+      },
+      "title": "Compound Instances",
+      "type": "array"
+    },
+    "molecules": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Molecules",
+      "type": "array"
+    },
+    "molecule_inventory": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Molecule Inventory",
+      "type": "array"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Title"
+    },
+    "orientation": {
+      "default": "unknown",
+      "enum": [
+        "compounds_as_rows",
+        "properties_as_rows",
+        "matrix",
+        "unknown"
+      ],
+      "title": "Orientation",
+      "type": "string"
+    },
+    "header_rows": {
+      "items": {
+        "items": {
+          "$ref": "#/$defs/Cell"
+        },
+        "type": "array"
+      },
+      "title": "Header Rows",
+      "type": "array"
+    },
+    "rows": {
+      "items": {
+        "items": {
+          "$ref": "#/$defs/Cell"
+        },
+        "type": "array"
+      },
+      "title": "Rows",
+      "type": "array"
+    },
+    "footnote_markers": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Footnote Markers",
+      "type": "object"
+    },
+    "embedded_structure_cells": {
+      "items": {
+        "additionalProperties": {
+          "type": "integer"
+        },
+        "type": "object"
+      },
+      "title": "Embedded Structure Cells",
+      "type": "array"
+    },
+    "subject_compound_label": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Subject Compound Label"
+    },
+    "scaffold_mol_id": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scaffold Mol Id"
+    },
+    "notes": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Notes",
+      "type": "array"
+    },
+    "status": {
+      "default": "ok",
+      "enum": [
+        "ok",
+        "unclear",
+        "not_a_table"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "title": "TableGrid",
+  "type": "object"
+}

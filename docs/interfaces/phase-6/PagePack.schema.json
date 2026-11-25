@@ -1,0 +1,95 @@
+{
+  "$defs": {
+    "ReadingUnit": {
+      "properties": {
+        "items": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "estimated_tokens": {
+          "default": 0,
+          "title": "Estimated Tokens",
+          "type": "integer"
+        }
+      },
+      "title": "ReadingUnit",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "revision": {
+      "title": "Revision",
+      "type": "integer"
+    },
+    "page": {
+      "title": "Page",
+      "type": "integer"
+    },
+    "mode": {
+      "default": "read",
+      "enum": [
+        "read",
+        "skim",
+        "skip"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "ready": {
+      "default": false,
+      "title": "Ready",
+      "type": "boolean"
+    },
+    "pending_refs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Pending Refs",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "section_map": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Section Map",
+      "type": "object"
+    },
+    "units": {
+      "items": {
+        "$ref": "#/$defs/ReadingUnit"
+      },
+      "title": "Units",
+      "type": "array"
+    },
+    "estimated_tokens": {
+      "default": 0,
+      "title": "Estimated Tokens",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "document_id",
+    "revision",
+    "page"
+  ],
+  "title": "PagePack",
+  "type": "object"
+}

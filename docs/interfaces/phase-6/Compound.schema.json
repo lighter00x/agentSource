@@ -1,0 +1,102 @@
+{
+  "properties": {
+    "compound_id": {
+      "title": "Compound Id",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "primary_label": {
+      "title": "Primary Label",
+      "type": "string"
+    },
+    "aliases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Aliases",
+      "type": "array"
+    },
+    "role": {
+      "default": "unknown",
+      "title": "Role",
+      "type": "string"
+    },
+    "accepted_structure_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Accepted Structure Id"
+    },
+    "stereo_parent_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Stereo Parent Id"
+    },
+    "status": {
+      "default": "active",
+      "enum": [
+        "active",
+        "merged",
+        "rejected"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "locked_fields": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Locked Fields",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "role_evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Role Evidence",
+      "type": "array"
+    },
+    "role_status": {
+      "default": "unknown",
+      "enum": [
+        "unknown",
+        "needs_review",
+        "confirmed"
+      ],
+      "title": "Role Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "compound_id",
+    "document_id",
+    "primary_label"
+  ],
+  "title": "Compound",
+  "type": "object"
+}

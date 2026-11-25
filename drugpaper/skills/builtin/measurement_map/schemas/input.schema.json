@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "grid": {
+      "type": "object",
+      "description": "完整上游结构化产物，可通过artifact_inputs引用"
+    },
+    "allow_fallback": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "grid"
+  ],
+  "additionalProperties": false
+}

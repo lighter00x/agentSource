@@ -1,0 +1,24 @@
+name: name_to_structure
+version: 0.6.0
+kind: python
+mode: [pipeline, agent]
+entry: scripts/main.py:run
+accepts:
+  node_types: [paragraph, list]
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: name_to_structure
+  fact_types: [structure_candidate, label_claim]
+tools: [chem.name_to_structure]
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 150
+cache:
+  enabled: true
+disclosure:
+  audiences: [reader_agent, lookup, chat]
+  toolkit: chem
+  invocation: tool_call
+  triggers:
+    intents: [name_to_structure, 实验名称解析, OPSIN]

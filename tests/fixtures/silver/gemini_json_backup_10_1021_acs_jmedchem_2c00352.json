@@ -1,0 +1,75 @@
+{
+  "基本信息": {
+    "论文题目": "Structural Determinants of Indole-2-carboxamides: Identification of Lead Acetamides with Pan Antimycobacterial Activity",
+    "论文作者": "Pankaj Bhattrai, Pooja Hegde, Wei Li, et al.",
+    "论文研究内容以及主要贡献": "本研究针对具有MmpL3抑制活性的吲哚-2-甲酰胺（IC）类抗分枝杆菌化合物水溶性差的问题，通过生物电子等排体替换和合理药物设计，开发了吡咯、咪唑、扁桃酸和乙酰胺类类似物。研究发现，通过“打开”吲哚环去除C3位碳原子得到的乙酰胺类骨架能显著提高水溶性。最终确定的先导化合物69和76在保持对结核分枝杆菌（M.tb）和脓肿分枝杆菌（M.abs）高效活性的同时，水溶性提升了约30-80倍，并具有良好的ADME性质和安全性。"
+  },
+  "起始分子信息": {
+    "SMILES": "O=C(c1cc2ccccc2[nH]1)NC1CCCCCCC1",
+    "存在问题": "该类吲哚-2-甲酰胺化合物虽然具有极强的抗分枝杆菌活性，但其水溶性极差（通常 < 1 μg/mL），亲脂性过高，限制了其成药性和临床转化潜力。"
+  },
+  "steps": {
+    "1": {
+      "start": "O=C(c1cc2ccccc2[nH]1)NC1CCCCCCC1",
+      "change": "骨架跃迁：通过删除吲哚环的C3位原子，将吲哚-2-甲酰胺骨架转变为乙酰胺骨架，以增加杂原子比例并降低亲脂性。",
+      "end": "O=C(NC1CCCCCCC1)CNC1=CC=CC=C1",
+      "flag": "Figure 1, Scheme 2"
+    },
+    "2": {
+      "start": "O=C(NC1CCCCCCC1)CNC1=CC=CC=C1",
+      "change": "疏水头部基团优化：引入更具刚性和体积的环状基团（如异松蒎基或金刚烷基）替换环辛基，以增强与MmpL3蛋白的结合力。",
+      "end": "CC1(C)[C@@H]2C[C@H](NC(=O)CNC3=CC=CC=C3)[C@@H]1C2",
+      "flag": "Table 1"
+    },
+    "3": {
+      "start": "CC1(C)[C@@H]2C[C@H](NC(=O)CNC3=CC=CC=C3)[C@@H]1C2",
+      "change": "苯胺环取代基优化：在苯胺环的间位（meta）引入电子撤回且亲脂的基团（如-Cl或-OCF3），得到最终先导化合物。",
+      "end": "O(c1cccc(NCC(=O)NC23CC4CC(CC(C4)C2)C3)c1)C(F)(F)F",
+      "flag": "Table 1, Table 2"
+    }
+  },
+  "研究目标标签": "提高水溶性、优化ADME性质、增强抗分枝杆菌活性、MmpL3抑制剂开发",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": ">20 μg/mL",
+      "EC50": "null"
+    },
+    "理化性质": {
+      "logP": "cLogP = 2.76",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "1.47 x 10^-5 cm/s",
+      "Plasma Protein Binding": "99.7%",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "2.9 h (Human S9)"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  },
+  "关键数据摘要": "通过将吲哚骨架改造为乙酰胺骨架，先导化合物76的水溶性从原始吲哚类化合物的 < 1 μg/mL 显著提升至 77.5 μg/mL，同时保持了对结核分枝杆菌的高效抑制活性（MIC = 0.25 μg/mL），且对人胚胎细胞 WI-26 VA4 无明显细胞毒性（IC50 > 20 μg/mL）。"
+}

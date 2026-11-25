@@ -1,0 +1,571 @@
+{
+  "$defs": {
+    "AssayText": {
+      "additionalProperties": false,
+      "properties": {
+        "char_span": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "title": "Char Span",
+          "type": "array"
+        },
+        "evidence_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Evidence Text"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "char_span",
+        "text"
+      ],
+      "title": "AssayText",
+      "type": "object"
+    },
+    "BBox": {
+      "properties": {
+        "x0": {
+          "title": "X0",
+          "type": "number"
+        },
+        "y0": {
+          "title": "Y0",
+          "type": "number"
+        },
+        "x1": {
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "title": "Y1",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x0",
+        "y0",
+        "x1",
+        "y1"
+      ],
+      "title": "BBox",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "properties": {
+        "node_id": {
+          "title": "Node Id",
+          "type": "string"
+        },
+        "field_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Field Path"
+        },
+        "char_span": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Char Span"
+        },
+        "regions": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/Region"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regions"
+        },
+        "artifact_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Id"
+        },
+        "role": {
+          "default": "primary",
+          "enum": [
+            "primary",
+            "context",
+            "definition",
+            "condition",
+            "contradiction"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "node_id"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    },
+    "ExperimentalName": {
+      "additionalProperties": false,
+      "properties": {
+        "char_span": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "title": "Char Span",
+          "type": "array"
+        },
+        "evidence_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Evidence Text"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        }
+      },
+      "required": [
+        "char_span",
+        "name",
+        "label"
+      ],
+      "title": "ExperimentalName",
+      "type": "object"
+    },
+    "Mention": {
+      "additionalProperties": false,
+      "properties": {
+        "char_span": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "title": "Char Span",
+          "type": "array"
+        },
+        "evidence_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Evidence Text"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "role": {
+          "default": "unknown",
+          "enum": [
+            "hit",
+            "lead",
+            "final",
+            "analog",
+            "reference",
+            "unknown"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "char_span",
+        "label"
+      ],
+      "title": "Mention",
+      "type": "object"
+    },
+    "Region": {
+      "properties": {
+        "page": {
+          "title": "Page",
+          "type": "integer"
+        },
+        "bbox": {
+          "$ref": "#/$defs/BBox"
+        },
+        "source_bbox_pt": {
+          "anyOf": [
+            {
+              "maxItems": 4,
+              "minItems": 4,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Bbox Pt"
+        },
+        "role": {
+          "default": "primary",
+          "enum": [
+            "primary",
+            "continuation",
+            "segment"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "derived": {
+          "default": false,
+          "title": "Derived",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "page",
+        "bbox"
+      ],
+      "title": "Region",
+      "type": "object"
+    },
+    "Statement": {
+      "additionalProperties": false,
+      "properties": {
+        "char_span": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "title": "Char Span",
+          "type": "array"
+        },
+        "evidence_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Evidence Text"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "from_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "From Label"
+        },
+        "to_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "To Label"
+        }
+      },
+      "required": [
+        "char_span",
+        "text"
+      ],
+      "title": "Statement",
+      "type": "object"
+    },
+    "TextMeasurement": {
+      "additionalProperties": false,
+      "properties": {
+        "char_span": {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "title": "Char Span",
+          "type": "array"
+        },
+        "evidence_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Evidence Text"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "compound_label": {
+          "title": "Compound Label",
+          "type": "string"
+        },
+        "metric_text": {
+          "title": "Metric Text",
+          "type": "string"
+        },
+        "value_raw": {
+          "title": "Value Raw",
+          "type": "string"
+        },
+        "unit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Unit"
+        },
+        "conditions": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Conditions"
+        }
+      },
+      "required": [
+        "char_span",
+        "compound_label",
+        "metric_text",
+        "value_raw"
+      ],
+      "title": "TextMeasurement",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "compound_mentions": {
+      "items": {
+        "$ref": "#/$defs/Mention"
+      },
+      "title": "Compound Mentions",
+      "type": "array"
+    },
+    "measurements": {
+      "items": {
+        "$ref": "#/$defs/TextMeasurement"
+      },
+      "title": "Measurements",
+      "type": "array"
+    },
+    "assay_descriptions": {
+      "items": {
+        "$ref": "#/$defs/AssayText"
+      },
+      "title": "Assay Descriptions",
+      "type": "array"
+    },
+    "optimization_statements": {
+      "items": {
+        "$ref": "#/$defs/Statement"
+      },
+      "title": "Optimization Statements",
+      "type": "array"
+    },
+    "experimental_names": {
+      "items": {
+        "$ref": "#/$defs/ExperimentalName"
+      },
+      "title": "Experimental Names",
+      "type": "array"
+    },
+    "discarded_count": {
+      "default": 0,
+      "title": "Discarded Count",
+      "type": "integer"
+    },
+    "candidate_count": {
+      "default": 0,
+      "title": "Candidate Count",
+      "type": "integer"
+    },
+    "span_repair_count": {
+      "default": 0,
+      "title": "Span Repair Count",
+      "type": "integer"
+    },
+    "source_text_sha256": {
+      "default": "",
+      "title": "Source Text Sha256",
+      "type": "string"
+    },
+    "status": {
+      "default": "completed",
+      "enum": [
+        "completed",
+        "needs_review",
+        "skipped"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "title": "TextExtraction",
+  "type": "object"
+}

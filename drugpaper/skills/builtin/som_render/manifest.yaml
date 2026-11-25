@@ -1,0 +1,36 @@
+name: som_render
+version: 0.4.0
+kind: python
+mode:
+- pipeline
+- agent
+entry: scripts/main.py:run
+accepts:
+  node_types:
+  - figure
+  - scheme
+  - table
+  - chart_panel
+  - figure_part
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: som_image
+  node_types: []
+  fact_types: []
+tools: []
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 180
+cache:
+  enabled: true
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - som_render
+  invocation: tool_call

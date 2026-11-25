@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "images": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "images"
+  ],
+  "additionalProperties": false
+}

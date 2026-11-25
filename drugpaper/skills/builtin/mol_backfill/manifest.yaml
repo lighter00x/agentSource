@@ -1,0 +1,41 @@
+name: mol_backfill
+version: 0.8.0
+kind: python
+mode:
+- pipeline
+- agent
+entry: scripts/main.py:run
+accepts:
+  node_types:
+  - figure
+  - scheme
+  - table
+  - chart_panel
+  - figure_part
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: mol_backfill
+  node_types: []
+  fact_types:
+  - label_claim
+  - molecule_update
+  - structure_candidate
+tools:
+- mol.deliver
+- mol.lookup_references
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 180
+cache:
+  enabled: false
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - mol_backfill
+  invocation: tool_call

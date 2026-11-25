@@ -1,0 +1,256 @@
+{
+  "$defs": {
+    "FragmentChange": {
+      "properties": {
+        "original_atoms": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Original Atoms",
+          "type": "array"
+        },
+        "replacement_atoms": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Replacement Atoms",
+          "type": "array"
+        },
+        "removed_atoms": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Removed Atoms",
+          "type": "array"
+        },
+        "added_atoms": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Added Atoms",
+          "type": "array"
+        },
+        "original_fragment": {
+          "default": "",
+          "title": "Original Fragment",
+          "type": "string"
+        },
+        "replacement_fragment": {
+          "default": "",
+          "title": "Replacement Fragment",
+          "type": "string"
+        },
+        "substring_match": {
+          "default": false,
+          "title": "Substring Match",
+          "type": "boolean"
+        }
+      },
+      "title": "FragmentChange",
+      "type": "object"
+    },
+    "MoleculeDiff": {
+      "properties": {
+        "start": {
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "title": "End",
+          "type": "string"
+        },
+        "mapping": {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "integer"
+              }
+            ],
+            "type": "array"
+          },
+          "title": "Mapping",
+          "type": "array"
+        },
+        "regions": {
+          "items": {
+            "$ref": "#/$defs/FragmentChange"
+          },
+          "title": "Regions",
+          "type": "array"
+        },
+        "timed_out": {
+          "default": false,
+          "title": "Timed Out",
+          "type": "boolean"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ],
+      "title": "MoleculeDiff",
+      "type": "object"
+    },
+    "ProposedStep": {
+      "additionalProperties": false,
+      "properties": {
+        "from_id": {
+          "title": "From Id",
+          "type": "string"
+        },
+        "to_id": {
+          "title": "To Id",
+          "type": "string"
+        },
+        "declared_change_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Declared Change Types",
+          "type": "array"
+        },
+        "change_text": {
+          "title": "Change Text",
+          "type": "string"
+        },
+        "rationale": {
+          "default": "",
+          "title": "Rationale",
+          "type": "string"
+        },
+        "flag_label": {
+          "default": "",
+          "title": "Flag Label",
+          "type": "string"
+        },
+        "evidence_node_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Node Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "from_id",
+        "to_id",
+        "change_text"
+      ],
+      "title": "ProposedStep",
+      "type": "object"
+    },
+    "VirtualStep": {
+      "properties": {
+        "start_smiles": {
+          "title": "Start Smiles",
+          "type": "string"
+        },
+        "end_smiles": {
+          "title": "End Smiles",
+          "type": "string"
+        },
+        "to_is_virtual": {
+          "title": "To Is Virtual",
+          "type": "boolean"
+        },
+        "diff": {
+          "$ref": "#/$defs/MoleculeDiff"
+        },
+        "computed_change_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Computed Change Types",
+          "type": "array"
+        },
+        "evidence_node_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Node Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "start_smiles",
+        "end_smiles",
+        "to_is_virtual",
+        "diff",
+        "computed_change_types",
+        "evidence_node_ids"
+      ],
+      "title": "VirtualStep",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "proposed": {
+      "$ref": "#/$defs/ProposedStep"
+    },
+    "diff": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/MoleculeDiff"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "computed_change_types": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Computed Change Types",
+      "type": "array"
+    },
+    "virtual_intermediates": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Virtual Intermediates",
+      "type": "array"
+    },
+    "split_steps": {
+      "items": {
+        "$ref": "#/$defs/VirtualStep"
+      },
+      "title": "Split Steps",
+      "type": "array"
+    },
+    "status": {
+      "default": "validated",
+      "enum": [
+        "validated",
+        "needs_review"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "proposed"
+  ],
+  "title": "Step",
+  "type": "object"
+}

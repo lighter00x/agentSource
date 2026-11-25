@@ -1,0 +1,65 @@
+[
+  {
+    "page_idx": 0,
+    "page_size": [612.0, 792.0],
+    "para_blocks": [
+      {"type": "title", "bbox": [50, 60, 560, 100], "detailed_index": 0, "confirmed_index": 0, "title_level": 1,
+       "text": "Discovery of a Positive Allosteric Modulator of the Human Dopamine D1 Receptor (synthetic fixture)"},
+      {"type": "text", "bbox": [50, 105, 560, 120], "detailed_index": 1, "confirmed_index": 1,
+       "text": "A. Author, B. Author, C. Author"},
+      {"type": "text", "bbox": [50, 125, 560, 140], "detailed_index": 2, "confirmed_index": 2,
+       "text": "Cite This: J. Med. Chem. 2022, 65, 00000-00000"},
+      {"type": "image_body", "bbox": [320, 150, 560, 300], "detailed_index": 3, "confirmed_index": null, "belong_to": 3,
+       "img_path": "images/p000_toc.jpg"},
+      {"type": "image_caption", "bbox": [320, 300, 560, 312], "detailed_index": 4, "confirmed_index": null, "belong_to": 3,
+       "text": ""},
+      {"type": "text", "bbox": [50, 150, 300, 160], "detailed_index": 5, "confirmed_index": 4,
+       "text": ""},
+      {"type": "title", "bbox": [50, 165, 300, 178], "detailed_index": 6, "confirmed_index": 5, "title_level": 1,
+       "text": "ABSTRACT"},
+      {"type": "text", "bbox": [50, 180, 300, 420], "detailed_index": 7, "confirmed_index": 6,
+       "text": "ABSTRACT: Positive allosteric modulators (PAMs) of the dopamine D1 receptor are an alternative to orthosteric agonists. Starting from hit compound 3, a structure-activity relationship study led to the identification of UCM-1306 (26), which potentiates the dopamine response at the human D 1 receptor, shows good PAMPA permeability and low hERG inhibition, and is orally bioavailable."},
+      {"type": "image_body", "bbox": [320, 150, 560, 312], "detailed_index": null, "confirmed_index": 3,
+       "merged_from": [3, 4], "caption_text": "Table of contents graphic", "merged_img_path": "merged_images/p000_g003.jpg"}
+    ]
+  },
+  {
+    "page_idx": 1,
+    "page_size": [612.0, 792.0],
+    "para_blocks": [
+      {"type": "title", "bbox": [50, 60, 300, 75], "detailed_index": 0, "confirmed_index": 0, "title_level": 1,
+       "text": "INTRODUCTION"},
+      {"type": "text", "bbox": [50, 80, 300, 400], "detailed_index": 1, "confirmed_index": 1,
+       "text": "The dopamine D1 receptor (D1R) is a class A G protein-coupled receptor that is highly expressed in the striatum and prefrontal cortex. Enhancing D1R signaling is a therapeutic strategy for cognitive impairment in Parkinson's disease and schizophrenia."},
+      {"type": "list", "bbox": [320, 80, 560, 200], "detailed_index": 2, "confirmed_index": 2,
+       "text": ""}
+    ]
+  },
+  {
+    "page_idx": 2,
+    "page_size": [612.0, 792.0],
+    "para_blocks": [
+      {"type": "title", "bbox": [50, 60, 300, 75], "detailed_index": 0, "confirmed_index": 0, "title_level": 1,
+       "text": "RESULTS AND DISCUSSION"},
+      {"type": "text", "bbox": [50, 80, 300, 300], "detailed_index": 1, "confirmed_index": 1,
+       "text": "Identification of Compound 3. A screening campaign identified compound 3 as a D1R PAM with an EC50 of 1.2 \u03bcM in the cAMP assay."}
+    ]
+  },
+  {
+    "page_idx": 3,
+    "page_size": [612.0, 792.0],
+    "para_blocks": [
+      {"type": "title", "bbox": [50, 60, 560, 80], "detailed_index": 0, "confirmed_index": null, "belong_to": 0,
+       "text": "Table 1. SAR Exploration of the Aryl Moiety of Compounds 1-10"},
+      {"type": "image_body", "bbox": [50, 85, 560, 400], "detailed_index": 1, "confirmed_index": null, "belong_to": 0,
+       "img_path": "images/p003_table1.jpg"},
+      {"type": "table_caption", "bbox": [50, 402, 200, 412], "detailed_index": 2, "confirmed_index": null, "belong_to": 0,
+       "text": "1-10"},
+      {"type": "image_body", "bbox": [50, 60, 560, 412], "detailed_index": null, "confirmed_index": 0,
+       "merged_from": [0, 1, 2], "caption_text": "1-10", "footnote_text": "aValues are mean of three experiments.",
+       "merged_img_path": "merged_images/p003_g000.jpg"},
+      {"type": "text", "bbox": [50, 420, 300, 700], "detailed_index": 3, "confirmed_index": 1,
+       "text": "As shown in Table 1, replacing the phenyl ring with a 2-fluorophenyl group improved potency."}
+    ]
+  }
+]

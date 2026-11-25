@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "proposal",
+    "sources",
+    "structure_inventory",
+    "target_image_count"
+  ],
+  "properties": {
+    "normalization_checks": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "proposal": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "structure_inventory": {
+      "type": "object"
+    },
+    "target_image_count": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

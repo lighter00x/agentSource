@@ -1,0 +1,1 @@
+{"inputs": {"grid": {"title": null, "orientation": "unknown", "header_rows": [], "rows": [], "footnote_markers": {}, "embedded_structure_cells": [], "subject_compound_label": null, "scaffold_mol_id": null, "notes": [], "status": "ok"}, "allow_fallback": false}, "target": {"ref": "doc_case/r1/p000.g000", "type": "figure"}, "expect": {}}

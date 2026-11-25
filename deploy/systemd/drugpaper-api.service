@@ -1,0 +1,20 @@
+[Unit]
+Description=Drugpaper api
+Wants=drugpaper-detector.service
+After=network-online.target drugpaper-detector.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/home/xq/source/agent_source
+EnvironmentFile=/home/xq/source/agent_source/deploy/runtime.env
+Environment=YOLO_BACKEND=remote
+ExecStart=/home/xq/source/agent_source/.venv/bin/python -m uvicorn drugpaper.api.app:create_app --factory --host 127.0.0.1 --port 18000 --workers 2
+Restart=always
+RestartSec=5
+TimeoutStopSec=150
+KillSignal=SIGTERM
+UMask=0077
+
+[Install]
+WantedBy=default.target

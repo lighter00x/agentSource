@@ -1,0 +1,515 @@
+{
+  "$defs": {
+    "Accepts": {
+      "additionalProperties": false,
+      "properties": {
+        "node_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Node Types",
+          "type": "array"
+        },
+        "subtypes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Subtypes",
+          "type": "array"
+        },
+        "requires_artifacts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Requires Artifacts",
+          "type": "array"
+        },
+        "document": {
+          "default": false,
+          "title": "Document",
+          "type": "boolean"
+        }
+      },
+      "title": "Accepts",
+      "type": "object"
+    },
+    "Budgets": {
+      "additionalProperties": false,
+      "properties": {
+        "max_model_calls": {
+          "default": 2,
+          "minimum": 0,
+          "title": "Max Model Calls",
+          "type": "integer"
+        },
+        "max_wall_time_s": {
+          "default": 120,
+          "exclusiveMinimum": 0,
+          "title": "Max Wall Time S",
+          "type": "number"
+        },
+        "max_tokens": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Tokens"
+        }
+      },
+      "title": "Budgets",
+      "type": "object"
+    },
+    "CacheSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "key_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Fields",
+          "type": "array"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        }
+      },
+      "title": "CacheSpec",
+      "type": "object"
+    },
+    "DisclosureBudgets": {
+      "additionalProperties": false,
+      "properties": {
+        "l0_tokens": {
+          "default": 40,
+          "title": "L0 Tokens",
+          "type": "integer"
+        },
+        "l1_tokens": {
+          "default": 350,
+          "title": "L1 Tokens",
+          "type": "integer"
+        }
+      },
+      "title": "DisclosureBudgets",
+      "type": "object"
+    },
+    "DisclosureSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "audiences": {
+          "items": {
+            "enum": [
+              "figure_agent",
+              "reader_agent",
+              "lookup",
+              "chat",
+              "codegen"
+            ],
+            "type": "string"
+          },
+          "title": "Audiences",
+          "type": "array"
+        },
+        "toolkit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Toolkit"
+        },
+        "triggers": {
+          "$ref": "#/$defs/Triggers"
+        },
+        "budgets": {
+          "$ref": "#/$defs/DisclosureBudgets"
+        },
+        "invocation": {
+          "default": "internal",
+          "enum": [
+            "tool_call",
+            "action_enum",
+            "internal"
+          ],
+          "title": "Invocation",
+          "type": "string"
+        }
+      },
+      "title": "DisclosureSpec",
+      "type": "object"
+    },
+    "Produces": {
+      "additionalProperties": false,
+      "properties": {
+        "artifact_type": {
+          "title": "Artifact Type",
+          "type": "string"
+        },
+        "fact_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Fact Types",
+          "type": "array"
+        },
+        "node_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Node Types",
+          "type": "array"
+        }
+      },
+      "required": [
+        "artifact_type"
+      ],
+      "title": "Produces",
+      "type": "object"
+    },
+    "PromptImage": {
+      "additionalProperties": false,
+      "description": "prompt 型 Skill 需要的图片材料。",
+      "properties": {
+        "source": {
+          "default": "target_crop",
+          "enum": [
+            "target_crop",
+            "first_page",
+            "page"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "max_side": {
+          "default": 1024,
+          "maximum": 4096,
+          "minimum": 64,
+          "title": "Max Side",
+          "type": "integer"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        }
+      },
+      "title": "PromptImage",
+      "type": "object"
+    },
+    "PromptSpec": {
+      "additionalProperties": true,
+      "properties": {
+        "main": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Main"
+        },
+        "includes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Includes",
+          "type": "array"
+        },
+        "images": {
+          "items": {
+            "$ref": "#/$defs/PromptImage"
+          },
+          "title": "Images",
+          "type": "array"
+        },
+        "system": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "System"
+        }
+      },
+      "title": "PromptSpec",
+      "type": "object"
+    },
+    "SandboxSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "image": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Image"
+        },
+        "cpu": {
+          "default": 1,
+          "title": "Cpu",
+          "type": "number"
+        },
+        "memory_mb": {
+          "default": 1024,
+          "title": "Memory Mb",
+          "type": "integer"
+        },
+        "network": {
+          "default": "none",
+          "enum": [
+            "none",
+            "egress_proxy"
+          ],
+          "title": "Network",
+          "type": "string"
+        }
+      },
+      "title": "SandboxSpec",
+      "type": "object"
+    },
+    "Triggers": {
+      "additionalProperties": false,
+      "properties": {
+        "image_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Image Types",
+          "type": "array"
+        },
+        "check_codes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Check Codes",
+          "type": "array"
+        },
+        "intents": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Intents",
+          "type": "array"
+        }
+      },
+      "title": "Triggers",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "`manifest.yaml`。未知键报错（防止拼写错误被静默忽略）。",
+  "properties": {
+    "name": {
+      "pattern": "^[a-z][a-z0-9_]{1,63}$",
+      "title": "Name",
+      "type": "string"
+    },
+    "version": {
+      "pattern": "^\\d+\\.\\d+\\.\\d+([.-][0-9A-Za-z.]+)?$",
+      "title": "Version",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "prompt",
+        "python",
+        "graph"
+      ],
+      "title": "Kind",
+      "type": "string"
+    },
+    "trust": {
+      "default": "builtin",
+      "enum": [
+        "builtin",
+        "sandboxed"
+      ],
+      "title": "Trust",
+      "type": "string"
+    },
+    "scope": {
+      "anyOf": [
+        {
+          "enum": [
+            "builtin",
+            "system",
+            "user"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scope"
+    },
+    "mode": {
+      "default": [
+        "pipeline"
+      ],
+      "items": {
+        "enum": [
+          "pipeline",
+          "agent"
+        ],
+        "type": "string"
+      },
+      "title": "Mode",
+      "type": "array"
+    },
+    "enabled": {
+      "default": true,
+      "title": "Enabled",
+      "type": "boolean"
+    },
+    "auto_activate": {
+      "default": true,
+      "title": "Auto Activate",
+      "type": "boolean"
+    },
+    "override": {
+      "default": false,
+      "title": "Override",
+      "type": "boolean"
+    },
+    "accepts": {
+      "$ref": "#/$defs/Accepts"
+    },
+    "entry": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Entry"
+    },
+    "prepare": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Prepare"
+    },
+    "postprocess": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Postprocess"
+    },
+    "input_schema": {
+      "title": "Input Schema",
+      "type": "string"
+    },
+    "output_schema": {
+      "title": "Output Schema",
+      "type": "string"
+    },
+    "produces": {
+      "$ref": "#/$defs/Produces"
+    },
+    "tools": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tools",
+      "type": "array"
+    },
+    "model_tasks": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Model Tasks",
+      "type": "object"
+    },
+    "prompts": {
+      "$ref": "#/$defs/PromptSpec"
+    },
+    "budgets": {
+      "$ref": "#/$defs/Budgets"
+    },
+    "sandbox": {
+      "$ref": "#/$defs/SandboxSpec"
+    },
+    "cache": {
+      "$ref": "#/$defs/CacheSpec"
+    },
+    "fallbacks": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Fallbacks",
+      "type": "array"
+    },
+    "validators": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Validators",
+      "type": "array"
+    },
+    "disclosure": {
+      "$ref": "#/$defs/DisclosureSpec"
+    },
+    "vision_structuring": {
+      "default": false,
+      "title": "Vision Structuring",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "name",
+    "version",
+    "kind",
+    "input_schema",
+    "output_schema",
+    "produces"
+  ],
+  "title": "SkillManifest",
+  "type": "object"
+}

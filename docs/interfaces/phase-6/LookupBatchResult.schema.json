@@ -1,0 +1,276 @@
+{
+  "$defs": {
+    "BBox": {
+      "properties": {
+        "x0": {
+          "title": "X0",
+          "type": "number"
+        },
+        "y0": {
+          "title": "Y0",
+          "type": "number"
+        },
+        "x1": {
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "title": "Y1",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x0",
+        "y0",
+        "x1",
+        "y1"
+      ],
+      "title": "BBox",
+      "type": "object"
+    },
+    "EvidenceRef": {
+      "properties": {
+        "node_id": {
+          "title": "Node Id",
+          "type": "string"
+        },
+        "field_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Field Path"
+        },
+        "char_span": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Char Span"
+        },
+        "regions": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/Region"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regions"
+        },
+        "artifact_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Artifact Id"
+        },
+        "role": {
+          "default": "primary",
+          "enum": [
+            "primary",
+            "context",
+            "definition",
+            "condition",
+            "contradiction"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "node_id"
+      ],
+      "title": "EvidenceRef",
+      "type": "object"
+    },
+    "LookupResult": {
+      "additionalProperties": false,
+      "properties": {
+        "question": {
+          "title": "Question",
+          "type": "string"
+        },
+        "answer": {
+          "default": "",
+          "maxLength": 150,
+          "title": "Answer",
+          "type": "string"
+        },
+        "status": {
+          "default": "not_found",
+          "enum": [
+            "found",
+            "not_found",
+            "ambiguous",
+            "need_vision"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRef"
+          },
+          "title": "Evidence",
+          "type": "array"
+        },
+        "suggested_pages": {
+          "items": {
+            "type": "integer"
+          },
+          "title": "Suggested Pages",
+          "type": "array"
+        },
+        "lookup_run_id": {
+          "default": "",
+          "title": "Lookup Run Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "question"
+      ],
+      "title": "LookupResult",
+      "type": "object"
+    },
+    "Region": {
+      "properties": {
+        "page": {
+          "title": "Page",
+          "type": "integer"
+        },
+        "bbox": {
+          "$ref": "#/$defs/BBox"
+        },
+        "source_bbox_pt": {
+          "anyOf": [
+            {
+              "maxItems": 4,
+              "minItems": 4,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Bbox Pt"
+        },
+        "role": {
+          "default": "primary",
+          "enum": [
+            "primary",
+            "continuation",
+            "segment"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "derived": {
+          "default": false,
+          "title": "Derived",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "page",
+        "bbox"
+      ],
+      "title": "Region",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "results": {
+      "items": {
+        "$ref": "#/$defs/LookupResult"
+      },
+      "title": "Results",
+      "type": "array"
+    },
+    "model_calls": {
+      "default": 0,
+      "title": "Model Calls",
+      "type": "integer"
+    },
+    "tool_calls": {
+      "default": 0,
+      "title": "Tool Calls",
+      "type": "integer"
+    },
+    "cache_hits": {
+      "default": 0,
+      "title": "Cache Hits",
+      "type": "integer"
+    },
+    "batch_run_id": {
+      "title": "Batch Run Id",
+      "type": "string"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "model_records": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Model Records",
+      "type": "array"
+    }
+  },
+  "required": [
+    "batch_run_id"
+  ],
+  "title": "LookupBatchResult",
+  "type": "object"
+}

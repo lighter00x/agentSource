@@ -1,0 +1,173 @@
+{
+  "$defs": {
+    "ClaimDraft": {
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "default": "",
+          "title": "Text",
+          "type": "string"
+        },
+        "evidence_node_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Node Ids",
+          "type": "array"
+        }
+      },
+      "title": "ClaimDraft",
+      "type": "object"
+    },
+    "ProposedStep": {
+      "additionalProperties": false,
+      "properties": {
+        "from_id": {
+          "title": "From Id",
+          "type": "string"
+        },
+        "to_id": {
+          "title": "To Id",
+          "type": "string"
+        },
+        "declared_change_types": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Declared Change Types",
+          "type": "array"
+        },
+        "change_text": {
+          "title": "Change Text",
+          "type": "string"
+        },
+        "rationale": {
+          "default": "",
+          "title": "Rationale",
+          "type": "string"
+        },
+        "flag_label": {
+          "default": "",
+          "title": "Flag Label",
+          "type": "string"
+        },
+        "evidence_node_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Node Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "from_id",
+        "to_id",
+        "change_text"
+      ],
+      "title": "ProposedStep",
+      "type": "object"
+    },
+    "StrategyDraft": {
+      "additionalProperties": false,
+      "properties": {
+        "strategy_type": {
+          "title": "Strategy Type",
+          "type": "string"
+        },
+        "operation": {
+          "title": "Operation",
+          "type": "string"
+        },
+        "target_improvement": {
+          "title": "Target Improvement",
+          "type": "string"
+        },
+        "evidence_node_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Node Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "strategy_type",
+        "operation",
+        "target_improvement"
+      ],
+      "title": "StrategyDraft",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "lead_compound_id": {
+      "title": "Lead Compound Id",
+      "type": "string"
+    },
+    "final_compound_id": {
+      "title": "Final Compound Id",
+      "type": "string"
+    },
+    "main_route": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Main Route",
+      "type": "array"
+    },
+    "steps": {
+      "items": {
+        "$ref": "#/$defs/ProposedStep"
+      },
+      "title": "Steps",
+      "type": "array"
+    },
+    "lead_problems": {
+      "items": {
+        "$ref": "#/$defs/ClaimDraft"
+      },
+      "title": "Lead Problems",
+      "type": "array"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "strategies": {
+      "items": {
+        "$ref": "#/$defs/StrategyDraft"
+      },
+      "title": "Strategies",
+      "type": "array"
+    },
+    "sar_rules": {
+      "items": {
+        "$ref": "#/$defs/ClaimDraft"
+      },
+      "title": "Sar Rules",
+      "type": "array"
+    },
+    "summary": {
+      "$ref": "#/$defs/ClaimDraft"
+    },
+    "excluded_analogs": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Excluded Analogs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "lead_compound_id",
+    "final_compound_id",
+    "main_route"
+  ],
+  "title": "PathProposal",
+  "type": "object"
+}

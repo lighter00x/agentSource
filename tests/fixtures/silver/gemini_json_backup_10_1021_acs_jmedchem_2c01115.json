@@ -1,0 +1,63 @@
+{
+  "基本信息": {
+    "论文题目": "Design, Synthesis, and Biological Activity of Marinacarboline Analogues as STAT3 Pathway Inhibitors for Docetaxel-Resistant Triple-Negative Breast Cancer",
+    "论文作者": "Woong Sub Byun, Hyewon Lim, Junhwa Hong, Eun Seo Bae, Seok Beom Lee, Younggwan Kim, Jeeyeon Lee, Sang Kook Lee, and Suckchang Hong",
+    "论文研究内容以及主要贡献": "本研究以天然产物 marinacarboline (MC) 为先导骨架，设计并合成了一系列新型 β-咔啉衍生物，旨在开发针对多西他赛耐药的三阴性乳腺癌 (TNBC) 的 STAT3 通路抑制剂。通过构效关系 (SAR) 研究，鉴定出候选化合物 MC0704。该化合物在体外和体内模型中均表现出显著的抗肿瘤活性，能有效抑制 STAT3 磷酸化及其介导的上皮-间质转化 (EMT) 过程，并能与多西他赛产生协同作用，克服 TNBC 的获得性耐药。"
+  },
+  "起始分子信息": {
+    "SMILES": "O=C(NCCc1c[nH]c2ccccc12)c1cc2c([nH]c3ccccc32)c(C(=O)C)n1",
+    "存在问题": "天然产物 marinacarboline D (MC0104) 虽然具有一定的抗肿瘤活性，但其对三阴性乳腺癌细胞的抑制效力仍有提升空间，且天然来源产量极低，限制了进一步的生物学评价和临床应用。"
+  },
+  "steps": {
+    "1": {
+      "start": "O=C(NCCc1c[nH]c2ccccc12)c1cc2c([nH]c3ccccc32)c(C(=O)C)n1",
+      "change": "保持 C-3 位的 N-乙基-3-吲哚酰胺结构不变，对 C-1 位的乙酰基进行修饰，引入对溴苯甲酰基 (p-bromo-benzyl ketone)。",
+      "end": "O=C(NCCc1c[nH]c2ccccc12)c1cc2c([nH]c3ccccc32)c(C(=O)c2ccc(Br)cc2)n1",
+      "flag": "Scheme 2, Table 2"
+    }
+  },
+  "研究目标标签": "STAT3通路抑制剂优化、克服多西他赛耐药性、三阴性乳腺癌治疗、抗肿瘤活性提升",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "3.11 ± 0.33 μM (MDA-MB-231)",
+      "EC50": "null"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "null"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  },
+  "关键数据摘要": "通过对先导化合物 Marinacarboline D (MC0104) 的 C-1 位进行优化，得到的化合物 MC0704 对 MDA-MB-231 细胞的 IC50 从 7.71 μM 降低至 3.11 μM。在多西他赛耐药株 MDA-MB-231-DTR 中，MC0704 表现出极强的活性 (IC50 = 2.87 μM)，且其 STAT3 抑制活性 IC50 达到 2.13 μM。体内实验显示，MC0704 (10 mg/kg) 能显著抑制耐药肿瘤生长，且与多西他赛联用具有协同效应。"
+}

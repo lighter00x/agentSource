@@ -1,0 +1,12 @@
+schema_version: 1
+configuration_source: .env / drugpaper.config.settings.Settings
+moldet:
+  base_url: ${YOLO_BASE_URL}
+  device: ${YOLO_DEVICE}
+  service_token_ref: YOLO_SERVICE_TOKEN
+  worker_processes: 1
+molparser:
+  base_url: ${MOLPARSER_BASE_URL}
+  model_version: ${MOLPARSER_MODEL_VERSION}
+  max_batch_size: 32
+  alignment: input_index with single-input rescue

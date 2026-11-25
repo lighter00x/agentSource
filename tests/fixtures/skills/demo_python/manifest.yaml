@@ -1,0 +1,19 @@
+name: demo_python
+version: 0.1.0
+kind: python
+entry: scripts/main.py:run
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: word_count
+  fact_types: [measurement]
+tools: [get_node]
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 5
+disclosure:
+  audiences: [chat, lookup]
+  toolkit: demo
+  triggers:
+    intents: [字数, 统计]
+  invocation: tool_call

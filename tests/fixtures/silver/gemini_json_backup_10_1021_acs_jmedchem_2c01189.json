@@ -1,0 +1,87 @@
+{
+  "基本信息": {
+    "论文题目": "Small-Molecule Cyanamide Pan-TEAD·YAP1 Covalent Antagonists",
+    "论文作者": "Khuchtumur Bum-Erdene, I-Ju Yeh, Giovanni Gonzalez-Gutierrez, Mona K. Ghozayel, Karen Pollok, and Samy O. Meroueh*",
+    "论文研究内容以及主要贡献": "本研究开发了一系列具有氰胺（cyanamide）亲电基团的异吲哚啉（isoindoline）和八氢异吲哚（octahydroisoindole）类小分子，作为TEAD·YAP1蛋白相互作用的共价拮抗剂。这些分子能与TEAD棕榈酸酯结合口袋中保守的半胱氨酸形成共价键。研究通过生化实验、X射线晶体学和细胞实验证明，这些化合物能有效抑制TEAD的转录活性，并降低多种癌细胞的活力，为开发新型抗肿瘤药物提供了先导化合物。"
+  },
+  "起始分子信息": {
+    "SMILES": "ClCC(=O)c1cccc(Nc2cccc(C(F)(F)F)c2)c1",
+    "存在问题": "起始分子TED-347使用的是氯甲基酮（chloromethyl ketone）反应基团，虽然在生化实验中表现良好，但由于其化学活性过高，不适合进行体内（in vivo）研究和临床转化。"
+  },
+  "steps": {
+    "1": {
+      "start": "ClCC(=O)c1cccc(Nc2cccc(C(F)(F)F)c2)c1",
+      "change": "将高活性的氯甲基酮基团替换为更稳定的氰胺（cyanamide）共价弹头，并将核心骨架调整为异吲哚啉结构。",
+      "end": "FC(F)(F)c1cccc(Nc2cccc3c2CN(C#N)C3)c1",
+      "flag": "Figure 1A, Scheme 1"
+    },
+    "2": {
+      "start": "FC(F)(F)c1cccc(Nc2cccc3c2CN(C#N)C3)c1",
+      "change": "在异吲哚啉环上引入甲氧基取代基以探索构效关系。",
+      "end": "COc1ccc2c(c1Nc1cccc(C(F)(F)F)c1)CN(C#N)C2",
+      "flag": "Scheme 2, Table 1"
+    },
+    "3": {
+      "start": "FC(F)(F)c1cccc(Nc2cccc3c2CN(C#N)C3)c1",
+      "change": "在异吲哚啉环上引入氟原子取代基。",
+      "end": "FC(F)(F)c1cccc(Nc2c(F)ccc3c2CN(C#N)C3)c1",
+      "flag": "Scheme 5, Table 1"
+    },
+    "4": {
+      "start": "FC(F)(F)c1cccc(Nc2cccc3c2CN(C#N)C3)c1",
+      "change": "改变三氟甲基在苯环上的位置（从间位移至对位或邻位）。",
+      "end": "FC(F)(F)c1ccc(Nc2cccc3c2CN(C#N)C3)cc1",
+      "flag": "Scheme 3, Table 1"
+    },
+    "5": {
+      "start": "FC(F)(F)c1cccc(Nc2cccc3c2CN(C#N)C3)c1",
+      "change": "将异吲哚啉核心骨架替换为饱和的八氢异吲哚骨架，以改变弹头与半胱氨酸的相对位置。",
+      "end": "FC(F)(F)c1cccc(NC2CCCC3CN(C#N)CC32)c1",
+      "flag": "Scheme 6, Table 1"
+    }
+  },
+  "研究目标标签": "共价抑制剂优化、TEAD-YAP1相互作用阻断、转录活性抑制、抗肿瘤活性提升",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "TED-646 (compound 2) 对 TEAD4 的 IC50 = 0.2 ± 0.1 μM",
+      "EC50": "TED-646 在 MDA-MB-468 细胞中抑制 CTGF mRNA 的 IC50 = 0.3 ± 21.1 μM"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "TED-642 对 TEAD4 的反应半衰期 t1/2 = 3.9 ± 1.3 min"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "null",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "null"
+    }
+  },
+  "关键数据摘要": "通过将共价弹头优化为氰胺基团并调整骨架，得到的化合物TED-646对TEAD4的生化抑制活性IC50达到0.2 μM，相比TED-642（1.1 μM）有显著提升。在细胞层面，TED-646能以0.3 μM的IC50抑制CTGF靶基因表达，且在多种癌细胞系（如Huh7、SaOS-2）中表现出个位数微摩尔级别的细胞活力抑制能力。"
+}

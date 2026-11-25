@@ -1,0 +1,1 @@
+{"inputs": {}, "target": {"ref": "doc_case/r1/p000.g000", "type": "figure"}, "response_file": "1.response.json", "expect": {"payload": {"description": "\u53cd\u5e94\u8def\u7ebf", "evidence": ["\u56fe\u50cf"], "confidence": 0.8}}}

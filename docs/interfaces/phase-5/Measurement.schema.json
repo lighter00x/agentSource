@@ -1,0 +1,240 @@
+{
+  "properties": {
+    "measurement_id": {
+      "title": "Measurement Id",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "compound_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Compound Id"
+    },
+    "subject_label": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Subject Label"
+    },
+    "scaffold_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scaffold Id"
+    },
+    "assay_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Assay Id"
+    },
+    "metric": {
+      "title": "Metric",
+      "type": "string"
+    },
+    "metric_label_raw": {
+      "title": "Metric Label Raw",
+      "type": "string"
+    },
+    "value_raw": {
+      "title": "Value Raw",
+      "type": "string"
+    },
+    "qualifier": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Qualifier"
+    },
+    "value": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Value"
+    },
+    "value_upper": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Value Upper"
+    },
+    "error": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error"
+    },
+    "error_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error Type"
+    },
+    "unit_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit Raw"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Unit"
+    },
+    "value_si": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Value Si"
+    },
+    "status": {
+      "default": "explicit",
+      "enum": [
+        "explicit",
+        "estimated",
+        "not_determined",
+        "inactive",
+        "derived",
+        "needs_review"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "source_kind": {
+      "default": "table",
+      "enum": [
+        "table",
+        "text",
+        "chart",
+        "figure"
+      ],
+      "title": "Source Kind",
+      "type": "string"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "minItems": 1,
+      "title": "Evidence",
+      "type": "array"
+    },
+    "produced_by_artifact_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Produced By Artifact Id"
+    },
+    "locked": {
+      "default": false,
+      "title": "Locked",
+      "type": "boolean"
+    },
+    "normalization_warning": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Normalization Warning"
+    }
+  },
+  "required": [
+    "measurement_id",
+    "document_id",
+    "metric",
+    "metric_label_raw",
+    "value_raw",
+    "evidence"
+  ],
+  "title": "Measurement",
+  "type": "object"
+}

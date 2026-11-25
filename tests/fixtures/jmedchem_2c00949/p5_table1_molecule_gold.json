@@ -1,0 +1,115 @@
+{
+  "scope": "Manual transcription of Table1 biaryl bond as position1/1-prime, CHO and XCHYZ substitutions; atom connectivity and formula only. Independently written SMILES, not generated from assembler output.",
+  "molecules": [
+    {
+      "label": "1",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "4′",
+        "X": "O",
+        "Y, Z": "H, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccc(OCF)cc2)cc1",
+      "formula": "C14H11FO2"
+    },
+    {
+      "label": "2",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "3′",
+        "X": "O",
+        "Y, Z": "H, F"
+      },
+      "smiles": "O=Cc1ccc(-c2cccc(OCF)c2)cc1",
+      "formula": "C14H11FO2"
+    },
+    {
+      "label": "3",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "2′",
+        "X": "O",
+        "Y, Z": "H, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccccc2OCF)cc1",
+      "formula": "C14H11FO2"
+    },
+    {
+      "label": "4",
+      "values": {
+        "CHO position": "3",
+        "XCHYZ position": "2′",
+        "X": "O",
+        "Y, Z": "H, F"
+      },
+      "smiles": "O=Cc1cccc(-c2ccccc2OCF)c1",
+      "formula": "C14H11FO2"
+    },
+    {
+      "label": "5",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "4′",
+        "X": "O",
+        "Y, Z": "F, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccc(OC(F)F)cc2)cc1",
+      "formula": "C14H10F2O2"
+    },
+    {
+      "label": "6",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "3′",
+        "X": "O",
+        "Y, Z": "F, F"
+      },
+      "smiles": "O=Cc1ccc(-c2cccc(OC(F)F)c2)cc1",
+      "formula": "C14H10F2O2"
+    },
+    {
+      "label": "7",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "2′",
+        "X": "O",
+        "Y, Z": "F, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccccc2OC(F)F)cc1",
+      "formula": "C14H10F2O2"
+    },
+    {
+      "label": "8",
+      "values": {
+        "CHO position": "3",
+        "XCHYZ position": "2′",
+        "X": "O",
+        "Y, Z": "F, F"
+      },
+      "smiles": "O=Cc1cccc(-c2ccccc2OC(F)F)c1",
+      "formula": "C14H10F2O2"
+    },
+    {
+      "label": "9",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "2′",
+        "X": "S",
+        "Y, Z": "H, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccccc2SCF)cc1",
+      "formula": "C14H11FOS"
+    },
+    {
+      "label": "10",
+      "values": {
+        "CHO position": "4",
+        "XCHYZ position": "2′",
+        "X": "S",
+        "Y, Z": "F, F"
+      },
+      "smiles": "O=Cc1ccc(-c2ccccc2SC(F)F)cc1",
+      "formula": "C14H10F2OS"
+    }
+  ]
+}

@@ -1,0 +1,4869 @@
+{
+ "document_id": "doc_01SAMPLE0000000000000000JM",
+ "ir_version": "p2.1",
+ "meta": {
+  "title": "2-(Fluoromethoxy)-•′-(S-methanesulfonimidoyl)-1,1′-biphenyl(UCM-1306), an Orally Bioavailable Positive Allosteric Modulator ofthe Human Dopamine D1 Receptor for Parkinson’s Disease",
+  "authors": [
+   "Javier García-Cárceles",
+   "Henar Vázquez-Villa",
+   "José Brea",
+   "David Ladron de Guevara-Miranda",
+   "Giovanni Cincilla",
+   "Melchor Sánchez-Martínez",
+   "Anabel Sánchez-Merino",
+   "Sergio Algar",
+   "María Teresa de los Frailes",
+   "Richard S. Roberts",
+   "Juan A. Ballesteros",
+   "Fernando Rodríguez de Fonseca",
+   "Bellinda Benhamú",
+   "María I. Loza",
+   "María L. López-Rodríguez"
+  ],
+  "doi": "10.1021/acs.jmedchem.2c00949",
+  "doi_source": "text",
+  "journal": "J. Med. Chem.",
+  "year": 2022,
+  "volume": "65",
+  "pages": "12256-12272"
+ },
+ "quality": {
+  "absorbed_by_merge": 1,
+  "caption_mismatch": 4,
+  "caption_absorbed_text": 1,
+  "derived_continuation": 2
+ },
+ "node_count": 261,
+ "type_counts": {
+  "caption": 16,
+  "discarded": 93,
+  "document": 1,
+  "figure": 9,
+  "figure_part": 9,
+  "footnote": 7,
+  "front_matter": 1,
+  "heading": 33,
+  "list": 3,
+  "paragraph": 72,
+  "scheme": 5,
+  "section": 9,
+  "table": 3
+ },
+ "nodes": [
+  {
+   "id": "doc",
+   "type": "document",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 0,
+   "role": null,
+   "regions": [],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "front",
+   "type": "front_matter",
+   "subtype": null,
+   "label": null,
+   "parent": "doc",
+   "order": 1,
+   "role": "front_matter",
+   "regions": [],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p000.b000",
+   "type": "heading",
+   "subtype": "title",
+   "label": null,
+   "parent": "front",
+   "order": 2,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2-(Fluoromethoxy)-•′-(S-methanesulfonimidoyl)-1,1′-biphenyl("
+  },
+  {
+   "id": "p000.b001",
+   "type": "paragraph",
+   "subtype": "authors",
+   "label": null,
+   "parent": "front",
+   "order": 3,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Javier García-Cárceles, Henar Vázquez-Villa, José Brea, Davi"
+  },
+  {
+   "id": "p000.b002",
+   "type": "paragraph",
+   "subtype": "citation",
+   "label": null,
+   "parent": "front",
+   "order": 4,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Cite This: J. Med. Chem. 2022, 65, 12256-12272"
+  },
+  {
+   "id": "p000.b003",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "front",
+   "order": 5,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "ACCESS"
+  },
+  {
+   "id": "p000.b004",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "front",
+   "order": 6,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Metrics & More"
+  },
+  {
+   "id": "p000.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "front",
+   "order": 7,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article Recommendations"
+  },
+  {
+   "id": "p000.b006",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "front",
+   "order": 8,
+   "role": "front_matter",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Supporting Information"
+  },
+  {
+   "id": "s000",
+   "type": "section",
+   "subtype": null,
+   "label": "ABSTRACT",
+   "parent": "doc",
+   "order": 9,
+   "role": "abstract",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p000.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s000",
+   "order": 10,
+   "role": "abstract",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ],
+    [
+     0,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [
+    "absorbed_by_merge"
+   ],
+   "text": "ABSTRACT: Tolerance development caused by dopamine replaceme"
+  },
+  {
+   "id": "p000.g007",
+   "type": "figure",
+   "subtype": "toc_graphic",
+   "label": null,
+   "parent": "s000",
+   "order": 11,
+   "role": "abstract",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p000.g007.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p000.g007",
+   "order": 12,
+   "role": "abstract",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "s001",
+   "type": "section",
+   "subtype": null,
+   "label": "INTRODUCTION",
+   "parent": "doc",
+   "order": 13,
+   "role": "introduction",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p000.b010",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s001",
+   "order": 14,
+   "role": "introduction",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "INTRODUCTION"
+  },
+  {
+   "id": "p000.b011",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s001",
+   "order": 15,
+   "role": "introduction",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ],
+    [
+     0,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Parkinson’s disease (PD) is a chronic, progressive, neuro-de"
+  },
+  {
+   "id": "p000.b013",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s001",
+   "order": 16,
+   "role": "introduction",
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ],
+    [
+     1,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "However, D1R orthosteric agonists suffer from numerous thera"
+  },
+  {
+   "id": "p001.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s001",
+   "order": 17,
+   "role": "introduction",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In recent years, the allosteric modulation approach has emer"
+  },
+  {
+   "id": "p001.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s001",
+   "order": 18,
+   "role": "introduction",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ],
+    [
+     1,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In the present work, we contribute to the highly desired sea"
+  },
+  {
+   "id": "p001.b003",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 1",
+   "parent": "s001",
+   "order": 19,
+   "role": "introduction",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p001.b003.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 1",
+   "parent": "p001.b003",
+   "order": 20,
+   "role": "introduction",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 1. Structures of positive allosteric modulators of th"
+  },
+  {
+   "id": "s002",
+   "type": "section",
+   "subtype": null,
+   "label": "RESULTS AND DISCUSSION",
+   "parent": "doc",
+   "order": 21,
+   "role": "results",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p001.b005",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 22,
+   "role": "results",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "RESULTS AND DISCUSSION"
+  },
+  {
+   "id": "p001.b006.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s002",
+   "order": 23,
+   "role": "results",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Identification of Compound 3."
+  },
+  {
+   "id": "p001.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 24,
+   "role": "results",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Identification of Compound 3. An in-house chemical library o"
+  },
+  {
+   "id": "p001.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 25,
+   "role": "results",
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Starting from this hit, related compounds 1-10 (Figure 2)wer"
+  },
+  {
+   "id": "p002.b000",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 2",
+   "parent": "s002",
+   "order": 26,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p002.b000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 2",
+   "parent": "p002.b000",
+   "order": 27,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 2. Search of new synthetic modulators of the D1R star"
+  },
+  {
+   "id": "p002.g001",
+   "type": "scheme",
+   "subtype": null,
+   "label": "Scheme 1",
+   "parent": "s002",
+   "order": 28,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [
+    "caption_mismatch"
+   ],
+   "text": ""
+  },
+  {
+   "id": "p002.g001.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Scheme 1",
+   "parent": "p002.g001",
+   "order": 29,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ],
+    [
+     2,
+     "continuation",
+     false
+    ],
+    [
+     2,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [
+    "caption_absorbed_text"
+   ],
+   "text": "Scheme 1. Synthesis of Compounds 1-10adehyde and 2′-alkoxy[1"
+  },
+  {
+   "id": "p002.g001.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p002.g001",
+   "order": 30,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p002.g001.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p002.g001",
+   "order": 31,
+   "role": "results",
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Reagents and conditions: (a)Pd ( PPh3 )4 ,Na2 CO3 , toluen"
+  },
+  {
+   "id": "p003.g000",
+   "type": "table",
+   "subtype": null,
+   "label": "Table 1",
+   "parent": "s002",
+   "order": 32,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [
+    "caption_mismatch"
+   ],
+   "text": ""
+  },
+  {
+   "id": "p003.g000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Table 1",
+   "parent": "p003.g000",
+   "order": 33,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Table 1. Effect of Compounds 1-10 in DA-induced cAMP Product"
+  },
+  {
+   "id": "p003.g000.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p003.g000",
+   "order": 34,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p003.g000.p1",
+   "type": "figure_part",
+   "subtype": "table",
+   "label": null,
+   "parent": "p003.g000",
+   "order": 35,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p003.g000.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p003.g000",
+   "order": 36,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Effect over the DA concentration-response curve at a fixed"
+  },
+  {
+   "id": "p003.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 37,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Potential PAM activities of synthesized compounds 1-10 were "
+  },
+  {
+   "id": "p003.b004",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 38,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Clearly, among the newly identified modulators of the D1R ,c"
+  },
+  {
+   "id": "p003.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 39,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure S1C). No cAMP response to compound 3 was observed in "
+  },
+  {
+   "id": "p003.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 40,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Based on the pharmacological characterization of compound 3 "
+  },
+  {
+   "id": "p003.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 41,
+   "role": "results",
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ],
+    [
+     4,
+     "continuation",
+     false
+    ],
+    [
+     4,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "D1R PAM Optimization: from Compound 3 to Compound 26. A medi"
+  },
+  {
+   "id": "p004.b000",
+   "type": "scheme",
+   "subtype": null,
+   "label": "Scheme 2",
+   "parent": "s002",
+   "order": 42,
+   "role": "results",
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p004.b000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Scheme 2",
+   "parent": "p004.b000",
+   "order": 43,
+   "role": "results",
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Scheme 2. Synthesis of Compounds1 6-24^a"
+  },
+  {
+   "id": "p004.b000.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p004.b000",
+   "order": 44,
+   "role": "results",
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Reagents and conditions: (a)Pd ( PPh3 )4 ,Na2 CO3 , toluen"
+  },
+  {
+   "id": "p004.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 45,
+   "role": "results",
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "The assessment of the new synthesized compounds 16-27as D1R "
+  },
+  {
+   "id": "p005.g000",
+   "type": "scheme",
+   "subtype": null,
+   "label": "Scheme 3",
+   "parent": "s002",
+   "order": 46,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p005.g000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Scheme 3",
+   "parent": "p005.g000",
+   "order": 47,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Scheme 3. Synthesis of Compounds2 5-27^a"
+  },
+  {
+   "id": "p005.g000.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p005.g000",
+   "order": 48,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p005.g000.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p005.g000",
+   "order": 49,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Reagents and conditions: (a)NaN3 ,H2 S O4 (concd),CHCl3 ,4"
+  },
+  {
+   "id": "p005.g001",
+   "type": "table",
+   "subtype": null,
+   "label": "Table 2",
+   "parent": "s002",
+   "order": 50,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [
+    "caption_mismatch"
+   ],
+   "text": ""
+  },
+  {
+   "id": "p005.g001.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Table 2",
+   "parent": "p005.g001",
+   "order": 51,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Table 2. Effect of Compounds 16-27 and45-47 in DA-induced cA"
+  },
+  {
+   "id": "p005.g001.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p005.g001",
+   "order": 52,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p005.g001.p1",
+   "type": "figure_part",
+   "subtype": "table",
+   "label": null,
+   "parent": "p005.g001",
+   "order": 53,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p005.g001.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p005.g001",
+   "order": 54,
+   "role": "results",
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Effect over the DA concentration-response curve at a fixed"
+  },
+  {
+   "id": "p006.b000",
+   "type": "scheme",
+   "subtype": null,
+   "label": "Scheme 4",
+   "parent": "s002",
+   "order": 55,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p006.b000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Scheme 4",
+   "parent": "p006.b000",
+   "order": 56,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Scheme 4. Synthesis of Compounds4 5-47^a"
+  },
+  {
+   "id": "p006.b000.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p006.b000",
+   "order": 57,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Reagents and conditions: (a) ClCH2 F (2.0 M in DMF),Cs2 CO"
+  },
+  {
+   "id": "p006.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 58,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "sulfoximine derivatives 45-47, which were prepared using anN"
+  },
+  {
+   "id": "p006.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 59,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Structural modifications introduced in the new synthesizedsu"
+  },
+  {
+   "id": "p006.b003.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s002",
+   "order": 60,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In Vitro Pharmacological and PharmacokineticCharacterization"
+  },
+  {
+   "id": "p006.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 61,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ],
+    [
+     6,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In Vitro Pharmacological and PharmacokineticCharacterization"
+  },
+  {
+   "id": "p006.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 62,
+   "role": "results",
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ],
+    [
+     7,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In view of the allosteric efficacy of compound 26, in vitroA"
+  },
+  {
+   "id": "p007.b000",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 3",
+   "parent": "s002",
+   "order": 63,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p007.b000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 3",
+   "parent": "p007.b000",
+   "order": 64,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 3. (A) Concentration-response curves in human D1R for"
+  },
+  {
+   "id": "p007.g001",
+   "type": "table",
+   "subtype": null,
+   "label": "Table 3",
+   "parent": "s002",
+   "order": 65,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p007.g001.p0",
+   "type": "figure_part",
+   "subtype": "table",
+   "label": null,
+   "parent": "p007.g001",
+   "order": 66,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p007.g001.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Table 3",
+   "parent": "p007.g001",
+   "order": 67,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Table 3. ADMET Profile for Compound 26"
+  },
+  {
+   "id": "p007.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 68,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ],
+    [
+     7,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "and 6 5 % of remaining compound was detected after 2 4 h .He"
+  },
+  {
+   "id": "p007.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 69,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Altogether, new compound 26 behaves as a potent andefficient"
+  },
+  {
+   "id": "p007.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 70,
+   "role": "results",
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Both enantiomers (R)- and (S)-26 exhibited similarpharmacolo"
+  },
+  {
+   "id": "p008.g000",
+   "type": "scheme",
+   "subtype": null,
+   "label": "Scheme 5",
+   "parent": "s002",
+   "order": 71,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [
+    "caption_mismatch"
+   ],
+   "text": ""
+  },
+  {
+   "id": "p008.g000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Scheme 5",
+   "parent": "p008.g000",
+   "order": 72,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Scheme 5. Synthesis of Enantiomers of Compound 26a"
+  },
+  {
+   "id": "p008.g000.p0",
+   "type": "figure_part",
+   "subtype": "image",
+   "label": null,
+   "parent": "p008.g000",
+   "order": 73,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p008.g000.f0",
+   "type": "footnote",
+   "subtype": null,
+   "label": null,
+   "parent": "p008.g000",
+   "order": 74,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "a Reagents and conditions: (a) ClCH2 F (2.0 M in DMF), Cs2 C"
+  },
+  {
+   "id": "p008.b002",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 4",
+   "parent": "s002",
+   "order": 75,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p008.b002.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 4",
+   "parent": "p008.b002",
+   "order": 76,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 4. Homology model (top panel, yellow cartoon represen"
+  },
+  {
+   "id": "p008.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 77,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "to that of racemic compound 26, and the latter was selected "
+  },
+  {
+   "id": "p008.b004.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s002",
+   "order": 78,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Binding Site for the New D1R PAM 26."
+  },
+  {
+   "id": "p008.b004",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 79,
+   "role": "results",
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ],
+    [
+     8,
+     "continuation",
+     false
+    ],
+    [
+     9,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Binding Site for the New D1R PAM 26. In silico dockingcalcul"
+  },
+  {
+   "id": "p009.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 80,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Very recently, Teng et al. have published an electronmicrosc"
+  },
+  {
+   "id": "p009.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 81,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Overall, docking studies in Figure 4 using the homologymodel"
+  },
+  {
+   "id": "p009.b003.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s002",
+   "order": 82,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In Vivo Efficacy of the New D1R PAM 26 in LocomotorActivity "
+  },
+  {
+   "id": "p009.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 83,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In Vivo Efficacy of the New D1R PAM 26 in LocomotorActivity "
+  },
+  {
+   "id": "p009.b004",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 5",
+   "parent": "s002",
+   "order": 84,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p009.b004.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 5",
+   "parent": "p009.b004",
+   "order": 85,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 5. Compound levels in the plasma, brain, and CSF of m"
+  },
+  {
+   "id": "p009.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 86,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ],
+    [
+     9,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In view of the good brain penetration and oral availability,"
+  },
+  {
+   "id": "p009.b006",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 6",
+   "parent": "s002",
+   "order": 87,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p009.b006.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 6",
+   "parent": "p009.b006",
+   "order": 88,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 6. Effect of compound 26 in a cocaine-induced hyperac"
+  },
+  {
+   "id": "p009.b008",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 89,
+   "role": "results",
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Regarding the PD model, reserpine is an alkaloid known to in"
+  },
+  {
+   "id": "p010.b000",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 7",
+   "parent": "s002",
+   "order": 90,
+   "role": "results",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p010.b000.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 7",
+   "parent": "p010.b000",
+   "order": 91,
+   "role": "results",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 7. In vivo effect of compound 26 in loco motor activi"
+  },
+  {
+   "id": "p010.b001.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s002",
+   "order": 92,
+   "role": "results",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Effects of Compound 26 on Memory."
+  },
+  {
+   "id": "p010.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s002",
+   "order": 93,
+   "role": "results",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Effects of Compound 26 on Memory. Because PD has been linked"
+  },
+  {
+   "id": "s003",
+   "type": "section",
+   "subtype": null,
+   "label": "CONCLUSIONS",
+   "parent": "doc",
+   "order": 94,
+   "role": "conclusion",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p010.b002",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s003",
+   "order": 95,
+   "role": "conclusion",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "CONCLUSIONS"
+  },
+  {
+   "id": "p010.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s003",
+   "order": 96,
+   "role": "conclusion",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "In this work, we have developed compound 26 [2-(fluoromethox"
+  },
+  {
+   "id": "p010.b004",
+   "type": "figure",
+   "subtype": null,
+   "label": "Figure 8",
+   "parent": "s003",
+   "order": 97,
+   "role": "conclusion",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p010.b004.c0",
+   "type": "caption",
+   "subtype": null,
+   "label": "Figure 8",
+   "parent": "p010.b004",
+   "order": 98,
+   "role": "conclusion",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Figure 8. Effect of compound 26 ( 1 mg/kg , ip ) in the nove"
+  },
+  {
+   "id": "s004",
+   "type": "section",
+   "subtype": null,
+   "label": "EXPERIMENTAL SECTION",
+   "parent": "doc",
+   "order": 99,
+   "role": "experimental",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p010.b005",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 100,
+   "role": "experimental",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "EXPERIMENTAL SECTION"
+  },
+  {
+   "id": "p010.b006.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 101,
+   "role": "experimental",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Synthesis."
+  },
+  {
+   "id": "p010.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 102,
+   "role": "experimental",
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ],
+    [
+     11,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Synthesis. Unless stated otherwise, starting materials, reag"
+  },
+  {
+   "id": "p011.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 103,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "For all final compounds, purity was determined by high-perfo"
+  },
+  {
+   "id": "p011.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 104,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Optical rotation [ α] was measured on an Anton Paar MCP 100 "
+  },
+  {
+   "id": "p011.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 105,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ],
+    [
+     11,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "The following compounds were synthesized as previously descr"
+  },
+  {
+   "id": "p011.b005.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 106,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for Suzuki-Miyaura Reaction."
+  },
+  {
+   "id": "p011.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 107,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for Suzuki-Miyaura Reaction. A solution of"
+  },
+  {
+   "id": "p011.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 108,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2′-[(Difluoromethyl)sulfanyl][1,1′-biphenyl]-4-carbaldehyde("
+  },
+  {
+   "id": "p011.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 109,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "m1p 46-47 °C.Rf :0.46 (hexane/EtOAc 9:1). IR (ATR):1702(CHO)"
+  },
+  {
+   "id": "p011.b008.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 110,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for the Monofluoroalkylation Reaction."
+  },
+  {
+   "id": "p011.b008",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 111,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for the Monofluoroalkylation Reaction.To a"
+  },
+  {
+   "id": "p011.b009",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 112,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2′-(Fluoromethoxy)[1,1′-biphenyl]-4-carbaldehyde (3). Follow"
+  },
+  {
+   "id": "p011.b010",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 113,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Rf :0.39 (hexane/DCM 7:3). IR (ATR):1699 (CHO), 1215 ( C -| "
+  },
+  {
+   "id": "p011.b011",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 114,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2-(Fluoromethoxy)-· 4′--methanesulfonimidoyl)-1 , 1′-bipheny"
+  },
+  {
+   "id": "p011.b012",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 115,
+   "role": "experimental",
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ],
+    [
+     12,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "m1p 144-145 °C.Rf :0.40 (toluene/methanol 9:1). IR (ATR): 33"
+  },
+  {
+   "id": "p012.b001.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 116,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for the Difluoroalkylation Reaction."
+  },
+  {
+   "id": "p012.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 117,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "General Procedure for the Difluoroalkylation Reaction.Diethy"
+  },
+  {
+   "id": "p012.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 118,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2′-(Difluoromethoxy)[1,1′-biphenyl]-3-carbaldehyde (8). Foll"
+  },
+  {
+   "id": "p012.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 119,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Rf :0.34 (toluene/methanol 98:2). IR (ATR):1703 (CHO),1217 ("
+  },
+  {
+   "id": "p012.b004",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 120,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Synthesis of( R ) - and (S)-26. (R)- and (S)-2-(Fluoromethox"
+  },
+  {
+   "id": "p012.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 121,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "(R)-23. Following the previous procedure, compound ( R ) -23"
+  },
+  {
+   "id": "p012.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 122,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "(S)-23. Following the previous procedure, compound (S)-23 wa"
+  },
+  {
+   "id": "p012.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 123,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "(R)- and (S)-2-(Fluoromethoxy)-· 4′-(S-methanesulfonimidoyl)"
+  },
+  {
+   "id": "p012.b008",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 124,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "(R)-26. Following the previous procedure, compound (R)-26 wa"
+  },
+  {
+   "id": "p012.b009",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 125,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "(S)-26. Following the previous procedure, compound (S)-26 wa"
+  },
+  {
+   "id": "p012.b010.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 126,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Pharmacology."
+  },
+  {
+   "id": "p012.b010",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 127,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Pharmacology. Functional Activity at Human Di R and D2R .Fun"
+  },
+  {
+   "id": "p012.b011.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 128,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Functional Activity at Human D3R and D4R ."
+  },
+  {
+   "id": "p012.b011",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 129,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Functional Activity at Human D3R and D4R . Functional studie"
+  },
+  {
+   "id": "p012.b012.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 130,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Functional Activity at Human D5R ."
+  },
+  {
+   "id": "p012.b012",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 131,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Functional Activity at Human D5R . Functional studies at hum"
+  },
+  {
+   "id": "p012.b013.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 132,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Radioligand Binding Assays at HumanDl R ."
+  },
+  {
+   "id": "p012.b013",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 133,
+   "role": "experimental",
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ],
+    [
+     13,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Radioligand Binding Assays at HumanDl R . Binding assays wer"
+  },
+  {
+   "id": "p013.b001.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 134,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Cocaine-induced Hyperlocomotion Assay."
+  },
+  {
+   "id": "p013.b001",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 135,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Cocaine-induced Hyperlocomotion Assay. The experiment was co"
+  },
+  {
+   "id": "p013.b002.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 136,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Locomotor Activity in Reserpinized Mice."
+  },
+  {
+   "id": "p013.b002",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 137,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Locomotor Activity in Reserpinized Mice. These studies were "
+  },
+  {
+   "id": "p013.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 138,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "The study was carried out in male C57BL/6 wild-type ( 22-25 "
+  },
+  {
+   "id": "p013.b004.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 139,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Novel Object Recognition Test."
+  },
+  {
+   "id": "p013.b004",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 140,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ],
+    [
+     13,
+     "continuation",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Novel Object Recognition Test. Procedures for animal experim"
+  },
+  {
+   "id": "p013.b006.h0",
+   "type": "heading",
+   "subtype": "run_in",
+   "label": null,
+   "parent": "s004",
+   "order": 141,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Docking Studies."
+  },
+  {
+   "id": "p013.b006",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 142,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Docking Studies. Docking calculations were performed using A"
+  },
+  {
+   "id": "p013.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s004",
+   "order": 143,
+   "role": "experimental",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Short MD simulations were performed using Gromacs v201814.66"
+  },
+  {
+   "id": "s005",
+   "type": "section",
+   "subtype": null,
+   "label": "ASSOCIATED CONTENT",
+   "parent": "doc",
+   "order": 144,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p013.b008",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s005",
+   "order": 145,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "ASSOCIATED CONTENT"
+  },
+  {
+   "id": "p013.b009",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s005",
+   "order": 146,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "•Supporting Information"
+  },
+  {
+   "id": "p013.b010",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s005",
+   "order": 147,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "The Supporting Information is available free of charge at ht"
+  },
+  {
+   "id": "p013.b011",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s005",
+   "order": 148,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Characterization data of compounds, experimental procedures "
+  },
+  {
+   "id": "p013.b012",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s005",
+   "order": 149,
+   "role": "supporting_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Molecular formula strings (XLSX)Homology model for compound "
+  },
+  {
+   "id": "s006",
+   "type": "section",
+   "subtype": null,
+   "label": "AUTHOR INFORMATION",
+   "parent": "doc",
+   "order": 150,
+   "role": "author_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p013.b013",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 151,
+   "role": "author_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "AUTHOR INFORMATION"
+  },
+  {
+   "id": "p013.b014",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 152,
+   "role": "author_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Corresponding Authors"
+  },
+  {
+   "id": "p013.b015",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 153,
+   "role": "author_information",
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Bellinda Benhamú - Departamento de Química Orgánica,Univers"
+  },
+  {
+   "id": "p014.b000",
+   "type": "list",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 154,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Spain;.org/0000-0002-0864-026X;Email: bel linda.benhamu@quim"
+  },
+  {
+   "id": "p014.b001",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 155,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Authors"
+  },
+  {
+   "id": "p014.b002",
+   "type": "list",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 156,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Javier García-Cárceles - Departamento de Química Orgánica,Un"
+  },
+  {
+   "id": "p014.b003",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 157,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Complete contact information is available at:https://pubs.ac"
+  },
+  {
+   "id": "p014.b004",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 158,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Funding"
+  },
+  {
+   "id": "p014.b005",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 159,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "This work was supported by the Spanish Ministerio de Ciencia"
+  },
+  {
+   "id": "p014.b006",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 160,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Notes"
+  },
+  {
+   "id": "p014.b007",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s006",
+   "order": 161,
+   "role": "author_information",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "The authors declare no competing financial interest."
+  },
+  {
+   "id": "s007",
+   "type": "section",
+   "subtype": null,
+   "label": "ABBREVIATIONS",
+   "parent": "doc",
+   "order": 162,
+   "role": "abbreviations",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p014.b008",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s007",
+   "order": 163,
+   "role": "abbreviations",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "ABBREVIATIONS"
+  },
+  {
+   "id": "p014.b009",
+   "type": "paragraph",
+   "subtype": null,
+   "label": null,
+   "parent": "s007",
+   "order": 164,
+   "role": "abbreviations",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "ACN, acetonitrile; app, apparent; br, broad; D1-5 R , D1-5 r"
+  },
+  {
+   "id": "s008",
+   "type": "section",
+   "subtype": null,
+   "label": "REFERENCES",
+   "parent": "doc",
+   "order": 165,
+   "role": "references",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p014.b010",
+   "type": "heading",
+   "subtype": null,
+   "label": null,
+   "parent": "s008",
+   "order": 166,
+   "role": "references",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "REFERENCES"
+  },
+  {
+   "id": "p014.b011",
+   "type": "list",
+   "subtype": null,
+   "label": null,
+   "parent": "s008",
+   "order": 167,
+   "role": "references",
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ],
+    [
+     15,
+     "continuation",
+     false
+    ],
+    [
+     15,
+     "continuation",
+     false
+    ],
+    [
+     16,
+     "continuation",
+     true
+    ],
+    [
+     16,
+     "continuation",
+     true
+    ]
+   ],
+   "flags": [
+    "derived_continuation"
+   ],
+   "text": "(1) Costa, C.; Sgobio, C.; Siliquini, S.; Tozzi, A.; Tantucc"
+  },
+  {
+   "id": "p000.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 168,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p000.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 169,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Received: June 16, 2022 Published: August 31, 2022"
+  },
+  {
+   "id": "p000.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 170,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p000.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 171,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p000.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 172,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Medicinal Chemistry"
+  },
+  {
+   "id": "p000.d005",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 173,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p000.d006",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 174,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "AACS Publications"
+  },
+  {
+   "id": "p000.d007",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 175,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p000.d008",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 176,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "2022 The Authors. Published by American Chemical Society 122"
+  },
+  {
+   "id": "p000.d009",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 177,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Downloaded via JINAN UNIV on March 17, 2026 at 07:35:03 (UTC"
+  },
+  {
+   "id": "p000.d010",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 178,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "√"
+  },
+  {
+   "id": "p000.d011",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 179,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "0Read Online"
+  },
+  {
+   "id": "p000.d012",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 180,
+   "role": null,
+   "regions": [
+    [
+     0,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": ""
+  },
+  {
+   "id": "p001.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 181,
+   "role": null,
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p001.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 182,
+   "role": null,
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p001.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 183,
+   "role": null,
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p001.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 184,
+   "role": null,
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12257"
+  },
+  {
+   "id": "p001.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 185,
+   "role": null,
+   "regions": [
+    [
+     1,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p002.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 186,
+   "role": null,
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p002.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 187,
+   "role": null,
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p002.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 188,
+   "role": null,
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p002.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 189,
+   "role": null,
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12258"
+  },
+  {
+   "id": "p002.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 190,
+   "role": null,
+   "regions": [
+    [
+     2,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p003.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 191,
+   "role": null,
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p003.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 192,
+   "role": null,
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p003.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 193,
+   "role": null,
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p003.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 194,
+   "role": null,
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12259"
+  },
+  {
+   "id": "p003.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 195,
+   "role": null,
+   "regions": [
+    [
+     3,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p004.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 196,
+   "role": null,
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p004.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 197,
+   "role": null,
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p004.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 198,
+   "role": null,
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p004.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 199,
+   "role": null,
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12260"
+  },
+  {
+   "id": "p004.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 200,
+   "role": null,
+   "regions": [
+    [
+     4,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p005.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 201,
+   "role": null,
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p005.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 202,
+   "role": null,
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p005.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 203,
+   "role": null,
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p005.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 204,
+   "role": null,
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12261"
+  },
+  {
+   "id": "p005.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 205,
+   "role": null,
+   "regions": [
+    [
+     5,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p006.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 206,
+   "role": null,
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p006.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 207,
+   "role": null,
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p006.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 208,
+   "role": null,
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p006.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 209,
+   "role": null,
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p006.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 210,
+   "role": null,
+   "regions": [
+    [
+     6,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12262"
+  },
+  {
+   "id": "p007.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 211,
+   "role": null,
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p007.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 212,
+   "role": null,
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p007.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 213,
+   "role": null,
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p007.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 214,
+   "role": null,
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12263"
+  },
+  {
+   "id": "p007.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 215,
+   "role": null,
+   "regions": [
+    [
+     7,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p008.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 216,
+   "role": null,
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p008.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 217,
+   "role": null,
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p008.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 218,
+   "role": null,
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p008.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 219,
+   "role": null,
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p008.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 220,
+   "role": null,
+   "regions": [
+    [
+     8,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12264"
+  },
+  {
+   "id": "p009.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 221,
+   "role": null,
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p009.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 222,
+   "role": null,
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p009.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 223,
+   "role": null,
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p009.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 224,
+   "role": null,
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12265"
+  },
+  {
+   "id": "p009.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 225,
+   "role": null,
+   "regions": [
+    [
+     9,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p010.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 226,
+   "role": null,
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p010.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 227,
+   "role": null,
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p010.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 228,
+   "role": null,
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p010.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 229,
+   "role": null,
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12266"
+  },
+  {
+   "id": "p010.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 230,
+   "role": null,
+   "regions": [
+    [
+     10,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p011.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 231,
+   "role": null,
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p011.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 232,
+   "role": null,
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p011.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 233,
+   "role": null,
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p011.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 234,
+   "role": null,
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12267"
+  },
+  {
+   "id": "p011.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 235,
+   "role": null,
+   "regions": [
+    [
+     11,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p012.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 236,
+   "role": null,
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p012.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 237,
+   "role": null,
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p012.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 238,
+   "role": null,
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p012.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 239,
+   "role": null,
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12268"
+  },
+  {
+   "id": "p012.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 240,
+   "role": null,
+   "regions": [
+    [
+     12,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p013.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 241,
+   "role": null,
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p013.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 242,
+   "role": null,
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p013.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 243,
+   "role": null,
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p013.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 244,
+   "role": null,
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12269"
+  },
+  {
+   "id": "p013.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 245,
+   "role": null,
+   "regions": [
+    [
+     13,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p014.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 246,
+   "role": null,
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p014.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 247,
+   "role": null,
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p014.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 248,
+   "role": null,
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p014.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 249,
+   "role": null,
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12270"
+  },
+  {
+   "id": "p014.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 250,
+   "role": null,
+   "regions": [
+    [
+     14,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p015.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 251,
+   "role": null,
+   "regions": [
+    [
+     15,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p015.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 252,
+   "role": null,
+   "regions": [
+    [
+     15,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p015.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 253,
+   "role": null,
+   "regions": [
+    [
+     15,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p015.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 254,
+   "role": null,
+   "regions": [
+    [
+     15,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12271"
+  },
+  {
+   "id": "p015.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 255,
+   "role": null,
+   "regions": [
+    [
+     15,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  },
+  {
+   "id": "p016.d000",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 256,
+   "role": null,
+   "regions": [
+    [
+     16,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "https://doi.org/10.1021/acs.jmedchem.2c00949 J. Med. Chem. 2"
+  },
+  {
+   "id": "p016.d001",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 257,
+   "role": null,
+   "regions": [
+    [
+     16,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Article"
+  },
+  {
+   "id": "p016.d002",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 258,
+   "role": null,
+   "regions": [
+    [
+     16,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "Journal of Medicinal Chemistry"
+  },
+  {
+   "id": "p016.d003",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 259,
+   "role": null,
+   "regions": [
+    [
+     16,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "12272"
+  },
+  {
+   "id": "p016.d004",
+   "type": "discarded",
+   "subtype": null,
+   "label": null,
+   "parent": null,
+   "order": 260,
+   "role": null,
+   "regions": [
+    [
+     16,
+     "primary",
+     false
+    ]
+   ],
+   "flags": [],
+   "text": "pubs.acs.org/jmc"
+  }
+ ]
+}

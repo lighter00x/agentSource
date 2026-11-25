@@ -1,0 +1,91 @@
+{
+  "$defs": {
+    "ReviewItem": {
+      "properties": {
+        "dimension": {
+          "enum": [
+            "structure",
+            "numeric",
+            "chart",
+            "content"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "field_path": {
+          "title": "Field Path",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "correct",
+            "incorrect",
+            "unsure"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "suggested_value": {
+          "default": null,
+          "title": "Suggested Value",
+          "description": "Exact replacement text from the original image when incorrect. Null only for correct or unknown values."
+        },
+        "reason": {
+          "default": "",
+          "title": "Reason",
+          "type": "string",
+          "description": "Short visual evidence supporting this verdict.",
+          "maxLength": 512
+        }
+      },
+      "required": [
+        "dimension",
+        "field_path",
+        "verdict",
+        "suggested_value",
+        "reason"
+      ],
+      "title": "ReviewItem",
+      "type": "object",
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "dimension": {
+                "const": "numeric"
+              },
+              "verdict": {
+                "const": "incorrect"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "suggested_value": {
+                "not": {
+                  "type": "null"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/ReviewItem"
+      },
+      "title": "Items",
+      "type": "array"
+    }
+  },
+  "title": "ReviewResult",
+  "type": "object",
+  "required": [
+    "items"
+  ],
+  "additionalProperties": false
+}

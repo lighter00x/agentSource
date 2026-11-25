@@ -1,0 +1,20 @@
+{
+  "phase": "P6",
+  "interface_version": "0.6.1",
+  "files": {
+    "openapi-p6.json": "e95e81760218dc6059e3de8a02799bff1b289dea5c41de67306a7e475140c16b",
+    "phase-6/Compound.schema.json": "64497f105358cbe63ff44cc57e8913d49a51cb357de0b7a1cf85c926a7759789",
+    "phase-6/ExportManifest.schema.json": "f5080dd0a565f93b5d22fbc55006391f03cb877c62b53864d9902d704304304c",
+    "phase-6/LookupBatchResult.schema.json": "f22fb96e43b33db2777eb3649b4f70f1c2abef6097eedc247469a2f02d8e32b5",
+    "phase-6/NameExtraction.schema.json": "d9917d47aa744dcbe25bb7b204b093d6e67c4852adc68238d3db71fb1e674f74",
+    "phase-6/NoteDelta.schema.json": "1db6ec586c01e9c1471680faf08383f06552f9e1524f8e66e52081eda43bb00f",
+    "phase-6/PagePack.schema.json": "7b5dd86f58c10660792cf44b9b0b38c0542a2cc67a02166c53e3d82a5551e5b7",
+    "phase-6/PathProposal.schema.json": "7b797dbfabb94dbe637c63548414e716b98d72963a68f7674987bc0a97d8995b",
+    "phase-6/Profile.schema.json": "1a68b34823cc594f7df87fe033205dc19e182757f4c88758b70f02be0eb03dba",
+    "phase-6/ReaderNotes.schema.json": "1db80c6da99fc0d5cd77a47baaa5136e1cf09b12be5671003c19c93633e862a8",
+    "phase-6/ReaderProgress.schema.json": "ff58e20e2b517fb14a037491a1dcc70e3a3c1dc80bffe3457d058b23cc376dda",
+    "phase-6/Step.schema.json": "a405ea26fb41a4b3bc75609b0a5314367531ab1a0a58b259574f93bacee667d4",
+    "phase-6/TextExtraction.schema.json": "29be7bca2f1cb7fa563723bbbadc1ca14c0c8b5bcb12b7b080319c91059b1bbb",
+    "phase-6/profile.yaml": "f1a8ccf58b0612c50a08fd4518fe25415a2004a67feb0876c25f7bfd4e6d00d8"
+  }
+}

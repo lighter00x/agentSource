@@ -1,0 +1,26 @@
+name: reference_assignment_audit
+version: 0.3.2
+kind: prompt
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+accepts:
+  node_types: [figure, table, scheme, figure_part, chart_panel]
+produces:
+  artifact_type: reference_assignment_audit
+  fact_types: []
+budgets:
+  max_model_calls: 1
+  max_wall_time_s: 360
+vision_structuring: true
+model_tasks:
+  main: figure_reference_review
+prompts:
+  main: prompts/task.md
+  images:
+    - source: target_crop
+      max_side: 2400
+  includes:
+    - common/data_boundary
+    - common/no_hallucination
+    - common/mol_reference
+    - common/member_assignment_fields

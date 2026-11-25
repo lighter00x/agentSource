@@ -1,0 +1,69 @@
+{
+  "基本信息": {
+    "论文题目": "Discovery of Novel Human Constitutive Androstane Receptor Agonists with the Imidazo[1,2-a]pyridine Structure",
+    "论文作者": "Ivana Mejdrova, Jan Dusek, Krystof Skach, Alzbeta Stefela, Josef Skoda, Karel Chalupsky, Klara Dohnalova, Ivona Pavkova, Thales Kronenberger, Azam Rashidian, Lucie Smutna, Vojtech Duchoslav, Tomas Smutny, Petr Pavek, and Radim Nencka",
+    "论文研究内容以及主要贡献": "本研究旨在开发新型、高选择性的人组成型雄烷受体（CAR）激动剂。研究人员以已知配体CITCO为模板，通过生物电子等排体替换策略，将不稳定的肟基连接体替换为三唑环，并引入咪唑并[1,2-a]吡啶骨架。通过对苯环和苄基环的系统优化，发现了化合物39。该化合物在纳摩尔水平直接激活人CAR，且对孕烷X受体（PXR）等其他核受体无交叉激活作用，具有良好的代谢稳定性和较低的毒性，在人源化CAR小鼠模型中展现出显著的体内生物活性。"
+  },
+  "起始分子信息": {
+    "SMILES": "Clc1ccc(-c2nc3sccn3c2/C=N/OCc2ccc(Cl)c(Cl)c2)cc1",
+    "存在问题": "起始分子CITCO（化合物1）存在选择性不足的问题，会显著激活相关的PXR受体，可能导致不良的代谢副作用；此外，其肟基连接体在酸性条件下不稳定，且分子亲脂性过高（logP > 5）。"
+  },
+  "steps": {
+    "1": {
+      "start": "Clc1ccc(-c2nc3sccn3c2/C=N/OCc2ccc(Cl)c(Cl)c2)cc1",
+      "change": "将不稳定的肟基连接体替换为稳定的1,2,3-三唑环，并将咪唑并噻唑骨架替换为咪唑并[1,2-a]吡啶骨架。",
+      "end": "Clc1ccc(-c2nc3ccccn3c2-c2cn(Cc3ccc(Cl)c(Cl)c3)nn2)cc1",
+      "flag": "Figure 2, Scheme 1"
+    },
+    "2": {
+      "start": "Clc1ccc(-c2nc3ccccn3c2-c2cn(Cc3ccc(Cl)c(Cl)c3)nn2)cc1",
+      "change": "对苄基环的间位取代基进行优化，将氯原子替换为酰胺基团，以提高选择性并改善理化性质。",
+      "end": "NC(=O)c1cc(Cn2cc(-c3c(-c4ccc(Cl)cc4)nc4ccccn34)nn2)ccc1Cl",
+      "flag": "Scheme 6, Table 7"
+    }
+  },
+  "研究目标标签": "选择性优化、代谢稳定性改善、理化性质优化",
+  "关键数据摘要": "优化后的化合物39在保持CAR激动活性的同时（EC50 = 0.611 μM），完全消除了对PXR的激活作用（从CITCO的显著激活变为无激活）；其logP从CITCO的5.76降低至4.85，改善了亲脂性；在人肝微粒体中的半衰期为38.04 min，展现出较好的代谢稳定性。",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "null",
+      "EC50": "0.611 ± 0.08 μM (CAR TR-FRET)"
+    },
+    "理化性质": {
+      "logP": "4.85",
+      "logS": "-6.96",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "98% (human)",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "IC50 = 21.07 μM",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "IC50 = 16.08 μM"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "38.04 min (human liver microsomes)"
+    },
+    "毒性": {
+      "Ames mutagenicity": "Negative",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "Negative",
+      "hERG Blocker": "No binding up to 20 μM",
+      "ROA (Rat Oral Acute Toxicity)": "No significant toxicity at 30 mg/kg (7 days)"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "node_ref": {"type": "string", "description": "目标节点引用"},
+    "hint": {"type": "string", "description": "可选提示"}
+  },
+  "required": ["node_ref"],
+  "additionalProperties": false
+}

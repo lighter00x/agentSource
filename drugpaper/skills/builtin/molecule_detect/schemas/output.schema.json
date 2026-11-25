@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "enum": [
+        "completed",
+        "needs_fallback"
+      ]
+    },
+    "boxes": {
+      "type": "array"
+    },
+    "whole_image": {
+      "type": "array"
+    },
+    "image_refs": {
+      "type": "array"
+    },
+    "provenance": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "status",
+    "boxes",
+    "whole_image",
+    "image_refs",
+    "provenance"
+  ],
+  "additionalProperties": false
+}

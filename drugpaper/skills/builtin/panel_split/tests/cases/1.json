@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "panels": [
+      {
+        "x0": 0.1,
+        "y0": 0.1,
+        "x1": 0.4,
+        "y1": 0.4
+      }
+    ]
+  },
+  "target": {
+    "ref": "doc_case/r1/p000.g000",
+    "type": "figure",
+    "regions": [
+      {
+        "page": 0,
+        "bbox": {
+          "x0": 0,
+          "y0": 0,
+          "x1": 1,
+          "y1": 1
+        }
+      }
+    ]
+  },
+  "expect": {}
+}

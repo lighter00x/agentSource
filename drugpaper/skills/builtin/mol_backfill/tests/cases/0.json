@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "extraction_payload": {},
+    "image_type": 1
+  },
+  "target": {
+    "ref": "doc_case/r1/p000.g000",
+    "type": "figure",
+    "regions": []
+  }
+}

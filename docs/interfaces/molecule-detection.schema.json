@@ -1,0 +1,155 @@
+{
+  "$defs": {
+    "Detection": {
+      "properties": {
+        "detection_id": {
+          "title": "Detection Id",
+          "type": "string"
+        },
+        "label_id": {
+          "title": "Label Id",
+          "type": "integer"
+        },
+        "bbox_norm_xyxy": {
+          "maxItems": 4,
+          "minItems": 4,
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "title": "Bbox Norm Xyxy",
+          "type": "array"
+        },
+        "crop_bbox_norm_xyxy": {
+          "maxItems": 4,
+          "minItems": 4,
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "title": "Crop Bbox Norm Xyxy",
+          "type": "array"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "class_id": {
+          "title": "Class Id",
+          "type": "integer"
+        },
+        "class_name": {
+          "maxLength": 128,
+          "title": "Class Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "detection_id",
+        "label_id",
+        "bbox_norm_xyxy",
+        "crop_bbox_norm_xyxy",
+        "confidence",
+        "class_id",
+        "class_name"
+      ],
+      "title": "Detection",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "status": {
+      "enum": [
+        "completed",
+        "no_detections"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "result_key": {
+      "title": "Result Key",
+      "type": "string"
+    },
+    "width": {
+      "exclusiveMinimum": 0,
+      "title": "Width",
+      "type": "integer"
+    },
+    "height": {
+      "exclusiveMinimum": 0,
+      "title": "Height",
+      "type": "integer"
+    },
+    "detections": {
+      "items": {
+        "$ref": "#/$defs/Detection"
+      },
+      "title": "Detections",
+      "type": "array"
+    },
+    "provenance": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "integer"
+          },
+          {
+            "type": "number"
+          },
+          {
+            "type": "boolean"
+          }
+        ]
+      },
+      "title": "Provenance",
+      "type": "object"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "cached": {
+      "default": false,
+      "title": "Cached",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "status",
+    "result_key",
+    "width",
+    "height",
+    "detections",
+    "provenance"
+  ],
+  "title": "DetectionReport",
+  "type": "object"
+}

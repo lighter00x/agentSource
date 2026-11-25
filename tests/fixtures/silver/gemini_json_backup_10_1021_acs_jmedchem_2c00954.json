@@ -1,0 +1,75 @@
+{
+  "基本信息": {
+    "论文题目": "Structure-Based Design of a Dual-Targeted Covalent Inhibitor Against Papain-like and Main Proteases of SARS-CoV-2",
+    "论文作者": "Wenying Yu, Yucheng Zhao, Hui Ye, Nanping Wu, Yixian Liao, Nannan Chen, Zhiling Li, Ning Wan, Haiping Hao, Honggao Yan, Yibei Xiao, Maode Lai",
+    "论文研究内容以及主要贡献": "本研究通过共药效团筛选和基于结构的药物设计，开发了一种针对 SARS-CoV-2 的主蛋白酶 (Mpro) 和木瓜样蛋白酶 (PLpro) 的新型双靶点共价抑制剂 LY1。该抑制剂含有一种新型共价弹头（萘-1,4-二酮衍生物），能与两种酶的催化半胱氨酸残基形成共价键。实验证明 LY1 在生化水平上对两种蛋白酶具有相当的抑制效力，并在细胞实验中显示出强效的抗病毒活性，同时在小鼠和家兔毒性研究中表现出良好的耐受性，为应对病毒突变导致的耐药性提供了新的候选药物。"
+  },
+  "起始分子信息": {
+    "SMILES": "O=C1C=CC(=O)c2ccccc12",
+    "存在问题": "现有的单靶点抑制剂（如 Paxlovid 针对 Mpro）容易因病毒突变（如 Mpro 的 Y54C、N142S 等）产生耐药性。此外，PLpro 还具有去泛素化和去 ISG 化活性，参与抑制宿主免疫反应，仅抑制单一靶点可能不足以完全阻断病毒复制及免疫逃逸。"
+  },
+  "steps": {
+    "1": {
+      "start": "O=C1C=CC(=O)c2ccccc12",
+      "change": "在核心骨架 S7（萘-1,4-二酮）的 2 位引入苯胺基团，构建 Scaffold A 以增强与活性位点芳香残基的 π-π 相互作用。",
+      "end": "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc12",
+      "flag": "Figure 3g, Scheme 1"
+    },
+    "2": {
+      "start": "O=C1C=C(Nc2ccccc2)C(=O)c2ccccc12",
+      "change": "在 8 位引入磺酰胺极性基团（化合物 5），旨在通过氢键作用提升对 PLpro 的抑制活性。",
+      "end": "CNS(=O)(=O)c1cccc2C(=O)C=C(Nc3ccccc3)C(=O)c12",
+      "flag": "Scheme 1, Results"
+    },
+    "3": {
+      "start": "CNS(=O)(=O)c1cccc2C(=O)C=C(Nc3ccccc3)C(=O)c12",
+      "change": "将骨架环化为异噻唑酮-1,1-二氧化物（Scaffold B），并在苯胺环的邻位引入哌嗪基团以优化药效，最终得到 LY1。",
+      "end": "O=C1C=C(Nc2ccccc2N2CCNCC2)c2ns(=O)(=O)c3cccc1c23",
+      "flag": "Scheme 1, Figure 4g"
+    }
+  },
+  "研究目标标签": "双靶点共价抑制剂开发;抗病毒活性优化;克服耐药性;蛋白酶抑制剂设计",
+  "分子数据指标": {
+    "药效指标": {
+      "IC50": "Mpro: 0.12 ± 0.03 μM; PLpro: 0.99 ± 0.04 μM",
+      "EC50": "3.9 μM (Vero E6 cells, qRT-PCR)"
+    },
+    "理化性质": {
+      "logP": "null",
+      "logS": "null",
+      "logD7.4": "null"
+    },
+    "吸收": {
+      "Caco-2 Permeability": "null",
+      "human oral bioavailability": "null",
+      "MDCK Permeability": "null",
+      "Pgp inhibitor": "null",
+      "Pgp substrate": "null"
+    },
+    "分布": {
+      "Blood-Brain Barrier": "null",
+      "PAMPA": "null",
+      "Plasma Protein Binding": "null",
+      "VDss": "null"
+    },
+    "代谢": {
+      "cyp1a2": "null",
+      "cyp2c9": "null",
+      "cyp2c19": "null",
+      "cyp2d6": "null",
+      "cyp3a4": "null"
+    },
+    "排泄": {
+      "Clearance": "null",
+      "t1/2 half-life": "null"
+    },
+    "毒性": {
+      "Ames mutagenicity": "null",
+      "DILI (Drug-Induced Liver Injury)": "null",
+      "Genotoxicity": "Negative (based on 8-week study)",
+      "hERG Blocker": "null",
+      "ROA (Rat Oral Acute Toxicity)": "LD50 > 1000 mg/kg (Mouse, Oral)"
+    }
+  },
+  "关键数据摘要": "通过结构优化，LY1 实现了对 Mpro 和 PLpro 的双重抑制，其灭活效率 k_inact/K_I 分别达到 710 M⁻¹ s⁻¹ 和 500 M⁻¹ s⁻¹。在细胞水平，LY1 显著降低了病毒核蛋白水平，EC50 为 3.9 μM。安全性方面，小鼠口服最大耐受剂量约为 1000 mg/kg，大鼠 8 周毒性研究显示安全剂量范围接近 150 mg/kg。"
+}

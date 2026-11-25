@@ -1,0 +1,162 @@
+{
+  "status": "unclear",
+  "description": "保留系列与具体分子的可见关系，不依赖未提供的表格。",
+  "pathways": [
+    {
+      "steps": [
+        {
+          "relationship_type": "unresolved",
+          "evidence_text": "系列图示有箭头指向3；单图不足以确认具体合成或优选含义。",
+          "reactants": [
+            {
+              "reference": "1–10",
+              "scaffold_mol_id": 0,
+              "variants": [],
+              "compound_series": {
+                "members": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10"
+                ],
+                "member_count": 10,
+                "variable_definitions": {
+                  "X": "O, S",
+                  "Y, Z": "H, F"
+                },
+                "structure_status": "unresolved",
+                "unresolved_reason": "单图仅有范围与通用骨架，没有各编号对应的取代及位置定义。",
+                "evidence_text": "骨架旁印刷1–10及X=O,S；Y,Z=H,F。"
+              },
+              "evidence_text": "编号0框为范围旁的通用结构，不是十个具体分子的逐个结构。",
+              "markush": {
+                "description": "该反应物位置画的是系列共用通式；X改变连接原子，Y/Z改变同一碳上的H/F取代。",
+                "variable_options": {
+                  "X": [
+                    "O",
+                    "S"
+                  ],
+                  "Y": [
+                    "H",
+                    "F"
+                  ],
+                  "Z": [
+                    "H",
+                    "F"
+                  ]
+                },
+                "substitution_cases": [
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–OCH3",
+                    "assignments": [
+                      {
+                        "X": "O",
+                        "Y": "H",
+                        "Z": "H"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  },
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–OCH2F",
+                    "assignments": [
+                      {
+                        "X": "O",
+                        "Y": "H",
+                        "Z": "F"
+                      },
+                      {
+                        "X": "O",
+                        "Y": "F",
+                        "Z": "H"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  },
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–OCHF2",
+                    "assignments": [
+                      {
+                        "X": "O",
+                        "Y": "F",
+                        "Z": "F"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  },
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–SCH3",
+                    "assignments": [
+                      {
+                        "X": "S",
+                        "Y": "H",
+                        "Z": "H"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  },
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–SCH2F",
+                    "assignments": [
+                      {
+                        "X": "S",
+                        "Y": "H",
+                        "Z": "F"
+                      },
+                      {
+                        "X": "S",
+                        "Y": "F",
+                        "Z": "H"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  },
+                  {
+                    "expression": "–XCHYZ",
+                    "group_text": "–SCHF2",
+                    "assignments": [
+                      {
+                        "X": "S",
+                        "Y": "F",
+                        "Z": "F"
+                      }
+                    ],
+                    "basis": "symbolic_substitution",
+                    "evidence_text": "将图中X=O,S及Y,Z=H,F代入同一个–XCHYZ片段，保留显式H；同碳Y/Z互换未示区分。"
+                  }
+                ],
+                "expansion_status": "complete_for_visible_options",
+                "notes": "仅展开图中–XCHYZ片段：8组符号赋值在未区分Y/Z时对应6种基团。不是1–10各编号的具体结构，也未展开图中未说明的位置变化。",
+                "evidence_text": "通式上可见XCHYZ，旁边图例X=O,S；Y,Z=H,F。"
+              }
+            }
+          ],
+          "products": [
+            {
+              "reference": "3",
+              "mol_id": 1,
+              "evidence_text": "完整绘出的结构旁明确标3。"
+            }
+          ],
+          "conditions": null
+        }
+      ]
+    }
+  ]
+}

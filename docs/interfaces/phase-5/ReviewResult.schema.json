@@ -1,0 +1,58 @@
+{
+  "$defs": {
+    "ReviewItem": {
+      "properties": {
+        "dimension": {
+          "enum": [
+            "structure",
+            "numeric",
+            "chart",
+            "content"
+          ],
+          "title": "Dimension",
+          "type": "string"
+        },
+        "field_path": {
+          "title": "Field Path",
+          "type": "string"
+        },
+        "verdict": {
+          "enum": [
+            "correct",
+            "incorrect",
+            "unsure"
+          ],
+          "title": "Verdict",
+          "type": "string"
+        },
+        "suggested_value": {
+          "default": null,
+          "title": "Suggested Value"
+        },
+        "reason": {
+          "default": "",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dimension",
+        "field_path",
+        "verdict"
+      ],
+      "title": "ReviewItem",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/ReviewItem"
+      },
+      "title": "Items",
+      "type": "array"
+    }
+  },
+  "title": "ReviewResult",
+  "type": "object"
+}

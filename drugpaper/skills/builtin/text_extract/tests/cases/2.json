@@ -1,0 +1,1 @@
+{"inputs": {}, "target": {"ref": "doc_case/r1/p000.b000", "type": "paragraph", "text_raw": "compound 26 [UCM-1306] was prepared.", "section_role": "results"}, "expect": {"payload": {"status": "completed"}}, "response_file": "2.response.json"}

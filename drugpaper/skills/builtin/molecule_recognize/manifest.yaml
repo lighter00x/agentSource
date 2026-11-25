@@ -1,0 +1,40 @@
+name: molecule_recognize
+version: 0.4.0
+kind: python
+mode:
+- pipeline
+- agent
+entry: scripts/main.py:run
+accepts:
+  node_types:
+  - figure
+  - scheme
+  - table
+  - chart_panel
+  - figure_part
+  - molecule
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+produces:
+  artifact_type: ocsr_result
+  node_types: []
+  fact_types:
+  - structure_candidate
+  - molecule_update
+tools:
+- molparser.recognize
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 600
+cache:
+  enabled: true
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  - lookup
+  toolkit: chem
+  triggers:
+    intents:
+    - molecule_recognize
+  invocation: tool_call

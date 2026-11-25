@@ -1,0 +1,2606 @@
+[
+  {
+    "page_idx": 0,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "title",
+        "bbox": [
+          50,
+          108,
+          557,
+          164
+        ],
+        "text": "2‑(Fluoromethoxy)-\\bullet ^ { \\prime }‑(S‑methanesulfonimidoyl)-1,1′-biphenyl(UCM-1306), an Orally Bioavailable Positive Allosteric Modulator ofthe Human Dopamine \\mathsf { D } _ { 1 } Receptor for Parkinson’s Disease",
+        "title_level": 1,
+        "page_idx": 0,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          168,
+          553,
+          225
+        ],
+        "text": "Javier García-Cárceles, Henar Vázquez-Villa, José Brea, David Ladron de Guevara-Miranda,Giovanni Cincilla, Melchor Sánchez-Martínez, Anabel Sánchez-Merino, Sergio Algar,María Teresa de los Frailes, Richard S. Roberts, Juan A. Ballesteros, Fernando Rodríguez de Fonseca,Bellinda Benhamú,* María I. Loza,* and María L. López-Rodríguez*",
+        "page_idx": 0,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          75,
+          237,
+          240,
+          249
+        ],
+        "text": "Cite This: J. Med. Chem. 2022, 65, 12256−12272",
+        "page_idx": 0,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "title",
+        "bbox": [
+          51,
+          269,
+          104,
+          284
+        ],
+        "text": "ACCESS",
+        "title_level": 1,
+        "page_idx": 0,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          141,
+          273,
+          216,
+          284
+        ],
+        "text": "Metrics & More",
+        "page_idx": 0,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          276,
+          273,
+          385,
+          284
+        ],
+        "text": "Article Recommendations",
+        "page_idx": 0,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "title",
+        "bbox": [
+          430,
+          273,
+          530,
+          284
+        ],
+        "text": "Supporting Information",
+        "title_level": 1,
+        "page_idx": 0,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          50,
+          297,
+          556,
+          462
+        ],
+        "detailed_index": null,
+        "page_idx": 0,
+        "parent_type": "image",
+        "caption_text": "",
+        "footnote_text": "",
+        "img_path": "merged_images/3f6974639f7d5d00c230022d417a4b941f115b055be833d1ea3c14bbcb44a66c.jpg",
+        "merged_img_path": "merged_images/3f6974639f7d5d00c230022d417a4b941f115b055be833d1ea3c14bbcb44a66c.jpg",
+        "merged_from": [
+          7,
+          8,
+          9
+        ],
+        "sub_blocks": [],
+        "confirmed_index": 7
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          297,
+          310,
+          418
+        ],
+        "text": "ABSTRACT: Tolerance development caused by dopamine re-placement with\\mathrm { ~ L ~ }-DOPA and therapeutic drawbacks uponactivation of dopaminergic receptors with orthosteric agonistsreveal a significant unmet need for safe and effective treatment ofParkinson’s disease. In search for selective modulators of the \\mathrm { D } _ { 1 }receptor, the screening of a chemical library and subsequentmedicinal chemistry program around an identified hit resulted innew synthetic compound 26 [UCM-1306, 2-(fluoromethoxy)-. 4 ^ { \\prime }-(S-methanesulfonimidoyl)-^ { \\cdot 1 , 1 ^ { \\prime } }-biphenyl] that increases the dop-amine maximal effect in a dose-dependent manner in human andmouse \\mathrm { D } _ { 1 } receptors, is inactive in the absence of dopamine,modulates dopamine affinity for the receptor, exhibits subtype selectivity, and displays low binding competition with orthostericligands. The new allosteric modulator potentiates cocaine-induced locomotion and enhances L-DOPA recovery of decreasedlocomotor activity in reserpinized mice after oral administration. The behavior of compound 26 supports the interest of a positiveallosteric modulator of the\\mathbf { D } _ { 1 } receptor as a promising therapeutic approach for Parkinson’s disease.",
+        "page_idx": 0,
+        "detailed_index": 7,
+        "confirmed_index": null,
+        "belong_to": 7
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          318,
+          297,
+          552,
+          406
+        ],
+        "page_idx": 0,
+        "parent_type": "image",
+        "img_path": "merged_images/a94eca0ba517e23b1cc2c5b82789c8c8582bc4cbd70d2c84f1b1b61763f9adab.jpg",
+        "caption_text": "",
+        "footnote_text": "",
+        "sub_blocks": [],
+        "detailed_index": 8,
+        "merged_img_path": "merged_images/a94eca0ba517e23b1cc2c5b82789c8c8582bc4cbd70d2c84f1b1b61763f9adab.jpg",
+        "confirmed_index": null,
+        "belong_to": 7
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          418,
+          556,
+          462
+        ],
+        "text": "",
+        "page_idx": 0,
+        "detailed_index": 9,
+        "confirmed_index": null,
+        "belong_to": 7
+      },
+      {
+        "type": "title",
+        "bbox": [
+          51,
+          485,
+          140,
+          496
+        ],
+        "text": "INTRODUCTION",
+        "title_level": 1,
+        "page_idx": 0,
+        "detailed_index": 10,
+        "confirmed_index": 8
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          501,
+          292,
+          748
+        ],
+        "text": "Parkinson’s disease (PD) is a chronic, progressive, neuro-degenerative disorder characterized by the loss of dopaminer-gic neurons in the brain. In addition to the main symptomsderived from motor dysfunction, PD is associated withmemory loss and eventually dementia, due to the disruptiveeffect on dopaminergic transmission in the hippocampus andthe prefrontal cortex.1,2 Dopamine (DA) replacement with L-DOPA was proposed about 60 years ago3 and is still theprimarily used therapy and most effective treatment against thedebilitating motor symptoms of PD. However, in the longterm, the therapeutic index of\\mathrm { ~ L ~ }-DOPA decreases and its anti-Parkinsonian action is very often associated with progressivedecline in symptomatic benefit (motor fluctuations), develop-ment of dyskinesia, and other adverse effects, includinghypotension, hallucinations, and gastrointestinal disturban-ces.4,5 Due to L-DOPA tolerance development, an alternativeapproach for PD treatment is based on the dopaminergicstimulation using agonists that activate the DA receptors.6These are members of a family belonging to the class A of theG-protein coupled receptors (GPCRs) and are subdivided intotwo groups: \\mathrm { D } _ { 1 }-like subtypes \\mathrm { { \\widetilde { D } } } _ { 1 } and{ \\bf D } _ { 5 } ^ { \\phantom { } }) couple to{ \\bf G } _ { s } and\\mathbf { G } _ { \\mathrm { o l f } } proteins stimulating the production of the secondmessenger cAMP, and \\mathrm { D } _ { 2 }-like subtypes ( \\mathrm { D } _ { 2 } , \\mathrm { ~ D } _ { 3 } , and \\mathrm { { D } } _ { 4 } ^ { \\mathrm { { \\cdot } } })couple to\\mathbf { G } _ { \\mathrm { i } } inhibiting cAMP production.7,8 The\\mathbf { D } _ { 1 } and\\mathrm { D } _ { 2 }receptors are the most abundant subtypes in the brain andhave thus been the most studied. In particular, the\\mathrm { D } _ { 1 } receptor\\mathbf { \\Gamma } ( \\mathbf { D } _ { 1 } \\mathbf { R } ) has not only well-documented roles in motor activitybut also in memory function.9,10 Hence, activation of the\\mathbf { D } _ { 1 } \\mathbf { R }with orthosteric agonists has been a target for drug discoveryefforts to develop improved therapies for movement disordersin PD and cognitive decline associated with PD and otherneuropsychiatric pathologies such as schizophrenia, Alz-heimer’s disease, and other forms of dementia.11−14 A numberof these agonists are endowed with anti-Parkinsonian proper-ties and have been strongly validated at the preclinical stage.6,11",
+        "page_idx": 0,
+        "detailed_index": 11,
+        "confirmed_index": 9
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          486,
+          556,
+          630
+        ],
+        "text": "",
+        "page_idx": 0,
+        "detailed_index": 12,
+        "confirmed_index": 10
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          631,
+          556,
+          664
+        ],
+        "text": "However, \\mathbf { D } _ { 1 } \\mathbf { R } orthosteric agonists suffer from numeroustherapeutic drawbacks including: low selectivity over other DAreceptors; poor pharmacokinetic profile; inverted U-shapeddose response, probably due to overstimulation at higher dose;rapid onset of tolerance and desensitization caused by aconstant activation of the receptor; and tolerability issues, suchas hypotension and dyskinesia.12 Hence, their clinical develop-ment has been very challenging and largely unsuccessful so far,and there remains a significant unmet need for safe andeffective treatment of PD.",
+        "page_idx": 0,
+        "detailed_index": 13,
+        "confirmed_index": 11
+      }
+    ]
+  },
+  {
+    "page_idx": 1,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          58,
+          291,
+          135
+        ],
+        "text": "",
+        "page_idx": 1,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          138,
+          291,
+          659
+        ],
+        "text": "In recent years, the allosteric modulation approach hasemerged as a new and alternative strategy to regulate GPCRfunctions, and the development of allosteric ligands hasreceived widespread attention in drug discovery programstargeting numerous receptors.15−25 The novel compoundsbind at allosteric sites that are spatially distinct from theorthosteric site where the endogenous, natural ligand does.Binding of a ligand to the allosteric site induces conformationalchanges of the receptor, which results in the modulation of theaffinity, potency, and/or signal transduction efficacy of theendogenous/orthosteric ligand response. The allosteric ligandcan be classified as a positive allosteric modulator (PAM,enhancing signaling), a negative allosteric modulator (NAM,reducing signaling), or a silent allosteric modulator (SAM, noeffect on signaling).26 GPCR allosteric modulators presentunique advantages over orthosteric classical ligands including:a higher pharmacological selectivity, due to the greaterstructural diversity hypothesized for allosteric sites in contrastto the conserved nature of the orthosteric site among relatedGPCRs; and a more physiological effect because they exerttheir indirect action only in the presence of the endogenousligands, which limits the action of the allosteric ligandproducing a saturability of the effect (“ceiling effect”) andprotecting against a potential overdose of an orthostericligand.27−30 Hence, allosteric modulation has become apromising approach toward the discovery of safer drugs thatoffer the maximum benefit while minimizing side effects.However, the development of allosteric modulators for GPCRshas been challenging and has afforded few FDA-approveddrugs: the calcium-sensing receptor PAMs cinacalcet andetelcalcetide, the CCR5 receptor NAM maraviroc, the CXCR4NAM/CXCR7 allosteric agonist plerixafor, the smoothenedreceptor NAM vismodegib, and the \\mathrm { G A B A _ { A } } receptor PAMbrexanolone.31−36 In this context, the positive allostericmodulation approach to upregulate \\mathbf { D } _ { 1 } \\mathbf { R } activity has beenrecently proposed as a novel strategy toward improveddopaminergic therapies for PD. Rather than directly activatingthe\\mathbf { D } _ { 1 } \\mathbf { R } , a PAM will potentiate the action of endogenous DA,thus inducing a more physiological mode of action andavoiding the pitfalls displayed by orthosteric ligands such asoverstimulation, tolerance development, and low tolerabil-ity.11,37 However, this therapeutic potential has not beenclinically assessed for disclosed \\mathbf { D } _ { 1 } \\mathbf { R } PAMs.11 Among them,LY3154207 and ASP4345 (Figure 1) have reached phase 2development for the treatment of PD and schizophrenia,respectively, which will hopefully validate the clinical use of aD1R PAM.38−4",
+        "page_idx": 1,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          655,
+          291,
+          754
+        ],
+        "text": "In the present work, we contribute to the highly desiredsearch for selectively acting \\mathbf { D } _ { 1 } \\mathbf { R } allosteric modulators. Thescreening of an in-house chemical library using a potentiatior-mode cAMP assay in a cell line stably expressing the human\\mathbf { D } _ { 1 } \\mathbf { R } , followed by structural modification of identified hit 4 ^ { \\prime }-methoxy[ 1 , 1 ^ { \\prime }-biphenyl]-4-carbaldehyde, has led to newbiphenyl derivative 3 characterized in vitro as a \\mathbf { D } _ { 1 } \\mathbf { R } PAM(Figure 2). A subsequent medicinal chemistry programresulted in compound 26 (UCM-1306, Figure 2), a non-covalent PAM that increases the endogenous DA maximaleffect both in human and mouse\\mathrm { D } _ { 1 } receptors, does not inducereceptor desensitization, exhibits no agonist activity andsubtype selectivity, and when orally administered it potentiatesL-DOPA recovery of decreased locomotor activity in apreclinical model of PD. The compound enhances memoryin a novel object recognition test (NORT), supporting itsadditional use in complicated PD patients with cognitiveimpairment.",
+        "page_idx": 1,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          314,
+          59,
+          556,
+          174
+        ],
+        "page_idx": 1,
+        "parent_type": "image",
+        "img_path": "merged_images/1495ea870aa7e432799eed63298cf677abc2e85de54441eac8ad6e67662e9d4c.jpg",
+        "caption_text": "Figure 1. Structures of positive allosteric modulators of the dopamine\\mathbf { D } _ { 1 } \\mathbf { R } tested in clinical trials.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              314,
+              154,
+              556,
+              174
+            ],
+            "text": "Figure 1. Structures of positive allosteric modulators of the dopamine\\mathbf { D } _ { 1 } \\mathbf { R } tested in clinical trials.",
+            "page_idx": 1,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 3,
+        "merged_img_path": "merged_images/1495ea870aa7e432799eed63298cf677abc2e85de54441eac8ad6e67662e9d4c.jpg",
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          191,
+          556,
+          290
+        ],
+        "text": "",
+        "page_idx": 1,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "title",
+        "bbox": [
+          316,
+          299,
+          457,
+          311
+        ],
+        "text": "RESULTS AND DISCUSSION",
+        "title_level": 1,
+        "page_idx": 1,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          313,
+          556,
+          511
+        ],
+        "text": "Identification of Compound 3. An in-house chemicallibrary of 250 compounds was screened using an in vitro assaymeasuring accumulation of cAMP in a human neuroblastomaSK-N-MC cell line stably expressing physiological levels of the\\mathbf { D } _ { 1 } \\mathbf { R } but not the\\mathrm { D } _ { 5 } \\mathrm { R } ^ { 4 1 } To assess allosteric modulation of the\\mathbf { D } _ { 1 } \\mathbf { R } , cells were treated with a fixed concentration of the testcompounds \\left( 1 0 ~ \\mu \\mathbf { M } \\right) for 1 5 \\ \\mathrm { m i n } and then co-incubated withincreasing concentrations of the endogenous agonist DA. ThecAMP concentration was quantified by homogeneous time-resolved fluorescence energy transfer (HTRF) and the effect ofeach compound on the DA concentration−response curve wasmeasured. A compound inducing a potentiation> 2 0 \\% in theDA maximal effect (measured as E _ { \\mathrm { m a x } } ) was considered apotential PAM of the receptor. Using this potentiatior-modecAMP assay, 4 ^ { \\prime }-methoxy_ { _ { - } 1 , 1 ^ { \\prime } }-biphenyl]-4-carbaldehyde, ex-hibiting the highest increase in the DAE _ { \\mathrm { m a x } } (5 5 \\% , Figure 2),was identified as an initial hit for the search of new syntheticallosteric modulators of the\\mathbf { D } _ { 1 } \\mathbf { R } .",
+        "page_idx": 1,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          513,
+          555,
+          754
+        ],
+        "text": "Starting from this hit, related compounds 1−10 (Figure 2)were proposed to explore the substitution pattern on thebiphenyl scaffold as well as to produce structurally novelcompounds by the modification of the methoxy group.42 Forthe synthesis of biphenyl analogues\\mathbf { 1 - 1 0 }, a strategy based onSuzuki−Miyaura coupling and fluoroalkylation reaction wasfollowed (Scheme 1). Thus, coupling between the appropriatearylboronic acids and bromobenzene derivatives was carriedout using \\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } as the catalyst under microwave (MW)irradiation or thermal conditions to afford intermediates ^ { 1 1 - }13. Next, alkylation of these intermediates or commercial4 ^ { \\prime }-hydroxy[1,1′biphenyl]-4-carbaldehyde with chlorofluorome-thane allowed to obtain monofluoromethoxy derivatives \\mathbf { 1 - 4 }Difluoromethoxy analogues s { - 7 } were readily synthesized bythe coupling reaction between (4-formylphenyl)boronic acidand the corresponding commercially available bromodifluor-omethoxybenzene, whereas compound 8 was preparedfollowing the Suzuki−Miyaura-fluoroalkylation sequence,using diethyl [bromo(difluoro)methyl]phosphonate as analkylating reagent. It should be noted that compounds bearingformyl and alkoxy groups in 2- and 2 ^ { \\prime }-position were notconsidered because both 2 ^ { \\prime }-hydroxy\\cdot { 1 , 1 ^ { \\prime } }-biphenyl]-2-carbal-",
+        "page_idx": 1,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      }
+    ]
+  },
+  {
+    "page_idx": 2,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          50,
+          59,
+          456,
+          313
+        ],
+        "page_idx": 2,
+        "parent_type": "image",
+        "img_path": "merged_images/730b41ba980c4f740d3901df361fdcf277a67a5f2515ae8e903fac5074c233a8.jpg",
+        "caption_text": "Figure 2. Search of new synthetic modulators of the\\mathbf { D } _ { 1 } \\mathbf { R } starting from the initial identified hit.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              50,
+              302,
+              387,
+              313
+            ],
+            "text": "Figure 2. Search of new synthetic modulators of the\\mathbf { D } _ { 1 } \\mathbf { R } starting from the initial identified hit.",
+            "page_idx": 2,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 0,
+        "merged_img_path": "merged_images/730b41ba980c4f740d3901df361fdcf277a67a5f2515ae8e903fac5074c233a8.jpg",
+        "confirmed_index": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          323,
+          556,
+          755
+        ],
+        "detailed_index": null,
+        "page_idx": 2,
+        "parent_type": "image",
+        "caption_text": "aReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H } / \\mathrm { H } _ { 2 } \\mathrm { O } or\\mathrm { T H F / H } _ { 2 } \\mathrm { O } . MW, 1 0 0 / 1 2 0 / 1 3 0 ~ ^ { \\circ } \\mathrm { C } ,,2 0 ~ \\mathrm { m i n } or \\Delta, on,4 9 - 9 0 \\%; (b)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (( 2 . 0 \\ \\mathrm { M } \\ in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,5 9 - 8 4 \\%; (c) \\mathrm { B r F } _ { 2 } \\mathrm { C P ( O ) ( O E t ) } _ { 2 } ,\\begin{array} { r } { \\mathrm { K O H } , } \\end{array}\\mathrm { A C N / H } _ { 2 } \\mathrm { O } ,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,4 0 - 8 1 \\%.",
+        "footnote_text": "",
+        "img_path": "merged_images/0f7b7b4c20f0bd61b4287a4b7c779195c20d11c7f91e0bb8a2a84f2d37821bb1.jpg",
+        "merged_img_path": "merged_images/0f7b7b4c20f0bd61b4287a4b7c779195c20d11c7f91e0bb8a2a84f2d37821bb1.jpg",
+        "merged_from": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              49,
+              659,
+              552,
+              681
+            ],
+            "text": "aReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H } / \\mathrm { H } _ { 2 } \\mathrm { O } or\\mathrm { T H F / H } _ { 2 } \\mathrm { O } . MW, 1 0 0 / 1 2 0 / 1 3 0 ~ ^ { \\circ } \\mathrm { C } ,,2 0 ~ \\mathrm { m i n } or \\Delta, on,4 9 - 9 0 \\%; (b)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (( 2 . 0 \\ \\mathrm { M } \\ in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,5 9 - 8 4 \\%; (c) \\mathrm { B r F } _ { 2 } \\mathrm { C P ( O ) ( O E t ) } _ { 2 } ,\\begin{array} { r } { \\mathrm { K O H } , } \\end{array}\\mathrm { A C N / H } _ { 2 } \\mathrm { O } ,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,4 0 - 8 1 \\%.",
+            "page_idx": 2,
+            "parent_type": "image"
+          }
+        ],
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          323,
+          227,
+          335
+        ],
+        "text": "Scheme 1. Synthesis of Compounds 1−10adehyde and 2 ^ { \\prime }-alkoxy[1,1′-biphenyl]-2-carbaldehyde are re-ported to undergo ring-closure to form the correspondinghemiacetal or acetal, respectively.43 In the case of alkylsulfanylderivatives 9 and 10, direct Suzuki−Miyaura reaction using 2-bromobenzenethiol as a starting material did not work. Hence,mono- or difluoroalkylation of 2-bromobenzenethiol was firstcarried out to obtain intermediates 14 and 15, respectively,which afforded final compounds 9 and 10 by coupling reactionwith (4-formylphenyl)boronic acid (Scheme 1).",
+        "page_idx": 2,
+        "detailed_index": 1,
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          337,
+          552,
+          681
+        ],
+        "page_idx": 2,
+        "parent_type": "image",
+        "img_path": "merged_images/0341102f2f805a0fd8b1d85ce22acb496177180fda03292edbe9f1fc1f3a76ba.jpg",
+        "caption_text": "aReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H } / \\mathrm { H } _ { 2 } \\mathrm { O } or\\mathrm { T H F / H } _ { 2 } \\mathrm { O } . MW, 1 0 0 / 1 2 0 / 1 3 0 ~ ^ { \\circ } \\mathrm { C } ,,2 0 ~ \\mathrm { m i n } or \\Delta, on,4 9 - 9 0 \\%; (b)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (( 2 . 0 \\ \\mathrm { M } \\ in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,5 9 - 8 4 \\%; (c) \\mathrm { B r F } _ { 2 } \\mathrm { C P ( O ) ( O E t ) } _ { 2 } ,\\begin{array} { r } { \\mathrm { K O H } , } \\end{array}\\mathrm { A C N / H } _ { 2 } \\mathrm { O } ,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,4 0 - 8 1 \\%.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              49,
+              659,
+              552,
+              681
+            ],
+            "text": "aReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H } / \\mathrm { H } _ { 2 } \\mathrm { O } or\\mathrm { T H F / H } _ { 2 } \\mathrm { O } . MW, 1 0 0 / 1 2 0 / 1 3 0 ~ ^ { \\circ } \\mathrm { C } ,,2 0 ~ \\mathrm { m i n } or \\Delta, on,4 9 - 9 0 \\%; (b)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (( 2 . 0 \\ \\mathrm { M } \\ in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,5 9 - 8 4 \\%; (c) \\mathrm { B r F } _ { 2 } \\mathrm { C P ( O ) ( O E t ) } _ { 2 } ,\\begin{array} { r } { \\mathrm { K O H } , } \\end{array}\\mathrm { A C N / H } _ { 2 } \\mathrm { O } ,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,4 0 - 8 1 \\%.",
+            "page_idx": 2,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 2,
+        "merged_img_path": "merged_images/0341102f2f805a0fd8b1d85ce22acb496177180fda03292edbe9f1fc1f3a76ba.jpg",
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          689,
+          292,
+          754
+        ],
+        "text": "",
+        "page_idx": 2,
+        "detailed_index": 3,
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          689,
+          556,
+          755
+        ],
+        "text": "",
+        "page_idx": 2,
+        "detailed_index": 4,
+        "confirmed_index": null,
+        "belong_to": 1
+      }
+    ]
+  },
+  {
+    "page_idx": 3,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          48,
+          58,
+          554,
+          337
+        ],
+        "detailed_index": null,
+        "page_idx": 3,
+        "parent_type": "image",
+        "caption_text": "1-10",
+        "footnote_text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 }) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathrm { E C } _ { 5 0 . }) of the compounds at the DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm \\operatorname { S E M } of three independent experiments with duplicate determinations; nd\\mathbf { \\sigma } = \\mathbf { \\sigma } not determined.",
+        "img_path": "merged_images/71195100a3d48519e890476605e04c4ddec7d47e63b1aa3c87f0fa63c7efb290.jpg",
+        "merged_img_path": "merged_images/71195100a3d48519e890476605e04c4ddec7d47e63b1aa3c87f0fa63c7efb290.jpg",
+        "merged_from": [
+          0,
+          1,
+          2
+        ],
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              293,
+              167,
+              313,
+              177
+            ],
+            "text": "1-10",
+            "page_idx": 3,
+            "parent_type": "table"
+          },
+          {
+            "type": "table_footnote",
+            "bbox": [
+              51,
+              306,
+              553,
+              337
+            ],
+            "text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 }) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathrm { E C } _ { 5 0 . }) of the compounds at the DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm \\operatorname { S E M } of three independent experiments with duplicate determinations; nd\\mathbf { \\sigma } = \\mathbf { \\sigma } not determined.",
+            "page_idx": 3,
+            "parent_type": "table"
+          }
+        ],
+        "text": "Table 1. Effect of Compounds 1−10 in DA-induced cAMP Production in Human\\bf { D } _ { 1 } R Endogenously Expressed in aNeuroblastoma Cell Line",
+        "confirmed_index": 0
+      },
+      {
+        "type": "title",
+        "bbox": [
+          48,
+          58,
+          531,
+          81
+        ],
+        "text": "Table 1. Effect of Compounds 1−10 in DA-induced cAMP Production in Human\\bf { D } _ { 1 } R Endogenously Expressed in aNeuroblastoma Cell Line",
+        "title_level": 1,
+        "page_idx": 3,
+        "detailed_index": 0,
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          269,
+          86,
+          334,
+          163
+        ],
+        "page_idx": 3,
+        "parent_type": "image",
+        "img_path": "merged_images/872124b97816faf4539392dca7a948330fb70e5f92dd8e6a42b2781d1bf6ad16.jpg",
+        "caption_text": "",
+        "footnote_text": "",
+        "sub_blocks": [],
+        "detailed_index": 1,
+        "merged_img_path": "merged_images/872124b97816faf4539392dca7a948330fb70e5f92dd8e6a42b2781d1bf6ad16.jpg",
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "table_body",
+        "bbox": [
+          50,
+          167,
+          554,
+          337
+        ],
+        "page_idx": 3,
+        "parent_type": "table",
+        "img_path": "merged_images/427d261cb212c3efedeba3cc6b8279e68e57dcb46fac1e74d69e5311cbdadbb4.jpg",
+        "caption_text": "1-10",
+        "footnote_text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 }) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathrm { E C } _ { 5 0 . }) of the compounds at the DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm \\operatorname { S E M } of three independent experiments with duplicate determinations; nd\\mathbf { \\sigma } = \\mathbf { \\sigma } not determined.",
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              293,
+              167,
+              313,
+              177
+            ],
+            "text": "1-10",
+            "page_idx": 3,
+            "parent_type": "table"
+          },
+          {
+            "type": "table_footnote",
+            "bbox": [
+              51,
+              306,
+              553,
+              337
+            ],
+            "text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 }) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathrm { E C } _ { 5 0 . }) of the compounds at the DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm \\operatorname { S E M } of three independent experiments with duplicate determinations; nd\\mathbf { \\sigma } = \\mathbf { \\sigma } not determined.",
+            "page_idx": 3,
+            "parent_type": "table"
+          }
+        ],
+        "detailed_index": 2,
+        "merged_img_path": "merged_images/427d261cb212c3efedeba3cc6b8279e68e57dcb46fac1e74d69e5311cbdadbb4.jpg",
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          348,
+          292,
+          663
+        ],
+        "text": "Potential PAM activities of synthesized compounds 1−10were tested in the potentiator-mode cAMP production assay,and the results of \\mathbf { D } _ { 1 } \\mathbf { R } activation are summarized in Table 1.The effect observed for the compounds at a fixedconcentration of 1 0 ~ \\mu \\mathrm { M } over DA concentration−responsecurves revealed a potentiation of the DAE _ { \\mathrm { m a x } } . Based on theobservation that the compounds did not modify DA\\mathrm { E C } _ { 5 0 } butthey increased DAE _ { \\mathrm { m a x } } , a concentration−response curve in thepresence of DA \\mathrm { E C } _ { 7 0 } concentration was built for thosecompounds that enhanced more than3 0 \\% the DAE _ { \\mathrm { m a x } } .. ThePAM efficacy was measured as the percentage of increase overDA \\mathrm { E C } _ { 7 0 } and the potency as the \\mathrm { E C } _ { 5 0 } observed in theconcentration−response curve. Compounds _ { 1 - 3 } and s { - } 7revealed that the 2 ^ { \\prime }-position is the most favorable for thealkoxy group (3 and 7, with DA potentiation of 82 and 45 \\% at1 0 \\ \\mu \\mathrm { M } , respectively). Hence, the position of the formyl groupwas explored in2 ^ { \\prime }-fluoroalkoxy analogues 4 and 8, revealing amarked drop of activity when the carbonyl is situated in the 3-position (DA potentiation of 23 and 12 \\% at 1 0 ~ \\mu \\mathrm { M } ,respectively). Compounds 3 and 7, bearing a formyl groupin the 4-position and a fluoroalkoxy moiety in the2 ^ { \\prime }-position,were also the best potentiators when tested in the presence ofan\\mathrm { E C } _ { 7 0 } concentration of DA (91 and 6 2 \\%, respectively, Table1). Replacement of oxygen for a sulfur atom in the alkoxymoiety did not improve the allosteric modulation in derivative10 4 4 \\% potentiation at1 0 \\mu \\mathrm { M } , Table 1), and a marked dropwas observed in analogue 9 (1 4 \\% potentiation at1 0 \\mu \\mathrm { M } _ { \\scriptscriptstyle , \\ d }, Table1).",
+        "page_idx": 3,
+        "detailed_index": 3,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          664,
+          292,
+          754
+        ],
+        "text": "Clearly, among the newly identified modulators of the\\mathbf { D } _ { 1 } \\mathbf { R } ,compound 3 is the most efficient PAM, potentiating DAE _ { \\mathrm { m a x } }in 8 2 \\% at 1 0 ~ \\mu \\mathrm { M }. Further pharmacological evaluation in thepotentiator-mode cAMP assay at different fixed concentrations( 0 . 1 \\mathrm { - } 1 0 ~ \\mu \\mathrm { M } ) resulted in a concentration-dependent potentia-tion of DA effect in human SK-N-MC and mouse CADneuroblastoma cell lines (Figure S1A,B), and it enhanced\\mathrm { E C } _ { 7 0 }DA effect in 91 \\%, with an \\mathrm { E C } _ { 5 0 } of 1 2 . 7 ~ \\mu \\mathrm { M } (Table 1 and",
+        "page_idx": 3,
+        "detailed_index": 4,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          346,
+          556,
+          573
+        ],
+        "text": "Figure S1C). No cAMP response to compound 3 was observedin the absence of DA, indicating that the modulator behavedmostly as a potentiator with no agonist activity (Figure S1D).In order to ascertain if this allosteric potentiation was due to amodulation on DA affinity, radioligand binding assays in thepresence of DA\\mathrm { I C } _ { 5 0 } \\left( 4 \\mu \\mathrm { M } \\right) were carried out. The calculationof the affinity ratio of \\mathrm { [ ^ { 3 } H ] S C H } { - 2 3 3 9 0 } ^ { 4 4 } showed aconcentration-dependent effect of compound 3 by increasingthe affinity ratio values, which evidences a positive allostericbehavior of this compound over the DA effect (Figure S2A).When tested in transfected cells expressing human\\mathrm { D } _ { 2 } , \\mathrm { D } _ { 3 } , \\mathrm { D } _ { 4 } ,or{ \\bf D } _ { 5 } receptors, compound 3 \\left( 1 0 ~ \\mu \\mathbf { M } \\right) did not enhance DAE _ { \\mathrm { m a x } } in the potentiator-mode cAMP assay (Figure S3). Resultsin competitive binding assays revealed that 3 displayedmarginal displacement (12 \\% at 1 0 ~ \\mu \\mathrm { M } ,) of the radioligand[ { } ^ { 3 } \\mathrm { H } \\bar { ] } \\mathrm { S C H } . 2 \\bar { 3 } 3 9 0 _ { ; }, whereas full displacement was observed fororthosteric agonist haloperidol \\mathrm { ' } K _ { \\mathrm { i } } = 5 . 5 \\ \\mathrm { n M } ,, Figure S4). Thisconfirms that modulator 3 does not bind to the high-sequencehomology orthosteric site but should be located in an allostericone, in agreement with the observed subtype selectivity.",
+        "page_idx": 3,
+        "detailed_index": 5,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          574,
+          556,
+          675
+        ],
+        "text": "Based on the pharmacological characterization of compound3 as a specific PAM of the human\\mathbf { D } _ { 1 } \\mathbf { R } , the next step was an invitro ADMET profiling (Table S1). Overall, the compoundshowed good permeability and low hERG inhibition, but itslow solubility, high HSA binding, low serum stability, andmoderate inhibition in a panel of CYP450 hampered in vivovalidation of the therapeutic interest of compound 3 andprompted us to search for a new compound with improvedpharmacokinetic properties.",
+        "page_idx": 3,
+        "detailed_index": 6,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          675,
+          556,
+          754
+        ],
+        "text": "\\boldsymbol { \\mathsf { D } } _ { 1 } \\boldsymbol { \\mathsf { R } } PAM Optimization: from Compound 3 toCompound 26. A medicinal chemistry program, including2-fluoromethoxy analogues 16−27, was conducted for theoptimization of compound 3 (Figure 2). The synthesis oftarget compounds\\mathbf { 1 6 - 2 1 } was accomplished using a Suzuki−Miyaura coupling followed by monofluoroalkylation (Scheme2). Thus, the adequate bromobenzene derivative and thecorresponding arylboronic acid were coupled according to thepreviously described conditions, to obtain intermediates ^ { 2 8 - }32, which afforded final compounds\\mathbf { 1 6 - 2 0 } by a reaction withchlorofluoromethane. In the case of derivative 20, intermediate32 was oxidized to sulfone 33 before the fluoroalkylation step.Carboxylic acid 21 was readily accessible through basichydrolysis of methyl ester 17. Regarding amide 22, thecoupling reaction between (4-carbamoylphenyl)boronic acidand 2-bromophenol failed to give the expected biphenylderivative. In this case, 2-bromophenol was transformed intofluorinated derivative 34, which did provide final compound22 by Suzuki−Miyaura coupling. Sulfoxide analogues 23 and24 were prepared from 1-bromo-4-(methylsulfanyl)benzeneand 1-bromo-4-(ethylsulfanyl)benzene (Scheme 2), respec-tively. Thus, oxidation to arylsulfoxides 35 and 36 andsubsequent coupling with (2-hydroxyphenyl)boronic acidafforded intermediates 37 and 38, leading to the final targetcompounds by standard fluoroalkylation. NH-sulfoximines 25and 26 were prepared through two different strategies (Scheme3). Ethylsulfoximine derivative 25 was synthesized via classicalmethodology, starting with an imination reaction withhydrazoic acid of previously synthesized sulfoxide 36 to obtainthe corresponding sulfoximine 39. Next, coupling with (2-hydroxyphenyl)boronic acid under MW standard conditionsand reaction with chlorofluoromethane yielded desiredcompound 25. For the synthesis of methylsulfoximine 26, asafer procedure was used for the initial imination step. Thus,the reaction of commercial 1-bromo-4-(methylsulfanyl)-benzene with cyanamide and N-bromosuccinimide affordedan intermediate N .-cyanosulfylimine, which was directlytransformed into NH-sulfoximine 41 through oxidation andhydrolysis. Then, Suzuki−Miyaura followed by fluoroalkylationyielded final compound 26. N-Methylsulfoximine 27 wasobtained using the same Suzuki−Miyaura-fluoroalkylationsequence but starting from N-methylated intermediate 43,which was synthesized by reductive alkylation of 41 employingformaldehyde and formic acid.",
+        "page_idx": 3,
+        "detailed_index": 7,
+        "confirmed_index": 5
+      }
+    ]
+  },
+  {
+    "page_idx": 4,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          50,
+          58,
+          557,
+          438
+        ],
+        "page_idx": 4,
+        "parent_type": "image",
+        "img_path": "merged_images/010b3fe4591d8b799a19965a4426da3215256e91e2afccf8d557642910ead715.jpg",
+        "caption_text": "Scheme 2. Synthesis of Compounds1 6 { - } 2 4 ^ { a }\naReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { ' E t O H / H _ { 2 } O _ { 3 } }, MW, 1 2 0 / 1 7 0 ~ ^ { \\circ } \\mathrm { C } _ { ; },1 0 { - } 2 0 ~ \\mathrm { m i n } or\\Delta , on, 1 6 - 9 9 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ),( \\mathrm { N H _ { 4 } } ) _ { 6 } \\mathrm { M o } _ { 7 } \\mathrm { O } _ { 2 4 } { \\cdot } 4 \\mathrm { H } _ { 2 } \\mathrm { O } , methanol,0 ~ ^ { \\circ } \\mathrm { C } to rt,^ { \\textrm { 1 h , } }7 5 \\%; (c)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (2 . 0 \\ \\mathrm { M } in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,3 1 - 9 7 \\%; (d)\\mathrm { \\Delta N a O H },\\mathrm { T H F / H } _ { 2 } \\mathrm { O } , rt, 1 2 { \\mathrm { ~ h ~ } } ., quantitative; (e) mCPBA, DCM,0 ~ ^ { \\circ } \\mathrm { C } to rt, 4 \\mathrm { ~ h ~ }8 3 - 9 2 \\%.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              51,
+              58,
+              232,
+              69
+            ],
+            "text": "Scheme 2. Synthesis of Compounds1 6 { - } 2 4 ^ { a }",
+            "page_idx": 4,
+            "parent_type": "image"
+          },
+          {
+            "type": "image_caption",
+            "bbox": [
+              50,
+              407,
+              557,
+              438
+            ],
+            "text": "aReagents and conditions: (a)\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { ' E t O H / H _ { 2 } O _ { 3 } }, MW, 1 2 0 / 1 7 0 ~ ^ { \\circ } \\mathrm { C } _ { ; },1 0 { - } 2 0 ~ \\mathrm { m i n } or\\Delta , on, 1 6 - 9 9 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ),( \\mathrm { N H _ { 4 } } ) _ { 6 } \\mathrm { M o } _ { 7 } \\mathrm { O } _ { 2 4 } { \\cdot } 4 \\mathrm { H } _ { 2 } \\mathrm { O } , methanol,0 ~ ^ { \\circ } \\mathrm { C } to rt,^ { \\textrm { 1 h , } }7 5 \\%; (c)\\mathrm { C l C H } _ { 2 } \\mathrm { F } (2 . 0 \\ \\mathrm { M } in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,3 1 - 9 7 \\%; (d)\\mathrm { \\Delta N a O H },\\mathrm { T H F / H } _ { 2 } \\mathrm { O } , rt, 1 2 { \\mathrm { ~ h ~ } } ., quantitative; (e) mCPBA, DCM,0 ~ ^ { \\circ } \\mathrm { C } to rt, 4 \\mathrm { ~ h ~ }8 3 - 9 2 \\%.",
+            "page_idx": 4,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 0,
+        "merged_img_path": "merged_images/010b3fe4591d8b799a19965a4426da3215256e91e2afccf8d557642910ead715.jpg",
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          450,
+          292,
+          753
+        ],
+        "text": "",
+        "page_idx": 4,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          448,
+          556,
+          561
+        ],
+        "text": "",
+        "page_idx": 4,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          563,
+          556,
+          754
+        ],
+        "text": "The assessment of the new synthesized compounds 16−27as\\mathbf { D } _ { 1 } \\mathbf { R } PAMs was carried out in the potentiator-mode cAMPassay (Table 2). Replacement of the aldehyde for othercarbonyl-containing moieties (ketone, ester, carboxylic acid,and amide in compounds 16, 17, 21, and 22, respectively),sulfonamide (18 and 19), or sulfonyl (20) was detrimental forthe activity. On the other hand, a sulfinyl or sulfoximine groupseemed tolerable. In the case of sulfinyl derivatives, a markeddrop in activity was observed from methyl to ethyl analogues(23, 6 0 \\% vs 24, 1 6 \\% at 1 0 ~ \\mu \\mathrm { M } ), while potentiation wasmaintained for sulfoximine derivatives (25,5 4 \\% vs 26,5 5 \\% at1 0 \\mu \\mathrm { M } ). Methylation of the nitrogen in the sulfoximine groupproduced a decrease in activity (27,3 0 \\% at 1 0 ~ \\mu \\mathrm { M } \\dot { }). In thisseries, sulfoximine analogue 26 was 2 orders of magnitudemore potent than parent compound 3 \\mathrm { ' E C } _ { 5 0 } = 6 0 ~ \\mathrm { n M } vs 12.7\\mu \\mathbf { M } , Table 2) and exhibited high potentiation of DAE _ { \\mathrm { m a x } } (5 5 \\%at 1 0 ~ \\mu \\mathrm { M } ,). Hence, we next considered the synthesis of new",
+        "page_idx": 4,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      }
+    ]
+  },
+  {
+    "page_idx": 5,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          58,
+          558,
+          358
+        ],
+        "detailed_index": null,
+        "page_idx": 5,
+        "parent_type": "image",
+        "caption_text": "",
+        "footnote_text": "",
+        "img_path": "merged_images/6ef6c9e1d00a11b71dd675deae52830acd3e53ed14eeb9de448c0d3c1cdac787.jpg",
+        "merged_img_path": "merged_images/6ef6c9e1d00a11b71dd675deae52830acd3e53ed14eeb9de448c0d3c1cdac787.jpg",
+        "merged_from": [
+          0,
+          1,
+          2
+        ],
+        "sub_blocks": [],
+        "text": "aReagents and conditions: (a)\\mathrm { N a N } _ { 3 } ,\\mathrm { H } _ { 2 } S \\mathrm { O } _ { 4 } (concd),\\mathrm { C H C l } _ { 3 } ,4 5 \\ ^ { \\circ } \\mathrm { C } , on,9 2 \\%; (b) (2-hydroxyphenyl)boronic acid,\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H / H _ { 2 } O } . MW,1 0 0 / 1 2 0 ~ ^ { \\circ } \\mathrm { C } ,2 0 ~ \\mathrm { m i n },45 - 9 0 \\%; (c)\\mathrm { C l C H } _ { 2 } \\mathrm { F } 2 . 0 \\ \\mathrm { M } in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 }, DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,78 \\mathrm { - } 9 5 \\%; (d) (i) cyanamide,NBS, tBuOK, methanol, rt,1 . 5 \\mathrm { h } ,, quantitative; (ii){ \\mathrm { R u C l } } _ { 3 },{ \\mathrm { N a I O } } _ { 4 } (aq,0 . 1 5 \\mathrm { M } \\dot { }), ACN/DCM, rt,3 \\mathrm { h },8 3 \\%; (iii)\\mathrm { H } _ { 2 } S \\mathrm { O } _ { 4 } (aq,5 0 \\%),\\Delta,2 \\mathrm { h },7 7 \\%; (e)\\mathrm { H C O } _ { 2 } \\mathrm { H } _ { . }, HCHO (aq,3 7 \\%),1 0 0 \\ { } ^ { \\circ } \\mathrm { C } , \\ 2 \\ \\mathrm { d } , quantitative.",
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          58,
+          232,
+          69
+        ],
+        "text": "Scheme 3. Synthesis of Compounds2 5 - 2 7 ^ { a }",
+        "page_idx": 5,
+        "detailed_index": 0,
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          148,
+          73,
+          455,
+          311
+        ],
+        "page_idx": 5,
+        "parent_type": "image",
+        "img_path": "merged_images/82f8ca2e37dd770e000f213d137902f153c4ecc9b9a2514c8f5781d64a7a706d.jpg",
+        "caption_text": "",
+        "footnote_text": "",
+        "sub_blocks": [],
+        "detailed_index": 1,
+        "merged_img_path": "merged_images/82f8ca2e37dd770e000f213d137902f153c4ecc9b9a2514c8f5781d64a7a706d.jpg",
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          49,
+          316,
+          558,
+          358
+        ],
+        "text": "aReagents and conditions: (a)\\mathrm { N a N } _ { 3 } ,\\mathrm { H } _ { 2 } S \\mathrm { O } _ { 4 } (concd),\\mathrm { C H C l } _ { 3 } ,4 5 \\ ^ { \\circ } \\mathrm { C } , on,9 2 \\%; (b) (2-hydroxyphenyl)boronic acid,\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } ,{ \\mathrm { N a } } _ { 2 } { \\mathrm { C O } } _ { 3 } , toluene/\\mathrm { E t O H / H _ { 2 } O } . MW,1 0 0 / 1 2 0 ~ ^ { \\circ } \\mathrm { C } ,2 0 ~ \\mathrm { m i n },45 - 9 0 \\%; (c)\\mathrm { C l C H } _ { 2 } \\mathrm { F } 2 . 0 \\ \\mathrm { M } in DMF),\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 }, DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,78 \\mathrm { - } 9 5 \\%; (d) (i) cyanamide,NBS, tBuOK, methanol, rt,1 . 5 \\mathrm { h } ,, quantitative; (ii){ \\mathrm { R u C l } } _ { 3 },{ \\mathrm { N a I O } } _ { 4 } (aq,0 . 1 5 \\mathrm { M } \\dot { }), ACN/DCM, rt,3 \\mathrm { h },8 3 \\%; (iii)\\mathrm { H } _ { 2 } S \\mathrm { O } _ { 4 } (aq,5 0 \\%),\\Delta,2 \\mathrm { h },7 7 \\%; (e)\\mathrm { H C O } _ { 2 } \\mathrm { H } _ { . }, HCHO (aq,3 7 \\%),1 0 0 \\ { } ^ { \\circ } \\mathrm { C } , \\ 2 \\ \\mathrm { d } , quantitative.",
+        "page_idx": 5,
+        "detailed_index": 2,
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          369,
+          557,
+          733
+        ],
+        "detailed_index": null,
+        "page_idx": 5,
+        "parent_type": "image",
+        "caption_text": "16-27,45-47",
+        "footnote_text": "",
+        "img_path": "merged_images/a164ac9f8095a01ec49b56dcd5cfba9a7804ad74c7754e3b896726c2ff045836.jpg",
+        "merged_img_path": "merged_images/a164ac9f8095a01ec49b56dcd5cfba9a7804ad74c7754e3b896726c2ff045836.jpg",
+        "merged_from": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              274,
+              495,
+              332,
+              507
+            ],
+            "text": "16-27,45-47",
+            "page_idx": 5,
+            "parent_type": "table"
+          }
+        ],
+        "text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 } ,) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathbf { E C } _ { 5 0 . }) of the compounds at DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm SEM of three independent experiments with duplicate determinations; nd\\mathbf { \\Sigma } = \\mathbf { \\Sigma } not determined.",
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          369,
+          533,
+          392
+        ],
+        "text": "Table 2. Effect of Compounds 16−27 and\\mathbf { 4 5 - 4 7 } in DA-induced cAMP in Human\\mathbf { D _ { 1 } R } Endogenously Expressed in aNeuroblastoma Cell Line",
+        "page_idx": 5,
+        "detailed_index": 3,
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          266,
+          396,
+          339,
+          489
+        ],
+        "page_idx": 5,
+        "parent_type": "image",
+        "img_path": "merged_images/be445735301a090a2a318ce7faa064f74cc6ce8a94f469f535609dacf9ad5143.jpg",
+        "caption_text": "",
+        "footnote_text": "",
+        "sub_blocks": [],
+        "detailed_index": 4,
+        "merged_img_path": "merged_images/be445735301a090a2a318ce7faa064f74cc6ce8a94f469f535609dacf9ad5143.jpg",
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "table_body",
+        "bbox": [
+          49,
+          495,
+          555,
+          700
+        ],
+        "page_idx": 5,
+        "parent_type": "table",
+        "img_path": "merged_images/b46bb2f48d93f70949221e29a5cfb25b3c35bdefd079eb46d5ea690148643f6d.jpg",
+        "caption_text": "16-27,45-47",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              274,
+              495,
+              332,
+              507
+            ],
+            "text": "16-27,45-47",
+            "page_idx": 5,
+            "parent_type": "table"
+          }
+        ],
+        "detailed_index": 5,
+        "merged_img_path": "merged_images/b46bb2f48d93f70949221e29a5cfb25b3c35bdefd079eb46d5ea690148643f6d.jpg",
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          49,
+          702,
+          557,
+          733
+        ],
+        "text": "aEffect over the DA concentration−response curve at a fixed concentration of compound{ \\bf \\Omega } = 1 0 \\mu { \\bf M }. bEfficacy (measured as\\% of maximum increaseover DA\\mathrm { E C } _ { 7 0 } ,) in the concentration−response curves of the compounds over DA\\mathrm { E C } _ { 7 0 }. cPotency (measured as\\mathbf { E C } _ { 5 0 . }) of the compounds at DA\\mathrm { E C } _ { 7 0 } concentration; values are the mean\\pm SEM of three independent experiments with duplicate determinations; nd\\mathbf { \\Sigma } = \\mathbf { \\Sigma } not determined.",
+        "page_idx": 5,
+        "detailed_index": 6,
+        "confirmed_index": null,
+        "belong_to": 1
+      }
+    ]
+  },
+  {
+    "page_idx": 6,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          50,
+          58,
+          557,
+          363
+        ],
+        "page_idx": 6,
+        "parent_type": "image",
+        "img_path": "merged_images/1169eaf0b668c663fa96588157d9803a9190981ee97634ffa6afa2a2a66b735f.jpg",
+        "caption_text": "Scheme 4. Synthesis of Compounds4 5 { - } 4 7 ^ { a }\naReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (2 . 0 \\ \\mathrm { M } in DMF),{ \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,7 3 - 9 6 \\%; (b) (i)\\mathrm { B } _ { 2 } \\mathrm { p i n } _ { 2 } ,\\mathrm { P d } _ { 2 } ( \\mathrm { d } \\mathsf { b } \\mathsf { a } ) _ { 3 } { \\cdot } \\mathrm { C H } \\mathrm { C l } _ { 3 } , SPhos,KOAc, 1,4-dioxane, 1 1 0 \\ ^ { \\circ } \\mathrm { C } , on; (ii) \\mathrm { P d } _ { 2 } ( \\mathrm { d } \\mathsf { b } \\mathsf { a } ) _ { 3 } { \\cdot } \\mathrm { C H } \\mathrm { C l } _ { 3 } ,{ \\mathrm { K } } _ { 3 } { \\mathrm { P O } } _ { 4 } (aq,5 \\ \\mathrm { M } { } _ { , } ^ { \\cdot }), 1 1 0 \\ ^ { \\circ } \\mathrm { C } , on, 2 4 \\%; (c) (i) { \\mathrm { N a N O } } _ { 2 } , HCl (conc), potassium o-ethylcarbonodithioate,- 5 to7 5 ^ { \\circ } \\mathrm { C } , 1 . 5 \\mathrm { h } ; (ii) KOH, EtOH, \\Delta , on,80 \\% (2 steps); (d) MeI,\\mathrm { K } _ { 2 } \\mathrm { C O } _ { 3 } , acetone, rt, s \\mathrm { \\ h } , 56 \\%-quantitative; (e) (i)cyanamide, NBS, KOtBu, methanol, rt,1 . 5 \\mathrm { h } , quantitative; (ii){ \\mathrm { R u C l } } _ { 3 },\\mathrm { N a I O } _ { 4 } \\mathrm { \\hat { \\rho } _ { a q } } , 0 . 1 5 \\mathrm { M } \\mathrm { \\rangle }, ACN/DCM, rt,^ { 3 \\mathrm { { h } , } }8 4 - 8 9 \\%; (iii)\\mathrm { H } _ { 2 } S { \\mathrm O } _ { 4 } (aq,5 0 \\%),Δ, 2 h, 4 6 - 5 1 \\%; (f) (2-hydroxyphenyl)boronic acid, \\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } , \\mathrm { N a } _ { 2 } \\mathrm { C O } _ { 3 } , toluene/\\mathrm { { ' E t O H / H _ { 2 } O } } ,, MW,1 0 0 / 1 2 0 ~ ^ { \\circ } \\mathrm { C } , 20 min,7 7 - 8 9 \\%.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              51,
+              58,
+              232,
+              69
+            ],
+            "text": "Scheme 4. Synthesis of Compounds4 5 { - } 4 7 ^ { a }",
+            "page_idx": 6,
+            "parent_type": "image"
+          },
+          {
+            "type": "image_caption",
+            "bbox": [
+              50,
+              312,
+              557,
+              363
+            ],
+            "text": "aReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (2 . 0 \\ \\mathrm { M } in DMF),{ \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } \\mathrm { C } to rt, on,7 3 - 9 6 \\%; (b) (i)\\mathrm { B } _ { 2 } \\mathrm { p i n } _ { 2 } ,\\mathrm { P d } _ { 2 } ( \\mathrm { d } \\mathsf { b } \\mathsf { a } ) _ { 3 } { \\cdot } \\mathrm { C H } \\mathrm { C l } _ { 3 } , SPhos,KOAc, 1,4-dioxane, 1 1 0 \\ ^ { \\circ } \\mathrm { C } , on; (ii) \\mathrm { P d } _ { 2 } ( \\mathrm { d } \\mathsf { b } \\mathsf { a } ) _ { 3 } { \\cdot } \\mathrm { C H } \\mathrm { C l } _ { 3 } ,{ \\mathrm { K } } _ { 3 } { \\mathrm { P O } } _ { 4 } (aq,5 \\ \\mathrm { M } { } _ { , } ^ { \\cdot }), 1 1 0 \\ ^ { \\circ } \\mathrm { C } , on, 2 4 \\%; (c) (i) { \\mathrm { N a N O } } _ { 2 } , HCl (conc), potassium o-ethylcarbonodithioate,- 5 to7 5 ^ { \\circ } \\mathrm { C } , 1 . 5 \\mathrm { h } ; (ii) KOH, EtOH, \\Delta , on,80 \\% (2 steps); (d) MeI,\\mathrm { K } _ { 2 } \\mathrm { C O } _ { 3 } , acetone, rt, s \\mathrm { \\ h } , 56 \\%-quantitative; (e) (i)cyanamide, NBS, KOtBu, methanol, rt,1 . 5 \\mathrm { h } , quantitative; (ii){ \\mathrm { R u C l } } _ { 3 },\\mathrm { N a I O } _ { 4 } \\mathrm { \\hat { \\rho } _ { a q } } , 0 . 1 5 \\mathrm { M } \\mathrm { \\rangle }, ACN/DCM, rt,^ { 3 \\mathrm { { h } , } }8 4 - 8 9 \\%; (iii)\\mathrm { H } _ { 2 } S { \\mathrm O } _ { 4 } (aq,5 0 \\%),Δ, 2 h, 4 6 - 5 1 \\%; (f) (2-hydroxyphenyl)boronic acid, \\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 } , \\mathrm { N a } _ { 2 } \\mathrm { C O } _ { 3 } , toluene/\\mathrm { { ' E t O H / H _ { 2 } O } } ,, MW,1 0 0 / 1 2 0 ~ ^ { \\circ } \\mathrm { C } , 20 min,7 7 - 8 9 \\%.",
+            "page_idx": 6,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 0,
+        "merged_img_path": "merged_images/1169eaf0b668c663fa96588157d9803a9190981ee97634ffa6afa2a2a66b735f.jpg",
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          373,
+          292,
+          586
+        ],
+        "text": "sulfoximine derivatives 45−47, which were prepared using anNH-bromoarylsulfoximine as the coupling partner in aSuzuki−Miyaura reaction (Scheme 4). For the synthesis ofpyridine derivative 45, a one-pot borylation-Suzuki−Miyauracoupling strategy was carried out. Thus, NH-sulfoximine 41was converted to the corresponding pinacol boronatederivative and coupled in situ to intermediate 48, obtainedby fluoroalkylation of 2-bromopyridin-3-ol. Compounds 46and 47 were synthesized by coupling of bromochloroarylsul-foximines 52 and 53 with (2-hydroxyphenyl)boronic acidfollowed by fluoroalkylation of the resulting biphenylderivatives 54 and 55. Intermediates 52 and 53 were preparedby sequential imination, oxidation, and hydrolysis reactions ofthe corresponding bromochloroarylsulfides 49 and 50,according to the previously setup procedure. Sulfides 49 and50, in turn, were synthesized by methylation of 4-bromo-2-chlorobenzenethiol and 4-bromo-3-chlorobenzenethiol (51),which was obtained from 4-bromo-3-chloroaniline viadiazonium salt.",
+        "page_idx": 6,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          587,
+          292,
+          675
+        ],
+        "text": "Structural modifications introduced in the new synthesizedsulfoximine derivatives 45−47 produced an importantdepletion of \\mathbf { D } _ { 1 } \\mathbf { R } allosteric activity, as shown in the datafrom the potentiator-mode cAMP assay (Table 2). Therefore,compound 26 exhibiting the best allosteric activity (highefficacy and the greatest potency) was selected for furtherpharmacological characterization and study of ADMETproperties.",
+        "page_idx": 6,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          676,
+          292,
+          754
+        ],
+        "text": "In Vitro Pharmacological and PharmacokineticCharacterization of \\boldsymbol { \\mathsf { D } } _ { 1 } \\boldsymbol { \\mathsf { R } } PAM 26. Compound 26 wastested in the potentiator-mode cAMP assay at different fixedconcentrations ( 1 , \\ 5 , and 1 0 ~ \\mu \\mathrm { M } ). Figure 3A shows apotentiation of the DA E _ { \\mathrm { m a x } } in a concentration-dependentmanner, with a maximum value of5 5 \\% at 1 0 ~ \\mu \\mathrm { M } , and it wasdemonstrated to be a reversible effect (Figure 3B). A PAMbehavior was also observed in mouse\\mathbf { D } _ { 1 } \\mathbf { R } (Figure 3C). Whentested with \\mathrm { E C } _ { 7 0 } DA, 26 increased cAMP in a concentration-response manner with high potency \\big ( \\mathrm { E C } _ { 5 0 } = 6 0 \\ \\mathrm { n M } _ { } \\, Figure3D). Importantly, no cAMP response to compound 26 wasdetermined in the absence of DA, so the new\\mathbf { D } _ { 1 } \\mathbf { R } PAM doesnot display agonist activity (Figure 3E). Therefore, it shouldhave negligible direct activating effects on the human\\mathbf { D } _ { 1 } \\mathbf { R } inthe absence of the endogenous ligand. It was also confirmedthat the compound does not induce receptor desensitizationand it does not induce further increase in DA-induceddesensitization (Figure 3F). Hence, efficacy should be retainedover time upon repeated dosing of the\\mathbf { D } _ { 1 } \\mathbf { R } PAM, avoiding thedevelopment of tolerance. Compound 26 showed a concen-tration-dependent increase of the affinity ratio values in thepresence of4 \\mu \\mathrm { M } DA, evidencing a positive allosteric behaviorof this compound over DA effect (Figure S2B). As expected fora PAM, subtype selectivity over human { \\bf D } _ { 2 } ,) _ { 2 } , \\mathrm { ~ D } _ { 3 } , \\mathrm { ~ D } _ { 4 } , and{ \\bf D } _ { 5 }receptors was achieved with compound 26 (Figure S5),whereas selective activation of the \\mathbf { D } _ { 1 } \\mathbf { R } with agonists hashistorically been very challenging due to the high sequencehomology at the orthosteric site.",
+        "page_idx": 6,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          372,
+          556,
+          608
+        ],
+        "text": "",
+        "page_idx": 6,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          609,
+          555,
+          754
+        ],
+        "text": "In view of the allosteric efficacy of compound 26, in vitroADMET properties were determined, and they are summar-ized in Table 3. In nephelometry assay, a solubility more than 3times higher than parent compound 3 (50 vs1 5 \\mu \\mathrm { M } ,, Table S1)was observed. Interaction with HSA proteins revealed 7 9 \\%binding with moderate dissociation constant \\left( K _ { \\mathrm { d } } = 1 . 5 6 \\times 1 0 ^ { - 4 } \\right.M), indicating a significant reduction compared to 3 ( > 9 9 \\%binding, Table S1). PAMPA showed a decent permeabilityvalue ( P ) of2 4 \\times 1 0 ^ { - 6 } ~ \\mathrm { c m } / s. Compound 26 displayed a lowhERG inhibition 2 1 \\% at 1 0 \\mu \\mathrm { M } ,). In mouse serum,9 3 \\% of thecompound remained after4 \\mathrm { h }, whereas5 0 \\% had been observedfor remaining compound 3 (Table S1). To assess first-passmetabolism, compound 26 was incubated in liver homogenatesaMaximum solubility measured by nephelometry. bBinding to humanserum albumin (HSA) determined at a concentration of 5 ~ \\mu \\mathrm { M }.cPermeability in the parallel artificial membrane permeability assay(PAMPA). dBlockade of the\\mathrm { K ^ { + } } channel current at a concentration of10 \\mu \\mathbf { M }. eRemaining compound quantified after 4 and ^ { 2 4 } \\mathrm { ~ h , }respectively.f _ { \\mathrm { P } }ercentage of inhibition of CYP450 activity measuredat a concentration of1 0 ~ \\mu \\mathrm { M } by fluorescence assays.",
+        "page_idx": 6,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      }
+    ]
+  },
+  {
+    "page_idx": 7,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          50,
+          59,
+          559,
+          457
+        ],
+        "page_idx": 7,
+        "parent_type": "image",
+        "img_path": "merged_images/41b661cacdc2188040dfbf039d1aab7a264d31831dc5c9b83146fe99744e5728.jpg",
+        "caption_text": "Figure 3. (A) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } for cAMP production of DA alone (black) and in the presence of differentconcentrations of compound 26. (B) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (black),1 0 \\mu \\mathrm { M }26 for1 0 ~ \\mathrm { { m i n } } (red), and 1 0 \\mu \\mathrm { M } 2 6 for1 0 ~ \\mathrm { m i n } then washing with assay buffer (blue). (C) Concentration−response curves in mouse\\mathbf { D } _ { 1 } \\mathbf { R } of DA alone (black) and in the presence of 10\\mu \\mathrm { M } 2 6 (red). (D) Concentratiorve in human\\mathbf { D } _ { 1 } \\mathbf { R }of compound 26 in the presence of DA\\mathrm { E C } _ { 7 0 } concentration. (E) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (black) and compound 26 (red). (F) Concentrationresponse curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (red), afterpreincubation for^ \\textrm { \\scriptsize 1 h } with 1 0 ~ \\mu \\mathrm { M } DA (black), with 1 0 ~ \\mu \\mathrm { M } 26 (green), and with both1 0 ~ \\mu \\mathrm { M } DA and 1 0 ~ \\mu \\mathrm { M } ~ 2 6 (blue).",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              50,
+              396,
+              559,
+              457
+            ],
+            "text": "Figure 3. (A) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } for cAMP production of DA alone (black) and in the presence of differentconcentrations of compound 26. (B) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (black),1 0 \\mu \\mathrm { M }26 for1 0 ~ \\mathrm { { m i n } } (red), and 1 0 \\mu \\mathrm { M } 2 6 for1 0 ~ \\mathrm { m i n } then washing with assay buffer (blue). (C) Concentration−response curves in mouse\\mathbf { D } _ { 1 } \\mathbf { R } of DA alone (black) and in the presence of 10\\mu \\mathrm { M } 2 6 (red). (D) Concentratiorve in human\\mathbf { D } _ { 1 } \\mathbf { R }of compound 26 in the presence of DA\\mathrm { E C } _ { 7 0 } concentration. (E) Concentration−response curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (black) and compound 26 (red). (F) Concentrationresponse curves in human\\mathbf { D } _ { 1 } \\mathbf { R } of DA (red), afterpreincubation for^ \\textrm { \\scriptsize 1 h } with 1 0 ~ \\mu \\mathrm { M } DA (black), with 1 0 ~ \\mu \\mathrm { M } 26 (green), and with both1 0 ~ \\mu \\mathrm { M } DA and 1 0 ~ \\mu \\mathrm { M } ~ 2 6 (blue).",
+            "page_idx": 7,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 0,
+        "merged_img_path": "merged_images/41b661cacdc2188040dfbf039d1aab7a264d31831dc5c9b83146fe99744e5728.jpg",
+        "confirmed_index": 0
+      },
+      {
+        "type": "table_body",
+        "bbox": [
+          50,
+          467,
+          292,
+          677
+        ],
+        "detailed_index": null,
+        "page_idx": 7,
+        "parent_type": "table",
+        "caption_text": "Table 3. ADMET Profile for Compound 26",
+        "footnote_text": "",
+        "img_path": "merged_images/689ceb65092bf374d0483ff4d5944591ac891cfc211e636f1dde897bdaa337ad.jpg",
+        "merged_img_path": "merged_images/689ceb65092bf374d0483ff4d5944591ac891cfc211e636f1dde897bdaa337ad.jpg",
+        "merged_from": [
+          1,
+          2
+        ],
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              51,
+              467,
+              229,
+              478
+            ],
+            "text": "Table 3. ADMET Profile for Compound 26",
+            "page_idx": 7,
+            "parent_type": "table"
+          }
+        ],
+        "confirmed_index": 1
+      },
+      {
+        "type": "table_body",
+        "bbox": [
+          51,
+          467,
+          279,
+          605
+        ],
+        "page_idx": 7,
+        "parent_type": "table",
+        "img_path": "merged_images/f1c1fde84bae1bc9566118d7c9c264e2e24ff3a4a6ed5eecbb1189a6169115d4.jpg",
+        "caption_text": "Table 3. ADMET Profile for Compound 26",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "table_caption",
+            "bbox": [
+              51,
+              467,
+              229,
+              478
+            ],
+            "text": "Table 3. ADMET Profile for Compound 26",
+            "page_idx": 7,
+            "parent_type": "table"
+          }
+        ],
+        "detailed_index": 1,
+        "merged_img_path": "merged_images/f1c1fde84bae1bc9566118d7c9c264e2e24ff3a4a6ed5eecbb1189a6169115d4.jpg",
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          608,
+          292,
+          677
+        ],
+        "text": "",
+        "page_idx": 7,
+        "detailed_index": 2,
+        "confirmed_index": null,
+        "belong_to": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          699,
+          292,
+          753
+        ],
+        "text": "and 6 5 \\% of remaining compound was detected after 2 4 \\mathrm { ~ h ~ }.Hence, the compound displays a good stability profile overall.In a panel of CYP450, low inhibition was observed forCYP2D6 and CYP34A (3 and 9 \\% of inhibition, respectively),while moderate blockade was obtained for CYP1A2, CYP2C9,and CYP2C19 with the percentage of inhibition values in therange of 3 7 - 4 9 \\% (Table 3).",
+        "page_idx": 7,
+        "detailed_index": 3,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          467,
+          555,
+          489
+        ],
+        "text": "",
+        "page_idx": 7,
+        "detailed_index": 4,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          491,
+          556,
+          720
+        ],
+        "text": "Altogether, new compound 26 behaves as a potent andefficient\\mathbf { D } _ { 1 } \\mathbf { R }PAM and exhibits an improved ADMET profilethan parent compound 3. As the sulfoximine group provideschirality to the molecule, it was mandatory to evaluate bothenantiomers of compound 26. Therefore, each enantiomer wasprepared separately and tested for allosteric activity at the\\mathbf { D } _ { 1 } \\mathbf { R }in the potentiator-mode cAMP assay. For the enantioselectivesynthesis of the sulfoximines, a route in which chirality isintroduced through asymmetric oxidation of an intermediatesulfide was used (Scheme 5). Thus, previously synthesizedsulfide 32 was transformed into monofluorinated analogue 56by reaction with chlorofluoromethane. Next, asymmetricoxidation of 56 catalyzed by vanadyl acetylacetonate in thepresence of the appropriate chiral tert-leucinol derivative,45,46yielded the corresponding sulfoxides ( R )- and (S)-23 withenantiomeric ratio (er) values higher than 97:3. The reactionof these intermediates with ammonium carbamate and(diacetoxyiodo)benzene provided the highly enantioenrichedsulfoximines ( R )- and (S)-26 (\\mathrm { e r } > 9 7 { : } 3 \\) under very mildconditions47 (Scheme 5).",
+        "page_idx": 7,
+        "detailed_index": 5,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          720,
+          556,
+          754
+        ],
+        "text": "Both enantiomers (R)- and (S)-26 exhibited similarpharmacological activity\u0001\\mathbf { \\cdot D _ { 1 } R } PAM efficacy (42 and 43 \\%potentiation at 1 0 ~ \\mu \\mathbf { M } , and no agonist activity (Figure S6)\u0001",
+        "page_idx": 7,
+        "detailed_index": 6,
+        "confirmed_index": 5
+      }
+    ]
+  },
+  {
+    "page_idx": 8,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          51,
+          58,
+          556,
+          214
+        ],
+        "detailed_index": null,
+        "page_idx": 8,
+        "parent_type": "image",
+        "caption_text": "aReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (_ { 2 . 0 \\mathrm { ~ M ~ } } in DMF), { \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } C to rt, on, 8 4 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ), (S)- or (R)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol, [ \\mathrm { V O } ( \\mathrm { a c a c } ) _ { 2 } ] ,\\mathrm { C H C l } _ { 3 } , 0 \\ { } ^ { \\circ } \\mathrm { C } ,2 0 \\mathrm { ~ h ~ }, 5 9 - 6 4 \\%, er> 9 7 { : } 3; (c) ammoniumcarbamate, { \\mathrm { P h I } } ( \\mathrm { O A c } ) _ { 2 } ,\\mathrm { \\bf { M e O H } } _ { \\mathrm { { ; } } }, rt, 30−60 min (open flask),6 1 - 6 7 \\%, er> 9 7 { : } 3.",
+        "footnote_text": "",
+        "img_path": "merged_images/9993cc309cd4edccf79a10adc11c69a3f487f87dd083f4c55ed0bed83c403ba7.jpg",
+        "merged_img_path": "merged_images/9993cc309cd4edccf79a10adc11c69a3f487f87dd083f4c55ed0bed83c403ba7.jpg",
+        "merged_from": [
+          0,
+          1
+        ],
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              52,
+              182,
+              556,
+              214
+            ],
+            "text": "aReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (_ { 2 . 0 \\mathrm { ~ M ~ } } in DMF), { \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } C to rt, on, 8 4 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ), (S)- or (R)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol, [ \\mathrm { V O } ( \\mathrm { a c a c } ) _ { 2 } ] ,\\mathrm { C H C l } _ { 3 } , 0 \\ { } ^ { \\circ } \\mathrm { C } ,2 0 \\mathrm { ~ h ~ }, 5 9 - 6 4 \\%, er> 9 7 { : } 3; (c) ammoniumcarbamate, { \\mathrm { P h I } } ( \\mathrm { O A c } ) _ { 2 } ,\\mathrm { \\bf { M e O H } } _ { \\mathrm { { ; } } }, rt, 30−60 min (open flask),6 1 - 6 7 \\%, er> 9 7 { : } 3.",
+            "page_idx": 8,
+            "parent_type": "image"
+          }
+        ],
+        "text": "Scheme 5. Synthesis of Enantiomers of Compound 26a",
+        "confirmed_index": 0
+      },
+      {
+        "type": "title",
+        "bbox": [
+          51,
+          58,
+          277,
+          70
+        ],
+        "text": "Scheme 5. Synthesis of Enantiomers of Compound 26a",
+        "title_level": 1,
+        "page_idx": 8,
+        "detailed_index": 0,
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          52,
+          74,
+          556,
+          214
+        ],
+        "page_idx": 8,
+        "parent_type": "image",
+        "img_path": "merged_images/0d010a79f77b2aae042eba4b07ab97a8c26371f90722bee5e1fdaa72357a3f67.jpg",
+        "caption_text": "aReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (_ { 2 . 0 \\mathrm { ~ M ~ } } in DMF), { \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } C to rt, on, 8 4 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ), (S)- or (R)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol, [ \\mathrm { V O } ( \\mathrm { a c a c } ) _ { 2 } ] ,\\mathrm { C H C l } _ { 3 } , 0 \\ { } ^ { \\circ } \\mathrm { C } ,2 0 \\mathrm { ~ h ~ }, 5 9 - 6 4 \\%, er> 9 7 { : } 3; (c) ammoniumcarbamate, { \\mathrm { P h I } } ( \\mathrm { O A c } ) _ { 2 } ,\\mathrm { \\bf { M e O H } } _ { \\mathrm { { ; } } }, rt, 30−60 min (open flask),6 1 - 6 7 \\%, er> 9 7 { : } 3.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              52,
+              182,
+              556,
+              214
+            ],
+            "text": "aReagents and conditions: (a) \\mathrm { C l C H } _ { 2 } \\mathrm { F } (_ { 2 . 0 \\mathrm { ~ M ~ } } in DMF), { \\mathrm { C s } } _ { 2 } { \\mathrm { C O } } _ { 3 } , DMF,- 7 8 ~ ^ { \\circ } C to rt, on, 8 4 \\%; (b)\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } ( 3 0 \\% ), (S)- or (R)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol, [ \\mathrm { V O } ( \\mathrm { a c a c } ) _ { 2 } ] ,\\mathrm { C H C l } _ { 3 } , 0 \\ { } ^ { \\circ } \\mathrm { C } ,2 0 \\mathrm { ~ h ~ }, 5 9 - 6 4 \\%, er> 9 7 { : } 3; (c) ammoniumcarbamate, { \\mathrm { P h I } } ( \\mathrm { O A c } ) _ { 2 } ,\\mathrm { \\bf { M e O H } } _ { \\mathrm { { ; } } }, rt, 30−60 min (open flask),6 1 - 6 7 \\%, er> 9 7 { : } 3.",
+            "page_idx": 8,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 1,
+        "merged_img_path": "merged_images/0d010a79f77b2aae042eba4b07ab97a8c26371f90722bee5e1fdaa72357a3f67.jpg",
+        "confirmed_index": null,
+        "belong_to": 0
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          225,
+          559,
+          650
+        ],
+        "page_idx": 8,
+        "parent_type": "image",
+        "img_path": "merged_images/fda7ea6c15ef206cb2b550589ee9e7b4c3109c557a3687a1161c8cd09c0946b5.jpg",
+        "caption_text": "Figure 4. Homology model (top panel, yellow cartoon representation) and electron microscopy model (bottom panel, cyan cartoonrepresentation) of the ICL2 region of human\\mathbf { D } _ { 1 } \\mathbf { R } bound to (S)-26 (left panel, orange stick representation) and (R)-26 (right panel, pink stickrepresentation) as predicted by docking calculations. The key interactions between the ligand and residues are highlighted: blue lines indicatefavorable H-bond interactions, grey dashed lines hydrophobic interactions, turquoise lines halogen bonds, and green dashed lines\\pi { - } \\pi stackinginteractions.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              49,
+              600,
+              559,
+              650
+            ],
+            "text": "Figure 4. Homology model (top panel, yellow cartoon representation) and electron microscopy model (bottom panel, cyan cartoonrepresentation) of the ICL2 region of human\\mathbf { D } _ { 1 } \\mathbf { R } bound to (S)-26 (left panel, orange stick representation) and (R)-26 (right panel, pink stickrepresentation) as predicted by docking calculations. The key interactions between the ligand and residues are highlighted: blue lines indicatefavorable H-bond interactions, grey dashed lines hydrophobic interactions, turquoise lines halogen bonds, and green dashed lines\\pi { - } \\pi stackinginteractions.",
+            "page_idx": 8,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 2,
+        "merged_img_path": "merged_images/fda7ea6c15ef206cb2b550589ee9e7b4c3109c557a3687a1161c8cd09c0946b5.jpg",
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          661,
+          291,
+          684
+        ],
+        "text": "to that of racemic compound 26, and the latter was selected asa drug candidate for in vivo validation of therapeutic interest.",
+        "page_idx": 8,
+        "detailed_index": 3,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          661,
+          556,
+          754
+        ],
+        "detailed_index": null,
+        "page_idx": 8,
+        "parent_type": "",
+        "caption_text": "",
+        "footnote_text": "",
+        "img_path": "merged_images/bd55f1bc7821f630c523b0a0e60f3616d3ce136ccd0d5c4df08bd8ffa6d95458.jpg",
+        "merged_img_path": "merged_images/bd55f1bc7821f630c523b0a0e60f3616d3ce136ccd0d5c4df08bd8ffa6d95458.jpg",
+        "merged_from": [
+          4,
+          5
+        ],
+        "sub_blocks": [],
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          685,
+          292,
+          754
+        ],
+        "text": "Binding Site for the New\\boldsymbol { \\mathsf { D } } _ { 1 } \\boldsymbol { \\mathsf { R } } PAM 26. In silico dockingcalculations were performed to predict the binding modebetween compound 26 (S- andR-stereoisomers) and the activeform of human \\mathbf { D } _ { 1 } \\mathbf { R } . The results in the receptor homologymodel (Figure 4, top panel) show that both enantiomers bindin a pocket formed by TM3, TM4, and intracellular loop 2(ICL2), a region previously identified as an allosteric bindingsite of the\\mathrm { D _ { 1 } R } ^ { 3 8 , \\tilde { 4 } 8 } Both ( R )- and (S)-26 bind with an almostequal pose establishing\\pi { - } \\pi stacking interactions with Trp123as well as polar interactions with Val116 (H-bond) and Lys134(halogen bond). Additionally, they form hydrophobic inter-actions with the following residues: Val119, Trp123, Tyr131,Lys134, Met135, and Leu143. The difference in the binding ofthe two enantiomers is that (S)-26 forms an additional polarinteraction (H-bond) with Asp120 (Figure 4, top left panel)that ( R )-26 cannot establish. In order to support the bindingposes, short molecular dynamics (MD) simulations wereperformed, which reveal that the docking poses are quite stableand compounds (R)- and (S)-26 remain bound to ICL2.Therefore, the residues interacting with the new compound aresimilar to those previously proposed for PAMs LY3154207 andDETQ docked in the\\mathbf { D } _ { 1 } \\mathbf { R } homology model.38,48",
+        "page_idx": 8,
+        "detailed_index": 4,
+        "confirmed_index": null,
+        "belong_to": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          661,
+          556,
+          754
+        ],
+        "text": "",
+        "page_idx": 8,
+        "detailed_index": 5,
+        "confirmed_index": null,
+        "belong_to": 3
+      }
+    ]
+  },
+  {
+    "page_idx": 9,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          57,
+          292,
+          146
+        ],
+        "text": "",
+        "page_idx": 9,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          147,
+          292,
+          390
+        ],
+        "text": "Very recently, Teng et al. have published an electronmicroscopy (EM) structure of the\\mathbf { D } _ { 1 } \\mathbf { R }bound to LY3154207(PDB code: 7X2F).49 In this structure, mostly similar to thehomology model used, the most relevant difference is that theconformation of Trp123 is flipped. This causes a shift in therotation of the LY3154207 pose at the binding site, comparedto that previously proposed in the homology model. Tounderstand how this would affect the binding mode ofcompound 26, we performed a new docking study using theEM structure. The results in Figure 4 (bottom panel) showthat both enantiomers bind in the same region as in thehomology model, but adopting a rotated pose forced by thenew conformation of Trp123, as in the case of LY3154207.(R)- and (S)-26 can establish \\pi { - } \\pi stacking interactions withTrp123 and polar interactions with Ala139 (H-bond), Arg130(halogen bond), and Lys134 (halogen bond). They can alsoform hydrophobic interactions with the following residues:Trp123, Arg130, Tyr131, Lys134, Met135, and Leu143. Bothenantiomers bind without major differences, but (R)-26 canestablish an additional H-bond with Leu143 and an extrahydrophobic interaction with Ala139 (Figure 4, bottom rightpanel).",
+        "page_idx": 9,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          391,
+          291,
+          434
+        ],
+        "text": "Overall, docking studies in Figure 4\u0001using the homologymodel or the EM structure of the receptor\u0001reveal that thenew PAM 26 interacts with the human\\mathbf { D } _ { 1 } \\mathbf { R } in a similar way tothat reported for other known PAMs of the receptor.38,48,49",
+        "page_idx": 9,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          434,
+          292,
+          578
+        ],
+        "text": "In Vivo Efficacy of the New\\mathsf { D } _ { 1 } \\mathsf { R } PAM 26 in LocomotorActivity Models. Prior to the evaluation of the new \\mathbf { D } _ { 1 } \\mathbf { R }PAM 26 in animal models, the in vivo cerebrospinal fluid(CSF) and brain permeability were studied. Following a singleoral dose administration of 26 at 5 ~ \\mathrm { m g / k g } to male { \\mathrm { B A L B } } / { \\mathrm { c } }mice, plasma concentrations were quantifiable up to ^ { 8 \\mathrm { ~ h ~ } } withT _ { \\mathrm { m a x } } at0 . 5 \\mathrm { ~ h ~ } (Figure 5). Concentrations in the CSF and brainwere quantifiable up to^ \\textrm { \\scriptsize 4 h }. Brain-to-plasma concentrationratios were in the range of0 . 5 5 { - } 1 . 1 5 between 0.5 and^ { 4 \\mathrm { h } } andCSF-to-plasma concentration ratio in the range of 0 . 1 3 \\substack { - 0 . 2 1 }between 0.5 and ^ \\mathrm { ~ 4 ~ h ~ }. In addition, CSF-to-plasma freeconcentration ratio of approximately 1 indicated that thecompound does not show efflux transport from the brain.",
+        "page_idx": 9,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          49,
+          589,
+          292,
+          754
+        ],
+        "page_idx": 9,
+        "parent_type": "image",
+        "img_path": "merged_images/491c281b871f9a5cf34e85f346a791c62bd503858902348c38bd8df349e602ad.jpg",
+        "caption_text": "Figure 5. Compound levels in the plasma, brain, and CSF of mouseadministered with{ \\cal 5 } \\mathrm { m g / k g } (po) of compound 26. Horizontal dottedline indicates the\\mathrm { E C } _ { 5 0 } value of the compound.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              49,
+              723,
+              292,
+              754
+            ],
+            "text": "Figure 5. Compound levels in the plasma, brain, and CSF of mouseadministered with{ \\cal 5 } \\mathrm { m g / k g } (po) of compound 26. Horizontal dottedline indicates the\\mathrm { E C } _ { 5 0 } value of the compound.",
+            "page_idx": 9,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 4,
+        "merged_img_path": "merged_images/491c281b871f9a5cf34e85f346a791c62bd503858902348c38bd8df349e602ad.jpg",
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          58,
+          556,
+          146
+        ],
+        "text": "In view of the good brain penetration and oral availability,compound efficacy in vivo was tested in two differentlocomotor activity assays: a cocaine-induced hyperactivitymodel in normal animals and a PD animal model based on themodulation of L-DOPA effect in reserpinized mice. In the firstexperiment, the administration of compound 26 \\mathrm { ( 1 ~ m g / k g , } ip)potentiated the hyperlocomotion induced by cocaine \\mathrm { 2 0 ~ m g / }kg, Figure 6). The cocaine-induced increase in extracellular DAconcentration results in enhanced locomotion throughactivation of the \\mathbf { D } _ { 1 } \\mathbf { R } , which is the dopaminergic receptorresponsible for this pharmacological action.50 Administrationof compound 26 increased this response, suggesting an in vivopotentiation of DA action at the\\mathbf { D } _ { 1 } \\mathbf { R } .",
+        "page_idx": 9,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          314,
+          156,
+          556,
+          348
+        ],
+        "page_idx": 9,
+        "parent_type": "image",
+        "img_path": "merged_images/662c6b83af50ae72c710b8fd829c31bbc68df570bf609277757ba0440d1c8260.jpg",
+        "caption_text": "Figure 6. Effect of compound 26 in a cocaine-induced hyperactivitymodel. Pretreatment with 26 (\\mathrm { ~ \\cdot ~ } \\mathrm { m g } / \\mathrm { k g } , ip) enhanced cocaine (20\\mathrm { m g / k g , \\ s c ) }-induced hyperlocomotion in adult mice, with no intrinsiclocomotor activity when 26 was administered alone \\left[ F \\big ( 3 . 1 6 \\big ) = 6 1 . 6 7 , \\right.P < 0 . 0 0 0 1,^ { * * } P < 0 . 0 0 1,^ { * } P < 0 . 0 1 cocaine vs cocaine+ 2 6 groups,N= 8 animals/group].",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              314,
+              287,
+              556,
+              348
+            ],
+            "text": "Figure 6. Effect of compound 26 in a cocaine-induced hyperactivitymodel. Pretreatment with 26 (\\mathrm { ~ \\cdot ~ } \\mathrm { m g } / \\mathrm { k g } , ip) enhanced cocaine (20\\mathrm { m g / k g , \\ s c ) }-induced hyperlocomotion in adult mice, with no intrinsiclocomotor activity when 26 was administered alone \\left[ F \\big ( 3 . 1 6 \\big ) = 6 1 . 6 7 , \\right.P < 0 . 0 0 0 1,^ { * * } P < 0 . 0 0 1,^ { * } P < 0 . 0 1 cocaine vs cocaine+ 2 6 groups,N= 8 animals/group].",
+            "page_idx": 9,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 6,
+        "merged_img_path": "merged_images/662c6b83af50ae72c710b8fd829c31bbc68df570bf609277757ba0440d1c8260.jpg",
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          369,
+          555,
+          424
+        ],
+        "text": "",
+        "page_idx": 9,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          425,
+          556,
+          753
+        ],
+        "text": "Regarding the PD model, reserpine is an alkaloid known toinduce hypomobility/akinesia and rigidity, and reserpinizedrodents are widely used as a preclinical model for PD. L-DOPAand all clinically active anti-Parkinsonian treatments showefficacy in the reserpine model, exhibiting a reversal ofreserpine-induced akinesia. After pretreatment with a lowdose of reserpine ( 2 . 5 ~ \\mathrm { m g / k g } , ~ \\mathrm { s c } ), a partial depletion of DAwas achieved in mice, as previously described, mimicking thelow dopaminergic functionality in PD patients. As shown inFigure 7, reserpinized mice were treated with L-DOPA (100 or4 0 0 ~ \\mathrm { m g / k g , i g }) and/or PAM 26 (\\mathrm { ' } 3 0 ~ \\mathrm { m g / k g , p o } ,. There was asmall recovery of decreased locomotor activity with\\mathrm { ~ L ~ }-DOPAalone (as described),3 a small recovery of decreased locomotoractivity with 26 alone (as reported for other D1R PAMs),37,38and a moderate synergistic effect with\\mathrm { ~ L ~ }-DOPA plus compound26, as expected for a \\mathbf { D } _ { 1 } \\mathbf { R } PAM. These results evidencedefficacy of the compound in ambulatory activity of mice withinduced low DA levels, similarly to other \\mathbf { D } _ { 1 } \\mathbf { R } PAMs. Forinstance, DETQ and LY3154207 have displayed a synergisticeffect on locomotion in human\\mathbf { D } _ { 1 } \\mathbf { R } transgenic mice; the largereffect observed for these PAMs was probably due to the higherlevel of receptor expression than that in wild-type reserpinizedmice used in our model.51 The study suggests that the new\\mathbf { D } _ { 1 } \\mathbf { R } PAM could be therapeutically beneficial to alleviate motorsymptoms in PD patients as monotherapy by enhancing theeffect of low levels of endogenous DA or the activity of co-administered L-DOPA. In the study, high levels of 26 in boththe brain and plasma were confirmed (Table S2) and no signof adverse effects was observed in the animals after oral doseadministration of the compound.",
+        "page_idx": 9,
+        "detailed_index": 8,
+        "confirmed_index": 8
+      }
+    ]
+  },
+  {
+    "page_idx": 10,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "image_body",
+        "bbox": [
+          45,
+          59,
+          554,
+          338
+        ],
+        "page_idx": 10,
+        "parent_type": "image",
+        "img_path": "merged_images/ca70045085537de671d6e7051246a9ed3c429a0700403e44acc5ced7f4c1ec24.jpg",
+        "caption_text": "Figure 7. In vivo effect of compound 26 in locomotor activity by measuring ambulatory activity and total distance travelled. Data are shown as themean\\pm \\ : S . \\mathrm { E . M } { \\bf \\langle } N = 9 - 1 0 { \\bf \\rangle }.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              45,
+              317,
+              554,
+              338
+            ],
+            "text": "Figure 7. In vivo effect of compound 26 in locomotor activity by measuring ambulatory activity and total distance travelled. Data are shown as themean\\pm \\ : S . \\mathrm { E . M } { \\bf \\langle } N = 9 - 1 0 { \\bf \\rangle }.",
+            "page_idx": 10,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 0,
+        "merged_img_path": "merged_images/ca70045085537de671d6e7051246a9ed3c429a0700403e44acc5ced7f4c1ec24.jpg",
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          348,
+          292,
+          519
+        ],
+        "text": "Effects of Compound 26 on Memory. Because PD hasbeen linked to memory deficits and even dementia (alpha-synuclein aggregates that are a major feature of PD are alsovery prominent in Lewy Body Dementia),52,53 we assessedwhether compound 26 might have a beneficial effect onmemory, by means of the NORT. Data in Figure 8 suggest thatthe treatment with the compound increases memory trace,even 4 days after its administration and the presentation of thefamiliar object. This effect suggests that the compound helpsconsolidate long-term memory formation, probably throughthe described \\mathbf { D } _ { 1 } \\mathbf { R }-dependent modification of hippocampalinterneurons functionality.54 Therefore, the new\\mathbf { D } _ { 1 } \\mathbf { R } PAM is agood candidate not only for improving motor symptoms butalso for addressing the key comorbid cognitive impairmentassociated with long-term PD.",
+        "page_idx": 10,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "title",
+        "bbox": [
+          51,
+          533,
+          136,
+          544
+        ],
+        "text": "CONCLUSIONS",
+        "title_level": 1,
+        "page_idx": 10,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          549,
+          292,
+          753
+        ],
+        "text": "In this work, we have developed compound 26 [2-(fluoromethoxy)-. 4 ^ { \\prime }-(S-methanesulfonimidoyl)-^ { 1 , 1 ^ { \\prime } }-biphenyl]as an allosteric modulator of the dopaminergic \\mathbf { D } _ { 1 } \\mathbf { R } thatincreases the endogenous DA maximal effect in a dose-dependent manner in human and mouse receptors, is inactivein the absence of DA, modulates DA affinity for the receptor,exhibits subtype selectivity, shows a reversible effect, and doesnot show any desensitization effect avoiding tolerance.Competition assays and docking studies support the bindingto an allosteric site of the receptor. The new PAM was foundto be orally active in a reserpine-induced low-DA-level model,enhancing L-DOPA recovery of decreased locomotor activitywith no sign of adverse effects, which suggests an allostericmodulation of DA effect in vivo. The compound has alsomemory enhancing effect that might improve cognitiveimpairment associated to PD. These results support theinterest of a\\mathbf { D } _ { 1 } \\mathbf { R } PAM as a promising therapeutic approach forPD.",
+        "page_idx": 10,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "image_body",
+        "bbox": [
+          314,
+          349,
+          556,
+          696
+        ],
+        "page_idx": 10,
+        "parent_type": "image",
+        "img_path": "merged_images/3eb3ab1d59507dfce14351e5c6b78b0754e426672b2343e05a9834b027ead4bc.jpg",
+        "caption_text": "Figure 8. Effect of compound 26 ( 1 ~ \\mathrm { m g / k g } , ~ \\mathrm { i p } ) in the novel objectrecognition test. Enhanced memory, measured as the time spentexploring the novel object [upper panel,F { \\left( 1 . 2 8 \\right) } = 9 . 4 , p < 0 . 0 0 5 ] andthe preference over a familiar object [lower panel,F \\big ( 1 . 2 8 \\big ) = 7 . 1 \\,p <0.02] is observed at 24 and9 6 \\mathrm { ~ h ~ } (2-way ANOVA). N = 8 animals/group.",
+        "footnote_text": "",
+        "sub_blocks": [
+          {
+            "type": "image_caption",
+            "bbox": [
+              314,
+              635,
+              556,
+              696
+            ],
+            "text": "Figure 8. Effect of compound 26 ( 1 ~ \\mathrm { m g / k g } , ~ \\mathrm { i p } ) in the novel objectrecognition test. Enhanced memory, measured as the time spentexploring the novel object [upper panel,F { \\left( 1 . 2 8 \\right) } = 9 . 4 , p < 0 . 0 0 5 ] andthe preference over a familiar object [lower panel,F \\big ( 1 . 2 8 \\big ) = 7 . 1 \\,p <0.02] is observed at 24 and9 6 \\mathrm { ~ h ~ } (2-way ANOVA). N = 8 animals/group.",
+            "page_idx": 10,
+            "parent_type": "image"
+          }
+        ],
+        "detailed_index": 4,
+        "merged_img_path": "merged_images/3eb3ab1d59507dfce14351e5c6b78b0754e426672b2343e05a9834b027ead4bc.jpg",
+        "confirmed_index": 4
+      },
+      {
+        "type": "title",
+        "bbox": [
+          316,
+          710,
+          446,
+          721
+        ],
+        "text": "EXPERIMENTAL SECTION",
+        "title_level": 1,
+        "page_idx": 10,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          724,
+          555,
+          754
+        ],
+        "text": "Synthesis. Unless stated otherwise, starting materials, reagents,and solvents were purchased as high-grade commercial products from\\operatorname { A B C R } , Acros, Fluorochem, Scharlab, or Sigma-Aldrich, and were usedwithout further purification. All non-aqueous reactions wereperformed under an argon atmosphere in oven-dried glassware.Tetrahydrofuran (THF) and dichloromethane (DCM) were driedusing a Pure Solv Micro1 0 0 \\mathrm { ~ L ~ } solvent purification system. Acetonewas dried under \\mathrm { K } _ { 2 } \\mathrm { C O } _ { 3 }. Triethylamine was dried over KOH anddistilled before use. Reactions under MW irradiation were performedin a Biotage Initiator 2.5 reactor. Reactions were monitored byanalytical thin-layer chromatography (TLC) on silica gel platessupplied by Merck (Kieselgel 60 F-254) with detection by UV light( 2 5 4 ~ \\mathrm { n m } )),5 \\% ninhydrin solution in ethanol, or1 0 \\% phosphomolyb-dic acid solution in ethanol. Products were purified by flashchromatography using a Varian 971-FP purification system usingsilica gel cartridges (Varian, particle size5 0 \\mu \\mathrm { m } \\mathrm { \\ddot { \\Omega } }). All compounds wereobtained as oils, except for those whose melting points \\left( \\mathrm { { m p } } \\right) areindicated, which were solids.\\mathbf { M } \\mathbf { p } (uncorrected) was determined on aStuart Scientific electrothermal apparatus. Infrared (IR) spectra weremeasured on a Bruker Tensor 27 instrument equipped with a SpecacATR accessory of5 2 0 0 { - } 6 5 0 ~ \\mathrm { c m ^ { - 1 } } transmission range; frequencies( \\nu ) are expressed in \\mathsf { c m } ^ { - 1 }. Nuclear magnetic resonance (NMR)spectra were recorded on a Bruker AVANCE III{ 7 0 0 } ~ \\mathrm { M H z } ( ^ { 1 } \\mathrm { H } , 7 0 0\\mathrm { \\bar { M H z } };^ { 1 3 } { \\mathrm { C } } , 1 7 5 ~ \\mathrm { M H z } ,), Bruker AVANCE{ 5 0 0 } ~ \\mathrm { M H z } ( ^ { 1 } \\mathrm { H } , 5 0 0 \\ \\mathrm { M H z } ;;^ { 1 3 } \\mathrm { C } , ~ 1 2 5 ~ \\mathrm { M H z } ,), or Bruker DPX 3 0 0 ~ \\mathrm { M H z } ( ^ { 1 } \\mathrm { H } , ~ 3 0 0 ~ \\mathrm { M H z } ;^ { 1 3 } { \\mathrm { C } } , 75MHz;^ { 1 9 } \\mathrm { F },3 0 0 \\mathrm { M H z } \\mathrm { , }) instruments at the Universidad Complutense deMadrid (UCM) NMR core facilities. Bruker DPX 300 MHzequipment was used unless otherwise stated. Chemical shifts ( \\delta )are expressed in parts per million relative to the residual solvent peakfor\\mathrm { ^ { 1 } H } and^ { 1 3 } \\mathrm { C } nucleus \\left( \\mathrm { C D C l } _ { 3 } \\right.:\\delta _ { \\mathrm { H } } = 7 . 2 6,\\delta _ { \\mathrm { C } } = 7 7 . 1 6; DMSO-\\cdot d _ { 6 }:\\delta _ { \\mathrm { H } }= 2 . 5 0,\\delta _ { \\mathrm { C } } = 3 9 . 5 2 ; acetone-\\cdot d _ { 6 }:\\delta _ { \\mathrm { H } } = 2 . 0 5,\\delta _ { \\mathrm { C } } = 2 9 . 8 4 ,; methanol-d _ { 4 }:\\delta _ { \\mathrm { H } }= 3 . 3 1,\\delta _ { \\mathrm { C } } = 4 9 . 0 0) and to internal (trifluoromethyl)benzene for the^ { 1 9 } \\mathrm { F } nucleus; coupling constants ( J ) are in hertz \\mathbf { \\Pi } ( \\operatorname { H z } ). The followingabbreviations are used to describe peak patterns when appropriate: s(singlet), d (doublet), t (triplet), q (quartet), qt (quintet), sext(sextet), m (multiplet), br (broad), and app (apparent). 2D NMRexperiments (H,H-COSY, HMQC, and HMBC) of representativecompounds were carried out to assign protons and carbons of the newstructures. Numbered chemical structures for NMR assignation offinal compounds 3, 8, 10, (R)- and (S)-23, (R)- and (S)-26 are shownin Figure S7.",
+        "page_idx": 10,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      }
+    ]
+  },
+  {
+    "page_idx": 11,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          58,
+          292,
+          435
+        ],
+        "text": "",
+        "page_idx": 11,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          437,
+          292,
+          615
+        ],
+        "text": "For all final compounds, purity was determined by high-performance liquid chromatography (HPLC) coupled to massspectrometry (MS) using an Agilent 1200LC-MSD VL instrument,and satisfactory chromatograms confirmed a purity of at least9 5 \\% forall tested compounds. LC separation was achieved with a ZorbaxEclipse XDB-C18 column ( 5 ~ \\mu \\mathrm { { m } , 4 . 6 ~ m m \\times 1 5 0 ~ m m ) } or a ZorbaxSB-C3 column ( 5 \\mu \\mathrm { m } , 2 . 1 \\mathrm { m m } \\times 5 0 \\mathrm { m m } )), both together with a guardcolumn ( 5 ~ \\mu \\mathrm { { m } , ~ 4 . 6 ~ \\mathrm { m m } ~ \\times ~ 1 2 . 5 ~ \\mathrm { m m } ) }. The gradient mobile phasesconsisted of A (95:5 water/acetonitrile) and B (5:95 water/acetonitrile) with0 . 1 \\% ammonium hydroxide and0 . 1 \\% formic acidas the solvent modifiers, and the gradients are indicated in Table S3.MS analysis was performed with an ESI source. The capillary voltagewas set to3 . 0 \\ \\mathrm { k V } and the fragmentor voltage was set at7 2 { \\mathrm { ~ e V } } .. Thedrying gas temperature was3 5 0 ^ { \\circ } \\mathrm { C } _ { \\mathrm { ; } }, the drying gas flow was1 0 \\mathrm { L } / \\mathrm { m i n } ,and the nebulizer pressure was 20 psi. Spectra were acquired inpositive or negative ionization modes from 100 to 1 2 0 0 ~ m / z and inthe UV-mode at four different wavelengths (210, 230, 254, and 280\\mathbf { n m } _ { . } ^ { \\dagger }).",
+        "page_idx": 11,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          615,
+          292,
+          723
+        ],
+        "text": "Optical rotation [ \\alpha ] was measured on an Anton Paar MCP 100modular circular polarimeter using a sodium lamp \\langle \\lambda = 5 8 9 ~ \\mathrm { n m }) witha 1 dm path length; concentrations (c) are given as\\mathrm { g } / 1 0 0 \\ \\mathrm { \\ m L }.Enantiomeric ratios (er) were determined by HPLC using a DaicelChiralpak IC column ( 5 ~ \\mu \\mathrm { { m } , ~ 4 . 6 ~ \\mathrm { m m } \\times 1 5 0 ~ \\mathrm { m m } ) }, together with aguard column ( 5 ~ \\mu \\mathrm { { m } , ~ 4 . 6 ~ \\mathrm { m m } ~ \\times ~ 1 2 . 5 ~ \\mathrm { m m } ) }). The gradient mobilephase consisted of a 1:9 mixture of water/methanol, using a flow of0 . 9 \\ \\mathrm { m L / m i n } for the injection of the sample and 0 . 5 ~ \\mathrm { m L / \\bar { m i n } } duringthe run. HPLC traces were compared to racemic samples of sulfoxide23 and sulfoximine 26, which were obtained in the absence of anychiral catalysts.",
+        "page_idx": 11,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          725,
+          291,
+          754
+        ],
+        "text": "The following compounds were synthesized as previously describedand their spectroscopic data correspond with those reported: 1-bromo-4-(methanesulfinyl)benzene (35),55 4-bromo-3-chlorobenze-nethiol (51),56 and (R)- and (S)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-^ { . 4 , 6 }-diiodophenol.45",
+        "page_idx": 11,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          57,
+          555,
+          78
+        ],
+        "text": "",
+        "page_idx": 11,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          78,
+          556,
+          197
+        ],
+        "text": "General Procedure for Suzuki−Miyaura Reaction. A solutionof the corresponding bromoaryl derivative (1.00 equiv), arylboronicacid (1.05−1.20 equiv), and { \\bf N a } _ { 2 } { \\bf C O } _ { 3 } (2 or 4 equiv) in a 2:1.5:1mixture of toluene/water/ethanol or a 1:1 mixture of THF/water (6.5\\mathbf { m L } / \\mathbf { m m o l } ) was degassed by bubbling argon for 1 0 \\ \\mathrm { m i n }.\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 }(0.06 equiv) was then added and the reaction was refluxed overnightor heated under MW irradiation. After this time, the mixture wasextracted with EtOAc ( \\times 3 ) and the organic phase was dried over{ \\ N a } _ { 2 } S O _ { 4 } , filtered, and evaporated under reduced pressure. The residuewas purified by recrystallization, column chromatography, orpreparative TLC to afford intermediates 11−13, 28−32, 37, 38, 40,42, 44, 54, and 55 or final compounds 5−7, 9, 10, and 22.",
+        "page_idx": 11,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          198,
+          556,
+          266
+        ],
+        "text": "2 ^ { \\prime }-[(Difluoromethyl)sulfanyl][1,\\boldsymbol { { \\mathit { 1 } } ^ { \\prime } }-biphenyl]-4-carbaldehyde(10). Following the general procedure for the Suzuki−Miyaurareaction, compound 10 was obtained from 15 \\left( 1 0 4 \\mathrm { m g } , 0 . 4 3 3 \\mathrm { m m o l } \\right),(4-formylphenyl)boronic acid ( 7 0 ~ \\mathrm { m g } , 0 . 4 5 5 ~ \\mathrm { m m o l } ), and\\mathrm { N a } _ { 2 } \\mathrm { C O } _ { 3 } (92mg\\mathrm { ; 0 . 8 6 6 ~ m m o l } _ { \\mathrm { . } } ^ { \\mathrm { { \\cdot } } }) in a toluene/water/ethanol mixture by heating at1 3 0 ~ ^ { \\circ } \\mathrm { C } under MW irradiation for2 0 ~ \\mathrm { m i n }, as a solid (9 2 \\mathrm { ~ m g } , 8 1 \\%.Chromatography: hexane.",
+        "page_idx": 11,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          266,
+          556,
+          366
+        ],
+        "text": "m\\mathrm { 1 p ~ 4 6 - 4 7 ~ ^ { \\circ } C }.R _ { \\mathrm { f } } \\colon 0 . 4 6 (hexane/EtOAc 9:1). IR (ATR):\\nu 1702(CHO), 1065, 1034 (C−F).\\mathrm { ^ { 1 } H } NMR \\left( \\mathrm { C D C l } _ { 3 } \\right):\\delta 6 . 6 6 \\mathrm { ( t , ~ } J = 5 6 . 6 ,1H, \\operatorname { C H F } _ { 2 } .), 7 . 3 9 \\mathrm { - } 7 . 4 8 ( \\mathrm { m } , 3 \\mathrm { H },\\mathrm { H } _ { 3 } ., \\mathrm { H } _ { 4 ^ { \\prime } } , \\mathrm { H } _ { 5 ^ { \\prime } } ,, 7.52 (d,J = 8 . 1, 2H,{ \\mathrm { H } } _ { 2 } , { \\mathrm { H } } _ { 6 } ), 7.75 (dd,J = 7 . 5 , 1.5, 1H,\\mathrm { H } _ { 6 ^ { \\prime } }), 7.95 ( \\mathrm { d } , J = 8 . 2, 2H,\\mathrm { H } _ { 3 } , \\mathrm { H } _ { 5 } ,,10.09 (s, 1H, CHO). ^ { 1 3 } \\mathrm { C } NMR \\left( \\mathrm { C D C l } _ { 3 } \\right) ,): \\delta 120.7 (t,, J = 2 7 4 . 1,\\operatorname { C H F } _ { 2 , } ^ { \\mathrm { ~ , ~ } }, 124.8 \\left( \\mathrm { t } , J = 2 . 6 , \\mathrm { C } _ { 1 ^ { \\prime } } \\right)), 129.1 \\left( \\mathbf { C } _ { 3 ^ { \\prime } } \\right), 129.5 ( \\mathrm { C } _ { 3 } , \\mathrm { C } _ { 5 } ), 130.0( \\mathbf { C } _ { 5 ^ { \\prime } } ), 130.6 \\left( \\mathrm { C } _ { 2 } , \\mathrm { C } _ { 6 } \\right), 130.9 \\left( \\mathrm { C } _ { 4 ^ { \\prime } } \\right), 135.5 \\left( \\mathrm { C } _ { 4 } \\right), 136.4 \\left( \\mathrm { C } _ { 6 ^ { \\prime } } \\right), 145.7\\left( \\mathbf { C } _ { 2 ^ { \\prime } } \\right), 146.6 \\left( \\mathbf { C } _ { 1 } \\right), 192.0 (CHO).^ { 1 9 } \\mathrm { F }NMR \\left( \\mathrm { C D C l } _ { 3 } \\right.):\\delta - 9 1 . 6. HPLC(Gradient-I, column C3,t _ { \\mathrm { R } } , \\ \\mathrm { m i n }): 12.27. MS (ESI,m / z , \\ \\%): 265.0[ \\mathbf { M } + \\mathbf { H } ] ^ { + }, 100).",
+        "page_idx": 11,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          366,
+          556,
+          475
+        ],
+        "text": "General Procedure for the Monofluoroalkylation Reaction.To a mixture of the corresponding hydroxy- or sulfanylaryl derivative(1.00 equiv) and\\mathrm { C s } _ { 2 } \\mathrm { C O } _ { 3 } (1.60 equiv) in anhydrous DMF ( 7 . 0 ~ \\mathrm { m L } / \\mmol) at- 7 8 ^ { \\circ } \\mathrm { C } , a solution of chlorofluoromethane (2 . 0 \\mathbf { M } in DMF,4.00 equiv) was added dropwise. The reaction was stirred and allowedto warm to rt overnight. Afterward, the mixture was diluted with waterand extracted with \\mathrm { E t } _ { 2 } \\mathrm { O } ( \\times 3 ). The combined organic layers weredried over{ \\ N a } _ { 2 } S O _ { 4 } , filtered, and concentrated under reduced pressure.The residue was purified by column chromatography or preparativeTLC to afford intermediates 14, 34, 48, and 56 or final compounds1−4, 16−20, 23−27, 46, and 47.",
+        "page_idx": 11,
+        "detailed_index": 8,
+        "confirmed_index": 8
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          476,
+          555,
+          515
+        ],
+        "text": "2 ^ { \\prime }-(Fluoromethoxy)[1,1′-biphenyl]-4-carbaldehyde (3). Follow-ing the general procedure for the monofluoroalkylation reaction,compound 3 was obtained from 12 ( 1 . 0 1 \\ \\mathrm { g } , 5 . 1 0 \\ \\mathrm { m m o l } ) as oil ( 0 . 9 4 \\ : \\mathrm { g } ,8 4 \\%). Chromatography: hexane.",
+        "page_idx": 11,
+        "detailed_index": 9,
+        "confirmed_index": 9
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          515,
+          556,
+          615
+        ],
+        "text": "R _ { \\mathrm { f } } \\colon 0 . 3 9 (hexane/DCM 7:3). IR (ATR):\\nu 1699 (CHO), 1215 ( \\mathrm { C } -| \\mathrm { O - C } \\rangle), 1129, 1082 (C−F).^ { 1 } \\mathrm { H } NMR \\left( \\mathrm { C D C l } _ { 3 } \\right) ,):\\delta 5.68 (d, J = 5 4 . 3 _ { . },2 \\mathrm { H },\\mathrm { C H } _ { 2 } \\mathrm { F } \\mathrm { \\dot { \\mathrm { . } } }), 7 . 1 9 \\mathrm { - } 7 . 2 8 ( \\mathrm { m } , 2 \\mathrm { H },\\mathrm { H } _ { 3 ^ { \\prime } } , \\mathrm { H } _ { 5 ^ { \\prime } } ,),7 . 3 7 \\mathrm { - } 7 . 4 4 ( \\ l _ { \\mathrm { m } } , \\ 2 \\mathrm { H }, \\mathrm { H } _ { 4 ^ { \\prime } } ,\\mathrm { H } _ { 6 ^ { \\prime } } \\mathrm { . }), 7.68 (d\\mid , J = 8 . 2, 2H,{ \\mathrm { H } } _ { 2 } , { \\mathrm { H } } _ { 6 } ,, 7.94 (d,J = 8 . 4, 2H,\\mathrm { H } _ { 3 } , \\mathrm { H } _ { 5 } ,), 10.06(s, 1H, CHO).^ { 1 3 } \\mathrm { C } NMR \\mathrm { ( C D C l _ { 3 } ) }):\\delta \\ 1 0 0 . 9 \\ (d,J = 2 1 8 . 6, \\mathrm { C H } _ { 2 } \\mathrm { F } ,),116.0 \\left( \\mathrm { d } , J = 1 . 4 , \\mathrm { C } _ { 3 ^ { \\prime } } \\right), 124.1 ( \\mathrm { C } _ { 5 ^ { \\prime } } ), 129.6 ( \\mathbf { C } _ { 3 } , \\mathbf { C } _ { 5 } ), 130.0 \\left( \\mathrm { C } _ { 4 ^ { \\prime } } \\right), 130.4\\left( \\mathbf { C } _ { 2 } , \\mathbf { C } _ { 6 } \\right), 130.8 \\left( \\mathbf { C } _ { 1 ^ { \\prime } } \\right), 131.1 \\left( \\mathrm { C } _ { 6 ^ { \\prime } } \\right), 135.2 \\mathrm { ( C _ { 4 } ) }, 144.3 \\left( \\mathbf { C } _ { 1 } \\right), 153.7\\left( \\mathrm { d } , J \\right.= 3 . 1, \\mathbf { C } _ { 2 ^ { \\prime } }), 192.1 (CHO). ^ { 1 9 } \\mathrm { F } NMR \\left( \\mathrm { C D C l } _ { 3 } \\right):\\delta \\ : - 1 5 0 . 9 \\. HPLC(Gradient-I, column C3, t _ { \\mathrm { R } } , \\ \\mathrm { m i n }): 11.42. MS (ESI,m / z , \\ \\%): 231.1([ \\mathbf { M } + \\mathbf { H } ] ^ { + }, 100).",
+        "page_idx": 11,
+        "detailed_index": 10,
+        "confirmed_index": 10
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          615,
+          556,
+          664
+        ],
+        "text": "2-(Fluoromethoxy)-\\cdot 4 ^ { \\prime }-\\boldsymbol { \\mathsf { \\Sigma } }-methanesulfonimidoyl)-1 , 1 ^ { \\prime }-biphenyl(26). Following the general procedure for the monofluoroalkylationreaction, compound 26 was obtained from 42 ( 2 6 ~ \\mathrm { m g } , 0 . 1 0 5 ~ \\mathrm { m m o l } )as a solid \\left( 2 3 \\mathrm { ~ \\ m g , ~ } 7 8 \\% \\right). Chromatography: preparative TLC intoluene/methanol 95:5.",
+        "page_idx": 11,
+        "detailed_index": 11,
+        "confirmed_index": 11
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          664,
+          556,
+          754
+        ],
+        "text": "m\\mathrm { 1 p ~ 1 4 4 - 1 4 5 ~ ^ { \\circ } C }.R _ { \\mathrm { f } } \\colon 0 . 4 0 (toluene/methanol 9:1). IR (ATR): \\nu3341 (NH), 1220 (C−O−C), 1129, 1083 (SO), 994, 972 (C−F).\\mathrm { ^ { 1 } H }NMR (acetone-\\cdot d _ { 6 } ,{ 5 0 0 } \\mathrm { M H z } \\mathrm { \\backslash }):\\delta 3 . 1 0 (s, 3H,\\mathrm { C H } _ { 3 } .), 5.84. \\left( \\mathrm { d } , J = 5 4 . 4 , \\right.2H,\\mathrm { C H } _ { 2 } \\mathrm { F }), 7.26 (td,J = 7 . 5 ,, 1.0, 1H,{ \\mathrm { H } } _ { 5 . } ^ { \\cdot }), 7.35 \\left( \\mathrm { d } , J = 8 . 3 \\right., 1H,\\mathrm { H } _ { 3 . } ^ { \\cdot }),7 . 4 4 - 7 . 4 9 ( \\mathrm { m } , 2 \\mathrm { H },\\mathrm { H } _ { 4 } , \\mathrm { H } _ { 6 } )), 7.73 \\mathrm { ( d , ~ } J = 8 . 5 , 2H,\\mathrm { H } _ { 2 } .′,\\mathrm { H } _ { 6 ^ { \\prime } }), 8.04 (d, J= 8 . 5, 2H,\\mathrm { H } _ { 3 ^ { \\prime } } , \\mathrm { H } _ { 5 ^ { \\prime } } ).^ { 1 3 } \\mathrm { C } NMR (acetone-\\cdot d _ { 6 . }): δ 46.6 \\left( \\mathrm { C H } _ { 3 } \\right), 101.8 (d,J = 2 1 6 . 8,\\mathrm { C H } _ { 2 } \\mathrm { F } \\mathrm { , }), 116.4 \\big ( \\mathrm { d } , J = 1 . 1 , \\mathrm { C } _ { 3 } \\big ), 124.7 ( \\mathbf { C } _ { 5 } ), 128.3 ( \\mathrm { C } _ { 3 ^ { \\prime } } , \\mathrm { C } _ { 5 ^ { \\prime } } ),130.8 \\left( \\mathrm { C } _ { 4 } \\right), 130.9 \\left( \\mathrm { C } _ { 2 ^ { \\prime } } , \\mathrm { C } _ { 6 ^ { \\prime } } \\right), 131.2 \\left( \\mathrm { d } , J = 1 . 1 , \\mathrm { C } _ { 1 } \\right), 131.9 \\left( \\mathrm { C } _ { 6 } \\right), 143.1\\left( \\mathbf { C } _ { 1 ^ { \\prime } } \\right), 144.2 \\left( \\mathrm { C } _ { 4 ^ { \\prime } } \\right), 154.5 \\left( \\mathrm { d } , J = 3 . 0 , \\mathrm { C } _ { 2 } \\right).^ { 1 9 } \\mathrm { F } NMR (acetone-\\cdot d _ { 6 }): \\delta−151.0. HPLC (gradient-I, column C18, t _ { \\mathrm { R } } , \\ \\mathrm { m i n }): 13.17. MS (ESI,m / z , \\% ): 279.8 ([ \\mathbf { M } + \\mathbf { H } ] ^ { + } ., 100).",
+        "page_idx": 11,
+        "detailed_index": 12,
+        "confirmed_index": 12
+      }
+    ]
+  },
+  {
+    "page_idx": 12,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          57,
+          292,
+          78
+        ],
+        "text": "",
+        "page_idx": 12,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          78,
+          292,
+          189
+        ],
+        "text": "General Procedure for the Difluoroalkylation Reaction.Diethyl [bromo(difluoro)methyl]phosphonate (2.00 equiv) wasadded in one portion to a- 7 8 ~ ^ { \\circ } \\mathrm { C } cooled solution of the adequatehydroxy- or sulfanylaryl derivative (1.00 equiv) and KOH (20 equiv)in a 1:1 mixture of ACN/water \\bf ( 1 0 ~ m L / m m o l ), and the reaction wasstirred and allowed to warm to rt overnight. Next, the mixture wasdiluted with water and the aqueous layer was extracted with\\mathrm { E t } _ { 2 } \\mathrm { O }( \\times 3 ). The combined organic layers were dried over{ \\mathrm { N a } } _ { 2 } S { \\mathrm { O } } _ { 4 } , filtered,and concentrated under reduced pressure. The residue was purified bycolumn chromatography or preparative TLC to afford intermediate15 or final compound 8.",
+        "page_idx": 12,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          189,
+          291,
+          239
+        ],
+        "text": "2 ^ { \\prime }-(Difluoromethoxy)[1,\\boldsymbol { { \\mathit { 1 } } ^ { \\prime } }-biphenyl]-3-carbaldehyde (8). Follow-ing the general procedure for the difluoroalkylation reaction,compound 8 was obtained from 13 \\left( 1 9 \\mathrm { \\ m g } , 0 . 0 9 6 \\mathrm { \\ m m o l } \\right) as a solid( 1 0 \\ \\mathrm { m g } , \\ 4 0 \\% ). Chromatography: preparative TLC in 98:2 toluene/methanol.",
+        "page_idx": 12,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          240,
+          292,
+          351
+        ],
+        "text": "R _ { \\mathrm { f } } \\colon 0 . 3 4 (toluene/methanol 98:2). IR (ATR):\\nu 1703 (CHO),1217 \\scriptstyle \\left( \\mathbf { C } - \\mathbf { O } - \\mathbf { C } \\right), 1138, 1052 ( \\mathrm { C - F } ).^ { 1 } \\mathrm { H } NMR \\left( \\mathrm { C D C l } _ { 3 } \\right)): δ 6.39 \\left( \\mathrm { t } , J \\right.= 7 3 . 7, 1H, \\mathrm { C H F } _ { 2 } ,), 7.29−7.35 (m, 1H,\\mathbf { H } _ { 5 ^ { \\prime } }), 7.35 (dd,J = 7 . 4 ,, 1.4,1H,\\mathrm { H } _ { 3 ^ { \\prime } }), 7 . 3 9 \\mathrm { - } 7 . 4 7 \\mathrm { ( m , 2 H },\\mathrm { H } _ { 4 ^ { \\prime } } , \\mathrm { H } _ { 6 ^ { \\prime } } \\mathrm { , }, 7.63 \\left( \\mathrm { t } , J = 7 . 6 , \\right. 1H,{ \\mathrm { H } } _ { 5 . } ^ { \\cdot }), 7.79(dt,J = 7 . 8 ,, 1.5, 1H,{ \\mathrm { H } } _ { 6 . } ^ { \\cdot }), 7.91 \\left( \\mathrm { d t } , J = 7 . 6 , \\right. 1.4, 1H,\\mathrm { H } _ { 4 }), 8.00 \\left( \\mathbf { m } , 1 \\mathrm { H } , \\right.\\mathrm { H } _ { 2 } ^ { \\cdot }), 10.08 (s, 1H, CHO).^ { 1 3 } \\mathrm { C } NMR \\left( \\mathrm { C D C l } _ { 3 } , \\right. 1 2 5 \\ : \\mathrm { M H z }): δ 116.1 (t, J= 2 5 8 . 9 \\, \\operatorname { C H F } _ { 2 } ,), 120.2 \\left( \\mathbf { C } _ { 3 ^ { \\prime } } \\right), 126.1 ( \\mathbf { C } _ { 5 ^ { \\prime } } ), 128.9 \\left( \\mathrm { C } _ { 4 } \\right), 129.1 \\left( \\mathrm { C } _ { 6 ^ { \\prime } } \\right),129.6 ( \\mathbf { C } _ { 5 } ), 130.9 \\left( \\mathbf { C } _ { 2 } \\right), 131.5 \\left( \\mathrm { C } _ { 4 ^ { \\prime } } \\right), 132.8 \\left( \\mathbf { C } _ { 1 ^ { \\prime } } \\right), 135.6 \\left( \\mathbf { C } _ { 6 } \\right), 136.7\\left( \\mathbf { C } _ { 3 } \\right), 138.2 \\left( \\mathbf { C } _ { 1 } \\right), 148.2 (t,J = 2 . 5, \\mathbf { C } _ { 2 ^ { \\prime } }), 192.3 (CHO). ^ { 1 9 } \\mathrm { F } NMR\\left( \\mathrm { C D C l } _ { 3 } \\right) ,):\\delta - 8 0 . 9 .. HPLC (Gradient-I, column C3,t _ { \\mathrm { R } } , \\ \\mathrm { m i n }): 11.53.MS (ESI,m / z , \\%): 271.1 (\\mathrm { [ M + N a ] ^ { + } }, 100).",
+        "page_idx": 12,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          351,
+          292,
+          521
+        ],
+        "text": "Synthesis of( R ) - and (S)-26. (R)- and (S)-2-(Fluoromethoxy)-\\cdot \\pmb { 4 } ^ { \\prime }-(methanesulfinyl)-{ \\mathit { 1 , 1 ^ { \\prime } } }-biphenyl [(R)- and (S)-23]. A solution of{ \\mathrm { V O } } ( \\mathsf { a c a c } ) _ { 2 } (0.010 equiv) in anhydrous \\mathrm { C H C l } _ { 3 } ( 0 . 2 5 ~ \\mathrm { \\ m L / m m o l }sulfide) was added to a solution of the appropriateR or S form of 2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol (0.015 equiv) in anhydrous \\mathrm { C H C l } _ { 3 } ( 0 . 2 5 \\mathrm { \\ m L / m m o l }sulfide) and the mixture was stirred at rt for^ { 2 \\mathrm { h } }. Next, a solution of 56(1.00 equiv) in anhydrous \\mathrm { C H C l } _ { 3 } \\mathrm { ( 0 . 5 0 ~ m L / m m o l ) }) was added andthe reaction was stirred at rt for3 0 \\mathrm { m i n } before cooling it to0 { } ^ { \\circ } \\mathrm { C } (icebath). After3 0 ~ \\mathrm { { m i n } , }, hydrogen peroxide 3 0 \\%, 1.20 equiv) was addedand the mixture was stirred vigorously at0 ~ ^ { \\circ } \\mathrm { C } for2 0 \\mathrm { ~ h ~ }. Then, thereaction was quenched with1 0 \\% aqueous solution of { \\bf N a } _ { 2 } { \\bf S } _ { 2 } { \\bf O } _ { 3 } (3.30\\mathrm { m L / m m o l } sulfide) and extracted with DCM ( \\times 3 ). The combinedorganic layers were dried over{ \\bf N a } _ { 2 } S { \\bf O } _ { 4 } , filtered, and the solvent wasevaporated under reduced pressure. The crude residue was purified bycolumn chromatography to afford the corresponding enantioenrichedsulfoxide 23.",
+        "page_idx": 12,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          523,
+          292,
+          593
+        ],
+        "text": "(R)-23. Following the previous procedure, compound ( R ) { - } 2 3 wasobtained from 56 \\left( 3 1 8 \\mathrm { \\ m g } , \\ 1 . 2 8 \\mathrm { \\ m m o l } \\right) using chiral ligand (R)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol \\left( 9 . 1 \\mathrm { ~ \\ m g } , 0 . 0 2 0 \\mathrm { ~ \\ m m o l } \\right), as oil (^ { 1 9 8 } \\ \\mathrm { m g } , 5 9 \\% er\\mathbf { \\Sigma } = \\mathbf { \\Sigma }97.9:2.1). Chromatography: hexane to hexane/EtOAc 3:7. [ \\alpha ] _ { \\mathrm { D } } ^ { 2 0 }81.2 (\\stackrel { \\cdot } { c } 0 . 2 4 , acetone). Chiral HPLC \\left( t _ { \\mathrm { R } } , \\ \\operatorname* { m i n } \\right): 17.31. Spectroscopicdata were in agreement with those described for racemate 23.",
+        "page_idx": 12,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          594,
+          292,
+          663
+        ],
+        "text": "(S)-23. Following the previous procedure, compound (S)-23 wasobtained from 56 (\\cdot 1 5 2 ~ \\mathrm { m g } , \\ : 0 . 6 1 0 \\ : \\mathrm { m m o l } ) using chiral ligand (S)-2-(( E )-{[1-(hydroxymethyl)-2,2-dimethylpropyl]imino}methyl)-4,6-diiodophenol ( 4 . 3 \\mathrm { ~ \\ m g } , \\mathrm { ~ } 0 . 0 1 0 \\mathrm { ~ \\ m m o l } ), as oil ({ 1 0 3 } ~ \\mathrm { m g } , 6 4 \\% er\\mathbf { \\tau } = \\mathbf { \\tau }97.9:2.1). Chromatography: hexane to hexane/EtOAc 3:7. [ \\alpha ] _ { \\mathrm { D } } ^ { 2 0 }- 8 0 . 3 (c 0.24, acetone). Chiral HPLC \\left( { { t } _ { \\mathrm { R } } } , \\operatorname* { m i n } \\right): 15.66. Spectroscopicdata were in agreement with those described for racemate 23.",
+        "page_idx": 12,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          664,
+          292,
+          754
+        ],
+        "text": "(R)- and (S)-2-(Fluoromethoxy)-\\cdot 4 ^ { \\prime }-(S-methanesulfonimidoyl)-{ \\mathit { 1 , 1 ^ { \\prime } } }-biphenyl [(R)- and (S)-26]. The adequate sulfoxide ( R )- or(S)-23 (1.00 equiv), ammonium carbamate (4.00 equiv), and(diacetoxyiodo)benzene (3.00 equiv) were dissolved in methanol\\left( 2 . 0 \\mathrm { \\ m L / m m o l } \\right) _ { \\mathrm { \\ell } }) and the mixture was stirred at rt for 3 0 { - } 6 0 \\ \\operatorname { m i n }(TLC) in an open flask. After completion, the solvent was evaporatedunder reduced pressure and the residue was purified by columnchromatography to afford the corresponding enantioenrichedsulfoximine 26.",
+        "page_idx": 12,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          57,
+          556,
+          117
+        ],
+        "text": "(R)-26. Following the previous procedure, compound (R)-26 wasobtained from (R)-23 (\\left. 3 3 5 \\mathrm { m g } , 1 . 2 7 \\mathrm { m m o l } \\right. as a white solid ( 2 1 6 ~ \\mathrm { m g } ,6 1 \\%, \\mathrm { e r } = 9 7 . 9 { : } 2 . 1 \\dot { } _ { \\cdot }). Chromatography: hexane to hexane/EtOAc 7:3.m\\mathrm { ~ p ~ } 9 5 { - } 9 6 \\ ^ { \\circ } \\mathrm { C }. \\left[ \\alpha \\right] _ { \\mathrm { D } } { } ^ { 2 0 } \\ - 2 1 . 5 \\stackrel { } { ( } c 0 . 2 0 , acetone). Chiral HPLC ( t _ { \\mathrm { R } } ,min): 17.17. Spectroscopic data were in agreement with thosedescribed for racemic compound 26.",
+        "page_idx": 12,
+        "detailed_index": 8,
+        "confirmed_index": 8
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          118,
+          556,
+          177
+        ],
+        "text": "(S)-26. Following the previous procedure, compound (S)-26 wasobtained from (S)-23 (\\cdot 2 8 2 ~ \\mathrm { m g } , 1 . 0 7 ~ \\mathrm { m m o l } ) as a white solid ( 2 0 0 ~ \\mathrm { m g } , \\quad67 \\%, \\mathrm { e r } = 9 7 . 3 { : } 2 . 7 \\. Chromatography: hexane to hexane/EtOAc 7:3.[ \\alpha ] _ { \\mathrm { D } } ^ { 2 0 } 20.8 \\left( \\begin{array} { l l l } \\end{array} \\right) _ { c } ~ 0 . 2 0 , acetone). Chiral HPLC \\left( t _ { \\mathrm { R } } , \\mathrm { \\ m i n } \\right): 14.60.Spectroscopic data were in agreement with those described forracemic compound 26.",
+        "page_idx": 12,
+        "detailed_index": 9,
+        "confirmed_index": 9
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          177,
+          556,
+          365
+        ],
+        "text": "Pharmacology. Functional Activity at Human D _ { \\ i } R and D _ { 2 } R .Functional studies at human\\mathbf { D } _ { 1 } and\\mathrm { D } _ { 2 } receptors were carried out inendogenously expressed human \\mathbf { D } _ { 1 } \\mathbf { R } in the SK-N-MC cell line(ATCC), and recombinant human\\mathrm { D } _ { 2 } \\mathrm { R } stably transfected in an in-house CHO cell line. Cells were thawed and seeded into a black 96-well plate (\\mathrm { \\Phi _ { 1 } } \\times \\mathrm { 1 0 ^ { 4 } } cells/well for SK-N-MC cell line,5 \\times 1 0 ^ { 3 } cells/well for CHO cell line) in Opti-MEM containing 5 0 0 ~ \\mu \\mathrm { M } IBMX (3-isobutyl-1-methylxanthine). Test compounds were added to the cellsand incubated for 1 5 \\mathrm { m i n } at2 5 ^ { \\circ } \\mathrm { C } for\\mathbf { D } _ { 1 } \\mathbf { R } , and for { 5 } \\mathrm { { m i n } } at3 7 ^ { \\circ } \\mathrm { C } for\\mathbf { D } _ { 2 } \\mathbf { R } . After this time, dopamine was added to the corresponding wellsand incubated for additional1 5 \\ \\mathrm { m i n } at2 5 ~ ^ { \\circ } \\mathrm { C } for\\mathbf { D } _ { 1 } \\mathbf { R } , and 1 0 ~ \\mathrm { m i n } at3 7 ^ { \\circ } \\mathrm { C } for\\mathbf { D } _ { 2 } \\mathbf { R } . Next, treated cells were lysed (for the\\mathrm { D } _ { 2 } \\mathrm { R } assay, cellswere previously treated with 1 0 \\mu \\mathrm { M } forskolin for  { 5 } \\mathrm { m i n } at3 7 ^ { \\circ } \\mathrm { C }) andthe cAMP concentration was measured by HTRF, using a kit fromCisbio. HTRF was read in a Tecan M1000 Genius Pro reader( \\lambda _ { \\mathrm { e x c i t a t i o n } } = 3 2 0 \\ \\mathrm { n m }, \\lambda _ { \\mathrm { e m i s s i o n } } = 6 2 0 and6 6 5 ~ \\mathrm { { n m } }, 30 flashes), and datawere normalized to the dopamine maximum effect and fitted to a 4-parameter logistic equation by using Prism\\mathbf { v } 2 . 1 software (GraphPadInc).",
+        "page_idx": 12,
+        "detailed_index": 10,
+        "confirmed_index": 10
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          366,
+          556,
+          504
+        ],
+        "text": "Functional Activity at HumanD _ { 3 } R andD _ { 4 } R . Functional studies atboth human{ \\bf D } _ { 3 } and\\mathrm { D } _ { 4 } receptors were carried out in human{ \\bf D } _ { 3 } and\\mathrm { { D } } _ { 4 } receptors, using a PatHunter Beta-arrestin eXpress GPCR assay kitfrom DiscoverX. Briefly, cells were plated and maintained for^ { 4 8 \\mathrm { ~ h ~ } } at3 7 ^ { \\circ } \\mathrm { C } in a5 \\% \\mathrm { C O } _ { 2 } atmosphere in cell plating reagent provided in thekit. After this time, test compounds were added to the cells andincubated for 3 0 ~ \\mathrm { m i n } at3 7 ^ { \\circ } \\mathrm { C }. Dopamine was added to the cells andincubated for an additional9 0 ~ \\mathrm { m i n } at3 7 ~ ^ { \\circ } \\mathrm { C }. Cells were then treatedwith the working detection solution provided with the kit for ^ \\textrm { \\scriptsize 1 h } andbeta-arrestin translocation was measured by luminescence detection(integration tim\\mathrm { \\Omega } ^ { \\mathrm { 3 } } = 5 0 0 \\mathrm { \\ m s }) in a Tecan M1000 Genius Pro reader.Data were normalized to dopamine maximum effect and fitted to a 4-parameter logistic equation using Prism \\mathbf { v } 2 . 1 software (GraphPadInc).",
+        "page_idx": 12,
+        "detailed_index": 11,
+        "confirmed_index": 11
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          505,
+          556,
+          644
+        ],
+        "text": "Functional Activity at HumanD _ { 5 } R . Functional studies at human\\mathrm { D } _ { 5 } \\mathrm { R } receptors were carried out in human\\mathrm { D } _ { 5 } \\mathrm { R } , using a cAMP HuntereXpress DRD5 assay kit from DiscoverX. Briefly, cells were plated andmaintained for 2 4 \\mathrm { ~ h ~ } at3 7 ~ ^ { \\circ } \\mathrm { C } in a 5 \\%\\mathrm { C O } _ { 2 } atmosphere in the cellplating reagent provided in the kit. After this time, test compoundswere added to the cells and incubated for1 5 ~ \\mathrm { m i n } at 3 7 \\ ^ { \\circ } \\mathrm { C } ,, followedby treatment with dopamine and incubation for an additional3 0 ~ \\mathrm { m i n }at3 7 ~ ^ { \\circ } \\mathrm { C }. Cells were then treated with the cAMP working detectionsolution provided with the kit for^ { \\textrm { 1 h , } } and then cAMP solution A wasadded and incubated for3 \\mathrm { ~ h ~ } at rt. cAMP formation was measured byluminescence detection (integration time\\mathit { \\Omega } = \\ 5 0 0 \\ \\mathrm { \\ m s } , in a TecanM1000 Genius Pro reader. Data were normalized to dopaminemaximum effect and fitted to a 4-parameter logistic equation usingPrism\\mathbf { v } 2 . 1 software (GraphPad Inc).",
+        "page_idx": 12,
+        "detailed_index": 12,
+        "confirmed_index": 12
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          645,
+          556,
+          754
+        ],
+        "text": "Radioligand Binding Assays at HumanD _ { \\ l } R . Binding assays werecarried out by using plasma membranes \\mathbf { \\zeta } ^ { \\mathrm { 1 2 } } ~ \\mu \\mathbf { g } / \\mathbf { w } \\mathbf { e l l } ) expressinghuman dopamine\\mathbf { D } _ { 1 } \\mathbf { R }(Perkin Elmer). Membranes were incubated ina Multiscreen FC 96-well plate (Millipore) with 0 . 7 \\ \\mathrm { ~ n M ~ } [ ^ { 3 } \\mathrm { H } ]-SCH23390 (Perkin Elmer) and increasing concentrations of the testcompound in assay buffer (5 0 ~ \\mathrm { m M } Tris−HCl, 5 mM\\mathrm { { M g C l } _ { 2 } ; } pH 7.4)for^ \\mathrm { ~ 1 ~ h ~ }at2 7 ^ { \\circ } \\mathrm { C }. After this time, the well content was filtered througha Millipore manifold and membranes were washed four times withassay buffer. The plate was dried and radioactivity was measured in aMicrobeta Trilux liquid scintillation reader (Perkin Elmer). Non-specific binding was determined in the presence of 1 \\mu \\mathbf { M }\\left( + \\right)-butaclamol. Data were normalized to the percentage of specificbinding and fitted to a 4-parameter logistic equation using with Prismv2.1 software (GraphPad Inc). For the calculation of the affinity ratioof DA in the presence of the allosteric modulators, data were fittedaccording to the equations reported by Lazareno and Birdsall.44",
+        "page_idx": 12,
+        "detailed_index": 13,
+        "confirmed_index": 13
+      }
+    ]
+  },
+  {
+    "page_idx": 13,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          57,
+          291,
+          108
+        ],
+        "text": "",
+        "page_idx": 13,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          108,
+          292,
+          306
+        ],
+        "text": "Cocaine-induced Hyperlocomotion Assay. The experiment wasconducted in adherence to the European Communities CouncilDirective (86/609/ECC) and Spanish regulations (BOE 252/34367-91, 2005) for the use of laboratory animals. The assay was performedaccording to a previously reported method57 using 3 month old malemice with C57BL/6J background, and 8 mice were used for eachexperimental condition. All mice were handled and habituated to theinjection procedures once per day for 5 days prior to behavioraltesting. Experiments were carried out between 8:00 and 20:00, andthe animals were acclimated to the experimental room for 3 0 \\ \\mathrm { m i n }each day. Performance in the open field was recorded by a computer-based video tracking system (Smart v2.5, Panlab, Barcelona, Spain).Four open fields ( 5 0 \\times 5 0 \\times 5 0 ~ \\mathrm { c m }, Panlab) with gray backgroundswere used, and the maximum light intensity in the center of the openfield was 1 0 0 \\ \\mathrm { l u x } . Animals received a dose of 26 \\mathrm { ( 1 ~ m g / k g , ~ i p }) in avolume of2 0 ~ \\mathrm { m L / k g } of sterile saline as the vehicle,1 5 \\mathrm { m i n } prior to adose of cocaine ( 2 \\bar { 0 } \\mathrm { ~ m g / k g , ~ s c } ). Five min after cocaine injection,animals were placed in the open field and locomotion was measuredat 5 blocks of 2 ~ \\mathrm { m i n } along a3 0 \\mathrm { - m i n } period of analysis. Horizontallocomotion was measured as total distance traveled \\mathrm { ( c m ) }.",
+        "page_idx": 13,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          307,
+          292,
+          395
+        ],
+        "text": "Locomotor Activity in Reserpinized Mice. These studies wereconducted in SAI Life Sciences Ltd. and all procedures were inaccordance with the guidelines provided by the Committee for thePurpose of Control and Supervision of Experiments on Animals(CPCSEA) as published in The Gazette of India, December 15, 1998.The study procedures and husbandry care of the study animals wereperformed in compliance with AAALAC (Unit no. 001384), OLAW(PHS Assurance No.A5937-01) and CPCSEA (Reg. no. 1240/PO/RcBi/S/08/CPCSEA) norms.",
+        "page_idx": 13,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          396,
+          292,
+          614
+        ],
+        "text": "The study was carried out in male C57BL/6 wild-type ( 2 2 - 2 5 \\ \\mathrm { g } )mice that were acclimatized for 5 days. Animals were randomizedbased on body weight into six groups (G1 to G6), ten animals pergroup \\left( n = 1 0 \\right), being group G1 the naïve control group. Animalswere fed with standard diet ad libitum. Animals were dosed withsubcutaneous administration of reserpine ( 2 . 5 ~ \\mathrm { \\ m g / k g } in DMSO/saline) and after 2 0 \\mathrm { ~ h ~ } they were treated with a vehicle ( 1 0 \\mathrm { \\ m L } / \\mathrm { k g } ,po), compound 26 \\mathrm { 3 0 ~ m g / k g , } po), L-DOPA (100 or4 0 0 ~ \\mathrm { { m g / k g } , } ip)^ + carbidopa ( 1 0 0 ~ \\mathrm { m g / k g } , ip) and/or their combination, as indicatedin Figure 7. The vehicle employed for compound 26 administrationwas5 \\% \\mathrm { N M P } + 5 \\% solutol { \\mathrm { H S } } { - } 1 5 + 9 0 \\% normal saline. L-DOPA andcarbidopa were administered 3 0 \\ \\mathrm { \\ m i n } prior to start of locomotoractivity recording. Compound 26 was administered and 1 5 ~ \\mathrm { m i n } later,mice were placed in the locomotor activity cage to measure thelocomotor activity for6 0 \\ \\mathrm { m i n } (total distance travelled) using ALLMaze version 0.5 automated software enabled with video trackingsystem. After the activity sessions, raw data were reduced using ALLMaze 5.0 software and Microsoft Excel. Statistical analysis was donewith GraphPad Prism-5 using one way ANOVA followed byDunnett’s test/Tukey’s post hoc test and/or two-way ANOVAfollowed by Bonferroni post hoc test. Data were consideredstatistically significant, if P value was less than 0.05.",
+        "page_idx": 13,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          615,
+          292,
+          753
+        ],
+        "text": "Novel Object Recognition Test. Procedures for animal experimentswere conducted in adherence to the European Communities CouncilDirective (86/609/ECC) and Spanish regulations (BOE 252/34367-91, 2005) for the use of laboratory animals. Experiments wereperformed on 3 month old male mice with a C57BL/6J background.Eight mice were used for each experimental condition. Mice weremaintained on a^ { 1 2 \\mathrm { ~ h ~ } } light/dark cycle (lights on at0 8 { : } 0 0 \\ \\mathrm { a m }), withwater and food provided ad libitum. Object recognition test wasperformed according to a previously reported method.58 Briefly, micewere first habituated to an empty open field apparatus ( 4 0 \\times 4 0 \\times 4 0cm) for\\textsf { S m i n }. After the habituation session, mice received an ipinjection of compound 26 \\left( 1 ~ \\mathrm { m g / k g } \\right) or vehicle \\left( \\mathrm { N a C l 0 . 9 \\% } \\right). Twentyminutes later, mice were placed again in the open field, which nowincluded two identical copies of an object (“familiar” object) locatedin two adjacent corners, and mice were allowed to explore for 1 0 ~ \\mathrm { m i n }(acquisition session). In the first test session (2 4  { \\mathrm { ~ h ~ } } after theacquisition session), the objects were replaced by a copy of thefamiliar object and an unknown object (“new object 1”) located in theprevious positions. Finally, in the second test session (^ { \\geqslant _ { 6 } \\mathrm { ~ h ~ } } after theacquisition session), the objects were replaced by another copy of thefamiliar object and a new unknown object (“new object2 ^ { \\prime \\prime }). Micewere allowed to explore for1 0 ~ \\mathrm { m i n } in each test session. The total timeof object exploration (defined as the mouse touching an object withits nose or forepaws) was scored, and object recognition memory wascalculated by the following discrimination ratio: time exploring thenew object\u0001time exploring the familiar object)/total time exploringboth objects.",
+        "page_idx": 13,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          58,
+          556,
+          186
+        ],
+        "text": "",
+        "page_idx": 13,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          187,
+          556,
+          314
+        ],
+        "text": "Docking Studies. Docking calculations were performed usingAutodock459 (using ga_num_evals= 2 5 1 2 0 0 0, ga_run= 1 0 0 and allthe other parameters set to their default values). The\\mathbf { D } _ { 1 } \\mathbf { R } active statehomology model was retrieved from a previously reported38 while theEM structure was retrieved from Protein Data Bank (PDB code7X2F).49,60 Both structures were prepared for docking using\\mathrm { p d b } 2 \\mathrm { p q r } ^ { 6 1 , 6 2 } with propka63,64 protonation option at\\mathrm { p H } ~ 7 . 4 and thepeoepb force field.65 (R)- and (S)-26 were modeled using RDKIT(Open-source cheminformatics) and their protonation state wereadjusted at \\mathrm { p H } ~ 7 . 4 by ChemAxon cxcalc module (command lineversion of ChemAxon’s Calculator Plugins, v16.10.24.0, 2016).Binding mode pictures were created using PyMOL v1.8 and PLIPv1.4.4.",
+        "page_idx": 13,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          315,
+          316,
+          556,
+          503
+        ],
+        "text": "Short MD simulations were performed using Gromacs v201814.66Previous to any simulation, the protein−ligand complex wasembedded into a 128 POPC pre-equilibrated membrane. TheAmber14SB,67 the GAFF68 and the Lipid1 4 ^ { 6 9 } force-field set ofparameters were employed for the \\mathbf { D } _ { 1 } \\mathbf { R } active state model, thedocking poses and the POPC (phosphatidylcholine) membrane,respectively. Simulations were carried out in explicit solvent using theSPC (simple point-charge) water model70 with the imposition ofperiodic boundary conditions via a cubic box, at 0.15 M (NaCl). Thetemperature was maintained at3 0 0 ~ \\mathrm { K } using a V-rescale thermostat71and the pressure was maintained at 1 atm using a Berendsenbarostat.70 All bonds involving hydrogen atoms were constrainedusing the LINCS algorithm.72,73 Before the production runs, thestructure was energy minimized followed by a NVT (number ofparticles, volume, and temperature) equilibration, a slow heating-upphase (at constant temperature and pressure) and a NPT (number ofparticles, pressure, and temperature) equilibration, using harmonicposition restraints on the heavy atoms of the protein. Then, theproduction run was performed without position restraints.",
+        "page_idx": 13,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      },
+      {
+        "type": "title",
+        "bbox": [
+          315,
+          513,
+          438,
+          524
+        ],
+        "text": "ASSOCIATED CONTENT",
+        "title_level": 1,
+        "page_idx": 13,
+        "detailed_index": 8,
+        "confirmed_index": 8
+      },
+      {
+        "type": "title",
+        "bbox": [
+          315,
+          528,
+          430,
+          539
+        ],
+        "text": "\\bulletSupporting Information",
+        "title_level": 1,
+        "page_idx": 13,
+        "detailed_index": 9,
+        "confirmed_index": 9
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          540,
+          556,
+          561
+        ],
+        "text": "The Supporting Information is available free of charge athttps://pubs.acs.org/doi/10.1021/acs.jmedchem.2c00949.",
+        "page_idx": 13,
+        "detailed_index": 10,
+        "confirmed_index": 10
+      },
+      {
+        "type": "text",
+        "bbox": [
+          338,
+          565,
+          555,
+          631
+        ],
+        "text": "Characterization data of compounds, experimentalprocedures for ADMET assays, NMR spectra, HPLCanalysis, ADMET profile, plasma and brain concen-tration, concentration−response curves, selectivity pro-file, radioligand competition assays, and pharmacologicalcharacterization (PDF)",
+        "page_idx": 13,
+        "detailed_index": 11,
+        "confirmed_index": 11
+      },
+      {
+        "type": "text",
+        "bbox": [
+          338,
+          632,
+          526,
+          693
+        ],
+        "text": "Molecular formula strings (XLSX)Homology model for compound (S)-26 (PDB)Homology model for compound (R)-26 (PDB)EM model for compound (S)-26 (PDB)EM model for compound (R)-26 (PDB)",
+        "page_idx": 13,
+        "detailed_index": 12,
+        "confirmed_index": 12
+      },
+      {
+        "type": "title",
+        "bbox": [
+          316,
+          707,
+          442,
+          717
+        ],
+        "text": "AUTHOR INFORMATION",
+        "title_level": 1,
+        "page_idx": 13,
+        "detailed_index": 13,
+        "confirmed_index": 13
+      },
+      {
+        "type": "title",
+        "bbox": [
+          314,
+          721,
+          414,
+          732
+        ],
+        "text": "Corresponding Authors",
+        "title_level": 1,
+        "page_idx": 13,
+        "detailed_index": 14,
+        "confirmed_index": 14
+      },
+      {
+        "type": "text",
+        "bbox": [
+          324,
+          732,
+          548,
+          754
+        ],
+        "text": "Bellinda Benhamú − Departamento de Química Orgánica,Universidad Complutense de Madrid, E-28040 Madrid,",
+        "page_idx": 13,
+        "detailed_index": 15,
+        "confirmed_index": 15
+      }
+    ]
+  },
+  {
+    "page_idx": 14,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "list",
+        "bbox": [
+          59,
+          58,
+          291,
+          178
+        ],
+        "text": "Spain;\\circledcircorcid.org/0000-0002-0864-026X;Email: bellinda.benhamu@quim.ucm.esMaría I. Loza − Biofarma Research Group, USEF ScreeningPlatform, CIMUS, USC, E-15782 Santiago de Compostela,Spain; Fundación Kærtor, E-15706 Santiago de Compostela,Spain;\\circledcircorcid.org/0000-0003-4730-0863;Email: mabel.loza@usc.esMaría L. López-Rodríguez − Departamento de QuímicaOrgánica, Universidad Complutense de Madrid, E-28040Madrid, Spain;\\circledcircorcid.org/0000-0001-8607-1085;Email: mluzlr@ucm.es",
+        "page_idx": 14,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "title",
+        "bbox": [
+          51,
+          187,
+          84,
+          196
+        ],
+        "text": "Authors",
+        "title_level": 1,
+        "page_idx": 14,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      },
+      {
+        "type": "list",
+        "bbox": [
+          58,
+          181,
+          292,
+          531
+        ],
+        "text": "Javier García-Cárceles − Departamento de Química Orgánica,Universidad Complutense de Madrid, E-28040 Madrid,Spain;\\circledcircorcid.org/0000-0003-4614-9639Henar Vázquez-Villa − Departamento de Química Orgánica,Universidad Complutense de Madrid, E-28040 Madrid,Spain; orcid.org/0000-0001-7911-3160José Brea − Biofarma Research Group, USEF ScreeningPlatform, CIMUS, USC, E-15782 Santiago de Compostela,Spain;\\circledcircorcid.org/0000-0002-5523-1979David Ladron de Guevara-Miranda − Instituto deInvestigación Biomédica de Málaga (IBIMA), E-29010Málaga, SpainGiovanni Cincilla − Molomics S.L., E-08028 Barcelona,Spain;\\circledcircorcid.org/0000-0002-5242-0707Melchor Sánchez-Martínez − Molomics S.L., E-08028Barcelona, Spain;\\circledcircorcid.org/0000-0002-3674-8577Anabel Sánchez-Merino − Departamento de QuímicaOrgánica, Universidad Complutense de Madrid, E-28040Madrid, SpainSergio Algar − Departamento de Química Orgánica,Universidad Complutense de Madrid, E-28040 Madrid,Spain;\\circledcircorcid.org/0000-0003-0933-5985María Teresa de los Frailes − Fundación Kærtor, E-15706Santiago de Compostela, SpainRichard S. Roberts − Fundación Kærtor, E-15706 Santiago deCompostela, SpainJuan A. Ballesteros − Vivia Biotech S.L., E-28760 Madrid,SpainFernando Rodríguez de Fonseca − Instituto de InvestigaciónBiomédica de Málaga (IBIMA), E-29010 Málaga, Spain",
+        "page_idx": 14,
+        "detailed_index": 2,
+        "confirmed_index": 2
+      },
+      {
+        "type": "text",
+        "bbox": [
+          50,
+          532,
+          257,
+          554
+        ],
+        "text": "Complete contact information is available at:https://pubs.acs.org/10.1021/acs.jmedchem.2c00949",
+        "page_idx": 14,
+        "detailed_index": 3,
+        "confirmed_index": 3
+      },
+      {
+        "type": "title",
+        "bbox": [
+          50,
+          565,
+          86,
+          575
+        ],
+        "text": "Funding",
+        "title_level": 1,
+        "page_idx": 14,
+        "detailed_index": 4,
+        "confirmed_index": 4
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          576,
+          292,
+          729
+        ],
+        "text": "This work was supported by the Spanish Ministerio de Cienciae Innovación (MICINN, PID2019-106279RB-I00); RETICSRed de Trastornos Adictivos, Instituto de Salud Carlos III(ISCIII); MICINN and European Regional DevelopmentFunds-European Union (ERDF-EU, RD16/0017/0001);ISCIII and ERDF-EU (PI19/01577). The authors thank theI2D2 consortium for intensive R&D of Kærtor Foundation,Janssen/Johnson & Johnson Innovation and the GalicianInnovation Agency that supported part of the studies includedin this article. The authors also acknowledge technologicalsupport from Innopharma Drug Screening and Pharmacoge-nomics platform at the University of Santiago de Compostela.J.G.-C., S.A. and A.S.-M. are grateful to MICINN and UCMfor predoctoral fellowships.",
+        "page_idx": 14,
+        "detailed_index": 5,
+        "confirmed_index": 5
+      },
+      {
+        "type": "title",
+        "bbox": [
+          50,
+          732,
+          75,
+          742
+        ],
+        "text": "Notes",
+        "title_level": 1,
+        "page_idx": 14,
+        "detailed_index": 6,
+        "confirmed_index": 6
+      },
+      {
+        "type": "text",
+        "bbox": [
+          51,
+          743,
+          254,
+          754
+        ],
+        "text": "The authors declare no competing financial interest.",
+        "page_idx": 14,
+        "detailed_index": 7,
+        "confirmed_index": 7
+      },
+      {
+        "type": "title",
+        "bbox": [
+          315,
+          58,
+          407,
+          69
+        ],
+        "text": "ABBREVIATIONS",
+        "title_level": 1,
+        "page_idx": 14,
+        "detailed_index": 8,
+        "confirmed_index": 8
+      },
+      {
+        "type": "text",
+        "bbox": [
+          314,
+          74,
+          556,
+          173
+        ],
+        "text": "ACN, acetonitrile; app, apparent; br, broad; \\mathrm { D } _ { 1 - 5 } \\mathrm { R } ,  { \\mathbf { D } } _ { 1 - 5 }receptors; \\mathrm { E C } _ { 7 0 } , concentration of dopamine that induces a7 0 \\% of the maximum effect;E _ { \\mathrm { m a x } } , maximal receptor activation;EM, electron microscopy; HTRF, homogeneous time-resolvedfluorescence energy transfer; ICL2, intracellular loop 2; MW,microwave; nd, not determined;P _ { i } permeability value; SAM,silent allosteric modulator; SEM, standard error of the mean;SMD, steered molecular dynamics;T _ { \\mathrm { m a x } } , time to achieve peakplasma concentration.",
+        "page_idx": 14,
+        "detailed_index": 9,
+        "confirmed_index": 9
+      },
+      {
+        "type": "title",
+        "bbox": [
+          315,
+          186,
+          390,
+          197
+        ],
+        "text": "REFERENCES",
+        "title_level": 1,
+        "page_idx": 14,
+        "detailed_index": 10,
+        "confirmed_index": 10
+      },
+      {
+        "type": "list",
+        "bbox": [
+          314,
+          198,
+          556,
+          747
+        ],
+        "text": "(1) Costa, C.; Sgobio, C.; Siliquini, S.; Tozzi, A.; Tantucci, M.;Ghiglieri, V.; Di Filippo, M.; Pendolino, V.; de Iure, A.; Marti, M.;Morari, M.; Spillantini, M. G.; Latagliata, E. C.; Pascucci, T.; Puglisi-Allegra, S.; Gardoni, F.; Di Luca, M.; Picconi, B.; Calabresi, P.Mechanisms Underlying the Impairment of Hippocampal Long-TermPotentiation and Memory in Experimental Parkinson’s Disease. Brain2012, 135, 1884−1899.(2) Durante, V.; de Iure, A.; Loffredo, V.; Vaikath, N.; De Risi, M.;Paciotti, S.; Quiroga-Varela, A.; Chiasserini, D.; Mellone, M.;Mazzocchetti, P.; Calabrese, V.; Campanelli, F.; Mechelli, A.; DiFilippo, M.; Ghiglieri, V.; Picconi, B.; El-Agnaf, O. M.; De Leonibus,E.; Gardoni, F.; Tozzi, A.; Calabresi, P. Alpha-Synuclein TargetsGlun2a Nmda Receptor Subunit Causing Striatal Synaptic Dysfunc-tion and Visuospatial Memory Alteration. Brain 2019, 142, 1365−1385.(3) Carlsson, A.; Lindqvist, M.; Magnusson, T. 3,4-Dihydroxyphe-nylalanine and 5-Hydroxytryptophan as Reserpine Antagonists.Nature 1957, 180, 1200.(4) Huot, P.; Johnston, T. H.; Koprich, J. B.; Fox, S. H.; Brotchie, J.M. The Pharmacology of L-Dopa-Induced Dyskinesia in Parkinson’sDisease. Pharmacol. Rev. 2013, 65, 171−222.(5) Warren Olanow, O. C.; Kieburtz, K.; Rascol, O.; Poewe, W.;Schapira, A. H.; Emre, M.; Nissinen, H.; Leinonen, M.; Stocchi, F.Factors Predictive of the Development of Levodopa-InducedDyskinesia and Wearing-Off in Parkinson’s Disease. Mov. Disord.2013, 28, 1064.(6) Blandini, F.; Armentero, M. T. Dopamine Receptor Agonists forParkinson’s Disease. Expet Opin. Invest. Drugs 2014, 23, 387−410.(7) Beaulieu, J.-M.; Gainetdinov, R. R. The Physiology, Signaling,and Pharmacology of Dopamine Receptors. Pharmacol. Rev. 2011, 63,182−217.(8) Beaulieu, J.-M.; Espinoza, S.; Gainetdinov, R. R. DopamineReceptors - Iuphar Review 13. Br. J. Pharmacol. 2015, 172, 1−23.(9) Arnsten, A. F. T. The Neurobiology of Thought: TheGroundbreaking Discoveries of Patricia Goldman-Rakic 1937-2003.Cerebr. Cortex 2013, 23, 2269−2281.(10) Nakamura, T.; Sato, A.; Kitsukawa, T.; Momiyama, T.;Yamamori, T.; Sasaoka, T. Distinct Motor Impairments of DopamineD1 and D2 Receptor Knockout Mice Revealed by Three Types ofMotor Behavior. Front. Integr. Neurosci. 2014, 8, 56.(11) Hall, A.; Provins, L.; Valade, A. Novel Strategies To Activatethe Dopamine D1 Receptor: Recent Advances in OrthostericAgonism and Positive Allosteric Modulation. J. Med. Chem. 2019,62, 128−140.(12) Arnsten, A. F.; Girgis, R. R.; Gray, D. L.; Mailman, R. B. NovelDopamine Therapeutics for Cognitive Deficits in Schizophrenia. Biol.Psychiatr. 2017, 81, 67−77.(13) Kim, Y.-C.; Alberico, S. L.; Emmons, E.; Narayanan, N. S. Newtherapeutic strategies targeting D1-type dopamine receptors forneuropsychiatric disease. Front. Biol. 2015, 10, 230−238.(14) Zhang, J.; Xiong, B.; Zhen, X.; Zhang, A. Dopamine D1receptorligands: Where are we now and where are we going. Med. Res. Rev.(15) López-Rodríguez, M. L.; Benhamú, B.; Vázquez-Villa, H.Chapter 11-Allosteric Modulators Targeting GPCRs. In GPCRs;Jastrzebska, B., Park, P. S. H., Eds.; Elsevier Inc., 2020; pp 195−241.(16) Han, B. S.; Salituro, F. G.; Blanco, M. J. Impact of AllostericModulation in Drug Discovery: Innovation in Emerging ChemicalModalities. ACS Med. Chem. Lett. 2020, 11, 1810−1819.(17) Wold, E. A.; Chen, J.; Cunningham, K. A.; Zhou, J. AllostericModulation of Class A GPCRs: Targets, Agents, and EmergingConcepts. J. Med. Chem. 2019, 62, 88−127.(18) Wold, E. A.; Zhou, J. GPCR Allosteric Modulators: MechanisticAdvantages and Therapeutic Applications. Curr. Top. Med. Chem.2018, 18, 2002−2006.(19) Lütjens, R.; Rocher, J. P. Recent Advances in Drug Discovery ofGPCR Allosteric Modulators for Neurodegenerative Disorders. Curr.Opin. Pharmacol. 2017, 32, 91−95.(20) Hauser, A. S.; Attwood, M. M.; Rask-Andersen, M.; Schiöth, H.B.; Gloriam, D. E. Trends in GPCR Drug Discovery: New Agents,Targets and Indications. Nat. Rev. Drug Discovery 2017, 16, 829−842.(21) Foster, D. J.; Conn, P. J. Allosteric Modulation of GPCRs: NewInsights and Potential Utility for Treatment of Schizophrenia andOther CNS Disorders. Neuron 2017, 94, 431−446.(22) Wild, C.; Cunningham, K. A.; Zhou, J. Allosteric Modulation ofG Protein-Coupled Receptors: An Emerging Approach of DrugDiscovery. Austin J. Pharmacol. Ther. 2014, 2, 1101−1109.(23) Conn, P. J.; Lindsley, C. W.; Meiler, J.; Niswender, C. M.Opportunities and Challenges in the Discovery of AllostericModulators of GPCRs for Treating CNS Disorders. Nat. Rev. DrugDiscovery 2014, 13, 692−708.(24) Melancon, B. J.; Hopkins, C. R.; Wood, M. R.; Emmitte, K. A.;Niswender, C. M.; Christopoulos, A.; Conn, P. J.; Lindsley, C. W.Allosteric Modulation of Seven Transmembrane Spanning Receptors:Theory, Practice, and Opportunities for Central Nervous SystemDrug Discovery. J. Med. Chem. 2012, 55, 1445−1464.(25) Decara, J. M.; Vázquez-Villa, H.; Brea, J.; Alonso, M.;Srivastava, R. K.; Orio, L.; Alén, F.; Suárez, J.; Baixeras, E.; García-Cárceles, J.; Escobar-Peña, A.; Lutz, B.; Rodríguez, R.; Codesido, E.;Garcia-Ladona, F. J.; Bennett, T. A.; Ballesteros, J. A.; Cruces, J.; Loza,M. I.; Benhamú, B.; Rodríguez de Fonseca, F.; López-Rodríguez, M.L. Discovery of V-0219: A Small-Molecule Positive AllostericModulator of the Glucagon-Like Peptide-1 Receptor toward OralTreatment for ″Diabesity″. J. Med. Chem. 2022, 65, 5449−5461.(26) Christopoulos, A.; Changeux, J. P.; Catterall, W. A.; Fabbro, D.;Burris, T. P.; Cidlowski, J. A.; Olsen, R. W.; Peters, J. A.; Neubig, R.R.; Pin, J. P.; Sexton, P. M.; Kenakin, T. P.; Ehlert, F. J.; Spedding, M.;Langmead, C. J. International Union of Basic and ClinicalPharmacology. XC. Multisite Pharmacology: Recommendations forthe Nomenclature of Receptor Allosterism and Allosteric Ligands.Pharmacol. Rev. 2014, 66, 918−947.(27) Wootten, D.; Christopoulos, A.; Sexton, P. M. EmergingParadigms in GPCR Allostery: Implications for Drug Discovery. Nat.Rev. Drug Discovery 2013, 12, 630−644.(28) Conn, P. J.; Christopoulos, A.; Lindsley, C. W. AllostericModulators of GPCRs: A Novel Approach for the Treatment of CNSDisorders. Nat. Rev. Drug Discovery 2009, 8, 41−54.(29) Lane, J. R.; Abdul-Ridha, A.; Canals, M. Regulation of GProtein-Coupled Receptors by Allosteric Ligands. ACS Chem.Neurosci. 2013, 4, 527−534.(30) Gentry, P. R.; Sexton, P. M.; Christopoulos, A. Novel AllostericModulators of G Protein-Coupled Receptors. J. Biol. Chem. 2015, 290,19478−19488.(31) Wenthur, C. J.; Gentry, P. R.; Mathews, T. P.; Lindsley, C. W.Drugs for Allosteric Sites on Receptors. Annu. Rev. Pharmacol. Toxicol.2014, 54, 165−184.(32) Lindberg, J. S.; Culleton, B.; Wong, G.; Borah, M. F.; Clark, R.V.; Shapiro, W. B.; Roger, S. D.; Husserl, F. E.; Klassen, P. S.; Guo, M.D.; Albizem, M. B.; Coburn, J. W. Cinacalcet HCl, an OralCalcimimetic Agent for the Treatment of Secondary Hyper-parathyroidism in Hemodialysis and Peritoneal Dialysis: A Random-ized, Double-Blind, Multicenter Study. J. Am. Soc. Nephrol. 2005, 16,800−807.(33) Dorr, P.; Westby, M.; Dobbs, S.; Griffin, P.; Irvine, B.;Macartney, M.; Mori, J.; Rickett, G.; Smith-Burchnell, C.; Napier, C.;Webster, R.; Armour, D.; Price, D.; Stammen, B.; Wood, A.; Perros,M. Maraviroc (UK-427,857), a Potent, Orally Bioavailable, andSelective Small-Molecule Inhibitor of Chemokine Receptor CCR5with Broad-Spectrum Anti-Human Immunodeficiency Virus Type 1Activity. Antimicrob. Agents Chemother. 2005, 49, 4721−4732.(34) Wagstaff, A. J. Plerixafor. Drugs 2009, 69, 319−326.(35) Blair, H. A. Etelcalcetide: First Global Approval. Drugs 2016,76, 1787−1792.(36) Scott, L. J. Brexanolone: First Global Approval. Drugs 2019, 79,779−783.(37) Svensson, K. A.; Hao, J.; Bruns, R. F. Positive allostericmodulators of the dopamine D1 receptor: A new mechanism for thetreatment of neuropsychiatric disorders. In Advances in Pharmacology;Witkin, J. M., Ed.; Academic Press, 2019; Vol. 86, pp 273−305.(38) Hao, J.; Beck, J. P.; Schaus, J. M.; Krushinski, J. H.; Chen,\\mathrm { Q . ; }Beadle, C. D.; Vidal, P.; Reinhard, M. R.; Dressman, B. A.; Massey, S.M.; Boulet, S. L.; Cohen, M. P.; Watson, B. M.; Tupper, D.;Gardinier, K. M.; Myers, J.; Johansson, A. M.; Richardson, J.;Richards, D. S.; Hembre, E. J.; Remick, D. M.; Coates, D. A.;Bhardwaj, R. M.; Diseroad, B. A.; Bender, D.; Stephenson, G.;Wolfangel, C. D.; Diaz, N.; Getman, B. G.; Wang, X. S.; Heinz, B. A.;Cramer, J. W.; Zhou, X.; Maren, D. L.; Falcone, J. F.; Wright, R. A.;Mitchell, S. N.; Carter, G.; Yang, C. R.; Bruns, R. F.; Svensson, K. A.Synthesis and Pharmacological Characterization of 2-(2,6-Dichlor-ophenyl)-1-((1S,3R)-5-(3-hydroxy-3-methylbutyl)-3-(hydroxymeth-yl)-1-methyl-3,4-dihydroisoquinolin-2(1H)-yl)ethan-1-one(LY3154207), a Potent, Subtype Selective, and Orally AvailablePositive Allosteric Modulator of the Human Dopamine D1 Receptor.J. Med. Chem. 2019, 62, 8711−8732.(39) LY3154207. Studies Found in Clinical Trials for LY3154207.h t t p s : / / C l i n i c a l t r i a l s . G o v / C t 2 / R e s u l t s ? C o n d\\ c =&Term\\mathbf { \\Sigma } = \\mathbf { \\Sigma }Ly3154207&Cntry=&State\\mathrel { \\mathop : } =&City=&Dist= (accessed Aug 7, 2022).(40) ASP4345. Studies Found in Clinical Trials for ASP4345.https://Clinicaltrials.Gov/Ct2/Results?Recrs=&Cond=&Term\\circeqAsp4345&Cntry=&State\\mathrel { \\mathop : } =&City=&Dist= (accessed Aug 7, 2022).(41) Sidhu, A.; Fishman, P. H. Identification and characterization offunctional D1 dopamine receptors in a human neuroblastoma cellline. Biochem. Biophys. Res. Commun. 1990, 166, 574−579.(42) López-Rodríguez, M. L.; Benhamú, B.; Vazquez-Villa, H.;García-Cárceles, J.; Rodriguez De Fonseca, F.; Brea, J. M.; Loza, M. I.Novel Biphenylsulfoximines as Allosteric Modulators of theDopamine D1 Receptor, PCT/EP2018/066098, 2018.(43) Sollazzo, G.; Tonani, R.; Traldi, P. The isomerization ofmolecular ion structure of the 2 ^ { \\prime }-hydroxy-^ { \\cdot 1 , 1 ^ { \\prime } }-diphenyl-2-carbox-yaldebyde. Org. Mass Spectrom. 1988, 23, 550−552.(44) Lazareno, S.; Birdsall, N. J. M. Measurement of Competitiveand Allosteric Interactions in Radioligand Binding Studies. In GProtein-Coupled Receptors; Haga, T., Berstein, G., Eds.; CRC Press,2000; pp 1−48.(45) Legros, J.; Bolm, C. Investigations on the Iron-CatalyzedAsymmetric Sulfide Oxidation. Chem.\u0001Eur. J. 2005, 11, 1086−1092.(46) Drago, C.; Caggiano, L.; Jackson, R. F. W. Vanadium-CatalyzedSulfur Oxidation/Kinetic Resolution in the Synthesis of Enantiomeri-cally Pure Alkyl Aryl Sulfoxides. Angew. Chem., Int. Ed. 2005, 44,7221−7223.(47) Zenzola, M.; Doran, R.; Degennaro, L.; Luisi, R.; Bull, J. A.Transfer of Electrophilic NH Using Convenient Sources of Ammonia:Direct Synthesis of NH Sulfoximines from Sulfoxides. Angew. Chem.,Int. Ed. 2016, 55, 7203.(48) Wang, X.; Heinz, B. A.; Qian, Y. W.; Carter, J. H.; Gadski, R.A.; Beavers, L. S.; Little, S. P.; Yang, C. R.; Beck, J. P.; Hao, J.; Schaus,J. M.; Svensson, K. A.; Bruns, R. F. Intracellular Binding Site for aPositive Allosteric Modulator of the Dopamine D1 Receptor. Mol.(49) Teng, X.; Chen, S. J.; Nie, Y. Y.; Xiao, P.; Yu, X.; Shao, Z. H.;Zheng, S. D. Ligand Recognition and Biased Agonism of the D1Dopamine Receptor. Nat. Commun. 2022, 13, 3186.(50) Xu, M.; Hu, X. T.; Cooper, D. C.; Moratalla, R.; Graybiel, A.M.; White, F. J.; Tonegawa, S. Elimination of Cocaine-InducedHyperactivity and Dopamine-Mediated Neurophysiological Effects inDopamine D1 Receptor Mutant Mice. Cell 1994, 79, 945−955.(51) Bruns, R. F.; Mitchell, S. N.; Wafford, K. A.; Harper, A. J.;Shanks, E. A.; Carter, G.; O’Neill, M. J.; Murray, T. K.; Eastwood, B.J.; Schaus, J. M.; Beck, J. P.; Hao, J.; Witkin, J. M.; Li, X.; Chernet, E.;Katner, J. S.; Wang, H.; Ryder, J. W.; Masquelin, M. E.; Thompson, L.K.; Love, P. L.; Maren, D. L.; Falcone, J. F.; Menezes, M. M.; Zhang,L.; Yang, C. R.; Svensson, K. A. Preclinical Profile of a Dopamine D1Potentiator Suggests Therapeutic Utility in Neurological andPsychiatric Disorders. Neuropharmacology 2018, 128, 351−365.(52) Trojanowski, J.\\mathrm { Q . ; } Lee, V. M. Y. Aggregation of Neurofilamentand\\alpha-Synuclein Proteins in Lewy Bodies. Arch. Neurol. 1998, 55,151−152.(53) Mezey, E.; Dehejia, A. M.; Harta, G.; Suchy, S. F.; Nussbaum,R. L.; Brownstein, M. J.; Polymeropoulos, M. H. Alpha Synuclein IsPresent in Lewy Bodies in Sporadic Parkinson’s Disease. Mol.Psychiatr. 1998, 3, 493−499.(54) Karunakaran, S.; Chowdhury, A.; Donato, F.; Quairiaux, C.;Michel, C. M.; Caroni, P. Pv Plasticity Sustained through D1/5Dopamine Signaling Required for Long-Term Memory Consolida-tion. Nat. Neurosci. 2016, 19, 454−464.(55) Cooper, A. K.; Burton, P. M.; Nelson, D. J. Nickel VersusPalladium in Cross-Coupling Catalysis: On the Role of SubstrateCoordination to Zerovalent Metal Complexes. Synthesis 2020, 52,565−573.(56) Xia, Z.; Farhana, L.; Correa, R. G.; Das, J. K.; Castro, D. J.; Yu,J.; Oshima, R. G.; Reed, J. C.; Fontana, J. A.; Dawson, M. I.Heteroatom-Substituted Analogues of Orphan Nuclear ReceptorSmall Heterodimer Partner Ligand and Apoptosis Inducer (E)-4-[3-(1-Adamantyl)-4-Hydroxyphenyl]-3-Chlorocinnamic Acid. J. Med.Chem. 2011, 54, 3793−3816.(57) Palomino, A.; Pavan, F. J.; Blanco-Calvo, E.; Serrano, A.;Arrabal, S.; Rivera, P.; AlÃ n, F.; Vargas, A.; Bilbao, A.; Rubio, L.;RodrÃ guez de Fonseca, F.; SuÃ rez, J. Effects of Acute VersusRepeated Cocaine Exposure on the Expression of EndocannabinoidSignaling-Related Proteins in the Mouse Cerebellum. Front. Integr.Neurosci. 2014, 8, 22−34.(58) Ladrón de Guevara-Miranda, D. L.; Millón, C.; Rosell-Valle, C.;Pérez-Fernández, M.; Missiroli, M.; Serrano, A.; Pavón, F. J.;Rodríguez de Fonseca, F.; Á lvarez-Dolado, M.; Santín, M.; Castilla-Ortega, L. J.; Castilla-Ortega, E. Long-Lasting Memory Deficits inMice Withdrawn from Cocaine Are Concomitant with Neuro-adaptations in Hippocampal Basal Activity, Gabaergic Interneuronsand Adult Neurogenesis. Dis. Models Mech. 2017, 10, 323−336.(59) Morris, G. M.; Huey, R.; Lindstrom, W.; Sanner, M. F.; Belew,R. K.; Goodsell, D. S.; Olson, A. J. AutoDock4 and AutoDockTools4:Automated docking with selective receptor flexibility. J. Comput.Chem. 2009, 30, 2785−2791.(60) Berman, H. M.; Westbrook, J.; Feng, Z.; Gilliland, G.; Bhat, T.N.; Weissig, H.; Shindyalov, I. N.; Bourne, P. E. The Protein DataBank. Nucleic Acids Res. 2000, 28, 235−242.(61) Dolinsky, T. J.; Nielsen, J. E.; McCammon, J. A.; Baker, N. A.Pdb2pqr: An Automated Pipeline for the Setup of Poisson-BoltzmannElectrostatics Calculations. Nucleic Acids Res. 2004, 32, W665−W667.(62) Dolinsky, T. J.; Czodrowski, P.; Li, H.; Nielsen, J. E.; Jensen, J.H.; Klebe, G.; Baker, N. A. Pdb2pqr: Expanding and UpgradingAutomated Preparation of Biomolecular Structures for MolecularSimulations. Nucleic Acids Res. 2007, 35, W522−W525.(63) Søndergaard, C. R.; Olsson, M. H. M.; Rostkowski, M.; Jensen,J. H. Improved Treatment of Ligands and Coupling Effects inEmpirical Calculation and Rationalization of pKa Values. J. Chem.Theory Comput. 2011, 7, 2284.(64) Li, H.; Robertson, A. D.; Jensen, J. H. Very fast empiricalprediction and rationalization of protein pKa values. Proteins: Struct.,Funct., Bioinf. 2005, 61, 704−721.(65) Czodrowski, P.; Dramburg, I.; Sotriffer, C. A.; Klebe, G.Development, validation, and application of adapted PEOE charges toestimate pKa values of functional groups in protein-ligand complexes.Proteins: Struct., Funct., Bioinf. 2006, 65, 424−437.(66) Abraham, M. J.; Murtola, T.; Schulz, R.; Páll, S.; Smith, J. C.;Hess, B.; Lindahl, E. Gromacs: High Performance MolecularSimulations through Multi-Level Parallelism from Laptops toSupercomputers. SoftwareX 2015, 1-2, 19−25.(67) Maier, J. A.; Martinez, C.; Kasavajhala, K.; Wickstrom, L.;Hauser, K. E.; Simmerling, C. Ff14sb: Improving the Accuracy ofProtein Side Chain and Backbone Parameters from Ff99sb. J. Chem.Theory Comput. 2015, 11, 3696−3713.(68) Wang, J. M.; Wolf, R. M.; Caldwell, J. W.; Kollman, P. A.; Case,D. A. Development and Testing of a General Amber Force Field. J.Comput. Chem. 2004, 25, 1157−1174.(69) Dickson, C. J.; Madej, B. D.; Skjevik, A. A.; Betz, R. M.; Teigen,K.; Gould, I. R.; Walker, R. C. Lipid14: The Amber Lipid Force Field.J. Chem. Theory Comput. 2014, 10, 865−879.(70) Berendsen, H. J. C.; Postma, J. P. M.; van Gunsteren, W. F.;DiNola, A.; Haak, J. R. Molecular dynamics with coupling to anexternal bath. J. Chem. Phys. 1984, 81, 3684−3690.(71) Bussi, G.; Zykova-Timan, T.; Parrinello, M. Isothermal-IsobaricMolecular Dynamics Using Stochastic Velocity Rescaling. J. Chem.Phys. 2009, 130, 074101.(72) Hess, B.; Bekker, H.; Berendsen, H. J. C.; Fraaije, J. G. E. M.Lincs: A Linear Constraint Solver for Molecular Simulations. J.Comput. Chem. 1997, 18, 1463−1472.(73) Hess, B. P-Lincs: A Parallel Linear Constraint Solver forMolecular Simulation. J. Chem. Theory Comput. 2008, 4, 116−122.",
+        "page_idx": 14,
+        "detailed_index": 11,
+        "confirmed_index": 11
+      }
+    ]
+  },
+  {
+    "page_idx": 15,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "list",
+        "bbox": [
+          50,
+          55,
+          292,
+          749
+        ],
+        "text": "",
+        "page_idx": 15,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "list",
+        "bbox": [
+          314,
+          50,
+          557,
+          745
+        ],
+        "text": "",
+        "page_idx": 15,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      }
+    ]
+  },
+  {
+    "page_idx": 16,
+    "page_size": [
+      607.4080200195312,
+      800.9010009765625
+    ],
+    "para_blocks": [
+      {
+        "type": "list",
+        "bbox": [
+          50,
+          52,
+          292,
+          754
+        ],
+        "text": "",
+        "page_idx": 16,
+        "detailed_index": 0,
+        "confirmed_index": 0
+      },
+      {
+        "type": "list",
+        "bbox": [
+          314,
+          59,
+          556,
+          378
+        ],
+        "text": "",
+        "page_idx": 16,
+        "detailed_index": 1,
+        "confirmed_index": 1
+      }
+    ]
+  }
+]

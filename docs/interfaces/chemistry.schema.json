@@ -1,0 +1,375 @@
+{
+  "version": "0.4.0",
+  "models": {
+    "MoleculeBox": {
+      "$defs": {
+        "BBox": {
+          "properties": {
+            "x0": {
+              "title": "X0",
+              "type": "number"
+            },
+            "y0": {
+              "title": "Y0",
+              "type": "number"
+            },
+            "x1": {
+              "title": "X1",
+              "type": "number"
+            },
+            "y1": {
+              "title": "Y1",
+              "type": "number"
+            }
+          },
+          "required": [
+            "x0",
+            "y0",
+            "x1",
+            "y1"
+          ],
+          "title": "BBox",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "local_bbox": {
+          "$ref": "#/$defs/BBox"
+        },
+        "parent_region_index": {
+          "default": 0,
+          "title": "Parent Region Index",
+          "type": "integer"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "detector_cls": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Detector Cls"
+        },
+        "reading_index": {
+          "title": "Reading Index",
+          "type": "integer"
+        },
+        "is_scaffold_candidate": {
+          "default": false,
+          "title": "Is Scaffold Candidate",
+          "type": "boolean"
+        },
+        "masked_regions": {
+          "items": {
+            "$ref": "#/$defs/BBox"
+          },
+          "title": "Masked Regions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "local_bbox",
+        "reading_index"
+      ],
+      "title": "MoleculeBox",
+      "type": "object"
+    },
+    "StructureCandidate": {
+      "properties": {
+        "structure_id": {
+          "title": "Structure Id",
+          "type": "string"
+        },
+        "compound_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Compound Id"
+        },
+        "node_ref": {
+          "title": "Node Ref",
+          "type": "string"
+        },
+        "source": {
+          "enum": [
+            "ocsr",
+            "opsin",
+            "markush_assembly",
+            "manual",
+            "llm"
+          ],
+          "title": "Source",
+          "type": "string"
+        },
+        "e_smiles_raw": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "E Smiles Raw"
+        },
+        "smiles_core": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Smiles Core"
+        },
+        "canonical_smiles": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Canonical Smiles"
+        },
+        "inchikey": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Inchikey"
+        },
+        "formula": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Formula"
+        },
+        "is_markush": {
+          "default": false,
+          "title": "Is Markush",
+          "type": "boolean"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        },
+        "validation": {
+          "additionalProperties": true,
+          "title": "Validation",
+          "type": "object"
+        },
+        "evidence": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "structure_id",
+        "node_ref",
+        "source",
+        "evidence"
+      ],
+      "title": "StructureCandidate",
+      "type": "object"
+    },
+    "Compound": {
+      "properties": {
+        "compound_id": {
+          "title": "Compound Id",
+          "type": "string"
+        },
+        "document_id": {
+          "title": "Document Id",
+          "type": "string"
+        },
+        "primary_label": {
+          "title": "Primary Label",
+          "type": "string"
+        },
+        "aliases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "role": {
+          "default": "unknown",
+          "title": "Role",
+          "type": "string"
+        },
+        "accepted_structure_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Accepted Structure Id"
+        },
+        "stereo_parent_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stereo Parent Id"
+        },
+        "status": {
+          "default": "active",
+          "enum": [
+            "active",
+            "merged",
+            "rejected"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "locked_fields": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Locked Fields",
+          "type": "array"
+        }
+      },
+      "required": [
+        "compound_id",
+        "document_id",
+        "primary_label"
+      ],
+      "title": "Compound",
+      "type": "object"
+    },
+    "RGroupAssignment": {
+      "properties": {
+        "assignment_id": {
+          "title": "Assignment Id",
+          "type": "string"
+        },
+        "scaffold_id": {
+          "title": "Scaffold Id",
+          "type": "string"
+        },
+        "compound_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Compound Id"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "values": {
+          "additionalProperties": true,
+          "title": "Values",
+          "type": "object"
+        },
+        "substituent_smiles": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Substituent Smiles",
+          "type": "object"
+        },
+        "assembled_structure_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assembled Structure Id"
+        },
+        "evidence": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "assignment_id",
+        "scaffold_id",
+        "label",
+        "values",
+        "evidence"
+      ],
+      "title": "RGroupAssignment",
+      "type": "object"
+    }
+  }
+}

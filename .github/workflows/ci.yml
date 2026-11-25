@@ -1,0 +1,49 @@
+name: ci
+
+on:
+  push:
+    branches: [main, "phase/**"]
+  pull_request:
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: uv sync --frozen
+      - name: Lint
+        run: make lint
+      - name: Unit tests
+        run: make test
+      # make smoke 需要真实端点，不在 CI 中运行
+
+  integration:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: drugpaper
+          POSTGRES_PASSWORD: drugpaper
+          POSTGRES_DB: drugpaper
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U drugpaper" --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      TEST_DATABASE_URL: postgresql+asyncpg://drugpaper:drugpaper@localhost:5432/drugpaper
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - run: uv sync --frozen
+      - name: Integration tests (PostgreSQL + pgvector + pg_trgm)
+        run: make test-int

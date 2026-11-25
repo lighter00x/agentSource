@@ -1,0 +1,67 @@
+{
+  "scope": "Ten preselected literal caption/alias questions on real jmedchem_2c00949 IR; not chemistry or general reasoning accuracy. Caption node IDs selected from source fixture; expected normalized text copied verbatim, limited to 150 chars under get_node contract.",
+  "questions": [
+    {
+      "question": "Figure 1 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p001.b003.c0",
+      "expected_answer": "Figure 1. Structures of positive allosteric modulators of the dopamine D1R tested in clinical trials."
+    },
+    {
+      "question": "Figure 2 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p002.b000.c0",
+      "expected_answer": "Figure 2. Search of new synthetic modulators of the D1R starting from the initial identified hit."
+    },
+    {
+      "question": "Figure 3 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p007.b000.c0",
+      "expected_answer": "Figure 3. (A) Concentration-response curves in human D1R for cAMP production of DA alone (black) and in the presence of different concentrations of co"
+    },
+    {
+      "question": "Figure 4 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p008.b002.c0",
+      "expected_answer": "Figure 4. Homology model (top panel, yellow cartoon representation) and electron microscopy model (bottom panel, cyan cartoon representation) of the I"
+    },
+    {
+      "question": "Figure 5 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p009.b004.c0",
+      "expected_answer": "Figure 5. Compound levels in the plasma, brain, and CSF of mouse administered with 5 mg/kg (po) of compound 26. Horizontal dotted line indicates theEC"
+    },
+    {
+      "question": "Figure 6 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p009.b006.c0",
+      "expected_answer": "Figure 6. Effect of compound 26 in a cocaine-induced hyperactivitymodel. Pretreatment with 26 ( · mg / kg , ip) enhanced cocaine (20mg/kg,sc)-induced "
+    },
+    {
+      "question": "Figure 7 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p010.b000.c0",
+      "expected_answer": "Figure 7. In vivo effect of compound 26 in loco motor activity by measuring ambulatory activity and total distance travelled. Data are shown as the me"
+    },
+    {
+      "question": "Figure 8 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p010.b004.c0",
+      "expected_answer": "Figure 8. Effect of compound 26 ( 1 mg/kg , ip ) in the novel object recognition test. Enhanced memory, measured as the time spent exploring the novel"
+    },
+    {
+      "question": "Table 3 的图注是什么？",
+      "expected_status": "found",
+      "expected_local_id": "p007.g001.c0",
+      "expected_answer": "Table 3. ADMET Profile for Compound 26"
+    },
+    {
+      "question": "UCM-1306 出现在哪？",
+      "expected_status": "found",
+      "expected_pages": [
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+name: give_up
+version: 0.5.0
+kind: python
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+accepts:
+  node_types:
+  - figure
+  - table
+  - scheme
+  - figure_part
+  - chart_panel
+produces:
+  artifact_type: remediation_action
+  fact_types: []
+budgets:
+  max_model_calls: 0
+  max_wall_time_s: 300
+disclosure:
+  audiences:
+  - figure_agent
+  toolkit: remediation
+  invocation: action_enum
+  triggers:
+    check_codes:
+    - C_CLASS_PRIOR
+    - C_NO_BOX
+    - C_OCSR_FAIL
+    - C_UNREF_BOX
+    - C_BACKFILL_ERR
+    - C_LABEL_UNKNOWN
+    - C_TEXT_LAYER_MISS
+    - C_VALUE_PARSE
+    - C_UNIT_CLASS
+    - C_RANGE_HARD
+    - C_RANGE_SOFT
+    - C_MAGNITUDE
+    - C_ROW_COUNT
+    - C_AXIS_RESIDUAL
+    - C_AXIS_SCALE
+    - C_LEGEND_MISMATCH
+    - C_OVERLAY_IOU_LOW
+    - C_HEADER_SPAN
+    - C_ROUTE_TOPOLOGY
+    - C_ENTITY_UNTRACEABLE
+    - C_CAPTION_MISMATCH
+    - C_STATUS_UNCLEAR
+    - C_REQUIRED_EMPTY
+    - C_REVIEW_INCORRECT
+    - C_REVIEW_UNSURE
+    - C_METRIC_UNMAPPED
+vision_structuring: false
+entry: scripts/main.py:run
+model_tasks: {}
+prompts:
+  main: prompts/task.md
+cache:
+  enabled: false

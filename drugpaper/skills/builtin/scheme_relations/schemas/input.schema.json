@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "extraction": {
+      "type": "object",
+      "description": "完整上游结构化产物，可通过artifact_inputs引用"
+    }
+  },
+  "required": [
+    "extraction"
+  ],
+  "additionalProperties": false
+}

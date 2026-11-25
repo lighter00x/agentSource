@@ -1,0 +1,135 @@
+{
+  "$defs": {
+    "FileDigest": {
+      "properties": {
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "bytes": {
+          "minimum": 0,
+          "title": "Bytes",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "sha256",
+        "bytes"
+      ],
+      "title": "FileDigest",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "format_version": {
+      "title": "Format Version",
+      "type": "string"
+    },
+    "app_version": {
+      "title": "App Version",
+      "type": "string"
+    },
+    "profile": {
+      "title": "Profile",
+      "type": "string"
+    },
+    "profile_version": {
+      "title": "Profile Version",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "revision": {
+      "title": "Revision",
+      "type": "integer"
+    },
+    "fingerprint": {
+      "title": "Fingerprint",
+      "type": "string"
+    },
+    "result_id": {
+      "title": "Result Id",
+      "type": "string"
+    },
+    "status": {
+      "title": "Status",
+      "type": "string"
+    },
+    "components": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Components",
+      "type": "object"
+    },
+    "artifacts": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Artifacts",
+      "type": "array"
+    },
+    "models": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Models",
+      "type": "array"
+    },
+    "call_metrics": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Call Metrics",
+      "type": "array"
+    },
+    "checks": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Checks",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    },
+    "files": {
+      "additionalProperties": {
+        "$ref": "#/$defs/FileDigest"
+      },
+      "title": "Files",
+      "type": "object"
+    }
+  },
+  "required": [
+    "format_version",
+    "app_version",
+    "profile",
+    "profile_version",
+    "document_id",
+    "revision",
+    "fingerprint",
+    "result_id",
+    "status",
+    "components",
+    "artifacts",
+    "models",
+    "call_metrics",
+    "checks",
+    "warnings",
+    "files"
+  ],
+  "title": "ExportManifest",
+  "type": "object"
+}

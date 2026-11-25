@@ -1,0 +1,7 @@
+---
+name: structure_audit
+description: 独立于提取者，对照当前图审查路线结构、分子占位符及通式完整性，回填前执行。
+---
+# 结构化前置审查
+只审查当前图和已有ID-only提取，不共享FigureAgent历史，不使用参考图补造当前图的声明选项。输出逐维度覆盖及精确字段问题，反馈给FigureAgent局部修正；不生成替代整份JSON，不计算SMILES。
+点位策略：只对position_policy.requirement=required且实例position_status=missing/unreadable报error；not_printed/not_applicable/exhausted不阻塞；unknown报warning并指出未查来源；声明not_applicable但substituents/markush/position_definitions存在位置前缀时报error。position_definitions为空本身不是错误。

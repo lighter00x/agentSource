@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {"type": "string", "description": "要统计的文本"},
+    "mode": {"type": "string", "enum": ["normal", "facts", "bad_fact", "bad_schema", "slow", "tool", "node"]}
+  },
+  "required": ["text"]
+}

@@ -1,0 +1,86 @@
+{
+  "properties": {
+    "assay_id": {
+      "title": "Assay Id",
+      "type": "string"
+    },
+    "document_id": {
+      "title": "Document Id",
+      "type": "string"
+    },
+    "name_raw": {
+      "title": "Name Raw",
+      "type": "string"
+    },
+    "assay_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Assay Type"
+    },
+    "target": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Target"
+    },
+    "species": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Species"
+    },
+    "system": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "System"
+    },
+    "conditions": {
+      "additionalProperties": true,
+      "title": "Conditions",
+      "type": "object"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "minItems": 1,
+      "title": "Evidence",
+      "type": "array"
+    }
+  },
+  "required": [
+    "assay_id",
+    "document_id",
+    "name_raw",
+    "evidence"
+  ],
+  "title": "Assay",
+  "type": "object"
+}

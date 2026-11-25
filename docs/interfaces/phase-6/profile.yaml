@@ -1,0 +1,53 @@
+name: drug_optimization_v1
+version: 0.6.1
+schema: output.schema.json
+missing_value: "null"
+sources:
+  基本信息: document.meta + path.summary
+  成药性优化方向标签: path.tags + path claim evidence
+  先导化合物分子信息: compound(lead) + path.lead_problems
+  steps: step_builder
+  优化策略: path.strategies
+  关键构效关系: path.sar_rules
+  优化前后关键指标对比: same metric and assay conditions for lead/final
+  分子数据指标: final compound measurements, human > rat > mouse, primary > estimated
+metric_fields:
+  ic50: 药效指标.IC50
+  ec50: 药效指标.EC50
+  logp: 理化性质.logP
+  logd: 理化性质.logD7.4
+  caco2: 吸收.Caco-2 Permeability
+  bioavailability: 吸收.human oral bioavailability
+  pampa_pe: 分布.PAMPA
+  ppb: 分布.Plasma Protein Binding
+  vss: 分布.VDss
+  hlm_t_half: 代谢.HLM T1/2
+  cyp1a2_inhibition: 代谢.cyp1a2
+  cyp2c9_inhibition: 代谢.cyp2c9
+  cyp2c19_inhibition: 代谢.cyp2c19
+  cyp2d6_inhibition: 代谢.cyp2d6
+  cyp3a4_inhibition: 代谢.cyp3a4
+  clearance: 排泄.Clearance
+  t_half: 排泄.t1/2 half-life
+  herg: 毒性.hERG Blocker
+  ld50: 毒性.ROA (Rat Oral Acute Toxicity)
+tag_categories:
+  活性提升: [pharmacology]
+  选择性优化: [pharmacology]
+  靶点亲和力增强: [pharmacology]
+  广谱活性拓展: [pharmacology]
+  口服生物利用度改善: [pk, absorption]
+  代谢稳定性优化: [metabolism]
+  渗透性优化: [permeability, absorption]
+  溶解度改善: [physicochemical]
+  肝毒性消除: [toxicity]
+  心脏毒性降低（hERG）: [toxicity, pharmacology]
+  基因毒性规避: [toxicity]
+  脱靶效应消除: [toxicity, pharmacology]
+  半衰期延长: [pk, metabolism]
+  清除率降低: [pk]
+  组织分布优化: [distribution, pk]
+  血脑屏障穿透: [permeability, distribution]
+  生物活化途径规避: [metabolism]
+  化学稳定性改善: [physicochemical]
+  手性纯度优化: [physicochemical]

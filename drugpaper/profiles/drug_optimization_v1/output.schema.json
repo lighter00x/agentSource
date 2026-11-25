@@ -1,0 +1,468 @@
+{
+  "type": "object",
+  "properties": {
+    "基本信息": {
+      "type": "object",
+      "properties": {
+        "论文题目": {
+          "type": "string",
+          "minLength": 1
+        },
+        "论文作者": {
+          "type": "string",
+          "minLength": 1
+        },
+        "论文研究内容以及主要贡献": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "论文题目",
+        "论文作者",
+        "论文研究内容以及主要贡献"
+      ],
+      "additionalProperties": false
+    },
+    "成药性优化方向标签": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "先导化合物分子信息": {
+      "type": "object",
+      "properties": {
+        "SMILES": {
+          "type": "string",
+          "minLength": 1
+        },
+        "存在问题": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "SMILES",
+        "存在问题"
+      ],
+      "additionalProperties": false
+    },
+    "steps": {
+      "type": "object",
+      "patternProperties": {
+        "^[1-9][0-9]*$": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "string",
+              "minLength": 1
+            },
+            "change": {
+              "type": "string",
+              "minLength": 1
+            },
+            "smiles_change": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "原始片段": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "替代片段": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "说明": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "原始片段",
+                  "替代片段",
+                  "说明"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "end": {
+              "type": "object",
+              "properties": {
+                "smiles": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "extra": {
+                  "type": "object",
+                  "properties": {
+                    "scaffold": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "substituent": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "scaffold",
+                    "substituent"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "smiles",
+                "extra"
+              ],
+              "additionalProperties": false
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "start",
+            "change",
+            "smiles_change",
+            "end",
+            "description",
+            "flag"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "优化策略": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "策略类型": {
+            "type": "string",
+            "minLength": 1
+          },
+          "具体操作": {
+            "type": "string",
+            "minLength": 1
+          },
+          "目标改善": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "策略类型",
+          "具体操作",
+          "目标改善"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "关键构效关系": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "优化前后关键指标对比": {
+      "type": "object",
+      "properties": {
+        "original_molecule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_molecule_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "original_molecule_properties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "optimized_molecule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "optimized_molecule_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "optimized_molecule_properties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "original_molecule",
+        "original_molecule_name",
+        "original_molecule_properties",
+        "optimized_molecule",
+        "optimized_molecule_name",
+        "optimized_molecule_properties"
+      ],
+      "additionalProperties": false
+    },
+    "分子数据指标": {
+      "type": "object",
+      "properties": {
+        "药效指标": {
+          "type": "object",
+          "properties": {
+            "IC50": {
+              "type": "string",
+              "minLength": 1
+            },
+            "EC50": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "IC50",
+            "EC50",
+            "flag"
+          ],
+          "additionalProperties": false
+        },
+        "理化性质": {
+          "type": "object",
+          "properties": {
+            "logP": {
+              "type": "string",
+              "minLength": 1
+            },
+            "logS": {
+              "type": "string",
+              "minLength": 1
+            },
+            "logD7.4": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "logP",
+            "logS",
+            "logD7.4"
+          ],
+          "additionalProperties": false
+        },
+        "吸收": {
+          "type": "object",
+          "properties": {
+            "Caco-2 Permeability": {
+              "type": "string",
+              "minLength": 1
+            },
+            "human oral bioavailability": {
+              "type": "string",
+              "minLength": 1
+            },
+            "MDCK Permeability": {
+              "type": "string",
+              "minLength": 1
+            },
+            "Pgp inhibitor": {
+              "type": "string",
+              "minLength": 1
+            },
+            "Pgp substrate": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "Caco-2 Permeability",
+            "human oral bioavailability",
+            "MDCK Permeability",
+            "Pgp inhibitor",
+            "Pgp substrate",
+            "flag"
+          ],
+          "additionalProperties": false
+        },
+        "分布": {
+          "type": "object",
+          "properties": {
+            "Blood-Brain Barrier": {
+              "type": "string",
+              "minLength": 1
+            },
+            "PAMPA": {
+              "type": "string",
+              "minLength": 1
+            },
+            "Plasma Protein Binding": {
+              "type": "string",
+              "minLength": 1
+            },
+            "VDss": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "Blood-Brain Barrier",
+            "PAMPA",
+            "Plasma Protein Binding",
+            "VDss",
+            "flag"
+          ],
+          "additionalProperties": false
+        },
+        "代谢": {
+          "type": "object",
+          "properties": {
+            "cyp1a2": {
+              "type": "string",
+              "minLength": 1
+            },
+            "cyp2c9": {
+              "type": "string",
+              "minLength": 1
+            },
+            "cyp2c19": {
+              "type": "string",
+              "minLength": 1
+            },
+            "cyp2d6": {
+              "type": "string",
+              "minLength": 1
+            },
+            "cyp3a4": {
+              "type": "string",
+              "minLength": 1
+            },
+            "HLM T1/2": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "cyp1a2",
+            "cyp2c9",
+            "cyp2c19",
+            "cyp2d6",
+            "cyp3a4",
+            "HLM T1/2",
+            "flag"
+          ],
+          "additionalProperties": false
+        },
+        "排泄": {
+          "type": "object",
+          "properties": {
+            "Clearance": {
+              "type": "string",
+              "minLength": 1
+            },
+            "t1/2 half-life": {
+              "type": "string",
+              "minLength": 1
+            },
+            "flag": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "Clearance",
+            "t1/2 half-life",
+            "flag"
+          ],
+          "additionalProperties": false
+        },
+        "毒性": {
+          "type": "object",
+          "properties": {
+            "Ames mutagenicity": {
+              "type": "string",
+              "minLength": 1
+            },
+            "DILI (Drug-Induced Liver Injury)": {
+              "type": "string",
+              "minLength": 1
+            },
+            "Genotoxicity": {
+              "type": "string",
+              "minLength": 1
+            },
+            "hERG Blocker": {
+              "type": "string",
+              "minLength": 1
+            },
+            "ROA (Rat Oral Acute Toxicity)": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "Ames mutagenicity",
+            "DILI (Drug-Induced Liver Injury)",
+            "Genotoxicity",
+            "hERG Blocker",
+            "ROA (Rat Oral Acute Toxicity)"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "药效指标",
+        "理化性质",
+        "吸收",
+        "分布",
+        "代谢",
+        "排泄",
+        "毒性"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "基本信息",
+    "成药性优化方向标签",
+    "先导化合物分子信息",
+    "steps",
+    "优化策略",
+    "关键构效关系",
+    "优化前后关键指标对比",
+    "分子数据指标"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "drug_optimization_v1"
+}

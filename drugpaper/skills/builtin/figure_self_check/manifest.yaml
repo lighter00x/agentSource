@@ -1,0 +1,41 @@
+name: figure_self_check
+version: 0.5.0
+kind: prompt
+input_schema: schemas/input.schema.json
+output_schema: schemas/output.schema.json
+accepts:
+  node_types:
+  - figure
+  - table
+  - scheme
+  - figure_part
+  - chart_panel
+produces:
+  artifact_type: figure_review
+  fact_types: []
+budgets:
+  max_model_calls: 1
+  max_wall_time_s: 300
+disclosure:
+  audiences:
+  - figure_agent
+  - chat
+  toolkit: figure_analysis
+  triggers:
+    image_types:
+    - figure_self_check
+    intents:
+    - figure_self_check
+  invocation: tool_call
+vision_structuring: false
+model_tasks:
+  main: figure_self_check
+prompts:
+  main: prompts/task.md
+  images:
+  - source: target_crop
+    max_side: 1600
+  includes:
+  - common/data_boundary
+  - common/no_hallucination
+  - common/mol_reference

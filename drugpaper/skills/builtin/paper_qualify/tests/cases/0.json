@@ -1,0 +1,1 @@
+{"inputs": {}, "target": {"ref": "doc_case/r1/p000.g000", "type": "figure"}, "response_file": "0.response.json", "expect": {"payload": {"qualified": true, "category": "sar", "optimization_metrics": [], "reason": "\u660e\u786e\u4f18\u5316", "confidence": 0.9, "needs_review": false}}}
